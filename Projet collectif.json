@@ -509,6 +509,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "28e3f49e-099e-44e0-917e-58e55fc62d84",
+          "width": 0,
+          "x": 1168,
+          "y": 684,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
