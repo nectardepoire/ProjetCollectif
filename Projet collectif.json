@@ -1214,6 +1214,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Birch_Tree_2",
+          "persistentUuid": "7a8be615-c4ad-4e50-b610-8d059c130975",
+          "width": 0,
+          "x": 901,
+          "y": 322,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
