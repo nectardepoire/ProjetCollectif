@@ -145,7 +145,7 @@
       {
         "file": "assets/StartingPlayer_Left.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/StartingPlayer_Left.png\",\"extension\":\".png\"}",
         "name": "assets\\StartingPlayer_Left.png",
         "smoothed": true,
         "userAdded": false
@@ -161,7 +161,7 @@
       {
         "file": "assets/StartingPlayer_Up.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/StartingPlayer_Up.png\",\"extension\":\".png\"}",
         "name": "assets\\StartingPlayer_Up.png",
         "smoothed": true,
         "userAdded": false
@@ -1901,6 +1901,490 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/5017cbcde11c4e14137b432cf7b3c12fbe5daf91552c1bf1e529dc52fff9b054_Swan_Spinning_8.png",
           "name": "Swan_Spinning_8.png"
         }
+      },
+      {
+        "file": "assets/Bush Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Plant/b23e0c1e6295e32b1c0dd42e7f212466c60c5db35ae9f6c4a3b4622f9b8d10a6_Bush Background.png",
+          "name": "Bush Background.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/b8092be2635a21fa14befba53f8ff381202c34c70a15fbadc36b6c1f1a0e9ab6_Light Cast_1.png",
+          "name": "Light Cast_1.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/b932e0e22ff047d5b425e2bc200ed757c434fe74b4d20b885e79a077f8370df8_Light Cast_10.png",
+          "name": "Light Cast_10.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/16d09d82421629c9aab4b8f96986d02cb106f4ded078573f88f89f3cc5a6b050_Light Cast_11.png",
+          "name": "Light Cast_11.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/d40eaec7cca29daf0b0371d15ad76bd38052eb9a6a18283cf7b7c35c3fa7bb85_Light Cast_12.png",
+          "name": "Light Cast_12.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/3db56ba72f38fe2292cf2012d297975c37ae3987678381fd3783725b541a86e7_Light Cast_13.png",
+          "name": "Light Cast_13.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/7807eaf1729471413cccaccf0cca0e41ea89bacd151174c13cd6bb957ec8ba48_Light Cast_14.png",
+          "name": "Light Cast_14.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/0842d8f2175c67a621214695841a5cfbca8449ba8dbaf623edc975fd2af2c163_Light Cast_15.png",
+          "name": "Light Cast_15.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/39bc797d5c843f213d08c7eba4e0a89704581c6c2dbfe4e630f5584ec15b192d_Light Cast_16.png",
+          "name": "Light Cast_16.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/3c6ebaf12f6babb139538f55afbbadbca7888cc0527f35c95c3bc88fa6a08118_Light Cast_17.png",
+          "name": "Light Cast_17.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/35832b7d6cd5eae7ebeaf2cf95c9f9c8de156d8092343fe9a8a7f1cd3142a9fa_Light Cast_18.png",
+          "name": "Light Cast_18.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/32b610537b418fd13254c5d55c78d6dbe09fe2e088ce751d9a9c8af8669a1ac1_Light Cast_19.png",
+          "name": "Light Cast_19.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/269a3fd1bb9cf3f8865568836f215ddcbba5b0e2942a764eacefa695dc034175_Light Cast_2.png",
+          "name": "Light Cast_2.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/a9c91c9f865c8aedb18af24ced375cd4846c81f06ee725ae5df3c884aeb5a12c_Light Cast_20.png",
+          "name": "Light Cast_20.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/e2dba2900484379d03f917ae32772002a58fa4b2343e33888b5ee60171727cff_Light Cast_21.png",
+          "name": "Light Cast_21.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/b628d18b74757ae20a8d461b9221f20ecdab889d61ec0da1ce39f8c107c0fa98_Light Cast_22.png",
+          "name": "Light Cast_22.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/be5e9428a1b123c8237fc80a41490f2bb700066ded1483fb56c83057acbbf2e5_Light Cast_23.png",
+          "name": "Light Cast_23.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/51f7497a0988e5e512e35287f6c268c18ce2ce4ec17949c80c526eae0541dda1_Light Cast_24.png",
+          "name": "Light Cast_24.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/27bfe9ff2cddd8d31565fca21b96d4a3d3a208d68163907d29200d97044b5f34_Light Cast_25.png",
+          "name": "Light Cast_25.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/e456f230abdb38cf66f712901b3b9d75ef354d86ec9746ee74bbab4ae91c8eb4_Light Cast_26.png",
+          "name": "Light Cast_26.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/d1a89a6fb8f6b2e0a4354bcd139d32c22d5b70ba86b9457eaa76d7633f0eb9ae_Light Cast_27.png",
+          "name": "Light Cast_27.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/12176376dff01a91f84a1dd6cf065453a181c6b4e05ce5db27964979f3a452c2_Light Cast_28.png",
+          "name": "Light Cast_28.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/3d472a5d9cddf332785f8ca2fa7df112796c8734affbbef6101af906f22ec843_Light Cast_3.png",
+          "name": "Light Cast_3.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/b07dafce6803017818053db1decbeeaf56f874877d5eb5b4b9004e7e4f467067_Light Cast_4.png",
+          "name": "Light Cast_4.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/024d40bae32b170742105ff486d7ce70d23390dcb03d45a3e4d557bc053b54b4_Light Cast_5.png",
+          "name": "Light Cast_5.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/919f2445b4db0442da46fe5e182277d3ca77f56f88edbc8aa57a22847879c24c_Light Cast_6.png",
+          "name": "Light Cast_6.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/d1a45e2d3fe229e1e4ebc599c0c420be29c7c8999dead71417683cf9428b6703_Light Cast_7.png",
+          "name": "Light Cast_7.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/e4cd664beb86fc1845d0edbaa6d5d7f6072fb6423af702337411fb8cd0fa5384_Light Cast_8.png",
+          "name": "Light Cast_8.png"
+        }
+      },
+      {
+        "file": "assets/Light Cast_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Cast_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/9bbcfe6c84d3811bba717404881b84d4554827ddc524df98bb296b660df7e29f_Light Cast_9.png",
+          "name": "Light Cast_9.png"
+        }
+      },
+      {
+        "file": "assets/Walk1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-right-1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-right-1.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-right-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-right-2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-right-2.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-right-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-right-3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-right-3.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-right-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-right-4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-right-4.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-right-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk front-1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk front-1.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk front-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk front-2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk front-2.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk front-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-front-3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-front-3.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-front-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-front-4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-front-4.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-front-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-left-1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-left-1.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-left-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-left-2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-left-2.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-left-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-left-3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-left-3.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-left-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-left-4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-left-4.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-left-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-behind-1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-behind-1.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-behind-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-behind-2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-behind-2.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-behind-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-behind-3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-behind-3.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-behind-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ressources/alien-walk-behind-4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Ressources/alien-walk-behind-4.png\",\"extension\":\".png\"}",
+        "name": "Ressources\\alien-walk-behind-4.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -13620,7 +14104,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9296875000000083,
+        "zoomFactor": 0.34375202416123496,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -13728,51 +14212,64 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 52,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Swan",
-          "persistentUuid": "559d540e-436d-43b8-90ec-60398ee1dbfb",
-          "width": 58,
-          "x": 400,
-          "y": 1,
-          "zOrder": 11,
+          "name": "Bush_Background",
+          "persistentUuid": "3dbdf355-c421-4705-8ab9-3f7ced3e8b30",
+          "width": 0,
+          "x": 342,
+          "y": 33,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 52,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Swan",
-          "persistentUuid": "a73f5d15-dab0-4d4f-a33b-ebda4ef6a241",
-          "width": 58,
-          "x": 470,
-          "y": 4,
-          "zOrder": 11,
+          "name": "Bush_Background",
+          "persistentUuid": "f299bc96-1cf0-4044-ab31-abedb1839821",
+          "width": 0,
+          "x": 390,
+          "y": 33,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 52,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Swan",
-          "persistentUuid": "b1eb94a3-545f-4a9f-86b2-678fd3b7d308",
-          "width": 58,
-          "x": 541,
-          "y": 4,
-          "zOrder": 11,
+          "name": "Bush_Background",
+          "persistentUuid": "dbea746c-08b5-4555-9307-3b9ce28c8da8",
+          "width": 0,
+          "x": 435,
+          "y": 34,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Alien",
+          "persistentUuid": "b778b234-4c04-4b0a-92ca-65026215b099",
+          "width": 0,
+          "x": 650,
+          "y": 324,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14112,303 +14609,6 @@
           "effects": [],
           "behaviors": [],
           "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Alien2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "isFolded": true,
-              "name": "SmoothCamera",
-              "type": "SmoothCamera::SmoothCamera",
-              "LeftwardSpeed": 0.9,
-              "RightwardSpeed": 0.9,
-              "UpwardSpeed": 0.9,
-              "DownwardSpeed": 0.9,
-              "FollowOnX": true,
-              "FollowOnY": true,
-              "FollowFreeAreaLeft": 0,
-              "FollowFreeAreaRight": 0,
-              "FollowFreeAreaTop": 0,
-              "FollowFreeAreaBottom": 0,
-              "CameraOffsetX": 0,
-              "CameraOffsetY": 0,
-              "CameraDelay": 0,
-              "ForecastTime": 0,
-              "ForecastHistoryDuration": 0,
-              "LogLeftwardSpeed": 2.0247e-320,
-              "LogRightwardSpeed": 2.0247e-320,
-              "LogDownwardSpeed": 2.0247e-320,
-              "LogUpwardSpeed": 2.0247e-320,
-              "DelayedCenterX": 2.0247e-320,
-              "DelayedCenterY": 2.0247e-320,
-              "ForecastHistoryMeanX": 2.0247e-320,
-              "ForecastHistoryMeanY": 2.0247e-320,
-              "ForecastHistoryVarianceX": 2.0247e-320,
-              "ForecastHistoryCovariance": 2.0247e-320,
-              "ForecastHistoryLinearA": 2.0247e-320,
-              "ForecastHistoryLinearB": 2.0247e-320,
-              "ForecastedX": 2.0247e-320,
-              "ForecastedY": 2.0247e-320,
-              "ProjectedNewestX": 2.0247e-320,
-              "ProjectedNewestY": 2.0247e-320,
-              "ProjectedOldestX": 2.0247e-320,
-              "ProjectedOldestY": 2.0247e-320,
-              "ForecastHistoryVarianceY": 2.0247e-320,
-              "Index": 2.0247e-320,
-              "CameraDelayCatchUpSpeed": 0,
-              "CameraExtraDelay": 2.0247e-320,
-              "WaitingSpeedXMax": 2.0247e-320,
-              "WaitingSpeedYMax": 2.0247e-320,
-              "WaitingEnd": 2.0247e-320,
-              "CameraDelayCatchUpDuration": 2.0247e-320,
-              "LeftwardSpeedMax": 9000,
-              "RightwardSpeedMax": 9000,
-              "UpwardSpeedMax": 9000,
-              "DownwardSpeedMax": 9000,
-              "OldX": 9000.000000007454,
-              "OldY": 9000.000000007454,
-              "IsCalledManually": false
-            },
-            {
-              "isFolded": true,
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 2000,
-              "deceleration": 3000,
-              "maxSpeed": 200,
-              "allowDiagonals": false,
-              "rotateObject": false,
-              "angularMaxSpeed": 300,
-              "angleOffset": 0,
-              "customIsometryAngle": 30,
-              "ignoreDefaultControls": false,
-              "movementAngleOffset": 0,
-              "viewpoint": "TopDown"
-            },
-            {
-              "isFolded": true,
-              "name": "TopDownMovementAnimator",
-              "type": "TopDownMovementAnimator::TopDownMovementAnimator",
-              "Animation": "Animation",
-              "TopDownMovement": "TopDownMovement",
-              "IsScalingAnimation": false,
-              "IsPausingAnimation": false,
-              "AnimationName": "Walk",
-              "DirectionCount": 4,
-              "AngleOffset": 0,
-              "AnimationDirection": 0
-            },
-            {
-              "isFolded": true,
-              "name": "TopDownMultitouchMapper",
-              "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
-              "TopDownMovement": "TopDownMovement",
-              "ControllerIdentifier": 1,
-              "JoystickIdentifier": "Primary",
-              "StickMode": "Analog"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Walk0",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Walk0",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 80
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 32,
-                        "y": 64
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 91
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 50,
-                            "y": 0
-                          },
-                          {
-                            "x": 50,
-                            "y": 91
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Walk1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\StartingPlayer_Down.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 80
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 32,
-                        "y": 64
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 91
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 50,
-                            "y": 0
-                          },
-                          {
-                            "x": 50,
-                            "y": 91
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Walk2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\StartingPlayer_Left.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 80
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 32,
-                        "y": 64
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 91
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 50,
-                            "y": 0
-                          },
-                          {
-                            "x": 50,
-                            "y": 91
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Walk3",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\StartingPlayer_Up.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 80
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 32,
-                        "y": 64
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 91
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 50,
-                            "y": 0
-                          },
-                          {
-                            "x": 50,
-                            "y": 91
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "assetStoreId": "",
@@ -17264,6 +17464,1830 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "484010ed702d9025487ae7a9497ff37c073ad17fb859f13446536fa767062a26",
+          "name": "Bush_Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bush Background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 17
+                          },
+                          {
+                            "x": 0,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "217a0bc0b09b292fcde4f41cea7c5033935c344b60e4782f373bf4c4117e2fb4",
+          "name": "Light_Cast",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.0357,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_21.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_23.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_24.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_25.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_26.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_27.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Light Cast_28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 22
+                          },
+                          {
+                            "x": 73,
+                            "y": 72
+                          },
+                          {
+                            "x": 22,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Alien",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "SmoothCamera",
+              "type": "SmoothCamera::SmoothCamera",
+              "LeftwardSpeed": 0.9,
+              "RightwardSpeed": 0.9,
+              "UpwardSpeed": 0.9,
+              "DownwardSpeed": 0.9,
+              "FollowOnX": true,
+              "FollowOnY": true,
+              "FollowFreeAreaLeft": 0,
+              "FollowFreeAreaRight": 0,
+              "FollowFreeAreaTop": 0,
+              "FollowFreeAreaBottom": 0,
+              "CameraOffsetX": 0,
+              "CameraOffsetY": 0,
+              "CameraDelay": 0,
+              "ForecastTime": 0,
+              "ForecastHistoryDuration": 0,
+              "LogLeftwardSpeed": 2.0247e-320,
+              "LogRightwardSpeed": 2.0247e-320,
+              "LogDownwardSpeed": 2.0247e-320,
+              "LogUpwardSpeed": 2.0247e-320,
+              "DelayedCenterX": 2.0247e-320,
+              "DelayedCenterY": 2.0247e-320,
+              "ForecastHistoryMeanX": 2.0247e-320,
+              "ForecastHistoryMeanY": 2.0247e-320,
+              "ForecastHistoryVarianceX": 2.0247e-320,
+              "ForecastHistoryCovariance": 2.0247e-320,
+              "ForecastHistoryLinearA": 2.0247e-320,
+              "ForecastHistoryLinearB": 2.0247e-320,
+              "ForecastedX": 2.0247e-320,
+              "ForecastedY": 2.0247e-320,
+              "ProjectedNewestX": 2.0247e-320,
+              "ProjectedNewestY": 2.0247e-320,
+              "ProjectedOldestX": 2.0247e-320,
+              "ProjectedOldestY": 2.0247e-320,
+              "ForecastHistoryVarianceY": 2.0247e-320,
+              "Index": 2.0247e-320,
+              "CameraDelayCatchUpSpeed": 0,
+              "CameraExtraDelay": 2.0247e-320,
+              "WaitingSpeedXMax": 2.0247e-320,
+              "WaitingSpeedYMax": 2.0247e-320,
+              "WaitingEnd": 2.0247e-320,
+              "CameraDelayCatchUpDuration": 2.0247e-320,
+              "LeftwardSpeedMax": 9000,
+              "RightwardSpeedMax": 9000,
+              "UpwardSpeedMax": 9000,
+              "DownwardSpeedMax": 9000,
+              "OldX": 9000.000000007454,
+              "OldY": 9000.000000007454,
+              "IsCalledManually": false
+            },
+            {
+              "isFolded": true,
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 2000,
+              "deceleration": 3000,
+              "maxSpeed": 200,
+              "allowDiagonals": false,
+              "rotateObject": false,
+              "angularMaxSpeed": 300,
+              "angleOffset": 0,
+              "customIsometryAngle": 30,
+              "ignoreDefaultControls": false,
+              "movementAngleOffset": 0,
+              "viewpoint": "TopDown"
+            },
+            {
+              "isFolded": true,
+              "name": "TopDownMovementAnimator",
+              "type": "TopDownMovementAnimator::TopDownMovementAnimator",
+              "Animation": "Animation",
+              "TopDownMovement": "TopDownMovement",
+              "IsScalingAnimation": false,
+              "IsPausingAnimation": false,
+              "AnimationName": "Walk",
+              "DirectionCount": 4,
+              "AngleOffset": 0,
+              "AnimationDirection": 0
+            },
+            {
+              "isFolded": true,
+              "name": "TopDownMultitouchMapper",
+              "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
+              "TopDownMovement": "TopDownMovement",
+              "ControllerIdentifier": 1,
+              "JoystickIdentifier": "Primary",
+              "StickMode": "Analog"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Walk0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-right-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-right-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-right-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-right-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk front-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk front-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-front-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-front-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-left-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-left-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-left-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-left-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-behind-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-behind-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-behind-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\alien-walk-behind-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 80
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 0
+                          },
+                          {
+                            "x": 50,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -17271,6 +19295,9 @@
         "children": [
           {
             "objectName": "DialogueTXT"
+          },
+          {
+            "objectName": "Alien"
           },
           {
             "objectName": "Texte_français"
@@ -17297,9 +19324,6 @@
             "objectName": "NewSprite"
           },
           {
-            "objectName": "Alien2"
-          },
-          {
             "objectName": "Fond"
           },
           {
@@ -17307,6 +19331,12 @@
           },
           {
             "objectName": "Swan"
+          },
+          {
+            "objectName": "Bush_Background"
+          },
+          {
+            "objectName": "Light_Cast"
           }
         ]
       },
@@ -17484,6 +19514,22 @@
                 "Alien2",
                 "=",
                 "Alien2.X()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien2",
+                "Bush_Background",
+                ""
               ]
             }
           ]
