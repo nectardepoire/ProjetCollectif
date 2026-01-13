@@ -2,10 +2,30 @@
 	{
 		"title": "Commencer",
 		"tags": "",
-		"body": "First text\nSecond text\nLorem ipsum",
+		"body": "<< nameTag Vorpy >>\r\nSi je t'aide, est-ce que tu pourras me donner un indice sur le nom du village ?\r\n[[ Marché conclu ! Tu vas voir, mes clients aiment beaucoup parler dans toutes les langues qu'ils connaissent. |Marche conclu]]\r\n[[ Ah, bon courage alors ! |Bon courage]]",
 		"position": {
-			"x": 437,
-			"y": 252
+			"x": 314,
+			"y": -239
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Marche conclu",
+		"tags": "",
+		"body": "Marché conclu ! Tu vas voir, mes clients aiment beaucoup parler dans toutes les langues qu'ils connaissent.",
+		"position": {
+			"x": 92,
+			"y": 123
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bon courage",
+		"tags": "",
+		"body": "Si tu veux bien, reviens me voir pour m'aider s'il te plaît !",
+		"position": {
+			"x": 528,
+			"y": 110
 		},
 		"colorID": 0
 	}
