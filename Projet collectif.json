@@ -3419,7 +3419,7 @@
           "TypedText": ""
         }
       ],
-      "string": "Coucou je suis un alien et je suis perdu...",
+      "string": "texte",
       "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -3442,7 +3442,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Coucou je suis un alien et je suis perdu...",
+        "text": "texte",
         "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -3588,24 +3588,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "OptionsTXT",
-      "type": "BBText::BBText",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "OPTIONS\nOPTIONS",
-        "opacity": 255,
-        "fontSize": 32,
-        "visible": true,
-        "color": "255;255;255",
-        "fontFamily": "Arial",
-        "align": "left",
-        "verticalTextAlignment": "top"
-      }
     },
     {
       "assetStoreId": "",
@@ -4169,9 +4151,6 @@
         "objectName": "NameBox"
       },
       {
-        "objectName": "OptionsTXT"
-      },
-      {
         "objectName": "Mec_de_test"
       },
       {
@@ -4202,7 +4181,7 @@
     {
       "name": "TextSpeedScroll",
       "type": "number",
-      "value": 0
+      "value": 1
     },
     {
       "name": "DialogueState",
@@ -4641,8 +4620,8 @@
           "name": "Press_A",
           "persistentUuid": "7c7ce22d-6118-4851-802a-52378150b85c",
           "width": 223,
-          "x": 809,
-          "y": 361,
+          "x": 645,
+          "y": 147,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -4652,14 +4631,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 345,
+          "height": 153,
           "keepRatio": true,
           "layer": "",
           "name": "DialogueBox",
           "persistentUuid": "394f1a62-08e3-4f9e-a85e-9399b93a3a3a",
-          "width": 870,
-          "x": 260,
-          "y": 310,
+          "width": 585,
+          "x": 500,
+          "y": 285,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -4669,23 +4648,88 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 209,
+          "height": 116,
           "keepRatio": true,
           "layer": "",
           "name": "Texte_français",
           "persistentUuid": "360f063f-685f-4797-afeb-f124bc2c8b79",
-          "width": 688,
-          "x": 318,
-          "y": 408,
+          "width": 555,
+          "x": 512,
+          "y": 301,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Options",
+          "persistentUuid": "97923931-b110-433b-9366-226569d83004",
+          "width": 0,
+          "x": 526,
+          "y": 356,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Options",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text\nText",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text\nText",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Options"
+          }
+        ]
       },
       "events": [
         {
@@ -4733,7 +4777,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "OptionsTXT"
+                "Options"
               ]
             },
             {
@@ -4768,17 +4812,6 @@
                 "DialogueState",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Texte_français",
-                "Text",
-                "=",
-                "VariableString(DialogData)"
               ]
             }
           ]
@@ -4940,7 +4973,7 @@
               },
               "parameters": [
                 "Alien",
-                "TopDownMovementAnimator",
+                "TopDownMovement",
                 ""
               ]
             },
@@ -4960,121 +4993,6 @@
                 "DialogueState",
                 "=",
                 "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Alien",
-                "PNJ1",
-                "125",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"f\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::IsDialogueRunning"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Press_A"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "DialogueBox",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Texte_français",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"Seconde\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"scrolltext\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Alien",
-                "TopDownMovementAnimator",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "3"
               ]
             }
           ]
@@ -5116,30 +5034,12 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "NumberVariable"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "DialogueState",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "DialogueState",
-                    "=",
-                    "3"
-                  ]
-                }
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
               ]
             }
           ],
@@ -5165,7 +5065,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "OptionsTXT"
+                "Options"
               ]
             },
             {
@@ -5180,26 +5080,8 @@
               },
               "parameters": [
                 "Alien",
-                "TopDownMovementAnimator",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "2"
+                "TopDownMovement",
+                "yes"
               ]
             }
           ]
@@ -5251,7 +5133,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"scrolltexte\"",
+                    "\"scrolltext\"",
                     ">=",
                     "VariableFirstNumber(TextSpeedScroll)"
                   ]
@@ -5316,7 +5198,7 @@
                 "value": "DialogueTree::IsDialogueLineType"
               },
               "parameters": [
-                "\"options\""
+                "\"text\""
               ]
             }
           ],
@@ -5326,7 +5208,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "OptionsTXT",
+                "Options",
                 ""
               ]
             }
@@ -5418,7 +5300,7 @@
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "Texte_français",
+                    "Options",
                     "Text",
                     "=",
                     "DialogueTree::VerticalOptionsList(\"->\")"
@@ -5437,7 +5319,7 @@
                 "value": "DialogueTree::IsDialogueLineType"
               },
               "parameters": [
-                "\"options\""
+                "\"text\""
               ]
             }
           ],
@@ -5447,7 +5329,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "OptionsTXT"
+                "Options"
               ]
             }
           ]
@@ -5882,22 +5764,6 @@
           "x": 347,
           "y": 289,
           "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "OptionsTXT",
-          "persistentUuid": "0307d9cf-d385-4ad7-9539-c64392a727b5",
-          "width": 0,
-          "x": 402,
-          "y": 464,
-          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
