@@ -2639,6 +2639,63 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Ressources/number_one.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Ressources\\number_one.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "Alien_Hieroglyph.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Alien_Hieroglyph.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Strawberry2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Strawberry",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "plan_sol3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plan_sol3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/plan_sol.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\plan_sol.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "WhatsApp Image 2026-01-12 at 09.57.06.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp Image 2026-01-12 at 09.57.06.jpeg",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3443,7 +3500,7 @@
       "content": {
         "text": "Appuie sur F",
         "opacity": 255,
-        "fontSize": 20,
+        "fontSize": 12,
         "visible": true,
         "color": "255;255;255",
         "fontFamily": "Arial",
@@ -3461,9 +3518,19 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "string": "texte",
-      "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "bla bla bla",
+      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
@@ -3485,8 +3552,8 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "texte",
-        "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+        "text": "bla bla bla",
+        "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 40,
@@ -3636,14 +3703,14 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Obtient_fraise",
+      "name": "Obtient_plan",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Vous avez obtenu une fraise !",
+      "string": "Vous avez obtenu le plan du village !",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -3666,7 +3733,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Vous avez obtenu une fraise !",
+        "text": "Vous avez obtenu le plan du village !",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -4165,7 +4232,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "c03a1cc4db62e12387b37cde4829bf642728e3f278b1e1c70ee0f0a1d1916e3d",
-      "name": "Strawberry",
+      "name": "carte_inventaire",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4173,16 +4240,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Strawberry",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Strawberry.png",
+                  "image": "Strawberry",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4198,80 +4266,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 1
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 274,
+                        "y": 0
                       },
                       {
-                        "x": 14,
-                        "y": 16
+                        "x": 274,
+                        "y": 188
                       },
                       {
-                        "x": 3,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "c03a1cc4db62e12387b37cde4829bf642728e3f278b1e1c70ee0f0a1d1916e3d",
-      "name": "Strawberry_inventaire",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Strawberry.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 16
-                      },
-                      {
-                        "x": 3,
-                        "y": 16
+                        "x": 0,
+                        "y": 188
                       }
                     ]
                   ]
@@ -4401,6 +4409,187 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "plan_du_village",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WhatsApp Image 2026-01-12 at 09.57.06.jpeg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Message_carte_inventaire",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ressources\\dialogue_box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 345
+                      },
+                      {
+                        "x": 0,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "clique_carte_sac",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Clique pour ouvrir la carte !",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 10,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Clique pour ouvrir la carte !",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 10,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Retour",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Retour (B)",
+        "opacity": 255,
+        "fontSize": 12,
+        "visible": true,
+        "color": "255;255;255",
+        "fontFamily": "Arial",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4425,16 +4614,22 @@
         "objectName": "Press_A"
       },
       {
+        "objectName": "Retour"
+      },
+      {
         "objectName": "DialogueBox"
       },
       {
         "objectName": "NameBox"
       },
       {
+        "objectName": "Message_carte_inventaire"
+      },
+      {
         "objectName": "Mec_de_test"
       },
       {
-        "objectName": "Obtient_fraise"
+        "objectName": "Obtient_plan"
       },
       {
         "objectName": "PNJ1"
@@ -4458,13 +4653,16 @@
         "objectName": "Map"
       },
       {
-        "objectName": "Strawberry"
+        "objectName": "plan_du_village"
       },
       {
-        "objectName": "Strawberry_inventaire"
+        "objectName": "carte_inventaire"
       },
       {
         "objectName": "Boîte_inventaire"
+      },
+      {
+        "objectName": "clique_carte_sac"
       }
     ]
   },
@@ -5085,16 +5283,16 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "MyBehavior",
-          "type": "TravelToRandomPositions::MyBehavior"
         },
         {
           "name": "Opacity",
@@ -5154,18 +5352,12 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6040838749988889,
+        "zoomFactor": 0.9934433498259619,
         "windowMask": false,
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [
-        {
-          "name": "fraise_obtenue",
-          "type": "boolean",
-          "value": false
-        }
-      ],
+      "variables": [],
       "instances": [
         {
           "angle": 0,
@@ -5176,8 +5368,8 @@
           "name": "Alien",
           "persistentUuid": "5d75c476-2ba6-4f8f-9d65-0a456101831a",
           "width": 0,
-          "x": 144,
-          "y": 602,
+          "x": 1203,
+          "y": 601,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -5192,8 +5384,8 @@
           "name": "PNJ1",
           "persistentUuid": "302d3949-2949-410c-a284-da26fb4e37b3",
           "width": 0,
-          "x": 288,
-          "y": 526,
+          "x": 994,
+          "y": 441,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -5203,14 +5395,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 47,
+          "height": 26,
           "keepRatio": true,
           "layer": "",
           "name": "Press_A",
           "persistentUuid": "7c7ce22d-6118-4851-802a-52378150b85c",
-          "width": 191,
-          "x": 278,
-          "y": 586,
+          "width": 85,
+          "x": 1011,
+          "y": 498,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -5267,33 +5459,16 @@
           "initialVariables": []
         },
         {
-          "angle": 29,
-          "customSize": true,
-          "depth": 3,
-          "height": 45,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Strawberry",
-          "persistentUuid": "b7671f98-13cd-4125-9fcd-91df0a477b2e",
-          "width": 45,
-          "x": 755,
-          "y": 248,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
           "layer": "UI",
-          "name": "Obtient_fraise",
+          "name": "Obtient_plan",
           "persistentUuid": "7dfbe1ac-7a78-47ea-94a6-aad98feb28f3",
           "width": 0,
-          "x": 480,
-          "y": 289,
+          "x": 911,
+          "y": 101,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -5312,23 +5487,6 @@
           "x": 1183,
           "y": 12,
           "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 3,
-          "height": 52,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Strawberry_inventaire",
-          "persistentUuid": "7a6f9898-0589-4742-a9ac-44184b8d336a",
-          "width": 52,
-          "x": 1192,
-          "y": 23,
-          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5853,9 +6011,92 @@
           "name": "Vers_vaisseau",
           "persistentUuid": "97de527e-2657-464b-8b94-ac6a72bc3f95",
           "width": 37,
-          "x": -31,
-          "y": 555,
+          "x": 1268,
+          "y": 538,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 356,
+          "keepRatio": true,
+          "layer": "Carte dans inventaire",
+          "name": "plan_du_village",
+          "persistentUuid": "a986e83d-c4db-47aa-9992-9cbf6f16de7c",
+          "width": 691,
+          "x": 278,
+          "y": 125,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "carte_inventaire",
+          "persistentUuid": "8c2c734e-4881-4ed0-85b6-ae16b867dcd6",
+          "width": 62,
+          "x": 1192,
+          "y": 23,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 30,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Message_carte_inventaire",
+          "persistentUuid": "a771e0a9-eed2-4e72-9140-bf83308e254a",
+          "width": 150,
+          "x": 1131,
+          "y": 99,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "clique_carte_sac",
+          "persistentUuid": "a5471a37-ef2a-4049-9700-4285a978dd91",
+          "width": 0,
+          "x": 1147,
+          "y": 108,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Retour",
+          "persistentUuid": "4bb1cc52-00c6-4100-ac6e-e1879a62d686",
+          "width": 0,
+          "x": 1126,
+          "y": 126,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6002,7 +6243,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Obtient_fraise"
+                "Obtient_plan"
               ]
             },
             {
@@ -6010,7 +6251,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Strawberry"
+                "carte_inventaire"
               ]
             },
             {
@@ -6018,7 +6259,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Strawberry_inventaire"
+                "plan_du_village"
               ]
             }
           ]
@@ -6275,6 +6516,14 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_A"
+              ]
+            },
+            {
+              "type": {
                 "value": "DialogueTree::StopRunningDialogue"
               },
               "parameters": []
@@ -6294,8 +6543,8 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Obtient_fraise",
-                "Text"
+                "Boîte_inventaire",
+                ""
               ]
             },
             {
@@ -6303,7 +6552,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Strawberry",
+                "carte_inventaire",
                 ""
               ]
             },
@@ -6327,24 +6576,54 @@
             },
             {
               "type": {
-                "value": "ResetObjectTimer"
+                "value": "Montre"
               },
               "parameters": [
-                "Strawberry",
-                "\"chrono_fraise\""
+                "Obtient_plan",
+                ""
               ]
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "ResetObjectTimer"
               },
               "parameters": [
-                "fraise_obtenue",
-                "True",
-                ""
+                "Obtient_plan",
+                "\"chrono_carte\""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Obtient_plan",
+                "\"chrono_carte\"",
+                ">",
+                "1.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Obtient_plan"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "colorB": 228,
@@ -6610,80 +6889,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "fraise_obtenue",
-                "True",
-                "="
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Strawberry_inventaire",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Boîte_inventaire",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Press_A"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Strawberry",
-                "\"chrono_fraise\"",
-                ">",
-                "1.5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Strawberry"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Obtient_fraise"
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         },
         {
           "colorB": 228,
@@ -7014,12 +7221,70 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Carte dans inventaire",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
         },
         {
           "name": "Effect",
@@ -7352,6 +7617,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -7439,8 +7708,8 @@
           "name": "Alien",
           "persistentUuid": "893d1082-6413-40fc-b4d4-8ea0ab563e48",
           "width": 0,
-          "x": 1173,
-          "y": 90,
+          "x": 256,
+          "y": 156,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7467,14 +7736,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 720,
+          "height": 585,
           "keepRatio": true,
           "layer": "",
           "name": "Map_boundaries",
           "persistentUuid": "ea1c6015-9bdb-4c70-9831-f50dd9338558",
           "width": 22,
           "x": 0,
-          "y": -1,
+          "y": 134,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -7490,8 +7759,8 @@
           "name": "Vers_vaisseau",
           "persistentUuid": "1508500e-eba5-46e6-a386-e560c7fef324",
           "width": 16,
-          "x": 1267,
-          "y": 23,
+          "x": -1,
+          "y": 35,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -7552,7 +7821,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 48,
+          "height": 158,
           "keepRatio": true,
           "layer": "",
           "name": "Map_boundaries",
@@ -7594,6 +7863,23 @@
           "x": 183,
           "y": 606,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 37,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Map_boundaries",
+          "persistentUuid": "c27231e1-ab2e-4f30-a0c8-c263f4516ead",
+          "width": 22,
+          "x": -2,
+          "y": -4,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8077,6 +8363,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Ajouter audio + visuel du bruit après la fin de l'animation : bruit qui provient de l'accès au village"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -12996,6 +13294,10 @@
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
         },
         {
           "name": "Effect",
@@ -17959,6 +18261,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -18219,6 +18525,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -18367,7 +18677,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Obtient_fraise",
+          "name": "Obtient_plan",
           "persistentUuid": "5d464ccf-276d-4d76-aa0c-ed23ee666ed6",
           "width": 0,
           "x": 925,
@@ -18382,23 +18692,6 @@
               "value": 0
             }
           ]
-        },
-        {
-          "angle": 22,
-          "customSize": true,
-          "depth": 4,
-          "height": 69,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Strawberry",
-          "persistentUuid": "26bfff78-5415-4f8f-83e2-b14b10dad8d2",
-          "width": 69,
-          "x": 1123,
-          "y": 58,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [],
@@ -18634,6 +18927,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -18812,29 +19109,12 @@
           "initialVariables": []
         },
         {
-          "angle": 29,
-          "customSize": true,
-          "depth": 3,
-          "height": 45,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Strawberry",
-          "persistentUuid": "b7671f98-13cd-4125-9fcd-91df0a477b2e",
-          "width": 45,
-          "x": 755,
-          "y": 248,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
           "layer": "UI",
-          "name": "Obtient_fraise",
+          "name": "Obtient_plan",
           "persistentUuid": "7dfbe1ac-7a78-47ea-94a6-aad98feb28f3",
           "width": 0,
           "x": 480,
@@ -18868,7 +19148,7 @@
           "height": 52,
           "keepRatio": true,
           "layer": "UI",
-          "name": "Strawberry_inventaire",
+          "name": "carte_inventaire",
           "persistentUuid": "7a6f9898-0589-4742-a9ac-44184b8d336a",
           "width": 52,
           "x": 1192,
@@ -20546,6 +20826,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -20785,6 +21069,232 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Sac",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "plan_du_village"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Retour"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Passer la souris pour savoir à quoi correspondent les items"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "carte_inventaire",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Message_carte_inventaire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "clique_carte_sac",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Cliquer sur la carte pour l'afficher"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "carte_inventaire",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "carte_inventaire",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "plan_du_village",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Retour",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "carte_inventaire",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Message_carte_inventaire"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "clique_carte_sac"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Masquer la carte"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"b\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "plan_du_village"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Retour"
+              ]
+            }
+          ]
         }
       ]
     }
