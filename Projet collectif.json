@@ -10615,6 +10615,16 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_1_terminée",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -10714,6 +10724,16 @@
               "parameters": [
                 "activité_1.parc_juste",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_1_terminée",
+                "False",
                 ""
               ]
             }
@@ -10817,6 +10837,16 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_1_terminée",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -10916,6 +10946,16 @@
               "parameters": [
                 "activité_1.rivière_juste",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_1_terminée",
+                "False",
                 ""
               ]
             }
@@ -11056,6 +11096,22 @@
                 ">=",
                 "3"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_1_terminée",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -11147,6 +11203,22 @@
                 "\"chrono_faux\"",
                 ">=",
                 "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_1_terminée",
+                "False",
+                ""
               ]
             }
           ],
@@ -11498,6 +11570,31 @@
                 "",
                 "\"Village\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_1_terminée",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Continue_comme_ça"
               ]
             }
           ]
