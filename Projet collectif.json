@@ -5027,6 +5027,11 @@
       "name": "activité_1_terminée",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "touche_dialogue_pressee",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -7890,6 +7895,16 @@
                     "value": "DialogueTree::HasClippedTextScrollingCompleted"
                   },
                   "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -7898,6 +7913,58 @@
                     "value": "DialogueTree::GoToNextLine"
                   },
                   "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "True",
+                    "="
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Return\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::CompleteClippedTextScrolling"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "True",
+                    "="
+                  ]
                 }
               ]
             }
@@ -8211,6 +8278,16 @@
                   "parameters": [
                     "",
                     "\"Return\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "False",
+                    ""
                   ]
                 }
               ],
@@ -8585,6 +8662,44 @@
             }
           ],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Gestion touche pressée"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_dialogue_pressee",
+                "False",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [

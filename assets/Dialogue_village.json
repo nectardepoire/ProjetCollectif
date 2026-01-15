@@ -2,11 +2,31 @@
 	{
 		"title": "rencontre",
 		"tags": "",
-		"body": "<< nameTag Villageois >> \n<< langue (francais) >>\nOh bonjour toi. Tu n’es pas d’ici toi, ça se voit rien qu’à ton expression de chiot perdu.\n<< nameTag Alien👽 >> \n<< langue (alien) >>\nQuelle chance j’ai, ce monsieur parle la seule langue humaine que je connais.\n<< langue (francais) >>\nBonjour. Vous avez raison, mon vaisseau a eu un problème à deux pas d’ici.\n<< nameTag Villageois >> \nC’est pas de chance ça ! Et inutile de me vouvoyer, on se tutoie tous ici.\n<< nameTag Villageois >> \nJe cherche à prévenir mes amis pour qu’ils viennent me chercher mais je ne sais pas où nous sommes. Peux-tu me donner le nom de ce village ?\n<< nameTag Villageois >> \nAh non, non ! Je ne peux pas te dire ça, personne ici ne pourra. On raconte que si un habitant prononce ou écrit le nom du village, il se transforme en énorme VER DE TERRE. tu te rends compte ?! Je ne peux pas risquer de me retrouver comme ça, tout visqueux et surtout TOUT NU !!\n<< nameTag Alien👽 >> \nAh oui, je vois. Mais comment vais-je faire ?\n<< nameTag Villageois >> \nBon, ne fais pas cette tête. Nous allons trouver une solution : si tu rends service au village, je suis sûr qu’ils t’aideront à obtenir des informations sur le nom du village. Qu’est-ce que tu en dis ?\n<< nameTag Alien👽 >> \n[[ answer: Pourquoi pas ! |oui ]]\n[[ answer: C’est que, je suis un peu pressé moi…|non ]]",
+		"body": "<< nameTag Villageois >> \n<< langue (francais) >>\nOh bonjour toi. Tu n’es pas d’ici toi, ça se voit rien qu’à ton expression de chiot perdu.\n<< nameTag Alien👽 >> \n<< langue (alien) >>\nQuelle chance j’ai, ce monsieur parle la seule langue humaine que je connais.\n<< langue (francais) >>\nBonjour. Vous avez raison, mon vaisseau a eu un problème à deux pas d’ici.\n<< nameTag Villageois >> \nC’est pas de chance ça ! Et inutile de me vouvoyer, on se tutoie tous ici.\n<< nameTag Villageois >> \nJe cherche à prévenir mes amis pour qu’ils viennent me chercher mais je ne sais pas où nous sommes. Peux-tu me donner le nom de ce village ?\n<< nameTag Villageois >> \nAh non, non ! Je ne peux pas te dire ça, personne ici ne pourra. On raconte que si un habitant prononce ou écrit le nom du village, il se transforme en énorme VER DE TERRE. tu te rends compte ?! Je ne peux pas risquer de me retrouver comme ça, tout visqueux et surtout TOUT NU !!\n<< nameTag Alien👽 >> \nAh oui, je vois. Mais comment vais-je faire ?\n<< nameTag Villageois >> \nBon, ne fais pas cette tête. Nous allons trouver une solution : si tu rends service au village, je suis sûr qu’ils t’aideront à obtenir des informations sur le nom du village. \nQu’est-ce que tu en dis ? << truc >> \n[[ answer: Pourquoi pas ! |oui]]\n[[ answer: C’est que, je suis un peu pressé moi…|non]]",
 		"position": {
 			"x": 415,
-			"y": 165
+			"y": 164
 		},
 		"colorID": 1
+	},
+	{
+		"title": "oui",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 535,
+			"y": -55
+		},
+		"colorID": 0
+	},
+	{
+		"title": "non",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 755,
+			"y": -55
+		},
+		"colorID": 0
 	}
 ]
