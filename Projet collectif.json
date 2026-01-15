@@ -5032,6 +5032,38 @@
       "name": "touche_dialogue_pressee",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "dictionnaire_langues",
+      "type": "structure",
+      "children": [
+        {
+          "name": "alien",
+          "type": "string",
+          "value": "En langue alienne"
+        },
+        {
+          "name": "francais",
+          "type": "string",
+          "value": "En français"
+        }
+      ]
+    },
+    {
+      "name": "dictionnaire_personnages",
+      "type": "structure",
+      "children": [
+        {
+          "name": "alien",
+          "type": "string",
+          "value": "Alien"
+        },
+        {
+          "name": "pnj1",
+          "type": "string",
+          "value": "Villageois"
+        }
+      ]
     }
   ],
   "layouts": [
@@ -7341,7 +7373,7 @@
           "layer": "Dialogue",
           "name": "Dialogue_nom",
           "persistentUuid": "be37c387-ffe5-4a9a-8d44-62a043967e27",
-          "width": 125,
+          "width": 112,
           "x": 201,
           "y": 458,
           "zOrder": 23,
@@ -7358,8 +7390,8 @@
           "layer": "Dialogue",
           "name": "Dialogue_langue",
           "persistentUuid": "feec7188-c8f5-42ca-a6fa-f4a91e744b11",
-          "width": 110,
-          "x": 369,
+          "width": 172,
+          "x": 324,
           "y": 459,
           "zOrder": 24,
           "numberProperties": [],
@@ -7780,6 +7812,15 @@
             },
             {
               "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Dialogue_bouton",
+                "\"clignotement\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -8121,14 +8162,108 @@
               "parameters": []
             }
           ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton",
+                    "\"clignotement\"",
+                    "<",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton",
+                    "\"clignotement\"",
+                    ">=",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton",
+                    "\"clignotement\"",
+                    ">=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton",
+                    "\"clignotement\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            }
+          ],
           "actions": [
             {
               "type": {
-                "value": "Montre"
+                "value": "Cache"
               },
               "parameters": [
-                "Dialogue_bouton",
-                ""
+                "Dialogue_bouton"
               ]
             }
           ]
@@ -8154,7 +8289,7 @@
                 "Dialogue_nom",
                 "Text",
                 "=",
-                "DialogueTree::CommandParameter(0)"
+                "dictionnaire_personnages[DialogueTree::CommandParameter(0)]"
               ]
             }
           ]
@@ -8180,10 +8315,15 @@
                 "Dialogue_langue",
                 "Text",
                 "=",
-                "DialogueTree::CommandParameter(0)"
+                "dictionnaire_langues[DialogueTree::CommandParameter(0)]"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "colorB": 228,
