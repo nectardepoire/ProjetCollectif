@@ -1,0 +1,22 @@
+[
+	{
+		"title": "monologue_1",
+		"tags": "",
+		"body": "Fichu vaisseau ! À cause de cette fuite de gaz, impossible d’aller plus loin.\r\nJe n’avais vraiment pas prévu d'atterrir sur Terre…\r\nJe sais ! Je vais appeler mes amis pour qu’ils viennent me chercher !",
+		"position": {
+			"x": 437,
+			"y": 252
+		},
+		"colorID": 0
+	},
+	{
+		"title": "monologue_2",
+		"tags": "",
+		"body": "Ah, voilà ma radio ! Voyons voir…\r\n...\r\nMais où suis-je en fait ?\r\nJe peux toujours aller voir par là-bas pour savoir ma position exacte.\r\n",
+		"position": {
+			"x": 658,
+			"y": 340
+		},
+		"colorID": 0
+	}
+]
