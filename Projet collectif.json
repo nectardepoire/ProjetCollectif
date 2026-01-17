@@ -7925,22 +7925,22 @@
       "value": 0
     },
     {
-      "name": "quete_1",
+      "name": "quete_1_finie",
       "type": "boolean",
       "value": false
     },
     {
-      "name": "quete_2",
+      "name": "quete_2_finie",
       "type": "boolean",
       "value": false
     },
     {
-      "name": "quete_3",
+      "name": "quete_3_finie",
       "type": "boolean",
       "value": false
     },
     {
-      "name": "quete_4",
+      "name": "quete_4_finie",
       "type": "boolean",
       "value": false
     },
@@ -8032,6 +8032,11 @@
           "value": false
         }
       ]
+    },
+    {
+      "name": "monologue_termine",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -11069,6 +11074,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Ajouter un fondu noir à la fin de l'animation"
         }
       ],
       "layers": [
@@ -11349,11 +11366,6 @@
       "variables": [
         {
           "name": "afficher_message_vaisseau",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "monologue_termine",
           "type": "boolean",
           "value": false
         }
@@ -12719,6 +12731,7 @@
           "comment": "Mettre comme condition que le monologue est terminé"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -12818,7 +12831,32 @@
                 "1",
                 ""
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
             },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "monologue_termine",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -13032,6 +13070,44 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Remplacer la condition \"touche b appuyée\" par la fin du monologue (ça va débloquer l'accès au village"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "Alien",
+                "\"b\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "monologue_termine",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -13084,6 +13160,52 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Déplacements",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "possible_spawns",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Alien",
+                "=",
+                "39",
+                "=",
+                "579"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -13340,7 +13462,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824514031,
+        "zoomFactor": 0.6244537826600065,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -14027,13 +14149,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
           "keepRatio": true,
           "layer": "",
-          "name": "test_pull_lyuyao",
+          "name": "test_pull_lyuyao_andrea",
           "persistentUuid": "b3a347ac-9c69-4494-8282-d5a8a614af2a",
-          "width": 0,
+          "width": 223,
           "x": 417,
           "y": 178,
           "zOrder": 28,
@@ -14084,7 +14207,7 @@
           "persistentUuid": "dd218462-a8ac-466f-b053-b4e52d7791c2",
           "width": 80,
           "x": 740,
-          "y": 394,
+          "y": 378,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -14117,9 +14240,25 @@
           "name": "Village_vers_café",
           "persistentUuid": "6b4955cf-d188-4fd7-8df0-9d7bb3e2b5f4",
           "width": 67,
-          "x": 672,
-          "y": 128,
+          "x": 671,
+          "y": 96,
           "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PNJ2",
+          "persistentUuid": "db43ccf4-dfdf-41a2-9688-99e134cfd1b3",
+          "width": 0,
+          "x": 897,
+          "y": 420,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14209,14 +14348,14 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "test_pull_lyuyao",
+          "name": "test_pull_lyuyao_andrea",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "v1 animation intro",
+          "string": "samedi 17 janvier après-midi, push d'Andréa pour Lyuyao :)",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -14239,7 +14378,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "v1 animation intro",
+            "text": "samedi 17 janvier après-midi, push d'Andréa pour Lyuyao :)",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -14259,7 +14398,7 @@
             "objectName": "Press_F"
           },
           {
-            "objectName": "test_pull_lyuyao"
+            "objectName": "test_pull_lyuyao_andrea"
           }
         ]
       },
@@ -14297,6 +14436,18 @@
           "actions": [
             {
               "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Calque UI (inventaire)\"",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "DialogueTree::LoadDialogueFromJsonFile"
               },
               "parameters": [
@@ -14327,22 +14478,6 @@
                 "value": "Cache"
               },
               "parameters": [
-                "carte_inventaire"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "plan_du_village"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
                 "Dialogue_bouton"
               ]
             },
@@ -14352,18 +14487,6 @@
               },
               "parameters": [
                 "Dialogue"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"Calque UI (inventaire)\"",
-                "",
-                "",
-                ""
               ]
             }
           ]
@@ -14389,7 +14512,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Mettre locations de devant portes (Devant accès zone vaisseau = 0 ; Devant porte de la mairie = 1 ; Devant porte café = 2 ; Devant porte maison = 3)"
+          "comment": "Mettre locations de devant portes (Vaisseau vers village = 0 ; Devant porte de la mairie = 1 ; Devant porte café = 2 ; Devant porte maison = 3 ; Village vers vaisseau = 4)"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -14454,9 +14577,9 @@
               "parameters": [
                 "Alien",
                 "=",
-                "",
+                "779",
                 "=",
-                ""
+                "435"
               ]
             }
           ]
@@ -14489,9 +14612,9 @@
               "parameters": [
                 "Alien",
                 "=",
-                "",
+                "696",
                 "=",
-                ""
+                "170"
               ]
             }
           ]
@@ -14541,6 +14664,18 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Ajouter conditions pour lancer telle ou telle branche de dialogue selon si quête_1_finie est vrai/faux"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -16131,27 +16266,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Map_boundaries",
-          "persistentUuid": "39c5e2c0-8969-4c68-aa55-ad4a113811d4",
-          "width": 256,
-          "x": 71,
-          "y": 73,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
           "persistentUuid": "ac2f2235-a6f1-4139-99cb-34a2f8dc9a1b",
-          "width": 514,
-          "x": 355,
-          "y": 36,
+          "width": 1284,
+          "x": 0,
+          "y": -3,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -16166,230 +16284,9 @@
           "layer": "",
           "name": "Map_boundaries",
           "persistentUuid": "0f2d9b7a-bb97-4a27-96e5-7141673c35d5",
-          "width": 1272,
+          "width": 1297,
           "x": -9,
           "y": 705,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 290,
-          "customSize": true,
-          "depth": 1,
-          "height": 11,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "1b382bd9-3fb5-4336-8c42-1027275b690b",
-          "width": 125,
-          "x": 1192,
-          "y": 661,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 63,
-          "customSize": true,
-          "depth": 1,
-          "height": 11,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "24800aea-61cc-4c3c-85ac-2c4efbed5857",
-          "width": 125,
-          "x": 14,
-          "y": 683,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 323,
-          "customSize": true,
-          "depth": 1,
-          "height": 7,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "7f3158e3-39ad-40ee-b092-c45a0182f545",
-          "width": 76,
-          "x": 316,
-          "y": 64,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 233,
-          "customSize": true,
-          "depth": 1,
-          "height": 11,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "e7cd83f8-e6cc-452d-972d-fcd0b889dd26",
-          "width": 125,
-          "x": 20,
-          "y": 410,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 302,
-          "customSize": true,
-          "depth": 1,
-          "height": 9,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "26a4984c-4a52-4ba6-90aa-fc79db900347",
-          "width": 108,
-          "x": 41,
-          "y": 501,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 11,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "5b7aa963-5047-4848-8b44-1dab3348bc29",
-          "width": 51,
-          "x": -6,
-          "y": 511,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 11,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "8a91c3a1-193d-456d-b7ea-c1c83e097174",
-          "width": 59,
-          "x": -12,
-          "y": 630,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 300,
-          "customSize": true,
-          "depth": 1,
-          "height": 9,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "624a18bf-ab38-4b31-b741-bea509896252",
-          "width": 99,
-          "x": 1155,
-          "y": 295,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "23fed6f0-7c31-4ceb-b24a-fe0bb6e250e1",
-          "width": 227,
-          "x": 831,
-          "y": 54,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 61,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "7c4b3825-eb05-4cd6-866d-9f72bb6d7213",
-          "width": 10,
-          "x": 1257,
-          "y": 112,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "22eebb26-d9d6-4801-b8bd-8fe716cb5362",
-          "width": 120,
-          "x": 1051,
-          "y": 75,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 216,
-          "customSize": true,
-          "depth": 1,
-          "height": 5,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "42721622-302e-4290-9ede-6e57f04148fa",
-          "width": 53,
-          "x": 1021,
-          "y": 73,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 216,
-          "customSize": true,
-          "depth": 1,
-          "height": 5,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "0ec43980-6b26-4fd8-aa98-680ae300291f",
-          "width": 59,
-          "x": 1147,
-          "y": 90,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -16413,58 +16310,7 @@
           "initialVariables": []
         },
         {
-          "angle": 33,
-          "customSize": true,
-          "depth": 1,
-          "height": 41,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "8fccebf1-f214-434c-bbfb-42cc4c135f79",
-          "width": 7,
-          "x": 1248,
-          "y": 167,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 340,
-          "customSize": true,
-          "depth": 1,
-          "height": 61,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "6cc223d7-6005-420f-a960-0f8ace94c3e8",
-          "width": 10,
-          "x": 1257,
-          "y": 200,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 245,
-          "customSize": true,
-          "depth": 1,
-          "height": 11,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "b618b979-bfb3-4ab6-967a-916bd1350762",
-          "width": 125,
-          "x": 1153,
-          "y": 385,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 235,
+          "angle": 270,
           "customSize": true,
           "depth": 1,
           "height": 11,
@@ -16472,145 +16318,9 @@
           "layer": "",
           "name": "Map_boundaries",
           "persistentUuid": "77fc7358-4c8c-46ef-a465-24324e9b88fd",
-          "width": 125,
-          "x": 1205,
-          "y": 491,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 245,
-          "customSize": true,
-          "depth": 1,
-          "height": 11,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "56b8431b-2de2-4caa-b853-67c08a58ab28",
-          "width": 125,
-          "x": -17,
-          "y": 263,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 245,
-          "customSize": true,
-          "depth": 1,
-          "height": 11,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "1941dc88-01db-45bc-b04f-2748c249e646",
-          "width": 125,
-          "x": -16,
-          "y": 171,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 296,
-          "customSize": true,
-          "depth": 1,
-          "height": 8,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "f2b8d2a1-be0a-4544-81b5-47aa119e476a",
-          "width": 95,
-          "x": 6,
-          "y": 362,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 321,
-          "customSize": true,
-          "depth": 1,
-          "height": 13,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "1bc62af3-ebde-4907-be24-27ecc5d7bd38",
-          "width": 144,
-          "x": 14,
-          "y": 124,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 216,
-          "customSize": true,
-          "depth": 1,
-          "height": 5,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "fd47c4dd-ab65-4719-87d0-95dc11af5c81",
-          "width": 59,
-          "x": 785,
-          "y": 49,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 87,
-          "customSize": true,
-          "depth": 1,
-          "height": 61,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "cfc6c47d-14bf-44bd-aece-caacb0863ddd",
-          "width": 10,
-          "x": 1252,
-          "y": 230,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 221,
-          "customSize": true,
-          "depth": 1,
-          "height": 11,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "7dbfe3a0-ae82-45fb-8c39-1a647f1e685a",
-          "width": 51,
-          "x": 32,
-          "y": 529,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 134,
-          "customSize": true,
-          "depth": 1,
-          "height": 11,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map_boundaries",
-          "persistentUuid": "03358aad-dc08-4dff-9005-1cb28f800865",
-          "width": 51,
-          "x": -33,
-          "y": 524,
+          "width": 717,
+          "x": 926,
+          "y": 353,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -16728,6 +16438,23 @@
           "x": 638,
           "y": 682,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 11,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Map_boundaries",
+          "persistentUuid": "8a04dff1-07b1-413e-abe9-f0955f29fddc",
+          "width": 717,
+          "x": -358,
+          "y": 357,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17609,40 +17336,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Déplacement vers vaisseau",
+          "name": "Déplacement vers mairie",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Alien",
-                "Vers_vaisseau",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Zone du vaisseau\"",
-                ""
-              ]
-            }
-          ]
         },
         {
           "colorB": 228,
@@ -21611,9 +21309,9 @@
           "layer": "",
           "name": "Café_vers_village",
           "persistentUuid": "06d25548-797e-44ad-9757-4997b0bb9ae1",
-          "width": 134,
-          "x": 549,
-          "y": 707,
+          "width": 97,
+          "x": 641,
+          "y": 704,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -22902,7 +22600,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "quete_2",
+                "quete_2_finie",
                 "True",
                 ""
               ]
@@ -34680,7 +34378,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Devant accès zone vaisseau = 0 ; Devant porte de la mairie = 1 ; Devant porte café = 2 ; Devant porte maison = 3"
+          "comment": "Devant accès zone vaisseau (vaisseau vers village) = 0 ; Devant porte de la mairie = 1 ; Devant porte café = 2 ; Devant porte maison = 3 ; Devant accès village (Village vers vaisseau) = 4"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -34696,6 +34394,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "monologue_termine",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -34707,6 +34415,55 @@
                 "possible_spawns",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Village\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Alien",
+                "Mairie_vers_village",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "possible_spawns",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Village\"",
+                ""
               ]
             }
           ]
@@ -34735,36 +34492,17 @@
               "parameters": [
                 "possible_spawns",
                 "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Alien",
-                "Village_vers_vaisseau",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "possible_spawns",
-                "=",
                 "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Village\"",
+                ""
               ]
             }
           ]
@@ -34794,6 +34532,55 @@
                 "possible_spawns",
                 "=",
                 "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Village\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Alien",
+                "Village_vers_vaisseau",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "possible_spawns",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Village\"",
+                ""
               ]
             }
           ]
@@ -34966,7 +34753,24 @@
               "parameters": [
                 "plan_du_village"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_1_finie",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "Cache"
@@ -35130,11 +34934,55 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "",
-                "\"b\""
+                "quete_1_finie",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "carte_inventaire",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"b\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_1_finie",
+                    "False",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -35153,6 +35001,39 @@
               },
               "parameters": [
                 "Retour_carte"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_1_finie",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Obtient_plan"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue_box"
               ]
             }
           ]
@@ -35349,6 +35230,18 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Quête 3 - Chiffres"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -35388,7 +35281,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "quete_3",
+                "quete_3_finie",
                 "True",
                 ""
               ]
@@ -81360,8 +81253,8 @@
           "name": "Retour_carte",
           "persistentUuid": "fb22bb58-3c72-4c40-9ef0-f2815320bdd3",
           "width": 0,
-          "x": 1088,
-          "y": 135,
+          "x": 917,
+          "y": 526,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -81464,7 +81357,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845352564,
+        "zoomFactor": 0.841642812537312,
         "windowMask": false,
         "selectedLayer": ""
       }
