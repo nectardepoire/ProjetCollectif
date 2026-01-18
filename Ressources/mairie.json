@@ -1,0 +1,42 @@
+[
+	{
+		"title": "PNJ6",
+		"tags": "",
+		"body": "<< nameTag alien >>\r\n<< langue francais >>\r\nBonjour ! \r\n<< nameTag pnj6 >>\r\nOh bonjour toi ! Est-ce que tu as mangé ?\r\n<< nameTag alien >>\r\nNon je n’ai pas mangé, pourquoi ?\r\n<< nameTag pnj6 >>\r\nOh, je voulais dire “comment allez-vous” ! \r\nJ’ai personnellement l’habitude de dire กินข้าวหรือยัง en thaï aux gens que je rencontre. J’oublie toujours qu’en français, on ne dit pas vraiment ça pour demander à quelqu’un s’il va bien ! Excuse-moi pour la confusion !\r\n<< fin >>",
+		"position": {
+			"x": 140,
+			"y": 196
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ2_1",
+		"tags": "",
+		"body": "[en cliquant sur PNJ2] \r\n<< nameTag pnj2 >>\r\n<< langue francais >>\r\nBonjour, comment puis-je t’aider ?\r\n<< nameTag alien >>\r\nBonjour, je viens d’arriver ici, est-ce que je pourrai avoir quelque chose pour m’aider à me repérer dans le village ?\r\n<< nameTag pnj2 >>\r\nEh bien, j’ai seulement une vieille carte abîmée de cette zone principale du village que plusieurs villageois avaient dessiné ensemble. \r\nJ’aurais bien aimé la déchiffrer pour toi mais je suis complètement bigleux…Si tu veux essayer par toi-même.\r\n<< carte >>",
+		"position": {
+			"x": 333,
+			"y": 32
+		},
+		"colorID": 0
+	},
+	{
+		"title": "activite_carte",
+		"tags": "",
+		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nComme tu peux le voir, les habitants du village ont utilisé leur répertoire langagier pour faire cette carte : il y a du japonais, du thaï, du suédois, du persan et du turc.\r\nEn cliquant sur les différents lieux de la carte, tu peux entendre leur nom exact. Base-toi sur cela pour placer les mots au bon endroit.\r\n<< fin >>",
+		"position": {
+			"x": 662,
+			"y": 197
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ2_2",
+		"tags": "",
+		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nBonjour, le bureau ouvre d’ici quelques minutes. Merci de repasser.",
+		"position": {
+			"x": 555,
+			"y": 35
+		},
+		"colorID": 0
+	}
+]

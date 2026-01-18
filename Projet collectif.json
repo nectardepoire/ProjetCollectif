@@ -6560,6 +6560,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Furniture/4a3cd72f03d8fd57c6de2368aed112ae26886aeb92a8e7dcd1881d5da9289cd7_coffee table gray.png",
           "name": "coffee table gray.png"
         }
+      },
+      {
+        "disablePreload": false,
+        "file": "Ressources/mairie.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "Ressources\\mairie.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Ressources/vaisseau.json",
+        "kind": "json",
+        "metadata": "{\"localFilePath\":\"Ressources/vaisseau.json\",\"extension\":\".json\"}",
+        "name": "Ressources\\vaisseau.json",
+        "userAdded": false
       }
     ]
   },
@@ -12728,11 +12744,6 @@
       "type": "structure",
       "children": [
         {
-          "name": "alien",
-          "type": "string",
-          "value": "Alien"
-        },
-        {
           "name": "client1",
           "type": "string",
           "value": "0"
@@ -12887,7 +12898,7 @@
     {
       "name": "player_name",
       "type": "string",
-      "value": "tristan"
+      "value": "Alien"
     }
   ],
   "layouts": [
@@ -22374,7 +22385,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104511,
+        "zoomFactor": 1.2121641972173687,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -22394,11 +22405,6 @@
           "name": "_updated_dialogue",
           "type": "string",
           "value": "test"
-        },
-        {
-          "name": "player_name",
-          "type": "string",
-          "value": "tristan"
         }
       ],
       "instances": [
@@ -23873,7 +23879,7 @@
               },
               "parameters": [
                 "",
-                "New dialogue tree2",
+                "Ressources\\vaisseau.json",
                 "_dialogue",
                 ""
               ]
@@ -23885,7 +23891,7 @@
               "parameters": [
                 "_updated_dialogue",
                 "=",
-                "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), VariableString(player_name))"
+                "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
               ]
             },
             {
@@ -23918,7 +23924,7 @@
                     "value": "DialogueTree::StartDialogueFromBranch"
                   },
                   "parameters": [
-                    "\"monologue_1\""
+                    "\"monologue1\""
                   ]
                 },
                 {
@@ -24157,17 +24163,67 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"fin\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Cache"
               },
               "parameters": [
-                "Debug",
-                "Text",
+                "Dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StopRunningDialogue"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
                 "=",
-                "VariableString(_dialogue)"
+                "0"
               ]
             }
           ]
@@ -52025,7 +52081,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.565315805512632,
+        "zoomFactor": 0.8700232859857306,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -52252,7 +52308,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "DialogueBox",
+                "Dialogue_box",
                 ""
               ]
             },
@@ -52305,9 +52361,19 @@
                 "value": "SetStringVariable"
               },
               "parameters": [
-                "nom_joueur",
+                "player_name",
                 "=",
                 "nom_du_joueur.Text::Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Zone du vaisseau\"",
+                ""
               ]
             }
           ]
@@ -54570,6 +54636,32 @@
                 "Text",
                 "=",
                 "dictionnaire_personnages[DialogueTree::CommandParameter(0)]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"userName\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Dialogue_nom",
+                "Text",
+                "=",
+                "GlobalVariableString(player_name)"
               ]
             }
           ]
