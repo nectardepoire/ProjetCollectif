@@ -6401,6 +6401,165 @@
         "name": "Walking Left3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "silhouette_front_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "silhouette_front_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "dog_front_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dog_front_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/créature_silhouette.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "créature_silhouette",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/créature_silhouette2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "créature_silhouette2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/créature_silhouette3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "créature_silhouette3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/créature_silhouette4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "créature_silhouette4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/créature_silhouette5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "créature_silhouette5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "silhouette_front_2 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "silhouette_front_2 (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "silhouette_front_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "silhouette_front_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "silhouette_front_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "silhouette_front_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "silhouette_front_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "silhouette_front_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/15c1797cbcb41c3a753b6bbb21cfa60284cfaf81c9891c3abf78a8e0e1cacf59_8BitOperatorPlus8Regular_Edited.png",
+          "name": "8BitOperatorPlus8Regular_Edited.png"
+        }
+      },
+      {
+        "file": "assets/Small Light Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/95c8aec49aac6657a1b1870edcbafe98def8da6ced9ba38486ad54b16b11bd2e_Small Light Grey Button_Hovered.png",
+          "name": "Small Light Grey Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Small Light Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/80613a75f24d5c563b76fe4775c6bd66e8f5050eeaae279a556e41de62a1649d_Small Light Grey Button_Idle.png",
+          "name": "Small Light Grey Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Small Light Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/9bd7fdd350ae7a52dbe99d2ff6e0f6226656c6057aafe3c6e034cb6ef6616f4d_Small Light Grey Button_Pressed.png",
+          "name": "Small Light Grey Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited2.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/6b410f07a3a02e721a49d41795e84b56707ef28ac4d095d55f1fd1093760e134_8BitOperatorPlus8Regular_Edited.fnt",
+          "name": "8BitOperatorPlus8Regular_Edited.fnt"
+        }
+      },
+      {
+        "file": "assets/coffee table gray.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coffee table gray.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Furniture/4a3cd72f03d8fd57c6de2368aed112ae26886aeb92a8e7dcd1881d5da9289cd7_coffee table gray.png",
+          "name": "coffee table gray.png"
+        }
       }
     ]
   },
@@ -12446,6 +12605,11 @@
   ],
   "variables": [
     {
+      "name": "Scène_de_début_Crashstate",
+      "type": "string",
+      "value": "exist"
+    },
+    {
       "name": "TextSpeedScroll",
       "type": "number",
       "value": 1
@@ -12456,9 +12620,101 @@
       "value": 0
     },
     {
-      "name": "objets_joueur",
-      "type": "number",
-      "value": 0
+      "name": "dictionnaire_langues",
+      "type": "structure",
+      "children": [
+        {
+          "name": "alien",
+          "type": "string",
+          "value": "(en langue alienne)"
+        },
+        {
+          "name": "francais",
+          "type": "string",
+          "value": "(en français)"
+        },
+        {
+          "name": "japonais",
+          "type": "string",
+          "value": "(en japonais)"
+        },
+        {
+          "name": "persan",
+          "type": "string",
+          "value": "(en persan)"
+        },
+        {
+          "name": "suedois",
+          "type": "string",
+          "value": "(en suédois)"
+        },
+        {
+          "name": "thai",
+          "type": "string",
+          "value": "(en thaï)"
+        },
+        {
+          "name": "turc",
+          "type": "string",
+          "value": "(en turc)"
+        }
+      ]
+    },
+    {
+      "name": "dictionnaire_personnages",
+      "type": "structure",
+      "children": [
+        {
+          "name": "alien",
+          "type": "string",
+          "value": "Alien"
+        },
+        {
+          "name": "client1",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "client2",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "client3",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "pnj1",
+          "type": "string",
+          "value": "Villageois"
+        },
+        {
+          "name": "pnj2",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "pnj3",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "pnj4",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "pnj5",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "pnj6",
+          "type": "string",
+          "value": "0"
+        }
+      ]
     },
     {
       "name": "quete_1_finie",
@@ -12466,31 +12722,34 @@
       "value": false
     },
     {
+      "folded": true,
+      "name": "activité_1",
+      "type": "structure",
+      "children": [
+        {
+          "name": "mairie_juste",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "parc_juste",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "rivière_juste",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
       "name": "quete_2_finie",
       "type": "boolean",
       "value": false
     },
     {
-      "name": "quete_3_finie",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "quete_4_finie",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "activité_carte_terminée",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "Scène_de_début_Crashstate",
-      "type": "string",
-      "value": "exist"
-    },
-    {
+      "folded": true,
       "name": "activité_2",
       "type": "structure",
       "children": [
@@ -12512,46 +12771,9 @@
       ]
     },
     {
-      "name": "touche_dialogue_pressee",
+      "name": "quete_3_finie",
       "type": "boolean",
       "value": false
-    },
-    {
-      "name": "dictionnaire_langues",
-      "type": "structure",
-      "children": [
-        {
-          "name": "alien",
-          "type": "string",
-          "value": "En langue alienne"
-        },
-        {
-          "name": "francais",
-          "type": "string",
-          "value": "En français"
-        }
-      ]
-    },
-    {
-      "name": "dictionnaire_personnages",
-      "type": "structure",
-      "children": [
-        {
-          "name": "alien",
-          "type": "string",
-          "value": "Alien"
-        },
-        {
-          "name": "pnj1",
-          "type": "string",
-          "value": "Villageois"
-        }
-      ]
-    },
-    {
-      "name": "possible_spawns",
-      "type": "number",
-      "value": 0
     },
     {
       "name": "activité_3",
@@ -12571,11 +12793,31 @@
           "name": "chiffre_persan_correct",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "chiffre_thai_correct",
+          "type": "boolean",
+          "value": false
         }
       ]
     },
     {
+      "name": "touche_dialogue_pressee",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "possible_spawns",
+      "type": "number",
+      "value": 0
+    },
+    {
       "name": "monologue_termine",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "jeu_termine",
       "type": "boolean",
       "value": false
     }
@@ -16839,12 +17081,12 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 40,
               "angularMaxSpeed": 20,
               "maxSpeed": 320,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "type": "PathfindingBehavior::PathfindingBehavior",
               "allowDiagonals": true,
               "angleOffset": 0,
               "cellHeight": 20,
@@ -21072,10 +21314,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -22838,6 +23080,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "Dialogue_InfoBox",
+          "persistentUuid": "d225a5d8-84d3-43b4-b998-787b6a8a1eaa",
+          "width": 340,
+          "x": 116,
+          "y": 459,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -23434,7 +23693,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Mettre comme condition que le monologue est terminé"
+          "comment": "Mettre comme condition que la branche de dialogue du monologue est terminée"
         },
         {
           "disabled": true,
@@ -23697,6 +23956,16 @@
                 "180",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "jeu_termine",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -23729,6 +23998,57 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Changer le message (ou la branche de dialogue) selon si la variable globale jeu_terminé est vraie ou non"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "SpaceShip_détruit",
+                "180",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "jeu_termine",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Si l'alien est trop loin du vaisseau, rien ne s'affiche"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -24168,7 +24488,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7619362677197697,
+        "zoomFactor": 0.6672773998330102,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -24272,7 +24592,7 @@
           "width": 1322,
           "x": -20,
           "y": -11,
-          "zOrder": -6,
+          "zOrder": -9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24371,8 +24691,8 @@
           "name": "Press_F",
           "persistentUuid": "168c0fc1-a00c-4553-90cb-2ab14f542ee8",
           "width": 0,
-          "x": 1032,
-          "y": 488,
+          "x": 1098,
+          "y": 518,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -24437,8 +24757,8 @@
           "name": "PNJ1",
           "persistentUuid": "ba80e9e5-bb4e-419d-a29c-8383f9f0f04e",
           "width": 0,
-          "x": 1059,
-          "y": 451,
+          "x": 1126,
+          "y": 492,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -24453,8 +24773,8 @@
           "name": "Alien",
           "persistentUuid": "55878deb-6789-425c-93cf-31f6c80bdd21",
           "width": 0,
-          "x": 1222,
-          "y": 587,
+          "x": 1231,
+          "y": 654,
           "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
@@ -24470,8 +24790,8 @@
           "name": "Village_vers_mairie",
           "persistentUuid": "dd218462-a8ac-466f-b053-b4e52d7791c2",
           "width": 51,
-          "x": 783,
-          "y": 533,
+          "x": 781,
+          "y": 528,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -24481,14 +24801,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
+          "height": 19,
           "keepRatio": true,
           "layer": "",
           "name": "Village_vers_maison",
           "persistentUuid": "f2cd976d-4cbb-4717-9695-a07d50f201ac",
           "width": 39,
-          "x": 137,
-          "y": 213,
+          "x": 136,
+          "y": 188,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -24498,14 +24818,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
+          "height": 21,
           "keepRatio": true,
           "layer": "",
           "name": "Village_vers_café",
           "persistentUuid": "6b4955cf-d188-4fd7-8df0-9d7bb3e2b5f4",
-          "width": 33,
-          "x": 988,
-          "y": 591,
+          "width": 19,
+          "x": 994,
+          "y": 566,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -24641,8 +24961,8 @@
           "persistentUuid": "4198af14-b780-44de-9257-0cb408c7ed79",
           "width": 193,
           "x": 908,
-          "y": 439,
-          "zOrder": 38,
+          "y": 419,
+          "zOrder": -8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24657,8 +24977,8 @@
           "name": "Maison_PNJ5",
           "persistentUuid": "b0348d23-14f7-422e-a9cd-f1f5d9aad019",
           "width": 191,
-          "x": 512,
-          "y": 49,
+          "x": 515,
+          "y": 31,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -24674,8 +24994,8 @@
           "name": "Maison_PNJ6",
           "persistentUuid": "bad737d3-fcc0-4e5c-893e-060ef5ba148b",
           "width": 119,
-          "x": 98,
-          "y": 43,
+          "x": 97,
+          "y": 29,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -25165,8 +25485,8 @@
           "name": "PNJ3",
           "persistentUuid": "fea46c84-471b-45e1-b42f-0b9fadfb142d",
           "width": 0,
-          "x": 1163,
-          "y": 456,
+          "x": 1054,
+          "y": 404,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -25178,11 +25498,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PNJ2",
-          "persistentUuid": "e3abec6c-eba7-4c12-938d-196c6f4a32ff",
+          "name": "créature_silhouette",
+          "persistentUuid": "be0f779b-42e1-4603-a7ea-f00feb26ddc0",
           "width": 0,
-          "x": 1106,
-          "y": 523,
+          "x": 1074,
+          "y": 622,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -25740,8 +26060,44 @@
                             "y": 350
                           },
                           {
-                            "x": 317,
-                            "y": 351
+                            "x": 140,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 119.5,
+                            "y": 210.5
+                          },
+                          {
+                            "x": 146.5,
+                            "y": 128
+                          },
+                          {
+                            "x": 217,
+                            "y": 87
+                          },
+                          {
+                            "x": 275.5,
+                            "y": 75
+                          },
+                          {
+                            "x": 350.5,
+                            "y": 101.5
+                          },
+                          {
+                            "x": 399.5,
+                            "y": 146.5
+                          },
+                          {
+                            "x": 408,
+                            "y": 212
+                          },
+                          {
+                            "x": 393,
+                            "y": 314.5
+                          },
+                          {
+                            "x": 314,
+                            "y": 352
                           },
                           {
                             "x": 319.5,
@@ -25750,6 +26106,162 @@
                           {
                             "x": 213,
                             "y": 419.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "créature_silhouette",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "silhouette_front_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 40
+                          },
+                          {
+                            "x": 0,
+                            "y": 40
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "silhouette_front_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 40
+                          },
+                          {
+                            "x": 0,
+                            "y": 40
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "créature_visible",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "dog_front_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 40
+                          },
+                          {
+                            "x": 0,
+                            "y": 40
                           }
                         ]
                       ]
@@ -25793,6 +26305,12 @@
           },
           {
             "objectName": "Arbre"
+          },
+          {
+            "objectName": "créature_silhouette"
+          },
+          {
+            "objectName": "créature_visible"
           }
         ]
       },
@@ -25936,9 +26454,9 @@
               "parameters": [
                 "Alien",
                 "=",
-                "1222",
+                "1231",
                 "=",
-                "587"
+                "654"
               ]
             }
           ]
@@ -25971,9 +26489,9 @@
               "parameters": [
                 "Alien",
                 "=",
-                "779",
+                "815",
                 "=",
-                "435"
+                "630"
               ]
             }
           ]
@@ -26006,9 +26524,9 @@
               "parameters": [
                 "Alien",
                 "=",
-                "696",
+                "1008",
                 "=",
-                "170"
+                "644"
               ]
             }
           ]
@@ -26041,9 +26559,132 @@
               "parameters": [
                 "Alien",
                 "=",
-                "320",
+                "158",
                 "=",
-                "323"
+                "266"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Spawns de la créature mystérieuse"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_2_finie",
+                "False",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "créature_silhouette"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "créature_visible"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_2_finie",
+                "True",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_3_finie",
+                "False",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "créature_silhouette",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "créature_visible"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_3_finie",
+                "True",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "créature_silhouette"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "créature_visible",
+                ""
               ]
             }
           ]
@@ -27194,7 +27835,7 @@
               },
               "parameters": [
                 "",
-                "\"Chez PNJ6 (quête x)\"",
+                "\"Chez PNJ6 - objets (quête x)\"",
                 ""
               ]
             }
@@ -27888,8 +28529,8 @@
           "name": "PNJ2",
           "persistentUuid": "db26badb-b620-46bc-9795-ae9def346989",
           "width": 0,
-          "x": 642,
-          "y": 152,
+          "x": 648,
+          "y": 383,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -29126,7 +29767,7 @@
           "isLocked": false,
           "name": "Carte dans inventaire",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -29243,44 +29884,7 @@
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [
-        {
-          "name": "activité_1",
-          "type": "structure",
-          "children": [
-            {
-              "name": "mairie_juste",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "name": "parc_juste",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "name": "rivière_juste",
-              "type": "boolean",
-              "value": false
-            }
-          ]
-        },
-        {
-          "name": "mairie_clic",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "parc_clic",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "rivière_clic",
-          "type": "boolean",
-          "value": false
-        }
-      ],
+      "variables": [],
       "instances": [
         {
           "angle": 0,
@@ -31426,7 +32030,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "False",
                 ""
               ]
@@ -31537,7 +32141,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "False",
                 ""
               ]
@@ -31648,7 +32252,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "False",
                 ""
               ]
@@ -31759,7 +32363,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "False",
                 ""
               ]
@@ -31913,7 +32517,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "False",
                 ""
               ]
@@ -32021,7 +32625,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "False",
                 ""
               ]
@@ -32193,17 +32797,6 @@
           ]
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Fin de l'activité",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32211,54 +32804,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_1.mairie_juste",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "activité_1.parc_juste",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "activité_1.rivière_juste",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "activité_carte_terminée",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "True",
                 ""
               ]
@@ -32387,7 +32933,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "True",
                 ""
               ]
@@ -32437,13 +32983,71 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "False",
                 ""
               ]
             }
           ],
           "actions": []
+        },
+        {
+          "colorB": 5,
+          "colorG": 117,
+          "colorR": 65,
+          "creationTime": 0,
+          "name": "Fin de l'activité",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_1.mairie_juste",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_1.parc_juste",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_1.rivière_juste",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_1_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -34783,8 +35387,8 @@
           "name": "Client1",
           "persistentUuid": "422b8056-f193-45d8-b819-7db5a323b574",
           "width": 227,
-          "x": 524,
-          "y": 118,
+          "x": 530,
+          "y": 163,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -34799,8 +35403,8 @@
           "name": "Client2",
           "persistentUuid": "95004c92-4e7c-4700-bd2e-3ee129f757ad",
           "width": 0,
-          "x": 1165,
-          "y": 251,
+          "x": 1080,
+          "y": 28,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -34815,8 +35419,8 @@
           "name": "Client3",
           "persistentUuid": "c299afe7-ce6d-47da-a149-d8e85f3e31fe",
           "width": 0,
-          "x": 1167,
-          "y": 344,
+          "x": 1202,
+          "y": 28,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -34826,14 +35430,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 69,
+          "height": 185,
           "keepRatio": true,
           "layer": "",
           "name": "Comptoir",
           "persistentUuid": "db55c87f-3d34-4a62-9a11-9ee17bdb1885",
-          "width": 539,
-          "x": 344,
-          "y": 387,
+          "width": 1312,
+          "x": -25,
+          "y": 355,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -34843,15 +35447,83 @@
           "angle": 0,
           "customSize": true,
           "depth": 3,
-          "height": 258,
+          "height": 300,
           "keepRatio": true,
           "layer": "",
           "name": "Alien_comptoir",
           "persistentUuid": "80e9837f-b0f7-4809-b3c0-241e3db9f114",
-          "width": 172,
-          "x": 632,
-          "y": 641,
+          "width": 200,
+          "x": 655,
+          "y": 745,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 74,
+          "keepRatio": true,
+          "layer": "",
+          "name": "case",
+          "persistentUuid": "d99efe22-d1ed-4c24-8a5a-7ae6b39e6bea",
+          "width": 74,
+          "x": 192,
+          "y": 641,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 74,
+          "keepRatio": true,
+          "layer": "",
+          "name": "case",
+          "persistentUuid": "a167bb33-9134-40e3-94e3-2028b7cfdc8d",
+          "width": 74,
+          "x": 101,
+          "y": 641,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 74,
+          "keepRatio": true,
+          "layer": "",
+          "name": "case",
+          "persistentUuid": "f8fe6a49-9a38-4963-824a-52eecb50ac54",
+          "width": 74,
+          "x": 12,
+          "y": 640,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 182,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coffee_table_gray",
+          "persistentUuid": "4161bfa8-e695-467e-936e-cc7f094a0a84",
+          "width": 347,
+          "x": 963,
+          "y": 560,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36857,6 +37529,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "65873c767252e041359bac9dbfb882d2f4f5e484d047a187f9685c74d2ca16a4",
+          "name": "coffee_table_gray",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "coffee table gray.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 87,
+                            "y": 0
+                          },
+                          {
+                            "x": 87,
+                            "y": 71
+                          },
+                          {
+                            "x": 0,
+                            "y": 71
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -36876,6 +37608,9 @@
           },
           {
             "objectName": "Alien_comptoir"
+          },
+          {
+            "objectName": "coffee_table_gray"
           }
         ]
       },
@@ -37290,9 +38025,62 @@
           "comment": "Si fautes dans l'activité = retour au café, lui dit de réessayer ?"
         },
         {
+          "colorB": 5,
+          "colorG": 117,
+          "colorR": 65,
+          "creationTime": 0,
+          "name": "Fin de l'activité",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_2.client_1_ok",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_2.client_2_ok",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_2.client_3_ok",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_2_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -37414,8 +38202,8 @@
     {
       "b": 143,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Chez_32PNJ6_32_40qu_234te_32x_41",
-      "name": "Chez PNJ6 (quête x)",
+      "mangledName": "_40Maison_32PNJ5_41",
+      "name": "(Maison PNJ5)",
       "r": 155,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -37469,57 +38257,6 @@
           "x": 325,
           "y": 608,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 73,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Meuble1_persan",
-          "persistentUuid": "e9848e60-fde3-4698-9de9-1ec09f53f247",
-          "width": 126,
-          "x": 183,
-          "y": 44,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Meuble2_japonais",
-          "persistentUuid": "3be39944-0492-4bad-9fe9-f79723608d91",
-          "width": 146,
-          "x": 518,
-          "y": 49,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Meuble3_arabe",
-          "persistentUuid": "d1283de8-e277-4b95-b14f-8ed668b1f4e6",
-          "width": 148,
-          "x": 856,
-          "y": 59,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38017,6 +38754,18 @@
           "target": "Global"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Faire nouveau lieu de spawn dans \"Village\" pour cette maison + nouvelles portes"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -38025,7 +38774,7 @@
               },
               "parameters": [
                 "Alien",
-                "Maison_vers_village",
+                "",
                 "",
                 "",
                 ""
@@ -38044,192 +38793,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Faire variable pour dire que l'activité est lancée ou non (car il pourra encore accéder aux meubles même à la fin de l'activité)"
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Collisions",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Alien",
-                "Meuble1_persan",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Alien",
-                "Meuble2_japonais",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Alien",
-                "Meuble3_arabe",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Voir le meuble",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Alien",
-                "Meuble1_persan",
-                "10",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"f\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Meuble 1 (quête x)\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Alien",
-                "Meuble2_japonais",
-                "10",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"f\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Meuble 2 (quête x)\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Alien",
-                "Meuble3_arabe",
-                "10",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"f\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Meuble 3 (quête x)\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -38349,15 +38912,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 143,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Activit_233_32chiffres_32_40qu_234te_32x_41",
-      "name": "Activité chiffres (quête x)",
-      "r": 209,
+      "mangledName": "Chez_32PNJ6_32_45_32objets_32_40qu_234te_32x_41",
+      "name": "Chez PNJ6 - objets (quête x)",
+      "r": 155,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 143,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -38370,18 +38933,1379 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.6040838749988866,
         "windowMask": false,
         "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Maison_vers_village",
+          "persistentUuid": "0419a505-98ac-451b-be0b-03d17ef0ff6d",
+          "width": 116,
+          "x": 247,
+          "y": 716,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Alien",
+          "persistentUuid": "d478d0d0-ff48-43eb-9227-e9bda5613a20",
+          "width": 0,
+          "x": 325,
+          "y": 608,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 73,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Meuble1_persan",
+          "persistentUuid": "e9848e60-fde3-4698-9de9-1ec09f53f247",
+          "width": 126,
+          "x": 140,
+          "y": 56,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Meuble2_japonais",
+          "persistentUuid": "3be39944-0492-4bad-9fe9-f79723608d91",
+          "width": 146,
+          "x": 422,
+          "y": 49,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Meuble3_arabe",
+          "persistentUuid": "d1283de8-e277-4b95-b14f-8ed668b1f4e6",
+          "width": 148,
+          "x": 713,
+          "y": 49,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Map_boundaries",
+          "persistentUuid": "4d65c566-a85e-4571-993c-f764b5944c01",
+          "width": 921,
+          "x": 363,
+          "y": 717,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Map_boundaries",
+          "persistentUuid": "5d72bb3f-87d3-49aa-88fd-165ee9a68bb3",
+          "width": 246,
+          "x": 0,
+          "y": 716,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Map_boundaries",
+          "persistentUuid": "01717ccf-869f-4450-a097-52298084cf1d",
+          "width": 727,
+          "x": 922,
+          "y": 354,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Map_boundaries",
+          "persistentUuid": "36df45c8-43af-4a76-9c00-768d6a7f14cb",
+          "width": 721,
+          "x": -355,
+          "y": 353,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Map_boundaries",
+          "persistentUuid": "a9a41e2f-7550-40a5-a96c-82585617f82f",
+          "width": 1293,
+          "x": -2,
+          "y": -10,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 73,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Meuble4_thai",
+          "persistentUuid": "5a248d67-e309-47c5-a185-23a94f6286bb",
+          "width": 144,
+          "x": 1010,
+          "y": 52,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "meuble1_press_F",
+          "persistentUuid": "5b5e4427-55d4-4403-b93a-bf039e604468",
+          "width": 247,
+          "x": 106,
+          "y": 148,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PNJ6",
+          "persistentUuid": "70a313bd-854d-4e6e-80ec-6efbe2a998f3",
+          "width": 0,
+          "x": 672,
+          "y": 328,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "meuble2_press_F",
+          "persistentUuid": "40189ed3-c8f8-45c2-9dbb-f983c4e1af7f",
+          "width": 222,
+          "x": 423,
+          "y": 141,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "meuble3_press_F",
+          "persistentUuid": "88f3cba6-5d17-4126-8fc1-424c5a95528f",
+          "width": 215,
+          "x": 699,
+          "y": 146,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "meuble4_press_F",
+          "persistentUuid": "6481e9cd-3053-47ca-ba9d-4f731cd45b15",
+          "width": 220,
+          "x": 984,
+          "y": 137,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Meuble1_persan",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Meuble2_japonais",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Meuble3_arabe",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Plan_intérieur_PNJ6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "PNJ6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 400,
+                            "y": 0
+                          },
+                          {
+                            "x": 400,
+                            "y": 230
+                          },
+                          {
+                            "x": 0,
+                            "y": 230
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Meuble4_thai",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "meuble1_press_F",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Voir le [nom du meuble] (appuie sur F)",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Voir le [nom du meuble] (appuie sur F)",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "meuble2_press_F",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Voir le [nom du meuble] (appuie sur F)",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Voir le [nom du meuble] (appuie sur F)",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "meuble3_press_F",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Voir le [nom du meuble] (appuie sur F)",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Voir le [nom du meuble] (appuie sur F)",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "meuble4_press_F",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Voir le [nom du meuble] (appuie sur F)",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Voir le [nom du meuble] (appuie sur F)",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Meuble1_persan"
+          },
+          {
+            "objectName": "Meuble2_japonais"
+          },
+          {
+            "objectName": "Meuble3_arabe"
+          },
+          {
+            "objectName": "Meuble4_thai"
+          },
+          {
+            "objectName": "meuble1_press_F"
+          },
+          {
+            "objectName": "meuble2_press_F"
+          },
+          {
+            "objectName": "meuble3_press_F"
+          },
+          {
+            "objectName": "meuble4_press_F"
+          },
+          {
+            "objectName": "Plan_intérieur_PNJ6"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Global"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Porte",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Faire variable pour dire que l'activité est lancée ou non (car il pourra encore accéder aux meubles même à la fin de l'activité)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Alien",
+                "Maison_vers_village",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Village\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Collisions",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble1_persan",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble2_japonais",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble3_arabe",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble4_thai",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Voir le meuble",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Message Press F"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble1_persan",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "meuble1_press_F",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble1_persan",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "meuble1_press_F"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble2_japonais",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "meuble2_press_F",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble2_japonais",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "meuble2_press_F"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble3_arabe",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "meuble3_press_F",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble3_arabe",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "meuble3_press_F"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble4_thai",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "meuble4_press_F",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble4_thai",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "meuble4_press_F"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Appuie sur F pour accéder au meuble"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble1_persan",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Meuble 1 (quête x)\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble2_japonais",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Meuble 2 (quête x)\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble3_arabe",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Meuble 3 (quête x)\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "Meuble4_thai",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Meuble 4 (quête x)\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 5,
+          "colorG": 117,
+          "colorR": 65,
+          "creationTime": 0,
+          "name": "Fin de l'activité",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_3.chiffre_arabe_correct",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_3.chiffre_persan_correct",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_3.chiffre_japonais_correct",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_3.chiffre_thai_correct",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_3_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -38537,8 +40461,8 @@
           "name": "meuble1_objet_correct",
           "persistentUuid": "02480bdf-8d5e-458c-b14d-0af38bc612c2",
           "width": 71,
-          "x": 334,
-          "y": 152,
+          "x": 329,
+          "y": 135,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -41526,6 +43450,1024 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMovementAnimator",
+          "type": "TopDownMovementAnimator::TopDownMovementAnimator",
+          "NewAnimationDirection": 0,
+          "AnimationFrame": 0
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Meuble_324_32_40qu_234te_32x_41",
+      "name": "Meuble 4 (quête x)",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "meuble4_objet_correct",
+          "persistentUuid": "705f6d78-2ff0-4b26-9c1d-f48166208ac9",
+          "width": 0,
+          "x": 320,
+          "y": 225,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "meuble4_objet_correct",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "200ad71ec02b1a71a9bb32c4f51bc32ba554b6b6f785780842392ccf42db1a48",
+          "name": "audio_thai_1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "on",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sound button_on.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "off",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sound button_off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "200ad71ec02b1a71a9bb32c4f51bc32ba554b6b6f785780842392ccf42db1a48",
+          "name": "audio_thai_2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "on",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sound button_on.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "off",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sound button_off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "200ad71ec02b1a71a9bb32c4f51bc32ba554b6b6f785780842392ccf42db1a48",
+          "name": "audio_thai_3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "on",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sound button_on.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "off",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sound button_off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "200ad71ec02b1a71a9bb32c4f51bc32ba554b6b6f785780842392ccf42db1a48",
+          "name": "audio_thai_4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "on",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sound button_on.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "off",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sound button_off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "200ad71ec02b1a71a9bb32c4f51bc32ba554b6b6f785780842392ccf42db1a48",
+          "name": "audio_thai_5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "on",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sound button_on.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "off",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sound button_off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "meuble4_objet_correct"
+          },
+          {
+            "objectName": "audio_thai_1"
+          },
+          {
+            "objectName": "audio_thai_2"
+          },
+          {
+            "objectName": "audio_thai_3"
+          },
+          {
+            "objectName": "audio_thai_4"
+          },
+          {
+            "objectName": "audio_thai_5"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Visuels à ajouter = meuble (selon si c'est étagère, bibliothèque ou autre), objets (un seul à récupérer), icône audio à côté du chiffre"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Quand le joueur clique sur l'objet à récupérer, il disparaît + la variable d'objet obtenu = vrai"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Activité réussie",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "meuble1_objet_correct",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "meuble4_objet_correct",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "activité_3.chiffre_thai_correct",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Audio",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "audio_thai_1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "audio_thai_2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "audio_thai_3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "audio_thai_4",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "audio_thai_5",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -46606,7 +49548,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33253870912507805,
+        "zoomFactor": 0.46331118245139874,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -48850,7 +51792,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1603152880454666,
+        "zoomFactor": 0.565315805512632,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -48872,11 +51814,112 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "nom_du_joueur",
+          "persistentUuid": "6cd54ff4-cf6e-41d2-87d7-d5f093ee71b7",
+          "width": 350,
+          "x": 634,
+          "y": 270,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 109,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dialogue_box",
+          "persistentUuid": "6ae28a8e-318d-46d5-8731-4f6c022c783e",
+          "width": 421,
+          "x": 610,
+          "y": 251,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 41,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "nom_du_joueur_bouton",
+          "persistentUuid": "f87f7c5b-16ca-4487-985d-883e94bf3e80",
+          "width": 82,
+          "x": 917,
+          "y": 315,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "nom_du_joueur",
+          "type": "TextInput::TextInputObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "initialValue": "",
+            "placeholder": "Quel est ton nom ?",
+            "fontResourceName": "Ressources\\PixelOperator.ttf",
+            "fontSize": 20,
+            "inputType": "text",
+            "textColor": "0;0;0",
+            "fillColor": "255;255;255",
+            "fillOpacity": 255,
+            "borderColor": "0;0;0",
+            "borderOpacity": 255,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false,
+            "spellCheck": false,
+            "paddingX": 2,
+            "paddingY": 1,
+            "textAlign": "left",
+            "maxLength": 0
+          }
+        },
+        {
+          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+          "name": "nom_du_joueur_bouton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Small Light Grey Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelText": "OK",
+            "PressedLabelOffsetY": 2
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "nom_du_joueur"
+          },
+          {
+            "objectName": "nom_du_joueur_bouton"
+          }
+        ]
       },
       "events": [
         {
@@ -49586,6 +52629,116 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Collisions avec portes"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Village_vers_vaisseau",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Maison_vers_village",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Vaisseau_vers_village",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Village_vers_café",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Village_vers_maison",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Village_vers_mairie",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Café_vers_village",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Mairie_vers_village",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Collisions avec décor"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -49609,6 +52762,50 @@
                 ""
               ]
             },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Map_boundaries"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "zone_interdit"
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "Arbre",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Collisions avec personnages"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
             {
               "type": {
                 "value": "SeparateFromObjects"
@@ -49671,27 +52868,11 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Map_boundaries"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "zone_interdit"
-              ]
-            },
-            {
-              "type": {
                 "value": "SeparateFromObjects"
               },
               "parameters": [
                 "Alien",
-                "Village_vers_vaisseau",
+                "créature_silhouette",
                 ""
               ]
             },
@@ -49701,67 +52882,7 @@
               },
               "parameters": [
                 "Alien",
-                "Village_vers_maison",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Alien",
-                "Maison_vers_village",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Alien",
-                "Café_vers_village",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Alien",
-                "Mairie_vers_village",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Alien",
-                "Village_vers_mairie",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Alien",
-                "Vaisseau_vers_village",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Alien",
-                "Village_vers_café",
+                "créature_visible",
                 ""
               ]
             }
@@ -49996,6 +53117,88 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Cacher les portes"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Vaisseau_vers_village"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Village_vers_vaisseau"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Mairie_vers_village"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Village_vers_mairie"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Maison_vers_village"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Village_vers_maison"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Café_vers_village"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Village_vers_café"
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -50071,6 +53274,34 @@
                 "value": "ScalableCapability::ScalableBehavior::SetX"
               },
               "parameters": [
+                "PNJ2",
+                "Scale",
+                "=",
+                "0.7"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetY"
+              },
+              "parameters": [
+                "PNJ2",
+                "Scale",
+                "=",
+                "0.7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetX"
+              },
+              "parameters": [
                 "PNJ3",
                 "Scale",
                 "=",
@@ -50170,46 +53401,6 @@
                 "Scale",
                 "=",
                 "2.5"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "La taille du PNJ2 n'est pas adaptable... il est plus grand que prévu (peut-être) parce qu'on lui a mis des lunettes"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetX"
-              },
-              "parameters": [
-                "PNJ2",
-                "Scale",
-                "=",
-                "PNJ1.Height()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetY"
-              },
-              "parameters": [
-                "PNJ2",
-                "Scale",
-                "=",
-                "PNJ1.Width()"
               ]
             }
           ]
@@ -50781,27 +53972,15 @@
           ]
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 5,
+          "colorG": 117,
+          "colorR": 65,
           "creationTime": 0,
-          "name": "Activités terminées",
+          "name": "Jeu terminé",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 35,
-            "g": 166,
-            "r": 245,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Quête 3 - Chiffres"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -50811,7 +53990,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_3.chiffre_arabe_correct",
+                "quete_1_finie",
                 "True",
                 ""
               ]
@@ -50821,7 +54000,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_3.chiffre_persan_correct",
+                "quete_2_finie",
                 "True",
                 ""
               ]
@@ -50831,7 +54010,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_3.chiffre_japonais_correct",
+                "quete_3_finie",
                 "True",
                 ""
               ]
@@ -50843,7 +54022,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "quete_3_finie",
+                "jeu_termine",
                 "True",
                 ""
               ]
@@ -64686,14 +67865,14 @@
       "author": "",
       "category": "User interface",
       "extensionNamespace": "",
-      "fullName": "Panel sprite button",
+      "fullName": "Labeled button",
       "gdevelopVersion": ">=5.5.230",
       "helpPath": "/objects/button",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTI5LDIzSDNjLTEuMSwwLTItMC45LTItMlYxMWMwLTEuMSwwLjktMiwyLTJoMjZjMS4xLDAsMiwwLjksMiwydjEwQzMxLDIyLjEsMzAuMSwyMywyOSwyM3oiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMywxOUwxMywxOWMtMS4xLDAtMi0wLjktMi0ydi0yYzAtMS4xLDAuOS0yLDItMmgwYzEuMSwwLDIsMC45LDIsMnYyQzE1LDE4LjEsMTQuMSwxOSwxMywxOXoiLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIxOCIgeTE9IjEzIiB4Mj0iMTgiIHkyPSIxOSIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjIxIiB5MT0iMTMiIHgyPSIxOCIgeTI9IjE3Ii8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMjEiIHkxPSIxOSIgeDI9IjE5IiB5Mj0iMTYiLz4NCjwvc3ZnPg0K",
       "name": "PanelSpriteButton",
       "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Interface Elements/Interface Elements_interface_ui_button_ok_cta_clock_tap.svg",
-      "shortDescription": "A button that can be customized.",
-      "version": "2.1.1",
+      "shortDescription": "A button with a label.",
+      "version": "2.1.2",
       "description": [
         "A button that can be used for menus and most labelled buttons of a game. The button can be customized with a background for each state and a label. It handles user interactions and a simple condition can be used to check if it is clicked.",
         "",
@@ -65922,8 +69101,8 @@
           "areaMinY": 0,
           "areaMinZ": 0,
           "defaultName": "Button",
-          "description": "A button that can be customized.",
-          "fullName": "Button (panel sprite)",
+          "description": "Button with a label.",
+          "fullName": "Labeled button",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "PanelSpriteButton",
@@ -66663,26 +69842,45 @@
                           "parameters": [
                             "Pressed"
                           ]
-                        },
+                        }
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "Tween::RemoveTween"
-                          },
-                          "parameters": [
-                            "Hovered",
-                            "Tween",
-                            "\"Fadeout\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "OpacityCapability::OpacityBehavior::SetValue"
-                          },
-                          "parameters": [
-                            "Hovered",
-                            "Opacity",
-                            "=",
-                            "255"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "HoveredFadeOutDuration",
+                                ">",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::RemoveTween"
+                              },
+                              "parameters": [
+                                "Hovered",
+                                "Tween",
+                                "\"Fadeout\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Hovered",
+                                "Opacity",
+                                "=",
+                                "255"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -67373,6 +70571,7 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "",
+              "group": "States",
               "hidden": true,
               "name": "LabelOffset"
             },
@@ -68006,6 +71205,314 @@
                 }
               ],
               "editionSettings": {}
+            },
+            {
+              "areaMaxX": 128,
+              "areaMaxY": 48,
+              "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "assetStoreAssetId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+              "assetStoreOriginalName": "Small Light Grey Button",
+              "name": "Small Light Grey Button",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "bold": false,
+                  "italic": false,
+                  "name": "Label",
+                  "smoothed": true,
+                  "type": "TextObject::Text",
+                  "underlined": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "string": "Text",
+                  "font": "",
+                  "textAlignment": "center",
+                  "characterSize": 20,
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "Text",
+                    "font": "",
+                    "textAlignment": "center",
+                    "verticalTextAlignment": "center",
+                    "characterSize": 20,
+                    "lineHeight": 0,
+                    "color": "0;0;0"
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 5,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Idle",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small Light Grey Button_Idle.png",
+                  "tiled": false,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [
+                    {
+                      "folded": true,
+                      "name": "State",
+                      "type": "string",
+                      "value": "Idle"
+                    }
+                  ],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ButtonFSM",
+                      "type": "PanelSpriteButton::ButtonFSM",
+                      "ShouldCheckHovering": true
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 5,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Hovered",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small Light Grey Button_Hovered.png",
+                  "tiled": false,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "Tween",
+                      "type": "Tween::TweenBehavior"
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 3,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Pressed",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small Light Grey Button_Pressed.png",
+                  "tiled": false,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "BitmapLabel",
+                  "type": "BitmapText::BitmapTextObject",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "content": {
+                    "text": "Button",
+                    "opacity": 255,
+                    "scale": 1,
+                    "fontSize": 20,
+                    "tint": "109;84;58",
+                    "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+                    "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+                    "align": "center",
+                    "verticalTextAlignment": "center"
+                  }
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "Label"
+                  },
+                  {
+                    "objectName": "BitmapLabel"
+                  },
+                  {
+                    "objectName": "Idle"
+                  },
+                  {
+                    "objectName": "Hovered"
+                  },
+                  {
+                    "objectName": "Pressed"
+                  }
+                ]
+              },
+              "objectsGroups": [
+                {
+                  "name": "Background",
+                  "objects": [
+                    {
+                      "name": "Idle"
+                    },
+                    {
+                      "name": "Hovered"
+                    },
+                    {
+                      "name": "Pressed"
+                    }
+                  ]
+                },
+                {
+                  "name": "Labels",
+                  "objects": [
+                    {
+                      "name": "Label"
+                    },
+                    {
+                      "name": "BitmapLabel"
+                    }
+                  ]
+                }
+              ],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 48,
+                  "layer": "",
+                  "name": "Idle",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 128,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 48,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "BitmapLabel",
+                  "persistentUuid": "c3c3200d-dec4-4ac4-9dc5-4715d8989830",
+                  "width": 128,
+                  "x": 5,
+                  "y": 26,
+                  "zOrder": 2,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ],
+              "editionSettings": []
             }
           ]
         }
