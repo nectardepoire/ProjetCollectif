@@ -10826,7 +10826,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text\nText",
-      "font": "",
+      "font": "Ressources\\PixelOperator.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -10849,7 +10849,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text\nText",
-        "font": "",
+        "font": "Ressources\\PixelOperator.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -10869,7 +10869,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "Ressources\\PixelOperator.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -10892,7 +10892,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "Ressources\\PixelOperator.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -10912,7 +10912,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "Ressources\\PixelOperator.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -10935,7 +10935,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "Ressources\\PixelOperator.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -10998,7 +10998,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Suivant (Entrée)",
-      "font": "",
+      "font": "Ressources\\PixelOperator.ttf",
       "textAlignment": "left",
       "characterSize": 15,
       "color": {
@@ -11021,7 +11021,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Suivant (Entrée)",
-        "font": "",
+        "font": "Ressources\\PixelOperator.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 15,
@@ -12440,6 +12440,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dialogue_box_objet",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ressources\\dialogue_box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 345
+                      },
+                      {
+                        "x": 0,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -12492,6 +12552,9 @@
       },
       {
         "objectName": "Dialogue_box"
+      },
+      {
+        "objectName": "Dialogue_box_objet"
       },
       {
         "objectName": "Dialogue_InfoBox"
@@ -22306,7 +22369,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600003,
+        "zoomFactor": 0.6897782140104511,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -22417,39 +22480,6 @@
           "x": 1258,
           "y": -22,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 134,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Dialogue_box",
-          "persistentUuid": "063371b7-798d-4a7c-9aa5-3e2edb304f09",
-          "width": 1086,
-          "x": 118,
-          "y": 549,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Message_vaisseau",
-          "persistentUuid": "846290fa-a378-4932-996b-a59870ad7e8b",
-          "width": 0,
-          "x": 183,
-          "y": 606,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23080,23 +23110,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 77,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Dialogue_InfoBox",
-          "persistentUuid": "d225a5d8-84d3-43b4-b998-787b6a8a1eaa",
-          "width": 340,
-          "x": 116,
-          "y": 459,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -23657,11 +23670,18 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
+            "b": 35,
+            "g": 166,
+            "r": 245,
             "textB": 0,
             "textG": 0,
             "textR": 0
@@ -23670,7 +23690,174 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Calque UI (inventaire)\"",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Dialogue\"",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_box",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_InfoBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_langue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_nom",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_texte",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrolltext\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Dialogue_bouton",
+                "\"clignotement\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "monologue_termine",
+                "False",
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -23680,26 +23867,15 @@
                 "",
                 "New dialogue tree2"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Mettre comme condition que la branche de dialogue du monologue est terminée"
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"monologue_1\""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -23707,7 +23883,220 @@
               "parameters": [
                 "monologue_termine",
                 "True",
+                "="
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Dialogue en cours"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_dialogue_pressee",
+                "False",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Dialogue_texte",
+                "Text",
+                "=",
+                "DialogueTree::ClippedLineText()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrolltext\"",
+                    ">=",
+                    "0.0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::ScrollClippedText"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrolltext\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Return\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "True",
+                    "="
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Return\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::CompleteClippedTextScrolling"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "True",
+                    "="
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue_options"
               ]
             }
           ]
@@ -23809,16 +24198,6 @@
               "parameters": [
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "monologue_termine",
-                "False",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -23913,6 +24292,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -23944,6 +24324,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -24051,6 +24432,7 @@
           "comment": "Si l'alien est trop loin du vaisseau, rien ne s'affiche"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -26327,87 +26709,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Lancement dialogue",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"Calque UI (inventaire)\"",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::LoadDialogueFromJsonFile"
-              },
-              "parameters": [
-                "",
-                "assets\\Dialogue_village.json"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Obtient_plan"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue_bouton"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue"
-              ]
-            }
-          ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "name": "Spawns possibles",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26694,6 +26995,87 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Lancement dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Calque UI (inventaire)\"",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "assets\\Dialogue_village.json"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Obtient_plan"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue_bouton"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Début dialogue",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26929,6 +27311,14 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
+        },
+        {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -27192,196 +27582,6 @@
               ]
             }
           ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Dialogue etc",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "DialogueTree::IsDialogueRunning"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Dialogue_bouton",
-                    "\"clignotement\"",
-                    "<",
-                    "0.5"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_bouton",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Dialogue_bouton",
-                    "\"clignotement\"",
-                    ">=",
-                    "0.5"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Dialogue_bouton"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Dialogue_bouton",
-                    "\"clignotement\"",
-                    ">=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Dialogue_bouton",
-                    "\"clignotement\""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue_bouton"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsCommandCalled"
-              },
-              "parameters": [
-                "\"nameTag\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Dialogue_nom",
-                "Text",
-                "=",
-                "dictionnaire_personnages[DialogueTree::CommandParameter(0)]"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsCommandCalled"
-              },
-              "parameters": [
-                "\"langue\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Dialogue_langue",
-                "Text",
-                "=",
-                "dictionnaire_langues[DialogueTree::CommandParameter(0)]"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "colorB": 228,
@@ -27994,44 +28194,6 @@
             }
           ],
           "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Gestion touche pressée"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Return\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "touche_dialogue_pressee",
-                "False",
-                ""
-              ]
-            }
-          ]
         }
       ],
       "layers": [
@@ -53786,7 +53948,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Dialogue_box"
+                "Dialogue_box_objet"
               ]
             }
           ]
@@ -54028,6 +54190,217 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Zone du vaisseau",
+      "name": "Dialogue",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton",
+                    "\"clignotement\"",
+                    "<",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton",
+                    "\"clignotement\"",
+                    ">=",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton",
+                    "\"clignotement\"",
+                    ">=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Dialogue_bouton",
+                    "\"clignotement\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"langue\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Dialogue_langue",
+                "Text",
+                "=",
+                "dictionnaire_langues[DialogueTree::CommandParameter(0)]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue_bouton"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_dialogue_pressee",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"nameTag\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Dialogue_nom",
+                "Text",
+                "=",
+                "dictionnaire_personnages[DialogueTree::CommandParameter(0)]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     }
@@ -107035,23 +107408,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 69,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Dialogue_box",
-          "persistentUuid": "fd67fbdd-db49-463f-83d6-90901cd8e38f",
-          "width": 389,
-          "x": 398,
-          "y": 86,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 86,
           "keepRatio": true,
           "layer": "Carte dans inventaire",
@@ -107097,6 +107453,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 71,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dialogue_box_objet",
+          "persistentUuid": "7dba56dc-8c46-426d-a26d-536c9b97644c",
+          "width": 370,
+          "x": 422,
+          "y": 89,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -107111,7 +107484,145 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.841642812537312,
+        "zoomFactor": 0.8141881203709929,
+        "windowMask": false,
+        "selectedLayer": ""
+      }
+    },
+    {
+      "associatedLayout": "Zone du vaisseau",
+      "name": "Dialogue",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 166,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "Dialogue_box",
+          "persistentUuid": "43287464-7bc4-4574-abaa-38740daccf27",
+          "width": 1100,
+          "x": 113,
+          "y": 508,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "Dialogue_bouton",
+          "persistentUuid": "aaa1d0e0-6d23-4cfe-94aa-9e2dd1389fc1",
+          "width": 0,
+          "x": 1057,
+          "y": 621,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "Dialogue_InfoBox",
+          "persistentUuid": "24dd329d-a3d4-42ab-912c-503f82c4fd63",
+          "width": 304,
+          "x": 120,
+          "y": 419,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "Dialogue_nom",
+          "persistentUuid": "731ca8c1-682f-4995-8803-1afdb6fedb61",
+          "width": 0,
+          "x": 150,
+          "y": 437,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "Dialogue_langue",
+          "persistentUuid": "f9a58802-51da-44dd-afc9-3f300dc69bd9",
+          "width": 131,
+          "x": 256,
+          "y": 439,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 72,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "Dialogue_texte",
+          "persistentUuid": "d9344b3a-65dc-4aef-ada6-5b436ab1714c",
+          "width": 986,
+          "x": 159,
+          "y": 532,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "Dialogue_options",
+          "persistentUuid": "0214c549-3d3c-406e-91ba-46b9ca28f64d",
+          "width": 0,
+          "x": 158,
+          "y": 593,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6897782140104504,
         "windowMask": false,
         "selectedLayer": ""
       }
