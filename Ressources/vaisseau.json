@@ -22,7 +22,7 @@
 	{
 		"title": "monologue3",
 		"tags": "",
-		"body": "<< nameTag alien >>\r\n<< langue alien >>\r\n(Sans connaître ma position, je ne peux rien faire ici pour l’instant.)\r\n<< fin >>",
+		"body": "<< userName >>\r\n<< langue alien >>\r\n(Sans connaître ma position, je ne peux rien faire ici pour l’instant.)\r\n<< fin >>",
 		"position": {
 			"x": 716,
 			"y": 199

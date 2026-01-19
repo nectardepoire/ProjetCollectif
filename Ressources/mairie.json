@@ -2,20 +2,20 @@
 	{
 		"title": "PNJ6",
 		"tags": "",
-		"body": "<< nameTag alien >>\r\n<< langue francais >>\r\nBonjour ! \r\n<< nameTag pnj6 >>\r\nOh bonjour toi ! Est-ce que tu as mangé ?\r\n<< nameTag alien >>\r\nNon je n’ai pas mangé, pourquoi ?\r\n<< nameTag pnj6 >>\r\nOh, je voulais dire “comment allez-vous” ! \r\nJ’ai personnellement l’habitude de dire กินข้าวหรือยัง en thaï aux gens que je rencontre. J’oublie toujours qu’en français, on ne dit pas vraiment ça pour demander à quelqu’un s’il va bien ! Excuse-moi pour la confusion !\r\n<< fin >>",
+		"body": "<< userName >>\r\n<< langue francais >>\r\nBonjour ! \r\n<< nameTag pnj6 >>\r\nOh bonjour toi ! Est-ce que tu as mangé ?\r\n<< userName >>\r\nNon je n’ai pas mangé, pourquoi ?\r\n<< nameTag pnj6 >>\r\nOh, je voulais dire “comment allez-vous” ! \r\nJ’ai personnellement l’habitude de dire กินข้าวหรือยัง en thaï aux gens que je rencontre. J’oublie toujours qu’en français, on ne dit pas vraiment ça pour demander à quelqu’un s’il va bien ! Excuse-moi pour la confusion !\r\n<< fin >>",
 		"position": {
-			"x": 140,
-			"y": 196
+			"x": -402,
+			"y": -1017
 		},
 		"colorID": 0
 	},
 	{
 		"title": "PNJ2_1",
 		"tags": "",
-		"body": "[en cliquant sur PNJ2] \r\n<< nameTag pnj2 >>\r\n<< langue francais >>\r\nBonjour, comment puis-je t’aider ?\r\n<< nameTag alien >>\r\nBonjour, je viens d’arriver ici, est-ce que je pourrai avoir quelque chose pour m’aider à me repérer dans le village ?\r\n<< nameTag pnj2 >>\r\nEh bien, j’ai seulement une vieille carte abîmée de cette zone principale du village que plusieurs villageois avaient dessiné ensemble. \r\nJ’aurais bien aimé la déchiffrer pour toi mais je suis complètement bigleux…Si tu veux essayer par toi-même.\r\n<< carte >>",
+		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nBonjour, comment puis-je t’aider ?\r\n<< userName >>\r\nBonjour, je viens d’arriver ici, est-ce que je pourrai avoir quelque chose pour m’aider à me repérer dans le village ?\r\n<< nameTag pnj2 >>\r\nEh bien, j’ai seulement une vieille carte abîmée de cette zone principale du village que plusieurs villageois avaient dessiné ensemble. \r\nJ’aurais bien aimé la déchiffrer pour toi mais je suis complètement bigleux…Si tu veux essayer par toi-même.\r\n<< carte >>",
 		"position": {
-			"x": 333,
-			"y": 32
+			"x": -938,
+			"y": -770
 		},
 		"colorID": 0
 	},
@@ -24,18 +24,98 @@
 		"tags": "",
 		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nComme tu peux le voir, les habitants du village ont utilisé leur répertoire langagier pour faire cette carte : il y a du japonais, du thaï, du suédois, du persan et du turc.\r\nEn cliquant sur les différents lieux de la carte, tu peux entendre leur nom exact. Base-toi sur cela pour placer les mots au bon endroit.\r\n<< fin >>",
 		"position": {
-			"x": 662,
-			"y": 197
+			"x": -314,
+			"y": -546
 		},
-		"colorID": 0
+		"colorID": 8
 	},
 	{
 		"title": "PNJ2_2",
 		"tags": "",
-		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nBonjour, le bureau ouvre d’ici quelques minutes. Merci de repasser.",
+		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nBonjour, le bureau ouvre d’ici quelques minutes. Merci de repasser.\r\n<< fin >>",
 		"position": {
-			"x": 555,
-			"y": 35
+			"x": -620,
+			"y": -782
+		},
+		"colorID": 0
+	},
+	{
+		"title": "[Si joueur fait rien au bout de 30 secondes]",
+		"tags": "",
+		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nEn cliquant sur les différents lieux de la carte, tu peux entendre leur nom exact. Base-toi sur cela pour placer les mots au bon endroit.\r\n<< fin >>",
+		"position": {
+			"x": -732,
+			"y": -315
+		},
+		"colorID": 0
+	},
+	{
+		"title": "carte_correct",
+		"tags": "",
+		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nOui, c’est bien ça !\r\n<< fin >>",
+		"position": {
+			"x": -463,
+			"y": -320
+		},
+		"colorID": 0
+	},
+	{
+		"title": "carte_incorrect",
+		"tags": "",
+		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nJe ne crois pas que ce lieu soit placé ici…\r\n<< fin >>",
+		"position": {
+			"x": -188,
+			"y": -336
+		},
+		"colorID": 0
+	},
+	{
+		"title": "carte_finie",
+		"tags": "",
+		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nBravo ! je n’aurais jamais réussi à déchiffrer la carte avec ma mauvaise vue. Désolée de t’avoir fait perdre du temps à faire cela, est-ce que je peux faire quelque chose pour me faire pardonner ?\r\n<< userName >>\r\nEst-ce que je peux avoir une information sur le nom du village ?\r\n<< nameTag pnj2 >>\r\nHm, ok. Je te donne une des 4 lettres du village, c’est tout ce que je peux faire pour toi.\r\n<< userName >>\r\n(Plus que 3 lettres ! Voyons voir…Selon la carte, où est-ce que je pourrais rendre service au plus d’habitants ?..)\r\n<< fin >>",
+		"position": {
+			"x": 115,
+			"y": -334
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ2_3 (avant fin quête 2)",
+		"tags": "",
+		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nTu voulais aller dans un endroit avec beaucoup de villageois, non ?\r\n<< fin >>",
+		"position": {
+			"x": -321,
+			"y": -781
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ1 (entre fin quête 1 et fin du jeu)",
+		"tags": "",
+		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nOh non, pas encore toi…\r\n<< fin >>",
+		"position": {
+			"x": -680,
+			"y": -1022
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ6 (entre fin activité carte, jusqu'à sortie de la mairie suite à cette activité)",
+		"tags": "",
+		"body": "<< nameTag pnj6 >>\r\n<< langue francais >>\r\nJ’ai passé la matinée à faire des démarches administratives, je suis épuisée…\r\n<< fin >> >>",
+		"position": {
+			"x": -83,
+			"y": -1041
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ4_4 (entre fin quête 2 et fin du jeu)",
+		"tags": "",
+		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nOh, te revoilà ! J’espère que la carte a pu t'aider.\r\n<< fin >>",
+		"position": {
+			"x": -70,
+			"y": -784
 		},
 		"colorID": 0
 	}

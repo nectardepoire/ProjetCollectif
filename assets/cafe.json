@@ -1,0 +1,182 @@
+[
+	{
+		"title": "PNJ4",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\n[bruitage agitation/stress et illu correspondante]\r\nCatastrophe, c’est une catastrophe ! Mon serveur n’est pas venu travailler aujourd’hui, je dois gérer la cuisine et le service en même temps ! Désolée, on m’a dit que tu cherchais des informations sur le nom du village mais je n’ai vraiment pas le temps de discuter.\r\n<< userName >>\r\nChoix 1 : \r\nChoix 2 : \r\n<< nameTag pnj4 >>\r\n[[ Et si je t'aidais ? |oui]]\r\n[[ Ah, bon courage. |non]] |]]\r\n<< fin >>",
+		"position": {
+			"x": 437,
+			"y": 252
+		},
+		"colorID": 8
+	},
+	{
+		"title": "oui",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\n<< langue francais >>\nOh tu me sauverais la vie ! Marché conclu, je me mets aux fourneaux et te laisse servir les clients. J’espère que ça ira…Tu vas voir, mes clients aiment beaucoup parler dans toutes les langues qu’ils connaissent !\n<< fin1 >>",
+		"position": {
+			"x": 178,
+			"y": 499
+		},
+		"colorID": 2
+	},
+	{
+		"title": "non",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nSi tu veux bien, reviens me voir pour m’aider s’il-te-plait…À ce moment-là, je te donnerai ce que tu recherches\r\n<< fin2 >>",
+		"position": {
+			"x": 679,
+			"y": 478
+		},
+		"colorID": 5
+	},
+	{
+		"title": "bonjour_client1",
+		"tags": "",
+		"body": "<< nameTag client1 >>\r\n<< langue suedois >>\r\nHej!\r\n<< fin >>",
+		"position": {
+			"x": -330,
+			"y": 828
+		},
+		"colorID": 1
+	},
+	{
+		"title": "merci_client1",
+		"tags": "",
+		"body": "<< nameTag client1 >>\r\n<< langue suedois >>\r\nJättebra!\r\nHej då!\r\n<< fin >>",
+		"position": {
+			"x": -331,
+			"y": 1062
+		},
+		"colorID": 1
+	},
+	{
+		"title": "bonjour_client2",
+		"tags": "",
+		"body": "<< nameTag client2 >>\r\n<< langue turc >>\r\nSelam\r\n<< fin >>",
+		"position": {
+			"x": -20,
+			"y": 823
+		},
+		"colorID": 4
+	},
+	{
+		"title": "merci_client2",
+		"tags": "",
+		"body": "<< nameTag client2 >>\r\n<< langue suedois >>\r\nTack\r\n<< langue turc >>\r\nGüle güle\r\n<< fin >>",
+		"position": {
+			"x": -20,
+			"y": 1094
+		},
+		"colorID": 4
+	},
+	{
+		"title": "bonjour_client3",
+		"tags": "",
+		"body": "<< nameTag client3 >>\r\n<< langue turc >>\r\nMerhaba\r\n<< fin >>",
+		"position": {
+			"x": 262,
+			"y": 820
+		},
+		"colorID": 3
+	},
+	{
+		"title": "merci_client3",
+		"tags": "",
+		"body": "<< nameTag client3 >>\r\n<< langue turc >>\r\nTeşekkür ederim.\r\nGörüşürüz.\r\n<< fin >>",
+		"position": {
+			"x": 262,
+			"y": 1076
+		},
+		"colorID": 3
+	},
+	{
+		"title": "feedback_positif",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nContinue comme ça ! \r\n<< fin >>",
+		"position": {
+			"x": -246,
+			"y": 1435
+		},
+		"colorID": 2
+	},
+	{
+		"title": "feedback_négatif",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nFais plus attention ! Ce n’est pas ce que ce client a demandé.\r\n<< fin >>",
+		"position": {
+			"x": 13,
+			"y": 1436
+		},
+		"colorID": 5
+	},
+	{
+		"title": "fin_cafe",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nMerci encore pour ton aide. Bon, tu aurais pu faire plus de 3 clients… Mais c’est déjà ça !  Tiens, c’est pour toi.\r\n<< lettre >>\r\nQuand même, je me demande vraiment pourquoi mon serveur n’est pas venu aujourd’hui… Tu pourrais aller voir pour moi, s’il-te-plait ?\r\n[[ Oui, je vais voir. C’est étrange, les deux premiers clients ont dit “merci” en suédois mais d’une manière différente. |oui_suedois]] |]]\r\n[[ Oui, je vais voir. C’est étrange, les deux derniers clients ont dit “bonjour” et “au revoir” en turc mais d’une manière différente.|oui_turc]] |]]\r\n<< fin >>",
+		"position": {
+			"x": -119,
+			"y": 1675
+		},
+		"colorID": 8
+	},
+	{
+		"title": "echec_cafe",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nOlalah, c’est un cauchemar, je vais me réveiller dans mon lit et rien de tout ça ne se sera passé…\r\n<< recommence >>\r\n[après avoir réussi l’act de service, quand joueur clique sur pnj3 (faire en sorte que le joueur ait envie d’aller le voir avant d’aller chez le serveur)]\r\n<< fin >>",
+		"position": {
+			"x": 465,
+			"y": 1869
+		},
+		"colorID": 5
+	},
+	{
+		"title": "oui_suedois",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nOui, j’ai remarqué. Je crois que le premier client était suédois, tandis que la deuxième était finlandaise. Il existe des différences entre le suédois parlé en Suède et celui parlé en Finlande… Est-ce que ta langue est aussi parlée dans plusieurs pays ?",
+		"position": {
+			"x": -385,
+			"y": 1855
+		},
+		"colorID": 0
+	},
+	{
+		"title": "oui_turc",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\n<< langue francais >>\nOui, j’ai remarqué. Tu crois que c’est parce que la deuxième cliente était jeune et que le dernier client était plus âgé ? Après tout, je ne dis pas “salut” comme ma fille de 15 ans le dit. Ce n’est pas aussi le cas de ta langue ?",
+		"position": {
+			"x": 154,
+			"y": 1849
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ3_avant_cafe",
+		"tags": "",
+		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nMinako, la gérante du café, est débordée aujourd’hui. Elle me fait de la peine. \r\n<< fin >>",
+		"position": {
+			"x": -183,
+			"y": 2320
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ3_apres_cafe",
+		"tags": "",
+		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nTu t’es bien débrouillé tout à l’heure avec les clients, bravo ! J’ai aussi entendu votre conversation avec Minako. Ça m'a fait penser au fait que Minako rit souvent de moi lorsque l’on va au marché ensemble car je demande toujours une réduction ! まけて par ci, まけて par là ! Je n’y peux rien, je viens d’Osaka, c’est une habitude de marchander pour faire des économies là-bas, c’est presque une culture à part entière. Mais ça, Minako ne le comprend pas car elle vient de Tokyo.\r\n<< fin >>",
+		"position": {
+			"x": 32,
+			"y": 2320
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 268,
+			"y": 1319
+		},
+		"colorID": 0
+	}
+]

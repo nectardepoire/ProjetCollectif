@@ -6565,7 +6565,7 @@
         "disablePreload": false,
         "file": "Ressources/mairie.json",
         "kind": "json",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Ressources/mairie.json\",\"extension\":\".json\"}",
         "name": "Ressources\\mairie.json",
         "userAdded": false
       },
@@ -6575,6 +6575,30 @@
         "kind": "json",
         "metadata": "{\"localFilePath\":\"Ressources/vaisseau.json\",\"extension\":\".json\"}",
         "name": "Ressources\\vaisseau.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Ressources/village.json",
+        "kind": "json",
+        "metadata": "{\"localFilePath\":\"Ressources/village.json\",\"extension\":\".json\"}",
+        "name": "Ressources\\village.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/New dialogue tree3.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "New dialogue tree3",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/cafe.json",
+        "kind": "json",
+        "metadata": "{\"localFilePath\":\"assets/cafe.json\",\"extension\":\".json\"}",
+        "name": "assets\\cafe.json",
         "userAdded": false
       }
     ]
@@ -22385,7 +22409,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2121641972173687,
+        "zoomFactor": 0.5843784410740942,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -24062,6 +24086,60 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Création fichiers dialogues"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::LoadDialogueFromJsonFile"
+                  },
+                  "parameters": [
+                    "",
+                    "Ressources\\mairie.json"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::LoadDialogueFromJsonFile"
+                  },
+                  "parameters": [
+                    "",
+                    "Ressources\\vaisseau.json"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::LoadDialogueFromJsonFile"
+                  },
+                  "parameters": [
+                    "",
+                    "Ressources\\village.json"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::LoadDialogueFromJsonFile"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\cafe.json"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -25426,8 +25504,8 @@
           "name": "test_pull_lyuyao_andrea",
           "persistentUuid": "b3a347ac-9c69-4494-8282-d5a8a614af2a",
           "width": 223,
-          "x": 733,
-          "y": 291,
+          "x": 714,
+          "y": 274,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -26285,7 +26363,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "samedi 17 janvier soir, implantation des visuels",
+          "string": "lundi 19 janvier, gestion des fichiers dialogues (Andréa)",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -26308,7 +26386,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "samedi 17 janvier soir, implantation des visuels",
+            "text": "lundi 19 janvier, gestion des fichiers dialogues (Andréa)",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -52352,6 +52430,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "save_bouton",
+          "persistentUuid": "f435a8a5-25e6-4693-ac94-823bc479c9d2",
+          "width": 0,
+          "x": 370,
+          "y": 494,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -52438,6 +52532,19 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+          "name": "save_bouton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Small Light Grey Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelText": "OK",
+            "PressedLabelOffsetY": 2
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -52448,6 +52555,9 @@
           },
           {
             "objectName": "nom_du_joueur_bouton"
+          },
+          {
+            "objectName": "save_bouton"
           },
           {
             "objectName": "Debug"
@@ -52567,6 +52677,55 @@
                 "Text",
                 "=",
                 "VariableString(nom_joueur)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Trouver quoi mettre dans \"profils\""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "save_bouton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SaveState::CreateGameSaveStateInStorage"
+              },
+              "parameters": [
+                "",
+                "\"sauvegardealien\"",
+                "\"\""
               ]
             }
           ]
