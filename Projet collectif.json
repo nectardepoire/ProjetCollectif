@@ -12431,210 +12431,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Indices_lettres",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "lettre1",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ressources\\HOMA_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 54
-                      },
-                      {
-                        "x": 513,
-                        "y": 54
-                      },
-                      {
-                        "x": 513,
-                        "y": 416
-                      },
-                      {
-                        "x": 7,
-                        "y": 416
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "lettre2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ressources\\HOMA_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 54
-                      },
-                      {
-                        "x": 513,
-                        "y": 54
-                      },
-                      {
-                        "x": 513,
-                        "y": 416
-                      },
-                      {
-                        "x": 7,
-                        "y": 416
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "lettre3",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ressources\\HOMA_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 54
-                      },
-                      {
-                        "x": 513,
-                        "y": 54
-                      },
-                      {
-                        "x": 513,
-                        "y": 416
-                      },
-                      {
-                        "x": 7,
-                        "y": 416
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "lettre4",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ressources\\HOMA_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 54
-                      },
-                      {
-                        "x": 513,
-                        "y": 54
-                      },
-                      {
-                        "x": 513,
-                        "y": 416
-                      },
-                      {
-                        "x": 7,
-                        "y": 416
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "case",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -13072,6 +12868,246 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lettre_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ressources\\HOMA_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 54
+                      },
+                      {
+                        "x": 513,
+                        "y": 54
+                      },
+                      {
+                        "x": 513,
+                        "y": 416
+                      },
+                      {
+                        "x": 7,
+                        "y": 416
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lettre_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ressources\\HOMA_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 54
+                      },
+                      {
+                        "x": 513,
+                        "y": 54
+                      },
+                      {
+                        "x": 513,
+                        "y": 416
+                      },
+                      {
+                        "x": 7,
+                        "y": 416
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lettre_3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ressources\\HOMA_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 54
+                      },
+                      {
+                        "x": 513,
+                        "y": 54
+                      },
+                      {
+                        "x": 513,
+                        "y": 416
+                      },
+                      {
+                        "x": 7,
+                        "y": 416
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lettre_4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ressources\\HOMA_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 54
+                      },
+                      {
+                        "x": 513,
+                        "y": 54
+                      },
+                      {
+                        "x": 513,
+                        "y": 416
+                      },
+                      {
+                        "x": 7,
+                        "y": 416
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13183,9 +13219,6 @@
         "objectName": "clique_carte_sac"
       },
       {
-        "objectName": "Indices_lettres"
-      },
-      {
         "objectName": "clique_lettre_sac"
       },
       {
@@ -13202,6 +13235,18 @@
       },
       {
         "objectName": "FonduNoir"
+      },
+      {
+        "objectName": "lettre_1"
+      },
+      {
+        "objectName": "lettre_2"
+      },
+      {
+        "objectName": "lettre_3"
+      },
+      {
+        "objectName": "lettre_4"
       }
     ]
   },
@@ -13235,9 +13280,6 @@
     {
       "name": "UI",
       "objects": [
-        {
-          "name": "Indices_lettres"
-        },
         {
           "name": "case"
         }
@@ -13436,6 +13478,11 @@
           "value": false
         }
       ]
+    },
+    {
+      "name": "quete_4_finie",
+      "type": "boolean",
+      "value": false
     },
     {
       "name": "touche_dialogue_pressee",
@@ -24356,8 +24403,8 @@
           "name": "Alien",
           "persistentUuid": "08e45de1-f6c1-4f41-a36b-a2d1dd6e33fd",
           "width": 0,
-          "x": 694,
-          "y": 337,
+          "x": 678,
+          "y": 418,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -25595,23 +25642,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Monologue",
+          "name": "Calques",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 35,
-            "g": 166,
-            "r": 245,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Créer monologue"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -25626,14 +25661,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue"
-              ]
-            },
             {
               "type": {
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
@@ -25656,6 +25683,107 @@
                 "",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Monologue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "(Création fichiers dialogues)"
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "Ressources\\mairie.json"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "Ressources\\vaisseau.json"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "Ressources\\village.json"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "assets\\cafe.json"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Partie 1 du monologue"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue"
               ]
             },
             {
@@ -25800,55 +25928,240 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Création fichiers dialogues"
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Alien",
+                    "SpaceShip_détruit",
+                    "180",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "monologue_termine",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
-                    "value": "DialogueTree::LoadDialogueFromJsonFile"
+                    "value": "DialogueTree::StartDialogueFromBranch"
                   },
                   "parameters": [
-                    "",
-                    "Ressources\\mairie.json"
+                    "\"monologue2\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "DialogueTree::LoadDialogueFromJsonFile"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "Ressources\\vaisseau.json"
+                    "DialogueState",
+                    "=",
+                    "1"
                   ]
                 },
                 {
                   "type": {
-                    "value": "DialogueTree::LoadDialogueFromJsonFile"
+                    "value": "Montre"
                   },
                   "parameters": [
-                    "",
-                    "Ressources\\village.json"
+                    "Dialogue_box",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "DialogueTree::LoadDialogueFromJsonFile"
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dialogue_InfoBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dialogue_langue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dialogue_nom",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dialogue_texte",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Alien",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::LoadDialogueFromSceneVariable"
+                  },
+                  "parameters": [
+                    "_updated_dialogue"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Alien",
+                    "SpaceShip_détruit",
+                    "180",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "monologue_termine",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "JSONResourceLoader::LoadJSONToScene"
                   },
                   "parameters": [
                     "",
-                    "assets\\cafe.json"
+                    "Ressources\\vaisseau.json",
+                    "_dialogue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"monologue2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dialogue_box",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dialogue_InfoBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dialogue_langue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dialogue_nom",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dialogue_texte",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Alien",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "_updated_dialogue",
+                    "=",
+                    "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::LoadDialogueFromSceneVariable"
+                  },
+                  "parameters": [
+                    "_updated_dialogue"
                   ]
                 }
               ]
@@ -25858,9 +26171,9 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 35,
-            "g": 166,
-            "r": 245,
+            "b": 109,
+            "g": 230,
+            "r": 255,
             "textB": 0,
             "textG": 0,
             "textR": 0
@@ -26114,6 +26427,14 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Debug_2"
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -26138,32 +26459,6 @@
                 "DialogueState",
                 "=",
                 "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsCommandCalled"
-              },
-              "parameters": [
-                "\"eteint\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Debug",
-                "Text",
-                "=",
-                "\"eteint\""
               ]
             }
           ]
@@ -26383,95 +26678,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Message_vaisseau"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue_box"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Alien",
-                "SpaceShip_détruit",
-                "180",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "jeu_termine",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Message_vaisseau",
-                "AutoTyping",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Dialogue_box",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Message_vaisseau",
-                ""
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -28137,7 +28343,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "lundi 19 janvier,  test save load Lyuyao",
+          "string": "lundi 19 janvier, Andréa",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -28160,7 +28366,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "lundi 19 janvier,  test save load Lyuyao",
+            "text": "lundi 19 janvier, Andréa",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -30857,7 +31063,7 @@
               },
               "parameters": [
                 "",
-                "\"Chez PNJ6 - objets (quête x)\"",
+                "\"Chez PNJ6 - objets (quête 3)\"",
                 ""
               ]
             }
@@ -30911,7 +31117,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "True",
                 ""
               ]
@@ -30961,7 +31167,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "True",
                 ""
               ]
@@ -31009,7 +31215,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "True",
                 ""
               ]
@@ -43229,8 +43435,8 @@
     {
       "b": 143,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Chez_32PNJ6_32_45_32objets_32_40qu_234te_32x_41",
-      "name": "Chez PNJ6 - objets (quête x)",
+      "mangledName": "Chez_32PNJ6_32_45_32objets_32_40qu_234te_323_41",
+      "name": "Chez PNJ6 - objets (quête 3)",
       "r": 155,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -56731,7 +56937,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.6897782140104496,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -58356,6 +58562,208 @@
           "comment": "Les lettres"
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "lettre_1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "lettre_2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "lettre_3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "lettre_4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_1_finie",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Message_lettre_inventaire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "lettre_1",
+                "\"chrono_lettre1\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_2_finie",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Message_lettre_inventaire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "lettre_1",
+                "\"chrono_lettre2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_3_finie",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Message_lettre_inventaire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "lettre_1",
+                "\"chrono_lettre3\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_4_finie",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Message_lettre_inventaire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "lettre_1",
+                "\"chrono_lettre4\""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -58563,6 +58971,16 @@
               },
               "parameters": [
                 "quete_3_finie",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_4_finie",
                 "True",
                 ""
               ]
@@ -112506,6 +112924,70 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "lettre_1",
+          "persistentUuid": "21f93a8b-4099-4488-9c31-730ebb22f1c1",
+          "width": 0,
+          "x": 401,
+          "y": 128,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "lettre_2",
+          "persistentUuid": "5b43180a-b61b-45e8-825c-35999aaada5f",
+          "width": 0,
+          "x": 401,
+          "y": 130,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "lettre_3",
+          "persistentUuid": "5e5c833a-0eab-4856-9b4d-cfee535b1f92",
+          "width": 0,
+          "x": 400,
+          "y": 130,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "lettre_4",
+          "persistentUuid": "6b336373-8e25-4c4e-b946-e9ed3a6ae06e",
+          "width": 0,
+          "x": 399,
+          "y": 129,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -112520,7 +113002,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8141881203709929,
+        "zoomFactor": 0.47893418845352564,
         "windowMask": false,
         "selectedLayer": ""
       }

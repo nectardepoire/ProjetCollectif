@@ -2,7 +2,7 @@
 	{
 		"title": "monologue1",
 		"tags": "",
-		"body": "<< userName >>\r\n<< langue alien >>\r\nFichu vaisseau ! À cause de cette fuite de gaz, impossible d’aller plus loin.\r\nJe n’avais vraiment pas prévu d'atterrir sur Terre…\r\n<< ampoule >>\r\nJe sais ! Je vais appeler mes amis pour qu’ils viennent me chercher ! \r\n<< eteint >> \r\nHihihihi ...\r\n<< fin >>\r\ntatata",
+		"body": "<< userName >>\r\n<< langue alien >>\r\nFichu vaisseau ! À cause de cette fuite de gaz, impossible d’aller plus loin.\r\nJe n’avais vraiment pas prévu d'atterrir sur Terre…\r\n<< ampoule >>\r\nJe sais ! Je vais appeler mes amis pour qu’ils viennent me chercher ! \r\n<< test >> \r\n...\r\nAh, voilà ma radio ! Voyons voir...\r\n...\r\nMais où suis-je en fait ?  Ils ne peuvent pas venir me chercher si je ne sais pas moi-même où je me trouve.\r\n<< bruit >>\r\nJe peux toujours aller voir par là-bas pour savoir ma position exacte.\r\n<< fin >>\r\ntatata",
 		"position": {
 			"x": 134,
 			"y": 202
@@ -12,20 +12,10 @@
 	{
 		"title": "monologue2",
 		"tags": "",
-		"body": "<< userName >>\r\n<< langue alien >>\r\nAh, voilà ma radio ! Voyons voir…\r\n…\r\nMais où suis-je en fait ?  Ils ne peuvent pas venir me chercher si je ne sais pas moi-même où je me trouve.\r\n<< bruit >>\r\nJe peux toujours aller voir par là-bas pour savoir ma position exacte.\r\n<< fin >>",
-		"position": {
-			"x": 404,
-			"y": 197
-		},
-		"colorID": 0
-	},
-	{
-		"title": "monologue3",
-		"tags": "",
 		"body": "<< userName >>\r\n<< langue alien >>\r\n(Sans connaître ma position, je ne peux rien faire ici pour l’instant.)\r\n<< fin >>",
 		"position": {
-			"x": 716,
-			"y": 199
+			"x": 439,
+			"y": 196
 		},
 		"colorID": 0
 	}
