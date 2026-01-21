@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu titre",
   "gdVersion": {
-    "build": 251,
+    "build": 252,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -7803,6 +7803,262 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Light Cast_1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "maison_PNJ6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "maison_PNJ6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Bibliothèque de poèmes persans.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bibliothèque de poèmes persans.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Etagère de plantes achetées chez mon fleuriste thaïlandais.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Etagère de plantes achetées chez mon fleuriste thaïlandais.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Etagère de figurines cadeaux de son ami turc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Etagère de figurines cadeaux de son ami turc.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Etagère de bijoux souvenirs des voyages au Japon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Etagère de bijoux souvenirs des voyages au Japon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conronne.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conronne.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robe_Midsummer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robe_Midsummer.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "cadeau.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cadeau.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bibliothèque.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bibliothèque.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "livre_bleu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "livre_bleu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "livre_rouge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "livre_rouge.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "livre_jaune.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "livre_jaune.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "livre_vert.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "livre_vert.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "livre_violet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "livre_violet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "étagère2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "étagère2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "cactus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cactus.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "caladium.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "caladium.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "rose.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rose.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tulip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tulip.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "trompette d_or.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trompette d_or.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "étagère3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "étagère3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "chien.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chien.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "crocodile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crocodile.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "elephant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "elephant.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "loup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "loup.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lion.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "étagère1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "étagère1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "montre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "montre.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bague.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bague.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "boucles d_oreilles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boucles d_oreilles.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bracelet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bracelet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lunettes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lunettes.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -30728,7 +30984,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "mardi 20 janvier soir, Andréa\ndéveloppement squelette global + bonus fleurs & miroir",
+          "string": "mardi 21 janvier matin, Lyuyao\n",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -30751,7 +31007,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "mardi 20 janvier soir, Andréa\ndéveloppement squelette global + bonus fleurs & miroir",
+            "text": "mardi 21 janvier matin, Lyuyao\n",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -52583,7 +52839,7 @@
           "height": 870,
           "keepRatio": true,
           "layer": "",
-          "name": "Plan_intérieur_PNJ6",
+          "name": "Plan_intérieur_serveur",
           "persistentUuid": "24af944a-dbaa-4348-b969-f80ee7fab3e3",
           "width": 1282,
           "x": 0,
@@ -53002,7 +53258,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Plan_intérieur_PNJ6",
+          "name": "Plan_intérieur_serveur",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -53068,7 +53324,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "cadeau.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -53084,7 +53389,7 @@
             "objectName": "Meuble3_arabe"
           },
           {
-            "objectName": "Plan_intérieur_PNJ6"
+            "objectName": "Plan_intérieur_serveur"
           },
           {
             "objectName": "colis_pour_gandom"
@@ -53465,9 +53770,9 @@
           "layer": "",
           "name": "Gandom_vers_village",
           "persistentUuid": "0419a505-98ac-451b-be0b-03d17ef0ff6d",
-          "width": 116,
-          "x": 247,
-          "y": 716,
+          "width": 234,
+          "x": 775,
+          "y": 719,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -53493,14 +53798,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 73,
+          "height": 97,
           "keepRatio": true,
           "layer": "",
           "name": "Meuble1_persan",
           "persistentUuid": "e9848e60-fde3-4698-9de9-1ec09f53f247",
-          "width": 126,
-          "x": 140,
-          "y": 56,
+          "width": 92,
+          "x": 94,
+          "y": 137,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -53510,14 +53815,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 80,
+          "height": 148,
           "keepRatio": true,
           "layer": "",
           "name": "Meuble4_japonais",
           "persistentUuid": "3be39944-0492-4bad-9fe9-f79723608d91",
-          "width": 146,
-          "x": 928,
-          "y": 39,
+          "width": 93,
+          "x": 705,
+          "y": 83,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -53527,14 +53832,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 80,
+          "height": 152,
           "keepRatio": true,
           "layer": "",
           "name": "Meuble3_turc",
           "persistentUuid": "d1283de8-e277-4b95-b14f-8ed668b1f4e6",
-          "width": 148,
-          "x": 664,
-          "y": 44,
+          "width": 95,
+          "x": 489,
+          "y": 78,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -53549,8 +53854,8 @@
           "layer": "",
           "name": "Map_boundaries",
           "persistentUuid": "4d65c566-a85e-4571-993c-f764b5944c01",
-          "width": 921,
-          "x": 363,
+          "width": 275,
+          "x": 1009,
           "y": 717,
           "zOrder": 6,
           "numberProperties": [],
@@ -53566,7 +53871,7 @@
           "layer": "",
           "name": "Map_boundaries",
           "persistentUuid": "5d72bb3f-87d3-49aa-88fd-165ee9a68bb3",
-          "width": 246,
+          "width": 775,
           "x": 0,
           "y": 716,
           "zOrder": 6,
@@ -53629,14 +53934,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 73,
+          "height": 156,
           "keepRatio": true,
           "layer": "",
           "name": "Meuble2_thai",
           "persistentUuid": "5a248d67-e309-47c5-a185-23a94f6286bb",
-          "width": 144,
-          "x": 381,
-          "y": 49,
+          "width": 97,
+          "x": 281,
+          "y": 76,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -53646,14 +53951,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 23,
+          "height": 25,
           "keepRatio": true,
           "layer": "",
           "name": "meuble1_press_F",
           "persistentUuid": "5b5e4427-55d4-4403-b93a-bf039e604468",
-          "width": 203,
-          "x": 106,
-          "y": 148,
+          "width": 115,
+          "x": 85,
+          "y": 232,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -53686,8 +53991,8 @@
           "name": "meuble4_press_F",
           "persistentUuid": "40189ed3-c8f8-45c2-9dbb-f983c4e1af7f",
           "width": 210,
-          "x": 943,
-          "y": 139,
+          "x": 706,
+          "y": 260,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -53703,8 +54008,8 @@
           "name": "meuble3_press_F",
           "persistentUuid": "88f3cba6-5d17-4126-8fc1-424c5a95528f",
           "width": 215,
-          "x": 650,
-          "y": 146,
+          "x": 472,
+          "y": 256,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -53720,8 +54025,8 @@
           "name": "meuble2_press_F",
           "persistentUuid": "6481e9cd-3053-47ca-ba9d-4f731cd45b15",
           "width": 220,
-          "x": 383,
-          "y": 147,
+          "x": 260,
+          "y": 250,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -53759,6 +54064,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 799,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plan_intérieur_PNJ6",
+          "persistentUuid": "e6cb581a-7401-42b6-9904-8c87fd97a436",
+          "width": 1279,
+          "x": 6,
+          "y": -74,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -53783,7 +54105,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
+                      "image": "Bibliothèque de poèmes persans.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -53803,16 +54125,16 @@
                             "y": 0
                           },
                           {
-                            "x": 16,
+                            "x": 200,
                             "y": 0
                           },
                           {
-                            "x": 16,
-                            "y": 16
+                            "x": 200,
+                            "y": 200
                           },
                           {
                             "x": 0,
-                            "y": 16
+                            "y": 200
                           }
                         ]
                       ]
@@ -53834,17 +54156,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite2",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
+                      "image": "Etagère de bijoux souvenirs des voyages au Japon.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -53864,16 +54185,16 @@
                             "y": 0
                           },
                           {
-                            "x": 16,
+                            "x": 200,
                             "y": 0
                           },
                           {
-                            "x": 16,
-                            "y": 16
+                            "x": 200,
+                            "y": 373
                           },
                           {
                             "x": 0,
-                            "y": 16
+                            "y": 373
                           }
                         ]
                       ]
@@ -53895,17 +54216,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite2",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
+                      "image": "Etagère de figurines cadeaux de son ami turc.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -53925,16 +54245,16 @@
                             "y": 0
                           },
                           {
-                            "x": 16,
+                            "x": 200,
                             "y": 0
                           },
                           {
-                            "x": 16,
-                            "y": 16
+                            "x": 200,
+                            "y": 373
                           },
                           {
                             "x": 0,
-                            "y": 16
+                            "y": 373
                           }
                         ]
                       ]
@@ -53965,7 +54285,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "WhatsApp Image 2026-01-20 at 10.42.07.jpeg",
+                      "image": "maison_PNJ6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -53985,16 +54305,16 @@
                             "y": 0
                           },
                           {
-                            "x": 1280,
+                            "x": 640,
                             "y": 0
                           },
                           {
-                            "x": 1280,
-                            "y": 720
+                            "x": 640,
+                            "y": 400
                           },
                           {
                             "x": 0,
-                            "y": 720
+                            "y": 400
                           }
                         ]
                       ]
@@ -54016,17 +54336,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite2",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
+                      "image": "Etagère de plantes achetées chez mon fleuriste thaïlandais.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -54043,19 +54362,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 3
                           },
                           {
-                            "x": 16,
-                            "y": 0
+                            "x": 200,
+                            "y": 3
                           },
                           {
-                            "x": 16,
-                            "y": 16
+                            "x": 200,
+                            "y": 373
                           },
                           {
                             "x": 0,
-                            "y": 16
+                            "y": 373
                           }
                         ]
                       ]
@@ -54241,13 +54560,62 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "contenu_du_colis",
+          "name": "contenu_du_colis_conronne",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "conronne.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 150,
+                            "y": 0
+                          },
+                          {
+                            "x": 150,
+                            "y": 51
+                          },
+                          {
+                            "x": 0,
+                            "y": 51
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -54291,6 +54659,66 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "contenu_du_colis_robe",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robe_Midsummer.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 178,
+                            "y": 0
+                          },
+                          {
+                            "x": 178,
+                            "y": 280
+                          },
+                          {
+                            "x": 0,
+                            "y": 280
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -54324,10 +54752,13 @@
             "objectName": "Plan_intérieur_PNJ6"
           },
           {
-            "objectName": "contenu_du_colis"
+            "objectName": "contenu_du_colis_conronne"
           },
           {
             "objectName": "press_F"
+          },
+          {
+            "objectName": "contenu_du_colis_robe"
           }
         ]
       },
@@ -54466,7 +54897,15 @@
                 "value": "Cache"
               },
               "parameters": [
-                "contenu_du_colis"
+                "contenu_du_colis_conronne"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "contenu_du_colis_robe"
               ]
             }
           ]
@@ -54784,7 +55223,16 @@
                 "value": "Montre"
               },
               "parameters": [
-                "contenu_du_colis",
+                "contenu_du_colis_conronne",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "contenu_du_colis_robe",
                 ""
               ]
             },
@@ -55723,12 +56171,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 73,
+          "height": 184,
           "keepRatio": true,
           "layer": "",
           "name": "livre_2_correct",
           "persistentUuid": "02480bdf-8d5e-458c-b14d-0af38bc612c2",
-          "width": 71,
+          "width": 42,
           "x": 325,
           "y": 19,
           "zOrder": 1,
@@ -55819,15 +56267,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 89,
+          "depth": 1,
+          "height": 161,
           "keepRatio": true,
           "layer": "",
           "name": "livre_1",
           "persistentUuid": "2fb1b987-242d-4a22-9035-928a8a8bc14b",
-          "width": 89,
-          "x": 70,
-          "y": 41,
+          "width": 44,
+          "x": 100,
+          "y": 26,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -55836,15 +56284,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 95,
+          "depth": 1,
+          "height": 180,
           "keepRatio": true,
           "layer": "",
           "name": "livre_3",
           "persistentUuid": "a83dad04-64ee-4fa9-8cea-18ad0b7a3db4",
-          "width": 95,
-          "x": 554,
-          "y": 55,
+          "width": 44,
+          "x": 491,
+          "y": 15,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -55854,14 +56302,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 96,
+          "height": 189,
           "keepRatio": true,
           "layer": "",
           "name": "livre_4",
           "persistentUuid": "2e0f15f4-78f3-4aea-a9f6-4d0f9c6bf103",
-          "width": 96,
-          "x": 714,
-          "y": 33,
+          "width": 44,
+          "x": 698,
+          "y": 19,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -55871,14 +56319,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 113,
+          "height": 200,
           "keepRatio": true,
           "layer": "",
           "name": "livre_5",
           "persistentUuid": "39b1a8bd-2dc7-4052-8b25-062d3378263b",
-          "width": 113,
-          "x": 943,
-          "y": 55,
+          "width": 48,
+          "x": 978,
+          "y": 21,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -55893,8 +56341,8 @@
           "name": "bibliotheque",
           "persistentUuid": "74bbfd0f-5485-4abc-97aa-5d9419236376",
           "width": 0,
-          "x": 440,
-          "y": 533,
+          "x": 519,
+          "y": 513,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -55991,7 +56439,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "livre_rouge.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -56542,7 +57039,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "livre_bleu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -56553,7 +57099,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "livre_jaune.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -56564,7 +57159,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "livre_vert.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -56575,7 +57219,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "livre_violet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -56586,7 +57279,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bibliothèque.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 200
+                          },
+                          {
+                            "x": 0,
+                            "y": 200
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -57223,15 +57965,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 316,
           "keepRatio": true,
           "layer": "",
           "name": "plante_1_correct",
           "persistentUuid": "b0c93efb-e11d-4017-af09-b3e29fb38429",
-          "width": 0,
-          "x": 399,
-          "y": -114,
+          "width": 177,
+          "x": 440,
+          "y": -173,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -57239,15 +57982,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 229,
           "keepRatio": true,
           "layer": "",
           "name": "plante_2",
           "persistentUuid": "b9657399-d0ca-4762-8d46-f6be7c862559",
-          "width": 0,
-          "x": 383,
-          "y": 113,
+          "width": 240,
+          "x": 523,
+          "y": 137,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -57255,15 +57999,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 6,
+          "height": 280,
           "keepRatio": true,
           "layer": "",
           "name": "plante_3",
           "persistentUuid": "7140ddaa-290f-4810-94f5-2278fafee2af",
-          "width": 0,
-          "x": 384,
-          "y": 331,
+          "width": 155,
+          "x": 386,
+          "y": 323,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -57271,15 +58016,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 5,
+          "height": 257,
           "keepRatio": true,
           "layer": "",
           "name": "plante_4",
           "persistentUuid": "7de5b516-7440-46d8-85b5-1579837746de",
-          "width": 0,
-          "x": 390,
-          "y": 569,
+          "width": 142,
+          "x": 692,
+          "y": 554,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -57287,15 +58033,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 252,
           "keepRatio": true,
           "layer": "",
           "name": "plante_5",
           "persistentUuid": "95006c0c-968d-4023-803e-49121cea3445",
-          "width": 0,
-          "x": 392,
-          "y": 810,
+          "width": 195,
+          "x": 408,
+          "y": 729,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -57472,7 +58219,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "cactus.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 224,
+                            "y": 0
+                          },
+                          {
+                            "x": 224,
+                            "y": 400
+                          },
+                          {
+                            "x": 0,
+                            "y": 400
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -58023,7 +58819,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "étagère2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 373
+                          },
+                          {
+                            "x": 0,
+                            "y": 373
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -58034,7 +58879,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "caladium.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 150,
+                            "y": 1
+                          },
+                          {
+                            "x": 150,
+                            "y": 143
+                          },
+                          {
+                            "x": 0,
+                            "y": 143
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -58045,7 +58939,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "rose.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 26,
+                            "y": 0
+                          },
+                          {
+                            "x": 26,
+                            "y": 47
+                          },
+                          {
+                            "x": 0,
+                            "y": 47
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -58056,7 +58999,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "tulip.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 26,
+                            "y": 1
+                          },
+                          {
+                            "x": 26,
+                            "y": 47
+                          },
+                          {
+                            "x": 1,
+                            "y": 47
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -58067,7 +59059,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "trompette d_or.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 974,
+                            "y": 0
+                          },
+                          {
+                            "x": 974,
+                            "y": 1260
+                          },
+                          {
+                            "x": 0,
+                            "y": 1260
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -59414,7 +60455,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "chien.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 169
+                          },
+                          {
+                            "x": 0,
+                            "y": 169
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -59425,7 +60515,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "crocodile.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 66
+                          },
+                          {
+                            "x": 0,
+                            "y": 66
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -59436,7 +60575,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "elephant.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 387,
+                            "y": 0
+                          },
+                          {
+                            "x": 387,
+                            "y": 296
+                          },
+                          {
+                            "x": 0,
+                            "y": 296
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -59447,7 +60635,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "loup.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 183
+                          },
+                          {
+                            "x": 0,
+                            "y": 183
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -59458,7 +60695,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "lion.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 202,
+                            "y": 0
+                          },
+                          {
+                            "x": 202,
+                            "y": 130
+                          },
+                          {
+                            "x": 0,
+                            "y": 130
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -59524,7 +60810,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "étagère3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 373
+                          },
+                          {
+                            "x": 0,
+                            "y": 373
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -60007,7 +61342,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.5290357402156837,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -60181,15 +61516,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 201,
           "keepRatio": true,
           "layer": "",
           "name": "souvenir_montre_1",
           "persistentUuid": "61713dd5-e636-4c37-a8f4-b614c3dd6993",
-          "width": 0,
-          "x": 522,
-          "y": -118,
+          "width": 106,
+          "x": 546,
+          "y": -103,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -60197,15 +61533,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 162,
           "keepRatio": true,
           "layer": "",
           "name": "souvenir_bague_2",
           "persistentUuid": "0c6ce78a-981a-4b4d-a0c7-be013189277a",
-          "width": 0,
-          "x": 514,
-          "y": 93,
+          "width": 137,
+          "x": 546,
+          "y": 104,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -60220,8 +61557,8 @@
           "name": "souvenir_boucles_3",
           "persistentUuid": "0f78a6dd-d2ba-4699-9c01-d26b91db7b4b",
           "width": 0,
-          "x": 523,
-          "y": 294,
+          "x": 558,
+          "y": 273,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -60237,7 +61574,7 @@
           "persistentUuid": "e1728938-7775-4003-af8e-c5e0b0a36026",
           "width": 0,
           "x": 530,
-          "y": 493,
+          "y": 466,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -60252,8 +61589,8 @@
           "name": "souvenir_lunettes_5",
           "persistentUuid": "a2c20703-860b-438c-b10f-751a3f09f2f8",
           "width": 0,
-          "x": 538,
-          "y": 717,
+          "x": 527,
+          "y": 655,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -60826,7 +62163,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "montre.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 240,
+                            "y": 0
+                          },
+                          {
+                            "x": 240,
+                            "y": 454
+                          },
+                          {
+                            "x": 0,
+                            "y": 454
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -60837,7 +62223,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bague.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 220,
+                            "y": 0
+                          },
+                          {
+                            "x": 220,
+                            "y": 260
+                          },
+                          {
+                            "x": 0,
+                            "y": 260
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -60848,7 +62283,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "boucles d_oreilles.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 117,
+                            "y": 0
+                          },
+                          {
+                            "x": 117,
+                            "y": 181
+                          },
+                          {
+                            "x": 0,
+                            "y": 181
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -60859,7 +62343,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bracelet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 155
+                          },
+                          {
+                            "x": 0,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -60870,7 +62403,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "lunettes.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 45
+                          },
+                          {
+                            "x": 0,
+                            "y": 45
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -60936,7 +62518,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "étagère1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 0
+                          },
+                          {
+                            "x": 200,
+                            "y": 373
+                          },
+                          {
+                            "x": 0,
+                            "y": 373
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -75160,7 +76791,32 @@
               "name": "TouchIndex"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "DeadZoneRadius"
+              },
+              {
+                "propertyName": "JoystickAngle"
+              },
+              {
+                "propertyName": "JoystickForce"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIndex"
+              }
+            ]
+          }
         },
         {
           "description": "Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors.",
@@ -75703,7 +77359,32 @@
               "name": "Radius"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "ButtonIdentifier"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIndex"
+              },
+              {
+                "propertyName": "IsReleased"
+              },
+              {
+                "propertyName": "IsJustPressed"
+              },
+              {
+                "propertyName": "Radius"
+              }
+            ]
+          }
         },
         {
           "description": "Control a platformer character with a multitouch controller.",
@@ -75925,7 +77606,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Property"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -76068,7 +77770,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -76200,7 +77923,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control camera rotations with a multitouch controller.",
@@ -77242,7 +78986,73 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Object3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "CameraStick"
+                  }
+                ]
+              },
+              {
+                "folderName": "Horizontal rotation",
+                "children": [
+                  {
+                    "propertyName": "HorizontalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationDeceleration"
+                  }
+                ]
+              },
+              {
+                "folderName": "Vertical rotation",
+                "children": [
+                  {
+                    "propertyName": "VerticalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "VerticalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "VerticalRotationDeceleration"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMin"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "OffsetZ"
+                  }
+                ]
+              },
+              {
+                "propertyName": "CurrentRotationSpeedZ"
+              },
+              {
+                "propertyName": "CurrentRotationSpeedY"
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics car with a multitouch controller.",
@@ -77420,7 +79230,31 @@
               "name": "HandBrakeButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCar3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "SteerJoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "SpeedJoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "HandBrakeButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a top-down character with a multitouch controller.",
@@ -77988,7 +79822,28 @@
               "name": "StickMode"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "StickMode"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": [
@@ -79319,6 +81174,35 @@
               "name": "ShouldBeHiddenWhenReleased"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "DeadZoneRadius"
+              },
+              {
+                "propertyName": "ThumbAnchorOrigin"
+              },
+              {
+                "propertyName": "ThumbAnchorTarget"
+              },
+              {
+                "propertyName": "ThumbIsScaledProportionally"
+              },
+              {
+                "propertyName": "ParentOrigin"
+              },
+              {
+                "propertyName": "ShouldBeHiddenWhenReleased"
+              }
+            ]
+          },
           "variants": []
         }
       ]
@@ -84129,7 +86013,175 @@
               "name": "IsCalledManually"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeed"
+                  },
+                  {
+                    "propertyName": "RightwardSpeed"
+                  },
+                  {
+                    "propertyName": "UpwardSpeed"
+                  },
+                  {
+                    "propertyName": "DownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "propertyName": "FollowOnX"
+              },
+              {
+                "propertyName": "FollowOnY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "FollowFreeAreaLeft"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaRight"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "CameraOffsetX"
+                  },
+                  {
+                    "propertyName": "CameraOffsetY"
+                  }
+                ]
+              },
+              {
+                "folderName": "Timing",
+                "children": [
+                  {
+                    "propertyName": "CameraDelay"
+                  },
+                  {
+                    "propertyName": "ForecastTime"
+                  },
+                  {
+                    "propertyName": "ForecastHistoryDuration"
+                  }
+                ]
+              },
+              {
+                "propertyName": "LogLeftwardSpeed"
+              },
+              {
+                "propertyName": "LogRightwardSpeed"
+              },
+              {
+                "propertyName": "LogDownwardSpeed"
+              },
+              {
+                "propertyName": "LogUpwardSpeed"
+              },
+              {
+                "propertyName": "DelayedCenterX"
+              },
+              {
+                "propertyName": "DelayedCenterY"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanX"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceX"
+              },
+              {
+                "propertyName": "ForecastHistoryCovariance"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearA"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearB"
+              },
+              {
+                "propertyName": "ForecastedX"
+              },
+              {
+                "propertyName": "ForecastedY"
+              },
+              {
+                "propertyName": "ProjectedNewestX"
+              },
+              {
+                "propertyName": "ProjectedNewestY"
+              },
+              {
+                "propertyName": "ProjectedOldestX"
+              },
+              {
+                "propertyName": "ProjectedOldestY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceY"
+              },
+              {
+                "propertyName": "Index"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpSpeed"
+              },
+              {
+                "propertyName": "CameraExtraDelay"
+              },
+              {
+                "propertyName": "WaitingSpeedXMax"
+              },
+              {
+                "propertyName": "WaitingSpeedYMax"
+              },
+              {
+                "propertyName": "WaitingEnd"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpDuration"
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "RightwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "UpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "DownwardSpeedMax"
+                  }
+                ]
+              },
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "IsCalledManually"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
@@ -84474,7 +86526,71 @@
               "name": "FloorDownwardSpeedMax"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PlatformerCharacter"
+              },
+              {
+                "propertyName": "SmoothCamera"
+              },
+              {
+                "propertyName": "JumpOriginY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "AirFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "AirFollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaBottom"
+                  }
+                ]
+              },
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeedMax"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -85776,6 +87892,45 @@
               "name": "AnimationDirection"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Animation"
+              },
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "folderName": "Animation",
+                "children": [
+                  {
+                    "propertyName": "IsScalingAnimation"
+                  },
+                  {
+                    "propertyName": "IsPausingAnimation"
+                  },
+                  {
+                    "propertyName": "AnimationName"
+                  }
+                ]
+              },
+              {
+                "folderName": "Direction",
+                "children": [
+                  {
+                    "propertyName": "DirectionCount"
+                  },
+                  {
+                    "propertyName": "AngleOffset"
+                  }
+                ]
+              },
+              {
+                "propertyName": "AnimationDirection"
+              }
+            ]
+          },
           "sharedPropertyDescriptors": [
             {
               "value": "0",
@@ -85791,7 +87946,18 @@
               "hidden": true,
               "name": "AnimationFrame"
             }
-          ]
+          ],
+          "sharedPropertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "NewAnimationDirection"
+              },
+              {
+                "propertyName": "AnimationFrame"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -87024,7 +89190,29 @@
               "name": "Index"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ShouldCheckHovering"
+              },
+              {
+                "propertyName": "State"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIsInside"
+              },
+              {
+                "propertyName": "MouseIsInside"
+              },
+              {
+                "propertyName": "Index"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": [
@@ -88528,6 +90716,31 @@
               "name": "_PropertyMapping"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "LabelText"
+              },
+              {
+                "folderName": "States",
+                "children": [
+                  {
+                    "propertyName": "HoveredFadeOutDuration"
+                  },
+                  {
+                    "propertyName": "PressedLabelOffsetY"
+                  },
+                  {
+                    "propertyName": "LabelOffset"
+                  }
+                ]
+              },
+              {
+                "propertyName": "_PropertyMapping"
+              }
+            ]
+          },
           "variants": [
             {
               "areaMaxX": 256,
@@ -90733,6 +92946,29 @@
               "name": "_PropertyMapping"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TextMessage"
+              },
+              {
+                "propertyName": "HighlightedButtonIndex"
+              },
+              {
+                "propertyName": "EnableEscape"
+              },
+              {
+                "propertyName": "LabelButtonID0"
+              },
+              {
+                "propertyName": "LabelButtonID1"
+              },
+              {
+                "propertyName": "_PropertyMapping"
+              }
+            ]
+          },
           "variants": [
             {
               "areaMaxX": 600,
@@ -92213,7 +94449,29 @@
               "name": "Index"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ShouldCheckHovering"
+              },
+              {
+                "propertyName": "State"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIsInside"
+              },
+              {
+                "propertyName": "MouseIsInside"
+              },
+              {
+                "propertyName": "Index"
+              }
+            ]
+          }
         },
         {
           "description": "Enable effects on buttons based on their state.",
@@ -92754,7 +95012,31 @@
               "name": "PressedEffect"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "folderName": "Effects",
+                "children": [
+                  {
+                    "propertyName": "IdleEffect"
+                  },
+                  {
+                    "propertyName": "FocusedEffect"
+                  },
+                  {
+                    "propertyName": "PressedEffect"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Change the animation of buttons according to their state.",
@@ -93204,7 +95486,31 @@
               "name": "PressedAnimationName"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Animation"
+              },
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "folderName": "Animation",
+                "children": [
+                  {
+                    "propertyName": "IdleAnimationName"
+                  },
+                  {
+                    "propertyName": "FocusedAnimationName"
+                  },
+                  {
+                    "propertyName": "PressedAnimationName"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly change an effect on buttons according to their state.",
@@ -95095,7 +97401,80 @@
               "name": "EffectValue"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "folderName": "Effect",
+                "children": [
+                  {
+                    "propertyName": "EffectName"
+                  },
+                  {
+                    "propertyName": "EffectProperty"
+                  }
+                ]
+              },
+              {
+                "folderName": "Value",
+                "children": [
+                  {
+                    "propertyName": "IdleValue"
+                  },
+                  {
+                    "propertyName": "FocusedValue"
+                  },
+                  {
+                    "propertyName": "PressedValue"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  },
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  }
+                ]
+              },
+              {
+                "propertyName": "ShouldDisableEffectInIdle"
+              },
+              {
+                "propertyName": "PreviousState"
+              },
+              {
+                "propertyName": "TweenInitialValue"
+              },
+              {
+                "propertyName": "TweenTargetedValue"
+              },
+              {
+                "propertyName": "TweenTime"
+              },
+              {
+                "propertyName": "TweenState"
+              },
+              {
+                "propertyName": "EffectValue"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly resize buttons according to their state.",
@@ -96405,7 +98784,54 @@
               "name": "PreviousState"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Scale"
+              },
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Tween"
+              },
+              {
+                "folderName": "Size",
+                "children": [
+                  {
+                    "propertyName": "IdleScale"
+                  },
+                  {
+                    "propertyName": "FocusedScale"
+                  },
+                  {
+                    "propertyName": "PressedScale"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  },
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "PreviousState"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly change the color tint of buttons according to their state.",
@@ -97716,7 +100142,51 @@
               "name": "PreviousState"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Tween"
+              },
+              {
+                "folderName": "Color",
+                "children": [
+                  {
+                    "propertyName": "IdleColorTint"
+                  },
+                  {
+                    "propertyName": "FocusedColorTint"
+                  },
+                  {
+                    "propertyName": "PressedColorTint"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  },
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "PreviousState"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -100826,7 +103296,34 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PlatformerCharacter"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -101021,7 +103518,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -101222,7 +103740,31 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "WalkStick"
+                  },
+                  {
+                    "propertyName": "CameraStick"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control camera rotations with a gamepad.",
@@ -102263,7 +104805,68 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Object3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "propertyName": "CameraStick"
+              },
+              {
+                "folderName": "Horizontal rotation",
+                "children": [
+                  {
+                    "propertyName": "HorizontalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationDeceleration"
+                  }
+                ]
+              },
+              {
+                "folderName": "Vertical rotation",
+                "children": [
+                  {
+                    "propertyName": "VerticalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "VerticalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "VerticalRotationDeceleration"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMin"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "OffsetZ"
+                  }
+                ]
+              },
+              {
+                "propertyName": "CurrentRotationSpeedZ"
+              },
+              {
+                "propertyName": "CurrentRotationSpeedY"
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics car with a gamepad.",
@@ -102633,7 +105236,34 @@
               "name": "HandBrakeButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCar3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "HandBrakeButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a top-down character with a gamepad.",
@@ -103277,7 +105907,34 @@
               "name": "StickMode"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "StickMode"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -104290,7 +106947,26 @@
               "name": "TypedText"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Text"
+              },
+              {
+                "propertyName": "Interval"
+              },
+              {
+                "propertyName": "CharacterJustAdded"
+              },
+              {
+                "propertyName": "FullText"
+              },
+              {
+                "propertyName": "TypedText"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -104756,7 +107432,23 @@
               "name": "MarginRight"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "MarginTop"
+              },
+              {
+                "propertyName": "MarginBottom"
+              },
+              {
+                "propertyName": "MarginLeft"
+              },
+              {
+                "propertyName": "MarginRight"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -104889,7 +107581,9 @@
             }
           ],
           "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -106016,7 +108710,26 @@
               "name": "MaxOpacity"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Progress"
+              },
+              {
+                "propertyName": "Duration"
+              },
+              {
+                "propertyName": "Type"
+              },
+              {
+                "propertyName": "Direction"
+              },
+              {
+                "propertyName": "MaxOpacity"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -111041,7 +113754,95 @@
               "name": "Viewpoint"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Flippable"
+              },
+              {
+                "propertyName": "Rotation"
+              },
+              {
+                "propertyName": "RotationOffset"
+              },
+              {
+                "propertyName": "FlipXToGoBack"
+              },
+              {
+                "propertyName": "FlipYToGoBack"
+              },
+              {
+                "propertyName": "SpeedScale"
+              },
+              {
+                "propertyName": "PathOriginX"
+              },
+              {
+                "propertyName": "PathOriginY"
+              },
+              {
+                "propertyName": "Target"
+              },
+              {
+                "propertyName": "Origin"
+              },
+              {
+                "propertyName": "PathName"
+              },
+              {
+                "propertyName": "Duration"
+              },
+              {
+                "propertyName": "Easing"
+              },
+              {
+                "propertyName": "DrawingElementIndex"
+              },
+              {
+                "propertyName": "X"
+              },
+              {
+                "propertyName": "Y"
+              },
+              {
+                "propertyName": "PathAngle"
+              },
+              {
+                "propertyName": "PathScale"
+              },
+              {
+                "propertyName": "RepetitionCount"
+              },
+              {
+                "propertyName": "ShouldGoBack"
+              },
+              {
+                "propertyName": "ShouldLoop"
+              },
+              {
+                "propertyName": "RepetitionDoneCount"
+              },
+              {
+                "propertyName": "IsGoingBack"
+              },
+              {
+                "propertyName": "PauseDurationBeforeGoingBack"
+              },
+              {
+                "propertyName": "DrawingPathOriginX"
+              },
+              {
+                "propertyName": "DrawingPathOriginY"
+              },
+              {
+                "propertyName": "DebugLineStrokeWidth"
+              },
+              {
+                "propertyName": "Viewpoint"
+              }
+            ]
+          }
         },
         {
           "description": "Move objects on curved paths at a given speed.",
@@ -113798,7 +116599,82 @@
               "name": "Viewpoint"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Rotation",
+                "children": [
+                  {
+                    "propertyName": "Rotation"
+                  },
+                  {
+                    "propertyName": "RotationOffset"
+                  }
+                ]
+              },
+              {
+                "propertyName": "Speed"
+              },
+              {
+                "propertyName": "PathOriginX"
+              },
+              {
+                "propertyName": "PathOriginY"
+              },
+              {
+                "propertyName": "PathName"
+              },
+              {
+                "propertyName": "TargetedSpeed"
+              },
+              {
+                "propertyName": "Acceleration"
+              },
+              {
+                "propertyName": "DrawingElementIndex"
+              },
+              {
+                "propertyName": "X"
+              },
+              {
+                "propertyName": "Y"
+              },
+              {
+                "propertyName": "PathAngle"
+              },
+              {
+                "propertyName": "PathScale"
+              },
+              {
+                "propertyName": "RepetitionCount"
+              },
+              {
+                "propertyName": "ShouldLoop"
+              },
+              {
+                "propertyName": "DrawingPathOriginX"
+              },
+              {
+                "propertyName": "DrawingPathOriginY"
+              },
+              {
+                "propertyName": "DebugLineStrokeWidth"
+              },
+              {
+                "propertyName": "PreviousSpeed"
+              },
+              {
+                "propertyName": "CurrentLength"
+              },
+              {
+                "propertyName": "IsLookingBack"
+              },
+              {
+                "propertyName": "Viewpoint"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -114192,7 +117068,23 @@
               "name": "OriginalY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "DraggableBehavior"
+              },
+              {
+                "propertyName": "TweenBehavior"
+              },
+              {
+                "propertyName": "OriginalX"
+              },
+              {
+                "propertyName": "OriginalY"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -118173,7 +121065,60 @@
               "name": "ToogleClockwise"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Dimension",
+                "children": [
+                  {
+                    "propertyName": "Width"
+                  },
+                  {
+                    "propertyName": "Height"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "Clockwise"
+                  },
+                  {
+                    "propertyName": "HorizontalEdgeDuration"
+                  },
+                  {
+                    "propertyName": "VerticalEdgeDuration"
+                  },
+                  {
+                    "propertyName": "Easing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "Left"
+              },
+              {
+                "propertyName": "Top"
+              },
+              {
+                "propertyName": "Progress"
+              },
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "InitialPosition"
+              },
+              {
+                "propertyName": "ToogleClockwise"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -119097,7 +122042,20 @@
               "name": "FlashDuration"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              }
+            ]
+          }
         },
         {
           "description": "Make an object flash a color tint for a period of time.",
@@ -119671,7 +122629,23 @@
               "name": "TintColor"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TintColor"
+              }
+            ]
+          }
         },
         {
           "description": "Flash opacity smoothly (fade) in a repeating loop.",
@@ -120325,7 +123299,32 @@
               "name": "StartingOpacity"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Opacity"
+              },
+              {
+                "propertyName": "TweenBehavior"
+              },
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TargetOpacity"
+              },
+              {
+                "propertyName": "StartingOpacity"
+              }
+            ]
+          }
         },
         {
           "description": "Make the object flash an effect for a period of time.",
@@ -121173,7 +124172,26 @@
               "name": "EffectName"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "EffectName"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
