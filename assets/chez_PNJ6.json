@@ -2,7 +2,7 @@
 	{
 		"title": "cadeau",
 		"tags": "",
-		"body": "<< userName >>\r\n<< langue francais >>\r\nTu as vu cette chose étrange dehors ?\r\n\r\n<< nameTag pnj6 >>\r\n<< langue FRTHAI >>\r\nJe ne sais pas de quoi tu parles… Mais c’est vrai que j’ai entendu “hong hong ฮ่ง ฮ่ง”. Bizarre…\r\n\r\n<< userName >>\r\n<< langue alien >>\r\n(Simon m’a dit avoir entendu ‘hap-hap’ et Gandom m’a dit avoir entendu ‘hong-hong’. Pourtant, j’ai entendu deux fois le même bruit… Je deviens fou ? J’ai peut-être le mal de la planète Terre ?)\r\n\r\n<< nameTag pnj6 >>\r\n<< langue francais >>\r\nTu as besoin de quelque chose ? \r\n\r\n<< userName >>\r\nLe serveur m’a donné ceci pour toi.\r\n\r\n<< ouverture >>\r\n...\r\n<< nameTag pnj6 >>\r\nWow, quel magnifique costume ! J’ai prévu d’y aller cette année, je suis contente qu’il s’en soit rappelé. J’irai le remercier plus tard.\r\n\r\nJe te remercie d’avoir pris le temps de me livrer ce cadeau. Tiens, je pense que ça pourrait te plaire !”\r\n\r\n<< lettre >>\r\n\r\n[c’est à la suite de la dernière phase du nj6, DONC TOUJOURS DANS MAISON PNJ6]\r\n\r\n<< userName >>\r\nTu as besoin d’aide ?\r\n\r\n<< nameTag pnj6 >>\r\nOui, j’ai un problème : je prépare un sac de voyage. Tu peux m’aider en me donnant les objets qui manquent ?\r\nJ’ai plusieurs étagères : j’ai une bibliothèque de poèmes persans, une étagère de plantes, une pour mes figurines et une pour mes bijoux.\r\n\r\n[[ Oui, d’accord. Si je t’aide, tu me donneras un autre indice sur le nom du village ?|oui]] \r\n[[ Je n'ai pas le temps... |non]]",
+		"body": "<< userName >>\r\n<< langue francais >>\r\nTu as vu cette chose étrange dehors ?\r\n\r\n<< nameTag pnj6 >>\r\n<< langue FRTHAI >>\r\nJe ne sais pas de quoi tu parles… Mais c’est vrai que j’ai entendu “hong hong ฮ่ง ฮ่ง”. Bizarre…\r\n\r\n<< userName >>\r\n<< langue alien >>\r\n(Simon m’a dit avoir entendu ‘hap-hap’ et Gandom m’a dit avoir entendu ‘hong-hong’. Pourtant, j’ai entendu deux fois le même bruit… Je deviens fou ? J’ai peut-être le mal de la planète Terre ?)\r\n\r\n<< nameTag pnj6 >>\r\n<< langue francais >>\r\nTu as besoin de quelque chose ? \r\n\r\n<< userName >>\r\nLe serveur m’a donné ceci pour toi.\r\n\r\n<< ouverture >>\r\n...\r\n<< nameTag pnj6 >>\r\nWow, quel magnifique costume ! J’ai prévu d’y aller cette année, je suis contente qu’il s’en soit rappelé. J’irai le remercier plus tard.\r\n\r\nJe te remercie d’avoir pris le temps de me livrer ce cadeau. Tiens, je pense que ça pourrait te plaire !”\r\n\r\n<< lettre3 >>\r\n\r\n[c’est à la suite de la dernière phase du nj6, DONC TOUJOURS DANS MAISON PNJ6]\r\n\r\n<< userName >>\r\nTu as besoin d’aide ?\r\n\r\n<< nameTag pnj6 >>\r\nOui, j’ai un problème : je prépare un sac de voyage. Tu peux m’aider en me donnant les objets qui manquent ?\r\nJ’ai plusieurs étagères : j’ai une bibliothèque de poèmes persans, une étagère de plantes, une pour mes figurines et une pour mes bijoux.\r\n\r\n[[ Oui, d’accord. Si je t’aide, tu me donneras un autre indice sur le nom du village ?|oui]] \r\n[[ Je n'ai pas le temps... |non]]",
 		"position": {
 			"x": 437,
 			"y": 252
@@ -42,7 +42,7 @@
 	{
 		"title": "réussite",
 		"tags": "",
-		"body": "<< nameTag pnj6 >>\r\n<< francais >>\r\nTrès bien, merci beaucoup ! Je vais te donner une lettre du nom du village, j’espère que tu ne vas pas te transformer en ver de terre !\r\n<< lettre >>\r\n<< userName >>\r\n<< langue alien >>\r\n(Ça y est, j’ai enfin le nom du village ! Je ferais mieux de retourner à mon vaisseau pour appeler mes amis. J’espère vraiment que la croyance est fausse, je ne veux pas devenir un ver de terre...)\r\n<< fin >>",
+		"body": "<< nameTag pnj6 >>\r\n<< francais >>\r\nTrès bien, merci beaucoup ! Je vais te donner une lettre du nom du village, j’espère que tu ne vas pas te transformer en ver de terre !\r\n<< lettre4 >>\r\n<< userName >>\r\n<< langue alien >>\r\n(Ça y est, j’ai enfin le nom du village ! Je ferais mieux de retourner à mon vaisseau pour appeler mes amis. J’espère vraiment que la croyance est fausse, je ne veux pas devenir un ver de terre...)\r\n<< fin >>",
 		"position": {
 			"x": 412,
 			"y": 814
@@ -86,6 +86,26 @@
 		"position": {
 			"x": 1529,
 			"y": 839
+		},
+		"colorID": 0
+	},
+	{
+		"title": "gandomavant",
+		"tags": "",
+		"body": "<< nameTag pnj6 >>\r\n<< langue francais >>\r\nJ’ai passé la matinée à faire des démarches administratives, je suis épuisée…\r\n<< fin >>",
+		"position": {
+			"x": 442,
+			"y": -24
+		},
+		"colorID": 0
+	},
+	{
+		"title": "erreur",
+		"tags": "",
+		"body": "<< nameTag pnj6 >>\r\n<< francais >>\r\nNon, pas celui-là !\r\n<< fin >>",
+		"position": {
+			"x": 409,
+			"y": 1068
 		},
 		"colorID": 0
 	}

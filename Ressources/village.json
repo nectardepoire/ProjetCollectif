@@ -12,7 +12,7 @@
 	{
 		"title": "oui",
 		"tags": "",
-		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nSuper ! J’ai oublié de te dire, notre village regroupe des personnes d’horizons différents. \r\nNous utilisons le français la plupart du temps, mais il y a 5 autres langues qui cohabitent ici : le thaï, le suédois, le turc, le japonais et le persan. Il est donc très probable que tu rencontres ces langues en échangeant avec eux.\r\nTu pourrais commencer par la mairie, c’est le bâtiment au toit bleu.\r\n<< fin1 >>",
+		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nSuper ! J’ai oublié de te dire, notre village regroupe des personnes d’horizons différents. \r\nNous utilisons le français la plupart du temps, mais il y a 5 autres langues qui cohabitent ici : le thaï, le suédois, le turc, le japonais et le persan. Il est donc très probable que tu rencontres ces langues en échangeant avec eux.\r\nTu pourrais commencer par la mairie, c’est le bâtiment au toit bleu.\r\n<< quete >>",
 		"position": {
 			"x": 197,
 			"y": 491
@@ -22,7 +22,7 @@
 	{
 		"title": "non",
 		"tags": "",
-		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nPressé ? Ce n’est pas comme si tu avais une autre solution. Tu peux toujours demander le nom du village au vent si tu préfères.\r\nBon, si tu changes d’avis, tu peux te rendre à la mairie pour commencer. C’est la maison au toit bleu.\r\n<< fin1 >>",
+		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nPressé ? Ce n’est pas comme si tu avais une autre solution. Tu peux toujours demander le nom du village au vent si tu préfères.\r\nBon, si tu changes d’avis, tu peux te rendre à la mairie pour commencer. C’est la maison au toit bleu.\r\n<< quete >>",
 		"position": {
 			"x": 683,
 			"y": 475
@@ -32,7 +32,7 @@
 	{
 		"title": "PNJ1_suite",
 		"tags": "",
-		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nTu es encore là ? Tu as été à la mairie ? C’est le bâtiment au toit bleu.",
+		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nTu es encore là ? Tu as été à la mairie ? C’est le bâtiment au toit bleu.\r\n<< fin >>",
 		"position": {
 			"x": 981,
 			"y": 250
@@ -44,8 +44,8 @@
 		"tags": "",
 		"body": "<< userName >>\r\n<< langue alien >>\r\nEncore ! Pourtant les habitants n’ont pas l’air de s’inquiéter… J’ai peur…\r\n<< fin >>",
 		"position": {
-			"x": 440,
-			"y": 764
+			"x": 165,
+			"y": 772
 		},
 		"colorID": 0
 	},
@@ -54,8 +54,8 @@
 		"tags": "",
 		"body": "<< userName >>\r\n<< langue alien >>\r\nMais qu’est-ce que c’est que ça ? Cette ombre inconnue m’angoisse. \r\n<< fin >>",
 		"position": {
-			"x": 133,
-			"y": 766
+			"x": -87,
+			"y": 771
 		},
 		"colorID": 0
 	},
@@ -76,6 +76,46 @@
 		"position": {
 			"x": 930,
 			"y": 763
+		},
+		"colorID": 0
+	},
+	{
+		"title": "serveurmystereresolu",
+		"tags": "",
+		"body": "<< nameTag pnj5 >>\r\n<< langue francais >>\r\nMerci encore pour ton aide ! \r\n<< fin >>",
+		"position": {
+			"x": 695,
+			"y": 1000
+		},
+		"colorID": 0
+	},
+	{
+		"title": "gandommystereresolu",
+		"tags": "",
+		"body": "<< nameTag pnj6 >>\r\n<< langue francais >>\r\nJ’espère que le chien ne te fait plus peur, il est adorable !\r\n<< fin >>",
+		"position": {
+			"x": 928,
+			"y": 1004
+		},
+		"colorID": 0
+	},
+	{
+		"title": "inquiet",
+		"tags": "",
+		"body": "<< userName >>\r\n<< langue alien >>\r\n(je ne préfère pas m’approcher)\r\n<< fin >>",
+		"position": {
+			"x": 398,
+			"y": 775
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ1_quete1fini",
+		"tags": "",
+		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nQuoi encore ? Tu as trouvé ce que tu cherchais, non ?\r\n<< fin >>",
+		"position": {
+			"x": 1206,
+			"y": 252
 		},
 		"colorID": 0
 	}

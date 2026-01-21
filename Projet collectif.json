@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu titre",
   "gdVersion": {
-    "build": 252,
+    "build": 251,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -8082,7 +8082,7 @@
         "disablePreload": false,
         "file": "assets/chez_PNJ5.json",
         "kind": "json",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/chez_PNJ5.json\",\"extension\":\".json\"}",
         "name": "assets\\chez_PNJ5.json",
         "userAdded": false
       },
@@ -8672,6 +8672,14 @@
         "metadata": "",
         "name": "Fond activité PNJ9.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/chez_PNJ6.json",
+        "kind": "json",
+        "metadata": "{\"localFilePath\":\"assets/chez_PNJ6.json\",\"extension\":\".json\"}",
+        "name": "assets\\chez_PNJ6.json",
         "userAdded": false
       }
     ]
@@ -16588,6 +16596,11 @@
       ]
     },
     {
+      "name": "quete_1_commence",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "quete_1_finie",
       "type": "boolean",
       "value": false
@@ -16647,12 +16660,12 @@
       "value": false
     },
     {
-      "name": "quete_3_finie",
+      "name": "colis_dans_inventaire",
       "type": "boolean",
       "value": false
     },
     {
-      "name": "colis_dans_inventaire",
+      "name": "quete_3_finie",
       "type": "boolean",
       "value": false
     },
@@ -16662,7 +16675,7 @@
       "value": false
     },
     {
-      "name": "activité_3",
+      "name": "activité_4",
       "type": "structure",
       "children": [
         {
@@ -16694,11 +16707,6 @@
     },
     {
       "name": "mystere_apparu",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "fin_du_jeu_accessible",
       "type": "boolean",
       "value": false
     },
@@ -30123,15 +30131,6 @@
               },
               "parameters": [
                 "",
-                "Ressources\\mairie.json"
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::LoadDialogueFromJsonFile"
-              },
-              "parameters": [
-                "",
                 "Ressources\\vaisseau.json"
               ]
             },
@@ -30142,6 +30141,15 @@
               "parameters": [
                 "",
                 "Ressources\\village.json"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "Ressources\\mairie.json"
               ]
             },
             {
@@ -30172,6 +30180,66 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "DIALOGUES VAISSEAU : fichier vaisseau.json, 4 branches : monologue1, monologue2, vaisseaufin, choix"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "monologue1 : doit apparaître une seule fois au début de la nouvelle partie\n<< ampoule >> = ampoule apparaît sur alien ; << bruit >> = bruit provient du village avec représentation visuelle\ncondition pour cette branche : si variable monologue_termine = faux"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "monologue2 : une fois que monologue1 a déjà été lancé au moins une fois, ce message apparaît jusqu'à la fin du jeu. \ncondition pour cette branche : si variable monologue_termine = vrai"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "vaisseaufin : début animation de fin, joueur doit écrire le nom du village. possibilité de faire \"retour\" (si j'y arrive, pas une priorité). s'il écrit le bon nom, ça lance l'animation qui mène au choix à faire. \nconditions pour cette branche : quete_4_finie = vrai + joueur est à moins de 100 pixels du vaisseau + touche F appuyée"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "choix : pendant l'animation de fin, joueur fait un choix de rester sur terre ou rentrer chez lui. selon sa réponse, aller à scène animation de fin 1 ou animation de fin 2. \n<< radio >> = bruit de radio ; << findujeu1 >> = rester ; << findujeu2 >> = rentrer\nbranche à implanter dans animation : voir avec Lyuyao"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -31732,7 +31800,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7619362677197863,
+        "zoomFactor": 0.6455105703311703,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -38299,7 +38367,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Spawns de la créature mystérieuse"
+          "comment": "Spawns de la créature mystérieuse (variables finies à vérifier)"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -38335,60 +38403,16 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "quete_2_finie",
-                "True",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "quete_4_finie",
-                "False",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "créature_silhouette",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "créature_visible"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "créature_silhouette",
-                "=",
-                "",
-                "=",
-                ""
-              ]
-            }
-          ]
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "sortant du café : première apparition, devant le café"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -38415,6 +38439,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "créature_silhouette",
+                "=",
+                "",
+                "=",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "Montre"
@@ -38444,7 +38480,75 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "C'est à ce moment qu'il y a aussi animation de PNJ5 et PNJ6 qui débarquent"
+          "comment": "sortant de chez PNJ5 : deuxième apparition, devant la maison de PNJ5"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_3_finie",
+                "True",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_4_finie",
+                "False",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "créature_silhouette",
+                "=",
+                "",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "créature_silhouette",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "créature_visible"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "C'est à ce moment qu'il y a animation : en sortant de chez PNJ6 après avoir réussi la quête 4, animation se déclenche, au début créature silhouette puis créature visible apparaît quand les PNJ5 et PNJ6 débarquent"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -38544,7 +38648,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Dialogue_village.json"
+                "Ressources\\village.json"
               ]
             },
             {
@@ -38604,7 +38708,127 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "DIALOGUE : fichier village.json, branche \"rencontre\" ; il y a une commande \"truc\" je pense que c'était un test de Tristan"
+          "comment": "DIALOGUE : fichier village.json, branches : PNJ1,  PNJ1_suite, PNJ1_quete1fini, apparition1, apparition2, inquiet, mystereresolu1, mystereresolu2, serveurmystereresolu, gandommystereresolu\nIls ont tous une commande << fin >> pour cacher éléments de dialogue sauf celui de la branche PNJ1 qui marque début de la quête 1"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ1 : doit apparaître si on parle avec PNJ1, une seule fois au début de la nouvelle partie. choix à faire mais n'influence pas l'histoire\n<< quete >> : variable \"quete_1_commence\" = vrai"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ1_suite : doit apparaître si on parle avec PNJ1 quand la variable \"quete_1_commence\" = vrai + la variable \"quete_1_finie\" = faux"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ1_quete1fini : doit apparaître quand on parle avec PNJ1 et quand la variable \"quete_1_finie\" = vrai"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "apparition1 : quand le joueur se trouve à moins de 300px de la silhouette de la créature + quete_4_finie = faux"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "inquiet : approche la silhouette alors que mystere_apparu = vrai + mystere_resolu = faux"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "apparition2 : quand variable colis_dans_inventaire = vrai + colis_donne = faux"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "mystereresolu1 : quete_4_finie = vrai (idée de condition pour que l'animation apparaisse : changement de place de la créature vu que quete_3_fini = vraie, et condition si distance à x px = lancement de l'animation donc se lance quand il sort de chez le PNJ6 après avoir réussi l'activité)\n<< apparition >> = animation où créature visible apparaît et PNJ arrivent se lance + variable mystere_resolu devient vraie"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "mystereresolu2 : suite de l'animation (à voir si ça reste deux branches différentes ou si on fusionne avec l'animation aussi : voir avec Lyuyao)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "serveurmystereresolu : quand parle avec PNJ5 si variable mystere_resolu = vraie"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "gandommystereresolu : quand parle avec PNJ6 si variable mystere_resolu = vraie"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -43110,6 +43334,102 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "DIALOGUE : fichier mairie.json, 7 branches : PNJ2_0, PNJ2_1, PNJ2_2, PNJ2_3, PNJ2_jeu_fini, PNJ6_1, PNJ6_2\nIls ont tous une commande << fin >> pour cacher éléments de dialogue"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ2_0 : commande <<fingandom>> (dans mairie, variable à gérer) n'a pas été appelée"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ2_1 : première conversation avec PNJ2 dans la mairie\n<< carte >> = début activité carte"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ2_2 : quête 1 = vrai, quête 2 = faux"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ2_3 : quête 2 = vrai"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ2_jeu_fini : quête 4 = fini"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ6_1 : quête 1 finie = faux"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ6_2 : quête 1 finie = vrai "
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -43128,7 +43448,7 @@
               },
               "parameters": [
                 "",
-                "DialogData"
+                "Ressources\\mairie.json"
               ]
             },
             {
@@ -45822,6 +46142,18 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "activite_carte :"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -45881,6 +46213,29 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "DIALOGUE : fichier mairie.json, 4 branches : activite_carte, carte_correct, carte_incorrect, carte_finie\nIls ont tous une commande << fin >> pour cacher éléments de dialogue"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Rivière",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -45898,6 +46253,18 @@
             "textR": 0
           },
           "comment": "Bonne réponse"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "carte_correct :"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -46029,6 +46396,18 @@
           "comment": "Mauvaises réponses"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "carte_incorrect :"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -46125,16 +46504,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "rivière_clic",
-                "False",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -46165,6 +46534,18 @@
             "textR": 0
           },
           "comment": "Bonnes réponses"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "carte_correct :"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -46294,6 +46675,18 @@
             "textR": 0
           },
           "comment": "Mauvaises réponses"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "carte_incorrect :"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -46412,6 +46805,18 @@
             "textR": 0
           },
           "comment": "Bonnes réponses"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "carte_correct :"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -46541,6 +46946,18 @@
             "textR": 0
           },
           "comment": "Mauvaises réponses"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "carte_incorrect :"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -47449,6 +47866,141 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
+                "audio_parc",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "audio_parc",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "audio_parc",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
                 "audio_mairie",
                 "",
                 "",
@@ -47738,6 +48290,18 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "carte_finie : "
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -47779,6 +48343,16 @@
               "parameters": [
                 "quete_1_finie",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Mairie (quête 1)\"",
                 ""
               ]
             }
@@ -47994,7 +48568,13 @@
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "refus_aide_cafe",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -50689,7 +51269,218 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "assets\\cafe.json"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogues",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "DIALOGUE : fichier cafe.json, branches : PNJ3_avant_mairie, PNJ3_avant_cafe, PNJ3_apres_cafe, PNJ3_jeu_fini, PNJ4_avant_mairie, PNJ4_apres_mairie, PNJ4_apres_cafe, PNJ4_colis_donne, PNJ4_jeu_fini, PNJ4_reussite_cafe, PNJ4_echec_cafe\nIls ont tous une commande << fin >> pour cacher éléments de dialogue"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ3_avant_mairie : quête 1 pas finie"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ3_avant_cafe : quête 1 fini vrai, quête 2 fini faux"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ3_apres_cafe : quête 2 finie vrai, jeu fini faux"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ3_jeu_fini : quête 4 fini vrai"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ4_avant_mairie : quête 1 fini faux"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ4_apres_mairie : quête 1 fini vrai ; << fin1>> si accepte d'aider -> aller à la scène activité café, <<fin2>> si non -> la variable refus_aide_cafe devient vraie"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ4_apres_cafe : quete_2_fini = vrai + colis_donne = faux (ou quête 3 finie faux)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ4_finalement : si variable refus_aide_cafe est vraie et joueur parle à PNJ4"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ4_colis_donne : si colis_donne (ou quête 3) = vrai"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ4_jeu_fini : si quete 4 = vrai"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ4_reussite_cafe : moment où activité café réussie et qu'on retourne à cette scène (quete 2 = vrai + autre condition ptet) ; choix à faire mais n'a pas d'incidence\n<< lettre >> : obtient 2e lettre"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PNJ4_echec_cafe \n<< recommence >> : pop-up \"recommence\" apparaît"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_2_echec",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"PNJ4_echec_cafe\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -51085,7 +51876,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.46331118245139874,
+        "zoomFactor": 0.4633111824513991,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -51220,49 +52011,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 74,
-          "keepRatio": true,
-          "layer": "",
-          "name": "case",
-          "persistentUuid": "d99efe22-d1ed-4c24-8a5a-7ae6b39e6bea",
-          "width": 74,
-          "x": 192,
-          "y": 641,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 74,
-          "keepRatio": true,
-          "layer": "",
-          "name": "case",
-          "persistentUuid": "a167bb33-9134-40e3-94e3-2028b7cfdc8d",
-          "width": 74,
-          "x": 101,
-          "y": 641,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 74,
+          "depth": 3,
+          "height": 97,
           "keepRatio": true,
           "layer": "",
           "name": "case",
           "persistentUuid": "f8fe6a49-9a38-4963-824a-52eecb50ac54",
-          "width": 74,
-          "x": 12,
-          "y": 640,
+          "width": 97,
+          "x": 819,
+          "y": 603,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -51278,8 +52035,8 @@
           "name": "egg_plat_1",
           "persistentUuid": "6601b04f-ac2d-4168-bd54-8956d563ed84",
           "width": 172,
-          "x": 98,
-          "y": -192,
+          "x": 704,
+          "y": 27,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -51295,8 +52052,8 @@
           "name": "chicken_plat_2",
           "persistentUuid": "7a6360d6-daf0-4afd-b11b-a3b231cdfd17",
           "width": 176,
-          "x": 295,
-          "y": -186,
+          "x": 899,
+          "y": 42,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -51312,8 +52069,8 @@
           "name": "steak_plat_3_correct",
           "persistentUuid": "d4406416-7a01-4beb-a6d0-88dd9d45daca",
           "width": 176,
-          "x": 486,
-          "y": -186,
+          "x": 1090,
+          "y": 26,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -51329,8 +52086,8 @@
           "name": "donut_dessert_1",
           "persistentUuid": "9832e333-4cb1-48e9-b7d2-2da036d31450",
           "width": 205,
-          "x": 54,
-          "y": -13,
+          "x": 743,
+          "y": 355,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -51346,8 +52103,8 @@
           "name": "pudding_dessert_2",
           "persistentUuid": "2c00224a-1037-450b-a5fe-3cb29e87d76a",
           "width": 196,
-          "x": 269,
-          "y": -20,
+          "x": 922,
+          "y": 360,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -51363,8 +52120,8 @@
           "name": "cake_dessert_3_correct",
           "persistentUuid": "d12f7edd-c9d5-4c75-8ef3-60130f97d333",
           "width": 185,
-          "x": 465,
-          "y": -11,
+          "x": 1100,
+          "y": 391,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -51380,8 +52137,8 @@
           "name": "smoothie_boisson_1_correct",
           "persistentUuid": "3061d6ec-9351-4a0a-a29f-fcf6dc6a8954",
           "width": 207,
-          "x": 65,
-          "y": 189,
+          "x": 687,
+          "y": 151,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -51397,8 +52154,8 @@
           "name": "coca_boisson_2",
           "persistentUuid": "d6e71a21-5096-4e76-bb57-cead45f1c667",
           "width": 189,
-          "x": 212,
-          "y": 203,
+          "x": 851,
+          "y": 184,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -51414,8 +52171,8 @@
           "name": "pomme_boisson_3",
           "persistentUuid": "ba38be8b-d98b-4757-aa59-581ce4cf9149",
           "width": 174,
-          "x": 346,
-          "y": 218,
+          "x": 1071,
+          "y": 190,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -51501,6 +52258,40 @@
           "x": -37,
           "y": -14,
           "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 97,
+          "keepRatio": true,
+          "layer": "",
+          "name": "case",
+          "persistentUuid": "e1eea847-132f-4fbc-aa27-12425ffe198a",
+          "width": 97,
+          "x": 977,
+          "y": 603,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 97,
+          "keepRatio": true,
+          "layer": "",
+          "name": "case",
+          "persistentUuid": "913edf23-61df-43d7-824c-7fd75f3f1db3",
+          "width": 97,
+          "x": 1137,
+          "y": 603,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -54690,6 +55481,29 @@
           ]
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "DIALOGUE : fichier cafe.json, branches : bonjour_client_1, bonjour_client_2, bonjour_client_3, merci_client_1, merci_client_2, merci_client_3, feedback_positif, feedback_negatif\nIls ont tous une commande << fin >> pour cacher éléments de dialogue"
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -54774,6 +55588,18 @@
           "comment": "Mettre commande << un >> pour montrer que la demande du client 1 a été faite"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "bonjour_client_1 :"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -54807,7 +55633,7 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "\"premier\""
+                "\"bonjour_client1\""
               ]
             }
           ]
@@ -54881,6 +55707,18 @@
           "comment": "Mettre commande << deux >> au début de la conversation du client pour montrer que la demande du client 2 a été faite"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "bonjour_client_2 :"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -54945,7 +55783,7 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "\"deuxieme\""
+                "\"bonjour_client2\""
               ]
             }
           ]
@@ -55019,6 +55857,18 @@
           "comment": "Mettre commande << trois >> pour montrer que la demande du client 3 a été faite"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "bonjour_client_3 :"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -55031,6 +55881,14 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"bonjour_client3\""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -55077,16 +55935,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"troisieme\""
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -55490,6 +56339,16 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Activité café (quête 2)\"",
+                ""
+              ]
             }
           ]
         },
@@ -55630,6 +56489,30 @@
           "comment": "Ajouter conditions pour que chaque client soit satisfait ; ajouter variable, ajouter dialogue pour dire que c'est bien"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "feedback_positif : pour chaque client satisfait (regarder si fusion possible)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "merci_client_1 :"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -55651,9 +56534,27 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "commande_1_en_cours",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"feedback_positif\""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -55673,6 +56574,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "merci_client_2 :"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -55696,9 +56609,27 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "commande_3_en_cours",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"feedback_positif\""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -55718,6 +56649,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "merci_client_3 :"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -55741,9 +56684,27 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "commande_3_en_cours",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"feedback_positif\""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -55779,14 +56740,14 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
+            "b": 181,
+            "g": 255,
+            "r": 218,
             "textB": 0,
             "textG": 0,
             "textR": 0
           },
-          "comment": "Ajouter branche dialogue \"reessaye\""
+          "comment": "feedback_negatif : client pas satisfait"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -55842,6 +56803,14 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"feedback_negatif\""
+              ]
+            },
             {
               "type": {
                 "value": "ResetTimer"
@@ -55951,6 +56920,14 @@
           "actions": [
             {
               "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"feedback_negatif\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -56056,6 +57033,14 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"feedback_negatif\""
+              ]
+            },
             {
               "type": {
                 "value": "ResetTimer"
@@ -57099,8 +58084,77 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "assets\\chez_PNJ5.json"
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "DIALOGUE : fichier chez_PNJ5.json, 3 branches : simon1, simon2, simon_avant_cafe"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "simon1 : première rencontre avec PNJ5. demande pour porter colis = colis_dans_inventaire devient vrai si répond oui = si commande << cadeau >> appelée"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "simon2 : << refus >>, si parle à PNJ5 mais << refus >> a été fait, redemande au cas où change d'avis"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "simon3 : (apparaît si quête 3 = faux + colis_dans_inventaire = vrai + joueur revient parler)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "simon_avant_cafe : approche PNJ5 + quete_2_fini = faux"
         },
         {
           "colorB": 228,
@@ -58827,6 +59881,102 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "DIALOGUE : fichier chez_pnj6.json, branches : cadeau, consigne, réussite, erreur, porte, finalement, gandomavant\nIls ont tous une commande << fin >> pour cacher éléments de dialogue"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "cadeau : << ouverture >> = cadeau se retrouve dans inventaire ; << lettre3 >> = 3e lettre obtenue (car donné colis) ; << meuble >> = début activité meubles (variable activite_meuble_en_cours = vrai) + objets de dialogue sont cachés / << fin >> cache dialogue si retourne pas voir PNJ6"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "finalement : voir PNJ6 pour finalement aider (mène aussi vers << meuble >> pour oui (variable activite_meuble_en_cours = vrai) ou << fin >> pour non)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "consigne : rappel de la consigne quand variable activite_meuble_en_cours = vrai ( << fin >> cache dialogue)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "réussite : << lettre4 >>, obtention lettre 4"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "erreur : erreur pendant activité"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "porte : touche porte + variable activite_meuble_en_cours = vrai"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "gandomavant : parler à PNJ6 su colis_donne_faux + quete_3_fin = faux"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -58836,7 +59986,7 @@
               },
               "parameters": [
                 "",
-                ""
+                "assets\\chez_PNJ6.json"
               ]
             }
           ]
@@ -59589,7 +60739,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_3.meuble_3_correct",
+                "activité_4.meuble_3_correct",
                 "True",
                 ""
               ]
@@ -59599,7 +60749,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_3.meuble_1_correct",
+                "activité_4.meuble_1_correct",
                 "True",
                 ""
               ]
@@ -59609,7 +60759,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_3.meuble_4_correct",
+                "activité_4.meuble_4_correct",
                 "True",
                 ""
               ]
@@ -59619,7 +60769,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_3.meuble_2_correct",
+                "activité_4.meuble_2_correct",
                 "True",
                 ""
               ]
@@ -61558,7 +62708,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "activité_3.meuble_1_correct",
+                "activité_4.meuble_1_correct",
                 "True",
                 ""
               ]
@@ -63669,7 +64819,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "activité_3.meuble_2_correct",
+                "activité_4.meuble_2_correct",
                 "True",
                 ""
               ]
@@ -65700,7 +66850,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "activité_3.meuble_3_correct",
+                "activité_4.meuble_3_correct",
                 "True",
                 ""
               ]
@@ -67736,7 +68886,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "activité_3.meuble_4_correct",
+                "activité_4.meuble_4_correct",
                 "True",
                 ""
               ]
@@ -75922,7 +77072,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Collisions avec personnages (exception pour PNJ2 lors de la scène du miroir dans le village)"
+          "comment": "Collisions avec personnages (exception pour PNJ2 lors de la scène du miroir dans le village & silhouette pour pas qu'elle bloque le chemin)"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -75984,16 +77134,6 @@
               },
               "parameters": [
                 "Alien",
-                "créature_silhouette",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Alien",
                 "créature_visible",
                 ""
               ]
@@ -76020,6 +77160,31 @@
               "parameters": [
                 "Alien",
                 "PNJ2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "créature_silhouette"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Alien",
+                "créature_silhouette",
                 ""
               ]
             }
@@ -81478,32 +82643,7 @@
               "name": "TouchIndex"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "propertyName": "DeadZoneRadius"
-              },
-              {
-                "propertyName": "JoystickAngle"
-              },
-              {
-                "propertyName": "JoystickForce"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIndex"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors.",
@@ -82046,32 +83186,7 @@
               "name": "Radius"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "ButtonIdentifier"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIndex"
-              },
-              {
-                "propertyName": "IsReleased"
-              },
-              {
-                "propertyName": "IsJustPressed"
-              },
-              {
-                "propertyName": "Radius"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a platformer character with a multitouch controller.",
@@ -82293,28 +83408,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Property"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -82457,28 +83551,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -82610,28 +83683,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control camera rotations with a multitouch controller.",
@@ -83673,73 +84725,7 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Object3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "CameraStick"
-                  }
-                ]
-              },
-              {
-                "folderName": "Horizontal rotation",
-                "children": [
-                  {
-                    "propertyName": "HorizontalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationDeceleration"
-                  }
-                ]
-              },
-              {
-                "folderName": "Vertical rotation",
-                "children": [
-                  {
-                    "propertyName": "VerticalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "VerticalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "VerticalRotationDeceleration"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMin"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMax"
-                  }
-                ]
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "OffsetZ"
-                  }
-                ]
-              },
-              {
-                "propertyName": "CurrentRotationSpeedZ"
-              },
-              {
-                "propertyName": "CurrentRotationSpeedY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics car with a multitouch controller.",
@@ -83917,31 +84903,7 @@
               "name": "HandBrakeButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCar3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "SteerJoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "SpeedJoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "HandBrakeButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a top-down character with a multitouch controller.",
@@ -84509,28 +85471,7 @@
               "name": "StickMode"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "StickMode"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": [
@@ -85861,35 +86802,6 @@
               "name": "ShouldBeHiddenWhenReleased"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "propertyName": "DeadZoneRadius"
-              },
-              {
-                "propertyName": "ThumbAnchorOrigin"
-              },
-              {
-                "propertyName": "ThumbAnchorTarget"
-              },
-              {
-                "propertyName": "ThumbIsScaledProportionally"
-              },
-              {
-                "propertyName": "ParentOrigin"
-              },
-              {
-                "propertyName": "ShouldBeHiddenWhenReleased"
-              }
-            ]
-          },
           "variants": []
         }
       ]
@@ -90700,175 +91612,7 @@
               "name": "IsCalledManually"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Catch-up speed",
-                "children": [
-                  {
-                    "propertyName": "LeftwardSpeed"
-                  },
-                  {
-                    "propertyName": "RightwardSpeed"
-                  },
-                  {
-                    "propertyName": "UpwardSpeed"
-                  },
-                  {
-                    "propertyName": "DownwardSpeed"
-                  }
-                ]
-              },
-              {
-                "propertyName": "FollowOnX"
-              },
-              {
-                "propertyName": "FollowOnY"
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "FollowFreeAreaLeft"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaRight"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaBottom"
-                  },
-                  {
-                    "propertyName": "CameraOffsetX"
-                  },
-                  {
-                    "propertyName": "CameraOffsetY"
-                  }
-                ]
-              },
-              {
-                "folderName": "Timing",
-                "children": [
-                  {
-                    "propertyName": "CameraDelay"
-                  },
-                  {
-                    "propertyName": "ForecastTime"
-                  },
-                  {
-                    "propertyName": "ForecastHistoryDuration"
-                  }
-                ]
-              },
-              {
-                "propertyName": "LogLeftwardSpeed"
-              },
-              {
-                "propertyName": "LogRightwardSpeed"
-              },
-              {
-                "propertyName": "LogDownwardSpeed"
-              },
-              {
-                "propertyName": "LogUpwardSpeed"
-              },
-              {
-                "propertyName": "DelayedCenterX"
-              },
-              {
-                "propertyName": "DelayedCenterY"
-              },
-              {
-                "propertyName": "ForecastHistoryMeanX"
-              },
-              {
-                "propertyName": "ForecastHistoryMeanY"
-              },
-              {
-                "propertyName": "ForecastHistoryVarianceX"
-              },
-              {
-                "propertyName": "ForecastHistoryCovariance"
-              },
-              {
-                "propertyName": "ForecastHistoryLinearA"
-              },
-              {
-                "propertyName": "ForecastHistoryLinearB"
-              },
-              {
-                "propertyName": "ForecastedX"
-              },
-              {
-                "propertyName": "ForecastedY"
-              },
-              {
-                "propertyName": "ProjectedNewestX"
-              },
-              {
-                "propertyName": "ProjectedNewestY"
-              },
-              {
-                "propertyName": "ProjectedOldestX"
-              },
-              {
-                "propertyName": "ProjectedOldestY"
-              },
-              {
-                "propertyName": "ForecastHistoryVarianceY"
-              },
-              {
-                "propertyName": "Index"
-              },
-              {
-                "propertyName": "CameraDelayCatchUpSpeed"
-              },
-              {
-                "propertyName": "CameraExtraDelay"
-              },
-              {
-                "propertyName": "WaitingSpeedXMax"
-              },
-              {
-                "propertyName": "WaitingSpeedYMax"
-              },
-              {
-                "propertyName": "WaitingEnd"
-              },
-              {
-                "propertyName": "CameraDelayCatchUpDuration"
-              },
-              {
-                "folderName": "Maximum speed",
-                "children": [
-                  {
-                    "propertyName": "LeftwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "RightwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "UpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "DownwardSpeedMax"
-                  }
-                ]
-              },
-              {
-                "propertyName": "OldX"
-              },
-              {
-                "propertyName": "OldY"
-              },
-              {
-                "propertyName": "IsCalledManually"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
@@ -91213,71 +91957,7 @@
               "name": "FloorDownwardSpeedMax"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PlatformerCharacter"
-              },
-              {
-                "propertyName": "SmoothCamera"
-              },
-              {
-                "propertyName": "JumpOriginY"
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "AirFollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "AirFollowFreeAreaBottom"
-                  },
-                  {
-                    "propertyName": "FloorFollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "FloorFollowFreeAreaBottom"
-                  }
-                ]
-              },
-              {
-                "folderName": "Catch-up speed",
-                "children": [
-                  {
-                    "propertyName": "AirUpwardSpeed"
-                  },
-                  {
-                    "propertyName": "AirDownwardSpeed"
-                  },
-                  {
-                    "propertyName": "FloorUpwardSpeed"
-                  },
-                  {
-                    "propertyName": "FloorDownwardSpeed"
-                  }
-                ]
-              },
-              {
-                "folderName": "Maximum speed",
-                "children": [
-                  {
-                    "propertyName": "AirUpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "AirDownwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "FloorUpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "FloorDownwardSpeedMax"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -92579,45 +93259,6 @@
               "name": "AnimationDirection"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Animation"
-              },
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "folderName": "Animation",
-                "children": [
-                  {
-                    "propertyName": "IsScalingAnimation"
-                  },
-                  {
-                    "propertyName": "IsPausingAnimation"
-                  },
-                  {
-                    "propertyName": "AnimationName"
-                  }
-                ]
-              },
-              {
-                "folderName": "Direction",
-                "children": [
-                  {
-                    "propertyName": "DirectionCount"
-                  },
-                  {
-                    "propertyName": "AngleOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "AnimationDirection"
-              }
-            ]
-          },
           "sharedPropertyDescriptors": [
             {
               "value": "0",
@@ -92633,18 +93274,7 @@
               "hidden": true,
               "name": "AnimationFrame"
             }
-          ],
-          "sharedPropertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "NewAnimationDirection"
-              },
-              {
-                "propertyName": "AnimationFrame"
-              }
-            ]
-          }
+          ]
         }
       ],
       "eventsBasedObjects": []
@@ -93877,29 +94507,7 @@
               "name": "Index"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ShouldCheckHovering"
-              },
-              {
-                "propertyName": "State"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIsInside"
-              },
-              {
-                "propertyName": "MouseIsInside"
-              },
-              {
-                "propertyName": "Index"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": [
@@ -95403,31 +96011,6 @@
               "name": "_PropertyMapping"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "LabelText"
-              },
-              {
-                "folderName": "States",
-                "children": [
-                  {
-                    "propertyName": "HoveredFadeOutDuration"
-                  },
-                  {
-                    "propertyName": "PressedLabelOffsetY"
-                  },
-                  {
-                    "propertyName": "LabelOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "_PropertyMapping"
-              }
-            ]
-          },
           "variants": [
             {
               "areaMaxX": 256,
@@ -97940,29 +98523,6 @@
               "name": "_PropertyMapping"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TextMessage"
-              },
-              {
-                "propertyName": "HighlightedButtonIndex"
-              },
-              {
-                "propertyName": "EnableEscape"
-              },
-              {
-                "propertyName": "LabelButtonID0"
-              },
-              {
-                "propertyName": "LabelButtonID1"
-              },
-              {
-                "propertyName": "_PropertyMapping"
-              }
-            ]
-          },
           "variants": [
             {
               "areaMaxX": 600,
@@ -99443,29 +100003,7 @@
               "name": "Index"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ShouldCheckHovering"
-              },
-              {
-                "propertyName": "State"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIsInside"
-              },
-              {
-                "propertyName": "MouseIsInside"
-              },
-              {
-                "propertyName": "Index"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Enable effects on buttons based on their state.",
@@ -100006,31 +100544,7 @@
               "name": "PressedEffect"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "folderName": "Effects",
-                "children": [
-                  {
-                    "propertyName": "IdleEffect"
-                  },
-                  {
-                    "propertyName": "FocusedEffect"
-                  },
-                  {
-                    "propertyName": "PressedEffect"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Change the animation of buttons according to their state.",
@@ -100480,31 +100994,7 @@
               "name": "PressedAnimationName"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Animation"
-              },
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "folderName": "Animation",
-                "children": [
-                  {
-                    "propertyName": "IdleAnimationName"
-                  },
-                  {
-                    "propertyName": "FocusedAnimationName"
-                  },
-                  {
-                    "propertyName": "PressedAnimationName"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly change an effect on buttons according to their state.",
@@ -102395,80 +102885,7 @@
               "name": "EffectValue"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "folderName": "Effect",
-                "children": [
-                  {
-                    "propertyName": "EffectName"
-                  },
-                  {
-                    "propertyName": "EffectProperty"
-                  }
-                ]
-              },
-              {
-                "folderName": "Value",
-                "children": [
-                  {
-                    "propertyName": "IdleValue"
-                  },
-                  {
-                    "propertyName": "FocusedValue"
-                  },
-                  {
-                    "propertyName": "PressedValue"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  },
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  }
-                ]
-              },
-              {
-                "propertyName": "ShouldDisableEffectInIdle"
-              },
-              {
-                "propertyName": "PreviousState"
-              },
-              {
-                "propertyName": "TweenInitialValue"
-              },
-              {
-                "propertyName": "TweenTargetedValue"
-              },
-              {
-                "propertyName": "TweenTime"
-              },
-              {
-                "propertyName": "TweenState"
-              },
-              {
-                "propertyName": "EffectValue"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly resize buttons according to their state.",
@@ -103778,54 +104195,7 @@
               "name": "PreviousState"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Scale"
-              },
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Tween"
-              },
-              {
-                "folderName": "Size",
-                "children": [
-                  {
-                    "propertyName": "IdleScale"
-                  },
-                  {
-                    "propertyName": "FocusedScale"
-                  },
-                  {
-                    "propertyName": "PressedScale"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  },
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "PreviousState"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly change the color tint of buttons according to their state.",
@@ -105136,51 +105506,7 @@
               "name": "PreviousState"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Tween"
-              },
-              {
-                "folderName": "Color",
-                "children": [
-                  {
-                    "propertyName": "IdleColorTint"
-                  },
-                  {
-                    "propertyName": "FocusedColorTint"
-                  },
-                  {
-                    "propertyName": "PressedColorTint"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  },
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "PreviousState"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -108290,34 +108616,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PlatformerCharacter"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -108512,28 +108811,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -108734,31 +109012,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "WalkStick"
-                  },
-                  {
-                    "propertyName": "CameraStick"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control camera rotations with a gamepad.",
@@ -109799,68 +110053,7 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Object3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "propertyName": "CameraStick"
-              },
-              {
-                "folderName": "Horizontal rotation",
-                "children": [
-                  {
-                    "propertyName": "HorizontalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationDeceleration"
-                  }
-                ]
-              },
-              {
-                "folderName": "Vertical rotation",
-                "children": [
-                  {
-                    "propertyName": "VerticalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "VerticalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "VerticalRotationDeceleration"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMin"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMax"
-                  }
-                ]
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "OffsetZ"
-                  }
-                ]
-              },
-              {
-                "propertyName": "CurrentRotationSpeedZ"
-              },
-              {
-                "propertyName": "CurrentRotationSpeedY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics car with a gamepad.",
@@ -110230,34 +110423,7 @@
               "name": "HandBrakeButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCar3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "HandBrakeButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a top-down character with a gamepad.",
@@ -110901,34 +111067,7 @@
               "name": "StickMode"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "StickMode"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -111941,26 +112080,7 @@
               "name": "TypedText"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Text"
-              },
-              {
-                "propertyName": "Interval"
-              },
-              {
-                "propertyName": "CharacterJustAdded"
-              },
-              {
-                "propertyName": "FullText"
-              },
-              {
-                "propertyName": "TypedText"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -112426,23 +112546,7 @@
               "name": "MarginRight"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "MarginTop"
-              },
-              {
-                "propertyName": "MarginBottom"
-              },
-              {
-                "propertyName": "MarginLeft"
-              },
-              {
-                "propertyName": "MarginRight"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -112575,9 +112679,7 @@
             }
           ],
           "propertyDescriptors": [],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT"
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -113704,26 +113806,7 @@
               "name": "MaxOpacity"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Progress"
-              },
-              {
-                "propertyName": "Duration"
-              },
-              {
-                "propertyName": "Type"
-              },
-              {
-                "propertyName": "Direction"
-              },
-              {
-                "propertyName": "MaxOpacity"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -118748,95 +118831,7 @@
               "name": "Viewpoint"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Flippable"
-              },
-              {
-                "propertyName": "Rotation"
-              },
-              {
-                "propertyName": "RotationOffset"
-              },
-              {
-                "propertyName": "FlipXToGoBack"
-              },
-              {
-                "propertyName": "FlipYToGoBack"
-              },
-              {
-                "propertyName": "SpeedScale"
-              },
-              {
-                "propertyName": "PathOriginX"
-              },
-              {
-                "propertyName": "PathOriginY"
-              },
-              {
-                "propertyName": "Target"
-              },
-              {
-                "propertyName": "Origin"
-              },
-              {
-                "propertyName": "PathName"
-              },
-              {
-                "propertyName": "Duration"
-              },
-              {
-                "propertyName": "Easing"
-              },
-              {
-                "propertyName": "DrawingElementIndex"
-              },
-              {
-                "propertyName": "X"
-              },
-              {
-                "propertyName": "Y"
-              },
-              {
-                "propertyName": "PathAngle"
-              },
-              {
-                "propertyName": "PathScale"
-              },
-              {
-                "propertyName": "RepetitionCount"
-              },
-              {
-                "propertyName": "ShouldGoBack"
-              },
-              {
-                "propertyName": "ShouldLoop"
-              },
-              {
-                "propertyName": "RepetitionDoneCount"
-              },
-              {
-                "propertyName": "IsGoingBack"
-              },
-              {
-                "propertyName": "PauseDurationBeforeGoingBack"
-              },
-              {
-                "propertyName": "DrawingPathOriginX"
-              },
-              {
-                "propertyName": "DrawingPathOriginY"
-              },
-              {
-                "propertyName": "DebugLineStrokeWidth"
-              },
-              {
-                "propertyName": "Viewpoint"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Move objects on curved paths at a given speed.",
@@ -121593,82 +121588,7 @@
               "name": "Viewpoint"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Rotation",
-                "children": [
-                  {
-                    "propertyName": "Rotation"
-                  },
-                  {
-                    "propertyName": "RotationOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "Speed"
-              },
-              {
-                "propertyName": "PathOriginX"
-              },
-              {
-                "propertyName": "PathOriginY"
-              },
-              {
-                "propertyName": "PathName"
-              },
-              {
-                "propertyName": "TargetedSpeed"
-              },
-              {
-                "propertyName": "Acceleration"
-              },
-              {
-                "propertyName": "DrawingElementIndex"
-              },
-              {
-                "propertyName": "X"
-              },
-              {
-                "propertyName": "Y"
-              },
-              {
-                "propertyName": "PathAngle"
-              },
-              {
-                "propertyName": "PathScale"
-              },
-              {
-                "propertyName": "RepetitionCount"
-              },
-              {
-                "propertyName": "ShouldLoop"
-              },
-              {
-                "propertyName": "DrawingPathOriginX"
-              },
-              {
-                "propertyName": "DrawingPathOriginY"
-              },
-              {
-                "propertyName": "DebugLineStrokeWidth"
-              },
-              {
-                "propertyName": "PreviousSpeed"
-              },
-              {
-                "propertyName": "CurrentLength"
-              },
-              {
-                "propertyName": "IsLookingBack"
-              },
-              {
-                "propertyName": "Viewpoint"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -122062,23 +121982,7 @@
               "name": "OriginalY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "DraggableBehavior"
-              },
-              {
-                "propertyName": "TweenBehavior"
-              },
-              {
-                "propertyName": "OriginalX"
-              },
-              {
-                "propertyName": "OriginalY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -126059,60 +125963,7 @@
               "name": "ToogleClockwise"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Dimension",
-                "children": [
-                  {
-                    "propertyName": "Width"
-                  },
-                  {
-                    "propertyName": "Height"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "Clockwise"
-                  },
-                  {
-                    "propertyName": "HorizontalEdgeDuration"
-                  },
-                  {
-                    "propertyName": "VerticalEdgeDuration"
-                  },
-                  {
-                    "propertyName": "Easing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "Left"
-              },
-              {
-                "propertyName": "Top"
-              },
-              {
-                "propertyName": "Progress"
-              },
-              {
-                "propertyName": "OldX"
-              },
-              {
-                "propertyName": "OldY"
-              },
-              {
-                "propertyName": "InitialPosition"
-              },
-              {
-                "propertyName": "ToogleClockwise"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -127036,20 +126887,7 @@
               "name": "FlashDuration"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Make an object flash a color tint for a period of time.",
@@ -127623,23 +127461,7 @@
               "name": "TintColor"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "TintColor"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Flash opacity smoothly (fade) in a repeating loop.",
@@ -128293,32 +128115,7 @@
               "name": "StartingOpacity"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Opacity"
-              },
-              {
-                "propertyName": "TweenBehavior"
-              },
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "TargetOpacity"
-              },
-              {
-                "propertyName": "StartingOpacity"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Make the object flash an effect for a period of time.",
@@ -129166,26 +128963,7 @@
               "name": "EffectName"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "EffectName"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []

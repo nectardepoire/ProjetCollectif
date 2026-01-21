@@ -1,11 +1,11 @@
 [
 	{
-		"title": "PNJ4",
+		"title": "PNJ4_apres_mairie",
 		"tags": "",
 		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\n[bruitage agitation/stress et illu correspondante]\r\nCatastrophe, c’est une catastrophe ! Mon serveur n’est pas venu travailler aujourd’hui, je dois gérer la cuisine et le service en même temps ! Désolée, on m’a dit que tu cherchais des informations sur le nom du village mais je n’ai vraiment pas le temps de discuter.\r\n<< userName >>\r\nChoix 1 : \r\nChoix 2 : \r\n<< nameTag pnj4 >>\r\n[[ Et si je t'aidais ? |oui]]\r\n[[ Ah, bon courage. |non]] |]]\r\n<< fin >>",
 		"position": {
-			"x": 437,
-			"y": 252
+			"x": -150,
+			"y": -37
 		},
 		"colorID": 8
 	},
@@ -14,8 +14,8 @@
 		"tags": "",
 		"body": "<< nameTag pnj4 >>\n<< langue francais >>\nOh tu me sauverais la vie ! Marché conclu, je me mets aux fourneaux et te laisse servir les clients. J’espère que ça ira…Tu vas voir, mes clients aiment beaucoup parler dans toutes les langues qu’ils connaissent !\n<< fin1 >>",
 		"position": {
-			"x": 178,
-			"y": 499
+			"x": 208,
+			"y": 127
 		},
 		"colorID": 2
 	},
@@ -24,8 +24,8 @@
 		"tags": "",
 		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nSi tu veux bien, reviens me voir pour m’aider s’il-te-plait…À ce moment-là, je te donnerai ce que tu recherches\r\n<< fin2 >>",
 		"position": {
-			"x": 679,
-			"y": 478
+			"x": 221,
+			"y": -84
 		},
 		"colorID": 5
 	},
@@ -110,19 +110,19 @@
 		"colorID": 5
 	},
 	{
-		"title": "fin_cafe",
+		"title": "PNJ4_reussite_cafe",
 		"tags": "",
 		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nMerci encore pour ton aide. Bon, tu aurais pu faire plus de 3 clients… Mais c’est déjà ça !  Tiens, c’est pour toi.\r\n<< lettre >>\r\nQuand même, je me demande vraiment pourquoi mon serveur n’est pas venu aujourd’hui… Tu pourrais aller voir pour moi, s’il-te-plait ?\r\n[[ Oui, je vais voir. C’est étrange, les deux premiers clients ont dit “merci” en suédois mais d’une manière différente. |oui_suedois]] |]]\r\n[[ Oui, je vais voir. C’est étrange, les deux derniers clients ont dit “bonjour” et “au revoir” en turc mais d’une manière différente.|oui_turc]] |]]\r\n<< fin >>",
 		"position": {
-			"x": -119,
-			"y": 1675
+			"x": -118,
+			"y": 1676
 		},
 		"colorID": 8
 	},
 	{
-		"title": "echec_cafe",
+		"title": "PNJ4_echec_cafe",
 		"tags": "",
-		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nOlalah, c’est un cauchemar, je vais me réveiller dans mon lit et rien de tout ça ne se sera passé…\r\n<< recommence >>\r\n[après avoir réussi l’act de service, quand joueur clique sur pnj3 (faire en sorte que le joueur ait envie d’aller le voir avant d’aller chez le serveur)]\r\n<< fin >>",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nOlalah, c’est un cauchemar, je vais me réveiller dans mon lit et rien de tout ça ne se sera passé…\r\n<< recommence >>",
 		"position": {
 			"x": 465,
 			"y": 1869
@@ -132,7 +132,7 @@
 	{
 		"title": "oui_suedois",
 		"tags": "",
-		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nOui, j’ai remarqué. Je crois que le premier client était suédois, tandis que la deuxième était finlandaise. Il existe des différences entre le suédois parlé en Suède et celui parlé en Finlande… Est-ce que ta langue est aussi parlée dans plusieurs pays ?",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nOui, j’ai remarqué. Je crois que le premier client était suédois, tandis que la deuxième était finlandaise. \r\nIl existe des différences entre le suédois parlé en Suède et celui parlé en Finlande… Est-ce que ta langue est aussi parlée dans plusieurs pays ?\r\n<< fin >>",
 		"position": {
 			"x": -385,
 			"y": 1855
@@ -142,7 +142,7 @@
 	{
 		"title": "oui_turc",
 		"tags": "",
-		"body": "<< nameTag pnj4 >>\n<< langue francais >>\nOui, j’ai remarqué. Tu crois que c’est parce que la deuxième cliente était jeune et que le dernier client était plus âgé ? Après tout, je ne dis pas “salut” comme ma fille de 15 ans le dit. Ce n’est pas aussi le cas de ta langue ?",
+		"body": "<< nameTag pnj4 >>\n<< langue francais >>\nOui, j’ai remarqué. Tu crois que c’est parce que la deuxième cliente était jeune et que le dernier client était plus âgé ? Après tout, je ne dis pas “salut” comme ma fille de 15 ans le dit. Ce n’est pas aussi le cas de ta langue ?\n<< fin >>",
 		"position": {
 			"x": 154,
 			"y": 1849
@@ -154,28 +154,88 @@
 		"tags": "",
 		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nMinako, la gérante du café, est débordée aujourd’hui. Elle me fait de la peine. \r\n<< fin >>",
 		"position": {
-			"x": -183,
-			"y": 2320
+			"x": -368,
+			"y": -135
 		},
 		"colorID": 0
 	},
 	{
 		"title": "PNJ3_apres_cafe",
 		"tags": "",
-		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nTu t’es bien débrouillé tout à l’heure avec les clients, bravo ! J’ai aussi entendu votre conversation avec Minako. Ça m'a fait penser au fait que Minako rit souvent de moi lorsque l’on va au marché ensemble car je demande toujours une réduction ! まけて par ci, まけて par là ! Je n’y peux rien, je viens d’Osaka, c’est une habitude de marchander pour faire des économies là-bas, c’est presque une culture à part entière. Mais ça, Minako ne le comprend pas car elle vient de Tokyo.\r\n<< fin >>",
+		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nTu as un vrai talent avec la clientèle, bravo ! J’ai aussi entendu votre conversation avec Minako. Ça m'a fait penser au fait que Minako rit souvent de moi lorsque l’on va au marché ensemble car je demande toujours une réduction ! まけて par ci, まけて par là ! Je n’y peux rien, je viens d’Osaka, c’est une habitude de marchander pour faire des économies là-bas, c’est presque une culture à part entière. Mais ça, Minako ne le comprend pas car elle vient de Tokyo.\r\n<< fin >>",
 		"position": {
-			"x": 32,
-			"y": 2320
+			"x": -375,
+			"y": 79
 		},
 		"colorID": 0
 	},
 	{
-		"title": "Node",
+		"title": "PNJ3_avant_mairie",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nBonjour bonjour ! \r\n<< fin >>",
 		"position": {
-			"x": 268,
-			"y": 1319
+			"x": -365,
+			"y": -350
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ4_avant_mairie",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\n Alors, un thé turc pour la table 3…Un milkshake pour la table 5…Non, pour la table 4…Ou la 3 en fait ? Arghh, je dois tout recommencer maintenant !\r\n<< fin >>",
+		"position": {
+			"x": -145,
+			"y": -359
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ4_apres_cafe",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\n<< langue francais >>\nJe me demande vraiment pourquoi mon serveur n’est pas venu aujourd’hui… Tu pourrais aller voir pour moi, s’il-te-plait ?\n<< fin >>\n\nquête 2 fini vrai, colis donné faux",
+		"position": {
+			"x": -155,
+			"y": 175
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ4_colis_donne",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nMerci encore pour ton aide au café !   \r\n<< fin >>",
+		"position": {
+			"x": -149,
+			"y": 382
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ3_jeu_fini",
+		"tags": "",
+		"body": "<< nameTag pnj3 >> \r\n<< langue francais >>\r\nÀ bientôt j'espère !\r\n<< fin >>",
+		"position": {
+			"x": -337,
+			"y": 606
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ4_jeu_fini",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nN'hésite pas à repasser au café quand tu veux !\r\n<< fin >>",
+		"position": {
+			"x": -120,
+			"y": 599
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PNJ4_finalement",
+		"tags": "",
+		"body": "<< nameTag pnj4 >>\n<< langue francais >>\nAh, tu veux m'aider finalement ?\n[[D'accord !|oui]]\n[[Je n'ai pas le temps...|non]]",
+		"position": {
+			"x": 500,
+			"y": -40
 		},
 		"colorID": 0
 	}
