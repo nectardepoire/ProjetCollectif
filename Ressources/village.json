@@ -12,7 +12,7 @@
 	{
 		"title": "oui",
 		"tags": "",
-		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nSuper ! J’ai oublié de te dire, notre village regroupe des personnes d’horizons différents. \r\nNous utilisons le français la plupart du temps, mais il y a 5 autres langues qui cohabitent ici : le thaï, le suédois, le turc, le japonais et le persan. Il est donc très probable que tu rencontres ces langues en échangeant avec eux.\r\nTu pourrais commencer par la mairie, c’est le bâtiment au toit bleu.",
+		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nSuper ! J’ai oublié de te dire, notre village regroupe des personnes d’horizons différents. \r\nNous utilisons le français la plupart du temps, mais il y a 5 autres langues qui cohabitent ici : le thaï, le suédois, le turc, le japonais et le persan. Il est donc très probable que tu rencontres ces langues en échangeant avec eux.\r\nTu pourrais commencer par la mairie, c’est le bâtiment au toit bleu.\r\n<< fin1 >>",
 		"position": {
 			"x": 197,
 			"y": 491
@@ -22,7 +22,7 @@
 	{
 		"title": "non",
 		"tags": "",
-		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nPressé ? Ce n’est pas comme si tu avais une autre solution. Tu peux toujours demander le nom du village au vent si tu préfères.\r\nBon, si tu changes d’avis, tu peux te rendre à la mairie pour commencer. C’est la maison au toit bleu.",
+		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nPressé ? Ce n’est pas comme si tu avais une autre solution. Tu peux toujours demander le nom du village au vent si tu préfères.\r\nBon, si tu changes d’avis, tu peux te rendre à la mairie pour commencer. C’est la maison au toit bleu.\r\n<< fin1 >>",
 		"position": {
 			"x": 683,
 			"y": 475
@@ -34,8 +34,48 @@
 		"tags": "",
 		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nTu es encore là ? Tu as été à la mairie ? C’est le bâtiment au toit bleu.",
 		"position": {
-			"x": 998,
-			"y": 478
+			"x": 981,
+			"y": 250
+		},
+		"colorID": 0
+	},
+	{
+		"title": "apparition2",
+		"tags": "",
+		"body": "<< userName >>\r\n<< langue alien >>\r\nEncore ! Pourtant les habitants n’ont pas l’air de s’inquiéter… J’ai peur…\r\n<< fin >>",
+		"position": {
+			"x": 440,
+			"y": 764
+		},
+		"colorID": 0
+	},
+	{
+		"title": "apparition1",
+		"tags": "",
+		"body": "<< userName >>\r\n<< langue alien >>\r\nMais qu’est-ce que c’est que ça ? Cette ombre inconnue m’angoisse. \r\n<< fin >>",
+		"position": {
+			"x": 133,
+			"y": 766
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mystereresolu1",
+		"tags": "",
+		"body": "<< userName >>\r\n<< langue alien >>\r\nOh ! L’ombre est de nouveau là, À L’AIDE !!\r\n<< apparition >>",
+		"position": {
+			"x": 694,
+			"y": 766
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mystereresolu2",
+		"tags": "",
+		"body": "[joueur doit cliquer sur les pnj (une seule entité, je sais pas si c’est clair) pour activer la suite du dialogue]\r\n\r\n<< userName >>\r\n<< langue francais >>\r\nC’est de cette chose dont je vous parlais ! \r\n\r\n<< nameTag pnj5 >>\r\n<< langue FRPE >>\r\nMais c’est le chien du village, je te l’ai dit quand j’ai imité son bruit, hap hap هاپ هاپ !\r\n\r\n<< nameTag pnj6 >>\r\n<< langue FRTHAI >>\r\nEt moi je t’ai dit que le son était hong hong ฮ่ง ฮ่ง\r\n\r\n<< userName >>\r\n<< langue francais >>\r\nMais je ne comprends pas, comment un seul animal peut émettre deux bruits différents ? \r\n\r\n<< nameTag pnj5 >>\r\n<< langue FRPETHAI >>\r\nC’est le même son ! J’ai juste imité le bruit du chien en persan, et Simon l’a imité en thaï. hap hap هاپ هاپ, hong hong ฮ่ง ฮ่ง, c’est la même chose ! \r\n\r\n<< userName >>\r\nOlalah, je ne savais pas que les sons d’animaux pouvaient changer selon la langue…\r\n\r\n<< nameTag pnj5 >>\r\nHaha, désolé pour la confusion ! Tu as pu trouver le nom du village ? Si oui, bravo ! N’hésite pas à nous rendre visite, nous t’accueillerons avec plaisir.\r\n<< fin >>",
+		"position": {
+			"x": 930,
+			"y": 763
 		},
 		"colorID": 0
 	}

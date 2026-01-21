@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu titre",
   "gdVersion": {
-    "build": 252,
+    "build": 251,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -8061,6 +8061,38 @@
         "name": "lunettes.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/New dialogue tree4.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "New dialogue tree4",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/New dialogue tree5.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "New dialogue tree5",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/chez_PNJ5.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\chez_PNJ5.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/chez_PNJ6.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/chez_PNJ6.json\"}",
+        "name": "chez_PNJ6",
+        "userAdded": false
       }
     ]
   },
@@ -14727,6 +14759,11 @@
       "type": "structure",
       "children": [
         {
+          "name": "amis",
+          "type": "string",
+          "value": "Mes amis aliens"
+        },
+        {
           "name": "client1",
           "type": "string",
           "value": "Client"
@@ -14875,6 +14912,11 @@
     },
     {
       "name": "mystere_resolu",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "mystere_apparu",
       "type": "boolean",
       "value": false
     },
@@ -27741,6 +27783,24 @@
                 "",
                 "assets\\cafe.json"
               ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "assets\\chez_PNJ5.json"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "chez_PNJ6"
+              ]
             }
           ]
         },
@@ -29249,7 +29309,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402157009,
+        "zoomFactor": 0.6672773998330206,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -29317,13 +29377,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
+          "height": 30,
           "keepRatio": true,
           "layer": "",
           "name": "Map_boundaries",
           "persistentUuid": "ac2f2235-a6f1-4139-99cb-34a2f8dc9a1b",
-          "width": 1046,
-          "x": 253,
+          "width": 1301,
+          "x": -2,
           "y": -14,
           "zOrder": 11,
           "numberProperties": [],
@@ -29602,14 +29662,14 @@
           "angle": 270,
           "customSize": true,
           "depth": 1,
-          "height": 16,
+          "height": 25,
           "keepRatio": true,
           "layer": "",
           "name": "Map_boundaries",
           "persistentUuid": "9b5970ea-e2ac-4453-aeb8-f2aed9647992",
           "width": 735,
-          "x": -374,
-          "y": 346,
+          "x": -369,
+          "y": 341,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -29619,14 +29679,14 @@
           "angle": 270,
           "customSize": true,
           "depth": 1,
-          "height": 16,
+          "height": 28,
           "keepRatio": true,
           "layer": "",
           "name": "Map_boundaries",
           "persistentUuid": "b10e19d5-385b-4f27-89f5-8f8178bbebde",
           "width": 607,
-          "x": 997,
-          "y": 296,
+          "x": 991,
+          "y": 290,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -30066,8 +30126,8 @@
           "name": "Arbre",
           "persistentUuid": "577f7d41-7cad-4f2e-b6d4-ea494724028d",
           "width": 103,
-          "x": 1034,
-          "y": 143,
+          "x": 1058,
+          "y": 144,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -30217,7 +30277,7 @@
           "layer": "",
           "name": "FonduNoir",
           "persistentUuid": "867b57ad-8252-4f86-9316-dfe335cc536a",
-          "width": 1368,
+          "width": 1350,
           "x": -37,
           "y": -27,
           "zOrder": -10,
@@ -30244,15 +30304,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 45,
           "keepRatio": true,
           "layer": "",
           "name": "Fontaine_déco",
           "persistentUuid": "5c93e386-568f-4519-a4a3-2d67653d7c94",
-          "width": 0,
-          "x": 521,
-          "y": 517,
+          "width": 46,
+          "x": 532,
+          "y": 519,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -30319,8 +30380,8 @@
           "name": "Fleur_interactive_rosé",
           "persistentUuid": "c64b860f-dee8-4314-9ec4-e59144027ba8",
           "width": 43,
-          "x": 372,
-          "y": 522,
+          "x": 366,
+          "y": 521,
           "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
@@ -30336,8 +30397,8 @@
           "name": "Fleur_interactive_bleu",
           "persistentUuid": "ccf61a78-9f78-403b-83f3-be1d3070db88",
           "width": 35,
-          "x": 459,
-          "y": 535,
+          "x": 450,
+          "y": 537,
           "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
@@ -30452,8 +30513,8 @@
           "name": "créature_silhouette",
           "persistentUuid": "2e47cda2-0593-4165-bf4c-b043045f760d",
           "width": 0,
-          "x": 223,
-          "y": 282,
+          "x": 965,
+          "y": 601,
           "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
@@ -30548,7 +30609,7 @@
           "name": "fleur_turc",
           "persistentUuid": "5d53a72b-8ba7-4ad8-873f-f114804c7698",
           "width": 0,
-          "x": 376,
+          "x": 365,
           "y": 498,
           "zOrder": 68,
           "numberProperties": [],
@@ -30564,8 +30625,8 @@
           "name": "fleur_francais",
           "persistentUuid": "fad822cc-5a94-4192-aad8-8f858ba3f73a",
           "width": 0,
-          "x": 457,
-          "y": 512,
+          "x": 449,
+          "y": 513,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -30580,8 +30641,8 @@
           "name": "F_fr_1",
           "persistentUuid": "4303757f-09c8-4f2a-84f8-ce4d439c874b",
           "width": 0,
-          "x": 457,
-          "y": 559,
+          "x": 445,
+          "y": 562,
           "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
@@ -30596,7 +30657,7 @@
           "name": "F_turc_6",
           "persistentUuid": "c7dba4e5-898b-4f0c-af02-1cafedbfc3fc",
           "width": 0,
-          "x": 371,
+          "x": 364,
           "y": 553,
           "zOrder": 71,
           "numberProperties": [],
@@ -30984,7 +31045,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "mardi 21 janvier matin, Lyuyao\n",
+          "string": "mardi 21 janvier matin, Andréa\n",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -31007,7 +31068,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "mardi 21 janvier matin, Lyuyao\n",
+            "text": "mardi 21 janvier matin, Andréa\n",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -36142,6 +36203,18 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "DIALOGUE : fichier village.json, branche \"rencontre\" ; il y a une commande \"truc\" je pense que c'était un test de Tristan"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
             "b": 109,
             "g": 230,
             "r": 255,
@@ -37366,6 +37439,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -37406,11 +37491,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -70827,6 +70907,388 @@
           "type": "Tween::TweenBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Ajouter_32dans_32animation_32de_32fin",
+      "name": "Ajouter dans animation de fin",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.9934433498259576,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 43,
+          "keepRatio": true,
+          "layer": "",
+          "name": "champ_nom_village",
+          "persistentUuid": "39070501-6a9d-4120-96ec-219feb83dbb1",
+          "width": 282,
+          "x": 391,
+          "y": 441,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 118,
+          "keepRatio": true,
+          "layer": "",
+          "name": "champ_box",
+          "persistentUuid": "244c53fd-a0a7-4ef3-986d-321e99c56d01",
+          "width": 474,
+          "x": 321,
+          "y": 385,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 237,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mec_de_test",
+          "persistentUuid": "8b9985e7-c440-4376-8fc7-9d9c6cd7d0e1",
+          "width": 242,
+          "x": 856,
+          "y": 321,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "champ_nom_village",
+          "type": "TextInput::TextInputObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "initialValue": "",
+            "placeholder": "Écris le nom du village",
+            "fontResourceName": "Ressources\\PixelOperator.ttf",
+            "fontSize": 28,
+            "inputType": "text",
+            "textColor": "0;0;0",
+            "fillColor": "255;255;255",
+            "fillOpacity": 255,
+            "borderColor": "0;0;0",
+            "borderOpacity": 255,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false,
+            "spellCheck": false,
+            "paddingX": 2,
+            "paddingY": 1,
+            "textAlign": "left",
+            "maxLength": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "champ_box",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ressources\\dialogue_box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1775,
+                            "y": 0
+                          },
+                          {
+                            "x": 1775,
+                            "y": 345
+                          },
+                          {
+                            "x": 0,
+                            "y": 345
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "champ_nom_village"
+          },
+          {
+            "objectName": "champ_box"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "champ_nom_village",
+                    "Text",
+                    "=",
+                    "\"hôma\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "champ_nom_village",
+                    "Text",
+                    "=",
+                    "\"Hôma\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "champ_nom_village",
+                    "Text",
+                    "=",
+                    "\"Homa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "champ_nom_village",
+                    "Text",
+                    "=",
+                    "\"homa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "champ_nom_village",
+                    "Text",
+                    "=",
+                    "\"HOMA\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Mec_de_test"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMovementAnimator",
+          "type": "TopDownMovementAnimator::TopDownMovementAnimator",
+          "NewAnimationDirection": 0,
+          "AnimationFrame": 0
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [
@@ -70848,9 +71310,9 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
+            "b": 35,
+            "g": 166,
+            "r": 245,
             "textB": 0,
             "textG": 0,
             "textR": 0
@@ -70966,9 +71428,9 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
+            "b": 35,
+            "g": 166,
+            "r": 245,
             "textB": 0,
             "textG": 0,
             "textR": 0
@@ -71090,9 +71552,9 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
+            "b": 35,
+            "g": 166,
+            "r": 245,
             "textB": 0,
             "textG": 0,
             "textR": 0
@@ -71205,7 +71667,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Portes et transitions",
+          "name": "Créature mystérieuse",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -71217,6 +71679,186 @@
             "b": 109,
             "g": 230,
             "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "C'est à ce moment qu'il y a l'animation qui fait peur avec la première apparition de la créature devant le café"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "DIALOGUE : fichier village.json, branche \"apparition\" ; commande \"fin\" pour terminer"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Alien",
+                "Café_vers_village",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_2_finie",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mystere_resolu",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "créature_silhouette",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mystere_apparu",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Pour l'animation de résolution, mettre d'abord la silhouette et quand les PNJ arrivent, révéler la créature visible. Si besoin des coordonnées auxquelles créature_silhouette apparaît lors de cette animation : X = 121 ; Y = 218"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208,
+            "textB": 255,
+            "textG": 255,
+            "textR": 255
+          },
+          "comment": "Lyuyao : ajouter animation dans l'action ci-dessous"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Alien",
+                "Gandom_vers_village",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_3_finie",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mystere_resolu",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mystere_resolu",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "New dialogue tree4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Portes et transitions",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245,
             "textB": 0,
             "textG": 0,
             "textR": 0
@@ -76791,32 +77433,7 @@
               "name": "TouchIndex"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "propertyName": "DeadZoneRadius"
-              },
-              {
-                "propertyName": "JoystickAngle"
-              },
-              {
-                "propertyName": "JoystickForce"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIndex"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors.",
@@ -77359,32 +77976,7 @@
               "name": "Radius"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "ButtonIdentifier"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIndex"
-              },
-              {
-                "propertyName": "IsReleased"
-              },
-              {
-                "propertyName": "IsJustPressed"
-              },
-              {
-                "propertyName": "Radius"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a platformer character with a multitouch controller.",
@@ -77606,28 +78198,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Property"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -77770,28 +78341,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -77923,28 +78473,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control camera rotations with a multitouch controller.",
@@ -78986,73 +79515,7 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Object3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "CameraStick"
-                  }
-                ]
-              },
-              {
-                "folderName": "Horizontal rotation",
-                "children": [
-                  {
-                    "propertyName": "HorizontalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationDeceleration"
-                  }
-                ]
-              },
-              {
-                "folderName": "Vertical rotation",
-                "children": [
-                  {
-                    "propertyName": "VerticalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "VerticalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "VerticalRotationDeceleration"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMin"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMax"
-                  }
-                ]
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "OffsetZ"
-                  }
-                ]
-              },
-              {
-                "propertyName": "CurrentRotationSpeedZ"
-              },
-              {
-                "propertyName": "CurrentRotationSpeedY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics car with a multitouch controller.",
@@ -79230,31 +79693,7 @@
               "name": "HandBrakeButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCar3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "SteerJoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "SpeedJoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "HandBrakeButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a top-down character with a multitouch controller.",
@@ -79822,28 +80261,7 @@
               "name": "StickMode"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "StickMode"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": [
@@ -81174,35 +81592,6 @@
               "name": "ShouldBeHiddenWhenReleased"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "propertyName": "DeadZoneRadius"
-              },
-              {
-                "propertyName": "ThumbAnchorOrigin"
-              },
-              {
-                "propertyName": "ThumbAnchorTarget"
-              },
-              {
-                "propertyName": "ThumbIsScaledProportionally"
-              },
-              {
-                "propertyName": "ParentOrigin"
-              },
-              {
-                "propertyName": "ShouldBeHiddenWhenReleased"
-              }
-            ]
-          },
           "variants": []
         }
       ]
@@ -86013,175 +86402,7 @@
               "name": "IsCalledManually"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Catch-up speed",
-                "children": [
-                  {
-                    "propertyName": "LeftwardSpeed"
-                  },
-                  {
-                    "propertyName": "RightwardSpeed"
-                  },
-                  {
-                    "propertyName": "UpwardSpeed"
-                  },
-                  {
-                    "propertyName": "DownwardSpeed"
-                  }
-                ]
-              },
-              {
-                "propertyName": "FollowOnX"
-              },
-              {
-                "propertyName": "FollowOnY"
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "FollowFreeAreaLeft"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaRight"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaBottom"
-                  },
-                  {
-                    "propertyName": "CameraOffsetX"
-                  },
-                  {
-                    "propertyName": "CameraOffsetY"
-                  }
-                ]
-              },
-              {
-                "folderName": "Timing",
-                "children": [
-                  {
-                    "propertyName": "CameraDelay"
-                  },
-                  {
-                    "propertyName": "ForecastTime"
-                  },
-                  {
-                    "propertyName": "ForecastHistoryDuration"
-                  }
-                ]
-              },
-              {
-                "propertyName": "LogLeftwardSpeed"
-              },
-              {
-                "propertyName": "LogRightwardSpeed"
-              },
-              {
-                "propertyName": "LogDownwardSpeed"
-              },
-              {
-                "propertyName": "LogUpwardSpeed"
-              },
-              {
-                "propertyName": "DelayedCenterX"
-              },
-              {
-                "propertyName": "DelayedCenterY"
-              },
-              {
-                "propertyName": "ForecastHistoryMeanX"
-              },
-              {
-                "propertyName": "ForecastHistoryMeanY"
-              },
-              {
-                "propertyName": "ForecastHistoryVarianceX"
-              },
-              {
-                "propertyName": "ForecastHistoryCovariance"
-              },
-              {
-                "propertyName": "ForecastHistoryLinearA"
-              },
-              {
-                "propertyName": "ForecastHistoryLinearB"
-              },
-              {
-                "propertyName": "ForecastedX"
-              },
-              {
-                "propertyName": "ForecastedY"
-              },
-              {
-                "propertyName": "ProjectedNewestX"
-              },
-              {
-                "propertyName": "ProjectedNewestY"
-              },
-              {
-                "propertyName": "ProjectedOldestX"
-              },
-              {
-                "propertyName": "ProjectedOldestY"
-              },
-              {
-                "propertyName": "ForecastHistoryVarianceY"
-              },
-              {
-                "propertyName": "Index"
-              },
-              {
-                "propertyName": "CameraDelayCatchUpSpeed"
-              },
-              {
-                "propertyName": "CameraExtraDelay"
-              },
-              {
-                "propertyName": "WaitingSpeedXMax"
-              },
-              {
-                "propertyName": "WaitingSpeedYMax"
-              },
-              {
-                "propertyName": "WaitingEnd"
-              },
-              {
-                "propertyName": "CameraDelayCatchUpDuration"
-              },
-              {
-                "folderName": "Maximum speed",
-                "children": [
-                  {
-                    "propertyName": "LeftwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "RightwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "UpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "DownwardSpeedMax"
-                  }
-                ]
-              },
-              {
-                "propertyName": "OldX"
-              },
-              {
-                "propertyName": "OldY"
-              },
-              {
-                "propertyName": "IsCalledManually"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
@@ -86526,71 +86747,7 @@
               "name": "FloorDownwardSpeedMax"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PlatformerCharacter"
-              },
-              {
-                "propertyName": "SmoothCamera"
-              },
-              {
-                "propertyName": "JumpOriginY"
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "AirFollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "AirFollowFreeAreaBottom"
-                  },
-                  {
-                    "propertyName": "FloorFollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "FloorFollowFreeAreaBottom"
-                  }
-                ]
-              },
-              {
-                "folderName": "Catch-up speed",
-                "children": [
-                  {
-                    "propertyName": "AirUpwardSpeed"
-                  },
-                  {
-                    "propertyName": "AirDownwardSpeed"
-                  },
-                  {
-                    "propertyName": "FloorUpwardSpeed"
-                  },
-                  {
-                    "propertyName": "FloorDownwardSpeed"
-                  }
-                ]
-              },
-              {
-                "folderName": "Maximum speed",
-                "children": [
-                  {
-                    "propertyName": "AirUpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "AirDownwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "FloorUpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "FloorDownwardSpeedMax"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -87892,45 +88049,6 @@
               "name": "AnimationDirection"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Animation"
-              },
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "folderName": "Animation",
-                "children": [
-                  {
-                    "propertyName": "IsScalingAnimation"
-                  },
-                  {
-                    "propertyName": "IsPausingAnimation"
-                  },
-                  {
-                    "propertyName": "AnimationName"
-                  }
-                ]
-              },
-              {
-                "folderName": "Direction",
-                "children": [
-                  {
-                    "propertyName": "DirectionCount"
-                  },
-                  {
-                    "propertyName": "AngleOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "AnimationDirection"
-              }
-            ]
-          },
           "sharedPropertyDescriptors": [
             {
               "value": "0",
@@ -87946,18 +88064,7 @@
               "hidden": true,
               "name": "AnimationFrame"
             }
-          ],
-          "sharedPropertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "NewAnimationDirection"
-              },
-              {
-                "propertyName": "AnimationFrame"
-              }
-            ]
-          }
+          ]
         }
       ],
       "eventsBasedObjects": []
@@ -89190,29 +89297,7 @@
               "name": "Index"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ShouldCheckHovering"
-              },
-              {
-                "propertyName": "State"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIsInside"
-              },
-              {
-                "propertyName": "MouseIsInside"
-              },
-              {
-                "propertyName": "Index"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": [
@@ -90716,31 +90801,6 @@
               "name": "_PropertyMapping"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "LabelText"
-              },
-              {
-                "folderName": "States",
-                "children": [
-                  {
-                    "propertyName": "HoveredFadeOutDuration"
-                  },
-                  {
-                    "propertyName": "PressedLabelOffsetY"
-                  },
-                  {
-                    "propertyName": "LabelOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "_PropertyMapping"
-              }
-            ]
-          },
           "variants": [
             {
               "areaMaxX": 256,
@@ -92946,29 +93006,6 @@
               "name": "_PropertyMapping"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TextMessage"
-              },
-              {
-                "propertyName": "HighlightedButtonIndex"
-              },
-              {
-                "propertyName": "EnableEscape"
-              },
-              {
-                "propertyName": "LabelButtonID0"
-              },
-              {
-                "propertyName": "LabelButtonID1"
-              },
-              {
-                "propertyName": "_PropertyMapping"
-              }
-            ]
-          },
           "variants": [
             {
               "areaMaxX": 600,
@@ -94449,29 +94486,7 @@
               "name": "Index"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ShouldCheckHovering"
-              },
-              {
-                "propertyName": "State"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIsInside"
-              },
-              {
-                "propertyName": "MouseIsInside"
-              },
-              {
-                "propertyName": "Index"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Enable effects on buttons based on their state.",
@@ -95012,31 +95027,7 @@
               "name": "PressedEffect"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "folderName": "Effects",
-                "children": [
-                  {
-                    "propertyName": "IdleEffect"
-                  },
-                  {
-                    "propertyName": "FocusedEffect"
-                  },
-                  {
-                    "propertyName": "PressedEffect"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Change the animation of buttons according to their state.",
@@ -95486,31 +95477,7 @@
               "name": "PressedAnimationName"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Animation"
-              },
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "folderName": "Animation",
-                "children": [
-                  {
-                    "propertyName": "IdleAnimationName"
-                  },
-                  {
-                    "propertyName": "FocusedAnimationName"
-                  },
-                  {
-                    "propertyName": "PressedAnimationName"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly change an effect on buttons according to their state.",
@@ -97401,80 +97368,7 @@
               "name": "EffectValue"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "folderName": "Effect",
-                "children": [
-                  {
-                    "propertyName": "EffectName"
-                  },
-                  {
-                    "propertyName": "EffectProperty"
-                  }
-                ]
-              },
-              {
-                "folderName": "Value",
-                "children": [
-                  {
-                    "propertyName": "IdleValue"
-                  },
-                  {
-                    "propertyName": "FocusedValue"
-                  },
-                  {
-                    "propertyName": "PressedValue"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  },
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  }
-                ]
-              },
-              {
-                "propertyName": "ShouldDisableEffectInIdle"
-              },
-              {
-                "propertyName": "PreviousState"
-              },
-              {
-                "propertyName": "TweenInitialValue"
-              },
-              {
-                "propertyName": "TweenTargetedValue"
-              },
-              {
-                "propertyName": "TweenTime"
-              },
-              {
-                "propertyName": "TweenState"
-              },
-              {
-                "propertyName": "EffectValue"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly resize buttons according to their state.",
@@ -98784,54 +98678,7 @@
               "name": "PreviousState"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Scale"
-              },
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Tween"
-              },
-              {
-                "folderName": "Size",
-                "children": [
-                  {
-                    "propertyName": "IdleScale"
-                  },
-                  {
-                    "propertyName": "FocusedScale"
-                  },
-                  {
-                    "propertyName": "PressedScale"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  },
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "PreviousState"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly change the color tint of buttons according to their state.",
@@ -100142,51 +99989,7 @@
               "name": "PreviousState"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Tween"
-              },
-              {
-                "folderName": "Color",
-                "children": [
-                  {
-                    "propertyName": "IdleColorTint"
-                  },
-                  {
-                    "propertyName": "FocusedColorTint"
-                  },
-                  {
-                    "propertyName": "PressedColorTint"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  },
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "PreviousState"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -103296,34 +103099,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PlatformerCharacter"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -103518,28 +103294,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -103740,31 +103495,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "WalkStick"
-                  },
-                  {
-                    "propertyName": "CameraStick"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control camera rotations with a gamepad.",
@@ -104805,68 +104536,7 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Object3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "propertyName": "CameraStick"
-              },
-              {
-                "folderName": "Horizontal rotation",
-                "children": [
-                  {
-                    "propertyName": "HorizontalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationDeceleration"
-                  }
-                ]
-              },
-              {
-                "folderName": "Vertical rotation",
-                "children": [
-                  {
-                    "propertyName": "VerticalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "VerticalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "VerticalRotationDeceleration"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMin"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMax"
-                  }
-                ]
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "OffsetZ"
-                  }
-                ]
-              },
-              {
-                "propertyName": "CurrentRotationSpeedZ"
-              },
-              {
-                "propertyName": "CurrentRotationSpeedY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics car with a gamepad.",
@@ -105236,34 +104906,7 @@
               "name": "HandBrakeButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCar3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "HandBrakeButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a top-down character with a gamepad.",
@@ -105907,34 +105550,7 @@
               "name": "StickMode"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "StickMode"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -106947,26 +106563,7 @@
               "name": "TypedText"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Text"
-              },
-              {
-                "propertyName": "Interval"
-              },
-              {
-                "propertyName": "CharacterJustAdded"
-              },
-              {
-                "propertyName": "FullText"
-              },
-              {
-                "propertyName": "TypedText"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -107432,23 +107029,7 @@
               "name": "MarginRight"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "MarginTop"
-              },
-              {
-                "propertyName": "MarginBottom"
-              },
-              {
-                "propertyName": "MarginLeft"
-              },
-              {
-                "propertyName": "MarginRight"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -107581,9 +107162,7 @@
             }
           ],
           "propertyDescriptors": [],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT"
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -108710,26 +108289,7 @@
               "name": "MaxOpacity"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Progress"
-              },
-              {
-                "propertyName": "Duration"
-              },
-              {
-                "propertyName": "Type"
-              },
-              {
-                "propertyName": "Direction"
-              },
-              {
-                "propertyName": "MaxOpacity"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -113754,95 +113314,7 @@
               "name": "Viewpoint"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Flippable"
-              },
-              {
-                "propertyName": "Rotation"
-              },
-              {
-                "propertyName": "RotationOffset"
-              },
-              {
-                "propertyName": "FlipXToGoBack"
-              },
-              {
-                "propertyName": "FlipYToGoBack"
-              },
-              {
-                "propertyName": "SpeedScale"
-              },
-              {
-                "propertyName": "PathOriginX"
-              },
-              {
-                "propertyName": "PathOriginY"
-              },
-              {
-                "propertyName": "Target"
-              },
-              {
-                "propertyName": "Origin"
-              },
-              {
-                "propertyName": "PathName"
-              },
-              {
-                "propertyName": "Duration"
-              },
-              {
-                "propertyName": "Easing"
-              },
-              {
-                "propertyName": "DrawingElementIndex"
-              },
-              {
-                "propertyName": "X"
-              },
-              {
-                "propertyName": "Y"
-              },
-              {
-                "propertyName": "PathAngle"
-              },
-              {
-                "propertyName": "PathScale"
-              },
-              {
-                "propertyName": "RepetitionCount"
-              },
-              {
-                "propertyName": "ShouldGoBack"
-              },
-              {
-                "propertyName": "ShouldLoop"
-              },
-              {
-                "propertyName": "RepetitionDoneCount"
-              },
-              {
-                "propertyName": "IsGoingBack"
-              },
-              {
-                "propertyName": "PauseDurationBeforeGoingBack"
-              },
-              {
-                "propertyName": "DrawingPathOriginX"
-              },
-              {
-                "propertyName": "DrawingPathOriginY"
-              },
-              {
-                "propertyName": "DebugLineStrokeWidth"
-              },
-              {
-                "propertyName": "Viewpoint"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Move objects on curved paths at a given speed.",
@@ -116599,82 +116071,7 @@
               "name": "Viewpoint"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Rotation",
-                "children": [
-                  {
-                    "propertyName": "Rotation"
-                  },
-                  {
-                    "propertyName": "RotationOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "Speed"
-              },
-              {
-                "propertyName": "PathOriginX"
-              },
-              {
-                "propertyName": "PathOriginY"
-              },
-              {
-                "propertyName": "PathName"
-              },
-              {
-                "propertyName": "TargetedSpeed"
-              },
-              {
-                "propertyName": "Acceleration"
-              },
-              {
-                "propertyName": "DrawingElementIndex"
-              },
-              {
-                "propertyName": "X"
-              },
-              {
-                "propertyName": "Y"
-              },
-              {
-                "propertyName": "PathAngle"
-              },
-              {
-                "propertyName": "PathScale"
-              },
-              {
-                "propertyName": "RepetitionCount"
-              },
-              {
-                "propertyName": "ShouldLoop"
-              },
-              {
-                "propertyName": "DrawingPathOriginX"
-              },
-              {
-                "propertyName": "DrawingPathOriginY"
-              },
-              {
-                "propertyName": "DebugLineStrokeWidth"
-              },
-              {
-                "propertyName": "PreviousSpeed"
-              },
-              {
-                "propertyName": "CurrentLength"
-              },
-              {
-                "propertyName": "IsLookingBack"
-              },
-              {
-                "propertyName": "Viewpoint"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -117068,23 +116465,7 @@
               "name": "OriginalY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "DraggableBehavior"
-              },
-              {
-                "propertyName": "TweenBehavior"
-              },
-              {
-                "propertyName": "OriginalX"
-              },
-              {
-                "propertyName": "OriginalY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -121065,60 +120446,7 @@
               "name": "ToogleClockwise"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Dimension",
-                "children": [
-                  {
-                    "propertyName": "Width"
-                  },
-                  {
-                    "propertyName": "Height"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "Clockwise"
-                  },
-                  {
-                    "propertyName": "HorizontalEdgeDuration"
-                  },
-                  {
-                    "propertyName": "VerticalEdgeDuration"
-                  },
-                  {
-                    "propertyName": "Easing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "Left"
-              },
-              {
-                "propertyName": "Top"
-              },
-              {
-                "propertyName": "Progress"
-              },
-              {
-                "propertyName": "OldX"
-              },
-              {
-                "propertyName": "OldY"
-              },
-              {
-                "propertyName": "InitialPosition"
-              },
-              {
-                "propertyName": "ToogleClockwise"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -122042,20 +121370,7 @@
               "name": "FlashDuration"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Make an object flash a color tint for a period of time.",
@@ -122629,23 +121944,7 @@
               "name": "TintColor"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "TintColor"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Flash opacity smoothly (fade) in a repeating loop.",
@@ -123299,32 +122598,7 @@
               "name": "StartingOpacity"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Opacity"
-              },
-              {
-                "propertyName": "TweenBehavior"
-              },
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "TargetOpacity"
-              },
-              {
-                "propertyName": "StartingOpacity"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Make the object flash an effect for a period of time.",
@@ -124172,26 +123446,7 @@
               "name": "EffectName"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "EffectName"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []

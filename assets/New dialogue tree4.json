@@ -1,0 +1,22 @@
+[
+	{
+		"title": "apparition",
+		"tags": "",
+		"body": "<< userName >>\r\n<< langue alien >>\r\nMais qu’est-ce que c’est que ça ? Cette ombre inconnue m’angoisse.",
+		"position": {
+			"x": 152,
+			"y": 184
+		},
+		"colorID": 0
+	},
+	{
+		"title": "apparition2",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 422,
+			"y": 180
+		},
+		"colorID": 0
+	}
+]
