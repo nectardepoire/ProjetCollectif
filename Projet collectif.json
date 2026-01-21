@@ -8593,6 +8593,86 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/7332f7b9d2fbb8370ae5ba5b62d2cbfb23ba6392d8e5d071b4c16b2e45a40d38_Small Brown Button_Pressed.png",
           "name": "Small Brown Button_Pressed.png"
         }
+      },
+      {
+        "file": "assets/Question-Mark2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Question-Mark",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fond_PNJ6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fond_PNJ6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Fond activité PNJ6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fond activité PNJ6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Fond activité PNJ7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fond activité PNJ7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "boite3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boite3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/signe_colere.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "signe_colere",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "coli + sac.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coli + sac.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "cadeau2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cadeau2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Fond activité PNJ8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fond activité PNJ8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Fond activité PNJ9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fond activité PNJ9.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -15332,16 +15412,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Question-Mark",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Question-Mark.png",
+                  "image": "Question-Mark",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15361,16 +15442,16 @@
                         "y": 0
                       },
                       {
-                        "x": 9,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 9,
-                        "y": 14
+                        "x": 11,
+                        "y": 16
                       },
                       {
                         "x": 0,
-                        "y": 14
+                        "y": 16
                       }
                     ]
                   ]
@@ -16133,7 +16214,56 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": []
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cadeau2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -20742,6 +20872,611 @@
         {
           "name": "RectangleMovement",
           "type": "RectangleMovement::RectangleMovement"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMovementAnimator",
+          "type": "TopDownMovementAnimator::TopDownMovementAnimator",
+          "NewAnimationDirection": 0,
+          "AnimationFrame": 0
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Choix_32de_32pr_233nom",
+      "name": "Choix de prénom",
+      "r": 255,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 255,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.8700232859857306,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "nom_joueur",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 323,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Alien",
+          "persistentUuid": "033f8e75-09e5-4eaf-8294-a6e011e0b959",
+          "width": 216,
+          "x": 263,
+          "y": 500,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "nom_du_joueur",
+          "persistentUuid": "6cd54ff4-cf6e-41d2-87d7-d5f093ee71b7",
+          "width": 350,
+          "x": 482,
+          "y": 345,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 109,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dialogue_box",
+          "persistentUuid": "6ae28a8e-318d-46d5-8731-4f6c022c783e",
+          "width": 421,
+          "x": 454,
+          "y": 316,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 41,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "nom_du_joueur_bouton",
+          "persistentUuid": "f87f7c5b-16ca-4487-985d-883e94bf3e80",
+          "width": 82,
+          "x": 770,
+          "y": 388,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug",
+          "persistentUuid": "846a027b-84a4-4c75-8531-7df86916e84c",
+          "width": 0,
+          "x": 570,
+          "y": 201,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "save_bouton",
+          "persistentUuid": "f435a8a5-25e6-4693-ac94-823bc479c9d2",
+          "width": 0,
+          "x": 482,
+          "y": 544,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "nom_du_joueur",
+          "type": "TextInput::TextInputObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "initialValue": "",
+            "placeholder": "Quel est ton nom ?",
+            "fontResourceName": "Ressources\\PixelOperator.ttf",
+            "fontSize": 20,
+            "inputType": "text",
+            "textColor": "0;0;0",
+            "fillColor": "255;255;255",
+            "fillOpacity": 255,
+            "borderColor": "0;0;0",
+            "borderOpacity": 255,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false,
+            "spellCheck": false,
+            "paddingX": 2,
+            "paddingY": 1,
+            "textAlign": "left",
+            "maxLength": 0
+          }
+        },
+        {
+          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+          "name": "nom_du_joueur_bouton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Small Light Grey Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelText": "OK",
+            "PressedLabelOffsetY": 2
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Debug",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+          "name": "save_bouton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Small Light Grey Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelText": "Save",
+            "PressedLabelOffsetY": 2
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "nom_du_joueur"
+          },
+          {
+            "objectName": "nom_du_joueur_bouton"
+          },
+          {
+            "objectName": "save_bouton"
+          },
+          {
+            "objectName": "Debug"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Pour pas devoir tout refaire (tuto dialogue)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Commencer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_box",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovementAnimator",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Debug",
+                "Text",
+                "=",
+                "VariableString(nom_joueur)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Trouver quoi mettre dans \"profils\""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "save_bouton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SaveState::CreateGameSaveStateInStorage"
+              },
+              "parameters": [
+                "",
+                "\"sauvegardealien\"",
+                "\"\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208,
+            "textB": 255,
+            "textG": 255,
+            "textR": 255
+          },
+          "comment": "Message pour Lyuyao : l'évènement ci-dessous doit être intégré avec le visuel de choix de prénom du joueur"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "nom_du_joueur_bouton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "player_name",
+                "=",
+                "nom_du_joueur.Text::Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scène de début\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
         },
         {
           "name": "Resizable",
@@ -32717,7 +33452,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "mardi 21 janvier apm, Lyuyao\n",
+          "string": "mardi 21 janvier apm, Lyuyao\nimplantation des visuels (finie)\n",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -32740,7 +33475,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "mardi 21 janvier apm, Lyuyao\n",
+            "text": "mardi 21 janvier apm, Lyuyao\nimplantation des visuels (finie)\n",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -43633,14 +44368,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 2,
-          "height": 599,
+          "height": 651,
           "keepRatio": true,
           "layer": "",
           "name": "carte_activite_1",
           "persistentUuid": "335da803-8c95-4af6-8c30-6186cbb58c2f",
-          "width": 925,
-          "x": 19,
-          "y": 64,
+          "width": 1007,
+          "x": 37,
+          "y": 25,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -43655,8 +44390,8 @@
           "name": "parc_thai",
           "persistentUuid": "e98ebbaa-5916-445e-9a02-f7f26705d778",
           "width": 0,
-          "x": 970,
-          "y": 166,
+          "x": 1072,
+          "y": 197,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -43671,8 +44406,8 @@
           "name": "rivière_suédois",
           "persistentUuid": "a77040fc-e740-437a-ba8e-58c2f3aca33c",
           "width": 0,
-          "x": 980,
-          "y": 316,
+          "x": 1053,
+          "y": 352,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -43687,8 +44422,8 @@
           "name": "mairie_persan",
           "persistentUuid": "62d9e3d1-e0c2-4562-ac30-ae482cadbaaa",
           "width": 0,
-          "x": 985,
-          "y": 466,
+          "x": 1050,
+          "y": 497,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -43704,8 +44439,8 @@
           "name": "audio_riviere",
           "persistentUuid": "052e4005-f05d-4750-a5da-76ac181f4501",
           "width": 99,
-          "x": 284,
-          "y": 76,
+          "x": 257,
+          "y": 286,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -43721,8 +44456,8 @@
           "name": "audio_mairie",
           "persistentUuid": "54bfb68c-eb82-4fb1-ad82-5061c3d2760d",
           "width": 93,
-          "x": 854,
-          "y": 379,
+          "x": 568,
+          "y": 347,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -43738,8 +44473,8 @@
           "name": "audio_parc",
           "persistentUuid": "089d4a82-74e0-42ac-8209-b1b472c5dc26",
           "width": 88,
-          "x": 583,
-          "y": 383,
+          "x": 407,
+          "y": 417,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -43789,8 +44524,8 @@
           "name": "texte_parc",
           "persistentUuid": "4c40c2ae-513a-4cb2-a246-a7c4041e3228",
           "width": 180,
-          "x": 973,
-          "y": 72,
+          "x": 1043,
+          "y": 97,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -43800,14 +44535,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 132,
+          "height": 121,
           "keepRatio": true,
           "layer": "",
           "name": "texte_mairie",
           "persistentUuid": "362ebb06-e859-4f59-b49a-29353a1b59fd",
-          "width": 186,
-          "x": 979,
-          "y": 343,
+          "width": 171,
+          "x": 1050,
+          "y": 401,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -43817,14 +44552,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 132,
+          "height": 125,
           "keepRatio": true,
           "layer": "",
           "name": "texte_rivière",
           "persistentUuid": "94648e0f-aaac-4c1e-b7ab-40e1f15dfdff",
-          "width": 187,
-          "x": 972,
-          "y": 208,
+          "width": 177,
+          "x": 1043,
+          "y": 252,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -43888,8 +44623,8 @@
           "name": "café_japonais_mis_dans_la_carte",
           "persistentUuid": "afaacfcb-3468-4383-b878-7aa53675d0de",
           "width": 83,
-          "x": 737,
-          "y": 371,
+          "x": 819,
+          "y": 368,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -43905,8 +44640,8 @@
           "name": "maison_turc_mis_dans_la_carte",
           "persistentUuid": "0040173d-c749-4285-bbe3-bc7b9f56c120",
           "width": 86,
-          "x": 485,
-          "y": 107,
+          "x": 529,
+          "y": 81,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -43922,9 +44657,26 @@
           "name": "maison_turc_mis_dans_la_carte",
           "persistentUuid": "0ddd27a7-f972-414b-87ca-86e7ff94e5be",
           "width": 94,
-          "x": 185,
-          "y": 94,
+          "x": 208,
+          "y": 75,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 1064,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fond_activité_carte",
+          "persistentUuid": "16ed1996-c665-4b79-b731-cdf0b4e514ec",
+          "width": 1360,
+          "x": -48,
+          "y": -121,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -44936,6 +45688,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Fond_activité_carte",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "boite3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 54
+                          },
+                          {
+                            "x": 513,
+                            "y": 54
+                          },
+                          {
+                            "x": 513,
+                            "y": 416
+                          },
+                          {
+                            "x": 7,
+                            "y": 416
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -44991,6 +45803,9 @@
           },
           {
             "objectName": "maison_turc_mis_dans_la_carte"
+          },
+          {
+            "objectName": "Fond_activité_carte"
           }
         ]
       },
@@ -47050,7 +47865,7 @@
           "isLocked": false,
           "name": "Dialogue",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -50270,7 +51085,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047023833,
+        "zoomFactor": 0.46331118245139874,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -50463,8 +51278,8 @@
           "name": "egg_plat_1",
           "persistentUuid": "6601b04f-ac2d-4168-bd54-8956d563ed84",
           "width": 172,
-          "x": -170,
-          "y": -331,
+          "x": 98,
+          "y": -192,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -50480,8 +51295,8 @@
           "name": "chicken_plat_2",
           "persistentUuid": "7a6360d6-daf0-4afd-b11b-a3b231cdfd17",
           "width": 176,
-          "x": 58,
-          "y": -353,
+          "x": 295,
+          "y": -186,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -50497,8 +51312,8 @@
           "name": "steak_plat_3_correct",
           "persistentUuid": "d4406416-7a01-4beb-a6d0-88dd9d45daca",
           "width": 176,
-          "x": 298,
-          "y": -336,
+          "x": 486,
+          "y": -186,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -50514,8 +51329,8 @@
           "name": "donut_dessert_1",
           "persistentUuid": "9832e333-4cb1-48e9-b7d2-2da036d31450",
           "width": 205,
-          "x": -183,
-          "y": -133,
+          "x": 54,
+          "y": -13,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -50531,8 +51346,8 @@
           "name": "pudding_dessert_2",
           "persistentUuid": "2c00224a-1037-450b-a5fe-3cb29e87d76a",
           "width": 196,
-          "x": 67,
-          "y": -138,
+          "x": 269,
+          "y": -20,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -50548,8 +51363,8 @@
           "name": "cake_dessert_3_correct",
           "persistentUuid": "d12f7edd-c9d5-4c75-8ef3-60130f97d333",
           "width": 185,
-          "x": 293,
-          "y": -119,
+          "x": 465,
+          "y": -11,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -50565,8 +51380,8 @@
           "name": "smoothie_boisson_1_correct",
           "persistentUuid": "3061d6ec-9351-4a0a-a29f-fcf6dc6a8954",
           "width": 207,
-          "x": -179,
-          "y": 86,
+          "x": 65,
+          "y": 189,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -50582,8 +51397,8 @@
           "name": "coca_boisson_2",
           "persistentUuid": "d6e71a21-5096-4e76-bb57-cead45f1c667",
           "width": 189,
-          "x": 58,
-          "y": 86,
+          "x": 212,
+          "y": 203,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -50599,8 +51414,8 @@
           "name": "pomme_boisson_3",
           "persistentUuid": "ba38be8b-d98b-4757-aa59-581ce4cf9149",
           "width": 174,
-          "x": 278,
-          "y": 105,
+          "x": 346,
+          "y": 218,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -53291,7 +54106,57 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "signe_colere",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "signe_colere",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 44,
+                            "y": 0
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          },
+                          {
+                            "x": 0,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -56721,8 +57586,8 @@
           "name": "Alien",
           "persistentUuid": "d478d0d0-ff48-43eb-9227-e9bda5613a20",
           "width": 0,
-          "x": 325,
-          "y": 608,
+          "x": 440,
+          "y": 329,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -56893,7 +57758,7 @@
           "width": 115,
           "x": 85,
           "y": 232,
-          "zOrder": 8,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -56908,8 +57773,8 @@
           "name": "PNJ6",
           "persistentUuid": "70a313bd-854d-4e6e-80ec-6efbe2a998f3",
           "width": 83,
-          "x": 161,
-          "y": 411,
+          "x": 451,
+          "y": 496,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -56927,7 +57792,7 @@
           "width": 210,
           "x": 706,
           "y": 260,
-          "zOrder": 10,
+          "zOrder": -4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -56944,7 +57809,7 @@
           "width": 215,
           "x": 472,
           "y": 256,
-          "zOrder": 11,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -56961,7 +57826,7 @@
           "width": 220,
           "x": 260,
           "y": 250,
-          "zOrder": 12,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -56992,9 +57857,9 @@
           "name": "press_F",
           "persistentUuid": "50744e3d-b2f0-48ed-9642-ee2201f09743",
           "width": 0,
-          "x": 157,
-          "y": 415,
-          "zOrder": 13,
+          "x": 811,
+          "y": 467,
+          "zOrder": -5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -57011,7 +57876,7 @@
           "width": 1279,
           "x": 6,
           "y": -74,
-          "zOrder": 0,
+          "zOrder": -6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -59028,14 +59893,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 184,
+          "height": 193,
           "keepRatio": true,
           "layer": "",
           "name": "livre_2_correct",
           "persistentUuid": "02480bdf-8d5e-458c-b14d-0af38bc612c2",
-          "width": 42,
-          "x": 325,
-          "y": 19,
+          "width": 44,
+          "x": 448,
+          "y": 131,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -59050,8 +59915,8 @@
           "name": "audio_persan_1",
           "persistentUuid": "8af41a89-ddc9-41fe-90f0-aed76e1ef9d8",
           "width": 0,
-          "x": 105,
-          "y": 392,
+          "x": 271,
+          "y": 412,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -59066,8 +59931,8 @@
           "name": "audio_persan_2",
           "persistentUuid": "34f47f9e-12f0-446b-a8ea-cb27f9c1e14f",
           "width": 0,
-          "x": 279,
-          "y": 433,
+          "x": 447,
+          "y": 417,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -59082,8 +59947,8 @@
           "name": "audio_persan_3",
           "persistentUuid": "a3d0c33f-0212-43bf-8027-123c2d6f35a1",
           "width": 0,
-          "x": 518,
-          "y": 428,
+          "x": 613,
+          "y": 424,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -59098,8 +59963,8 @@
           "name": "audio_persan_4",
           "persistentUuid": "6d72a6f4-71cd-40f1-b1e3-5a99f70b1fdb",
           "width": 0,
-          "x": 718,
-          "y": 422,
+          "x": 795,
+          "y": 421,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -59114,8 +59979,8 @@
           "name": "audio_persan_5",
           "persistentUuid": "bd3e3875-6968-43db-b701-25d5212690a1",
           "width": 0,
-          "x": 977,
-          "y": 458,
+          "x": 979,
+          "y": 418,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -59125,14 +59990,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 161,
+          "height": 189,
           "keepRatio": true,
           "layer": "",
           "name": "livre_1",
           "persistentUuid": "2fb1b987-242d-4a22-9035-928a8a8bc14b",
-          "width": 44,
-          "x": 100,
-          "y": 26,
+          "width": 52,
+          "x": 278,
+          "y": 135,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -59142,14 +60007,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 180,
+          "height": 196,
           "keepRatio": true,
           "layer": "",
           "name": "livre_3",
           "persistentUuid": "a83dad04-64ee-4fa9-8cea-18ad0b7a3db4",
-          "width": 44,
-          "x": 491,
-          "y": 15,
+          "width": 48,
+          "x": 603,
+          "y": 128,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -59165,8 +60030,8 @@
           "name": "livre_4",
           "persistentUuid": "2e0f15f4-78f3-4aea-a9f6-4d0f9c6bf103",
           "width": 44,
-          "x": 698,
-          "y": 19,
+          "x": 783,
+          "y": 138,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -59176,14 +60041,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 200,
+          "height": 188,
           "keepRatio": true,
           "layer": "",
           "name": "livre_5",
           "persistentUuid": "39b1a8bd-2dc7-4052-8b25-062d3378263b",
-          "width": 48,
-          "x": 978,
-          "y": 21,
+          "width": 45,
+          "x": 944,
+          "y": 139,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -59191,16 +60056,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1063,
           "keepRatio": true,
           "layer": "",
           "name": "bibliotheque",
           "persistentUuid": "74bbfd0f-5485-4abc-97aa-5d9419236376",
-          "width": 0,
-          "x": 519,
-          "y": 513,
-          "zOrder": 11,
+          "width": 1027,
+          "x": 113,
+          "y": -50,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -59208,15 +60074,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 82,
+          "depth": 1,
+          "height": 76,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_persan_1",
           "persistentUuid": "112b6bc0-2f88-454e-bc66-cd35800acb27",
-          "width": 182,
-          "x": 29,
-          "y": 195,
+          "width": 168,
+          "x": 213,
+          "y": 334,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -59225,15 +60091,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 82,
+          "depth": 1,
+          "height": 78,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_persan_2",
           "persistentUuid": "7a105e1e-c06c-43a1-b08b-883e213591d0",
-          "width": 183,
-          "x": 227,
-          "y": 206,
+          "width": 174,
+          "x": 387,
+          "y": 333,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -59249,8 +60115,8 @@
           "name": "chiffre_persan_3",
           "persistentUuid": "d3289774-97ca-4af8-a1b7-0edf9a28ad4d",
           "width": 182,
-          "x": 425,
-          "y": 199,
+          "x": 560,
+          "y": 331,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -59259,15 +60125,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 91,
+          "depth": 1,
+          "height": 85,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_persan_4",
           "persistentUuid": "39bac9b5-f9d7-476d-9a34-dc6d9ba3c0e3",
-          "width": 202,
-          "x": 622,
-          "y": 203,
+          "width": 189,
+          "x": 734,
+          "y": 327,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -59276,16 +60142,33 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 94,
+          "depth": 1,
+          "height": 81,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_persan_5",
           "persistentUuid": "d5b31fca-8e67-494d-83a1-bb228b1adf6f",
-          "width": 209,
-          "x": 901,
-          "y": 218,
+          "width": 181,
+          "x": 919,
+          "y": 329,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 740,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fond_activité_PNJ6",
+          "persistentUuid": "cdd4acf5-b2c4-41ae-ac71-1743562c7ca3",
+          "width": 1316,
+          "x": -17,
+          "y": -11,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -60491,6 +61374,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Fond_activité_PNJ6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Fond activité PNJ6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -60543,6 +61486,9 @@
           },
           {
             "objectName": "chiffre_persan_5"
+          },
+          {
+            "objectName": "Fond_activité_PNJ6"
           }
         ]
       },
@@ -61056,15 +62002,16 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 791,
           "keepRatio": true,
           "layer": "",
           "name": "etagere_plantes",
           "persistentUuid": "68106059-f49d-4224-b0bb-8646275e605b",
-          "width": 0,
-          "x": 1051,
-          "y": 78,
+          "width": 424,
+          "x": 447,
+          "y": -25,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -61074,14 +62021,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 316,
+          "height": 128,
           "keepRatio": true,
           "layer": "",
           "name": "plante_1_correct",
           "persistentUuid": "b0c93efb-e11d-4017-af09-b3e29fb38429",
-          "width": 177,
-          "x": 440,
-          "y": -173,
+          "width": 72,
+          "x": 513,
+          "y": 5,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -61090,15 +62037,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 229,
+          "depth": 1,
+          "height": 140,
           "keepRatio": true,
           "layer": "",
           "name": "plante_2",
           "persistentUuid": "b9657399-d0ca-4762-8d46-f6be7c862559",
-          "width": 240,
-          "x": 523,
-          "y": 137,
+          "width": 147,
+          "x": 670,
+          "y": 156,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -61107,15 +62054,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 6,
-          "height": 280,
+          "depth": 3,
+          "height": 121,
           "keepRatio": true,
           "layer": "",
           "name": "plante_3",
           "persistentUuid": "7140ddaa-290f-4810-94f5-2278fafee2af",
-          "width": 155,
-          "x": 386,
-          "y": 323,
+          "width": 67,
+          "x": 517,
+          "y": 264,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -61124,15 +62071,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 5,
-          "height": 257,
+          "depth": 3,
+          "height": 134,
           "keepRatio": true,
           "layer": "",
           "name": "plante_4",
           "persistentUuid": "7de5b516-7440-46d8-85b5-1579837746de",
-          "width": 142,
-          "x": 692,
-          "y": 554,
+          "width": 74,
+          "x": 687,
+          "y": 368,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -61142,14 +62089,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 252,
+          "height": 120,
           "keepRatio": true,
           "layer": "",
           "name": "plante_5",
           "persistentUuid": "95006c0c-968d-4023-803e-49121cea3445",
-          "width": 195,
-          "x": 408,
-          "y": 729,
+          "width": 93,
+          "x": 542,
+          "y": 518,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -61165,8 +62112,8 @@
           "name": "chiffre_thai_1",
           "persistentUuid": "f42c7f6c-0a21-4aec-b44d-b333923fca55",
           "width": 260,
-          "x": -61,
-          "y": -65,
+          "x": 187,
+          "y": 30,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -61182,8 +62129,8 @@
           "name": "chiffre_thai_2",
           "persistentUuid": "2419fe5c-adef-414b-b60c-723ab134c169",
           "width": 262,
-          "x": -76,
-          "y": 135,
+          "x": 887,
+          "y": 169,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -61192,15 +62139,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 126,
+          "depth": 1,
+          "height": 117,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_thai_3",
           "persistentUuid": "1c7b912b-bc11-4c1d-94fe-3fd8c5b3ba42",
-          "width": 280,
-          "x": -111,
-          "y": 360,
+          "width": 260,
+          "x": 191,
+          "y": 274,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -61209,15 +62156,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 135,
+          "depth": 1,
+          "height": 125,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_thai_4",
           "persistentUuid": "27b93e70-0336-4787-9eed-a8d91348d193",
-          "width": 300,
-          "x": -139,
-          "y": 611,
+          "width": 277,
+          "x": 885,
+          "y": 387,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -61227,14 +62174,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 132,
+          "height": 118,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_thai_5",
           "persistentUuid": "e1cca7a8-c39a-441f-95a2-852952f69936",
-          "width": 293,
-          "x": -128,
-          "y": 851,
+          "width": 262,
+          "x": 189,
+          "y": 542,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -61249,8 +62196,8 @@
           "name": "audio_thai_1",
           "persistentUuid": "3701cf3b-9b22-4233-86b6-d15624eaeb6c",
           "width": 0,
-          "x": 200,
-          "y": -33,
+          "x": 186,
+          "y": 62,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -61265,8 +62212,8 @@
           "name": "audio_thai_2",
           "persistentUuid": "944ac559-f5dd-4862-bd5c-3ac3f1ec569d",
           "width": 0,
-          "x": 189,
-          "y": 201,
+          "x": 1106,
+          "y": 199,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -61281,8 +62228,8 @@
           "name": "audio_thai_3",
           "persistentUuid": "f2eae401-44a1-4729-866f-21ab642857dd",
           "width": 0,
-          "x": 183,
-          "y": 421,
+          "x": 174,
+          "y": 308,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -61297,8 +62244,8 @@
           "name": "audio_thai_4",
           "persistentUuid": "5a94a725-c49e-4c8a-a5eb-2b5e924bf0a1",
           "width": 0,
-          "x": 194,
-          "y": 661,
+          "x": 1120,
+          "y": 418,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -61313,9 +62260,26 @@
           "name": "audio_thai_5",
           "persistentUuid": "17b6aefc-a855-41e1-a7af-53ccbf534979",
           "width": 0,
-          "x": 191,
-          "y": 909,
+          "x": 173,
+          "y": 578,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 797,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fond_activité_PNJ6",
+          "persistentUuid": "5a5b8966-efb0-4097-b274-09b9e494b5cf",
+          "width": 1417,
+          "x": -34,
+          "y": -29,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -62521,6 +63485,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Fond_activité_PNJ6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Fond activité PNJ7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -62573,6 +63597,9 @@
           },
           {
             "objectName": "chiffre_thai_5"
+          },
+          {
+            "objectName": "Fond_activité_PNJ6"
           }
         ]
       },
@@ -63007,15 +64034,16 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 119,
           "keepRatio": true,
           "layer": "",
           "name": "figurine_chien_1",
           "persistentUuid": "1ad1d0cc-39c0-455c-b610-32a56c4589fc",
-          "width": 0,
-          "x": 301,
-          "y": -75,
+          "width": 141,
+          "x": 504,
+          "y": 16,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -63030,74 +64058,9 @@
           "name": "figurine_crocodile_2",
           "persistentUuid": "238793b2-1ea8-4763-b48b-f09cc0a59ff0",
           "width": 0,
-          "x": 312,
-          "y": 156,
+          "x": 637,
+          "y": 202,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "figurine_elephant_3_correct",
-          "persistentUuid": "6db5b661-1c3c-494e-9be5-daf5ecd06fcb",
-          "width": 0,
-          "x": 293,
-          "y": 361,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "figurine_loup_4",
-          "persistentUuid": "b85f8cf4-cfd1-4ce0-89ca-088f5340368c",
-          "width": 0,
-          "x": 288,
-          "y": 574,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "figurine_lion_5",
-          "persistentUuid": "bd445491-6594-4982-801e-006d8323d6d7",
-          "width": 0,
-          "x": 287,
-          "y": 778,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 114,
-          "keepRatio": true,
-          "layer": "",
-          "name": "chiffre_turc_1",
-          "persistentUuid": "a3a4fa68-8695-454a-af18-d6f336e3e032",
-          "width": 253,
-          "x": -58,
-          "y": 10,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -63109,11 +64072,79 @@
           "height": 109,
           "keepRatio": true,
           "layer": "",
+          "name": "figurine_elephant_3_correct",
+          "persistentUuid": "6db5b661-1c3c-494e-9be5-daf5ecd06fcb",
+          "width": 142,
+          "x": 523,
+          "y": 280,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 113,
+          "keepRatio": true,
+          "layer": "",
+          "name": "figurine_loup_4",
+          "persistentUuid": "b85f8cf4-cfd1-4ce0-89ca-088f5340368c",
+          "width": 124,
+          "x": 694,
+          "y": 392,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 102,
+          "keepRatio": true,
+          "layer": "",
+          "name": "figurine_lion_5",
+          "persistentUuid": "bd445491-6594-4982-801e-006d8323d6d7",
+          "width": 159,
+          "x": 534,
+          "y": 542,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "chiffre_turc_1",
+          "persistentUuid": "a3a4fa68-8695-454a-af18-d6f336e3e032",
+          "width": 177,
+          "x": 275,
+          "y": 53,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 90,
+          "keepRatio": true,
+          "layer": "",
           "name": "chiffre_turc_2",
           "persistentUuid": "58cec1f4-4a8e-468f-86a8-fcb0946d990b",
-          "width": 242,
-          "x": -45,
-          "y": 209,
+          "width": 199,
+          "x": 891,
+          "y": 179,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -63123,14 +64154,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 111,
+          "height": 81,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_turc_3",
           "persistentUuid": "e005e130-3fb4-4a22-9d8c-c0ab17bcb38c",
-          "width": 245,
-          "x": -43,
-          "y": 406,
+          "width": 178,
+          "x": 276,
+          "y": 306,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -63139,15 +64170,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 103,
+          "depth": 1,
+          "height": 83,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_turc_4",
           "persistentUuid": "b8d00460-b065-4bb2-89ab-41803eb6c4e3",
-          "width": 229,
-          "x": -31,
-          "y": 591,
+          "width": 185,
+          "x": 906,
+          "y": 423,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -63157,14 +64188,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 108,
+          "height": 90,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_turc_5",
           "persistentUuid": "5a6bbfce-2998-4eb8-a86b-039a6f453b34",
-          "width": 239,
-          "x": -24,
-          "y": 783,
+          "width": 199,
+          "x": 261,
+          "y": 564,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -63179,8 +64210,8 @@
           "name": "audio_turc_1",
           "persistentUuid": "39721b65-4e83-48dc-90ba-c07873e8b774",
           "width": 0,
-          "x": 231,
-          "y": 90,
+          "x": 252,
+          "y": 65,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -63195,8 +64226,8 @@
           "name": "audio_turc_2",
           "persistentUuid": "777be61a-e6e1-4aa7-9a3d-643fb715ff88",
           "width": 0,
-          "x": 237,
-          "y": 261,
+          "x": 1062,
+          "y": 198,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -63211,8 +64242,8 @@
           "name": "audio_turc_3",
           "persistentUuid": "095cc461-9b3c-48d5-ae61-a6985b8ec59d",
           "width": 0,
-          "x": 239,
-          "y": 451,
+          "x": 248,
+          "y": 318,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -63227,8 +64258,8 @@
           "name": "audio_turc_4",
           "persistentUuid": "1ac6970f-4a03-4aa6-aac8-af6532d4fff2",
           "width": 0,
-          "x": 226,
-          "y": 637,
+          "x": 1074,
+          "y": 436,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -63243,8 +64274,8 @@
           "name": "audio_turc_5",
           "persistentUuid": "60b75811-e545-4d8c-99ab-0a5fa5546859",
           "width": 0,
-          "x": 216,
-          "y": 830,
+          "x": 246,
+          "y": 586,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -63252,16 +64283,34 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 796,
           "keepRatio": true,
           "layer": "",
           "name": "etagere_figurines",
           "persistentUuid": "1744fc72-bc56-4734-a2f6-99e41d06bbe8",
-          "width": 0,
-          "x": 1045,
-          "y": 7,
-          "zOrder": 16,
+          "width": 427,
+          "x": 462,
+          "y": -19,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 804,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fond_activité_PNJ6",
+          "persistentUuid": "d88b67e6-54d6-4569-8c55-d609656ed4dd",
+          "width": 1429,
+          "x": -19,
+          "y": -17,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -64467,6 +65516,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Fond_activité_PNJ6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Fond activité PNJ8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -64519,6 +65628,9 @@
           },
           {
             "objectName": "etagere_figurines"
+          },
+          {
+            "objectName": "Fond_activité_PNJ6"
           }
         ]
       },
@@ -64960,14 +66072,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 129,
+          "height": 89,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_japonais_1",
           "persistentUuid": "3539b09e-5bfe-4c02-8ae8-b8429409e2ab",
-          "width": 222,
-          "x": 25,
-          "y": -39,
+          "width": 153,
+          "x": 274,
+          "y": 52,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -64977,14 +66089,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 125,
+          "height": 101,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_japonais_2",
           "persistentUuid": "248cc815-81ea-4626-8054-4908ab2dfe3c",
-          "width": 227,
-          "x": 35,
-          "y": 121,
+          "width": 183,
+          "x": 896,
+          "y": 183,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -64994,14 +66106,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 119,
+          "height": 86,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_japonais_3",
           "persistentUuid": "1040113f-af25-4cef-b813-b8949c794231",
-          "width": 225,
-          "x": 22,
-          "y": 290,
+          "width": 162,
+          "x": 268,
+          "y": 318,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -65011,14 +66123,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 122,
+          "height": 101,
           "keepRatio": true,
           "layer": "",
           "name": "chiffre_japonais_4",
           "persistentUuid": "b1d74467-c6d1-4035-a811-2666bd321f9f",
-          "width": 238,
-          "x": 23,
-          "y": 454,
+          "width": 197,
+          "x": 896,
+          "y": 423,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -65034,8 +66146,8 @@
           "name": "chiffre_japonais_5",
           "persistentUuid": "57abed76-da45-45a9-b049-b7161e43800c",
           "width": 202,
-          "x": 37,
-          "y": 625,
+          "x": 234,
+          "y": 578,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -65050,8 +66162,8 @@
           "name": "audio_japonais_1",
           "persistentUuid": "accd20a4-0980-4089-9b12-71b2065cc3ef",
           "width": 0,
-          "x": 276,
-          "y": 22,
+          "x": 249,
+          "y": 74,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -65066,8 +66178,8 @@
           "name": "audio_japonais_2",
           "persistentUuid": "293897de-9346-4174-a689-d29d837e195b",
           "width": 0,
-          "x": 280,
-          "y": 181,
+          "x": 1049,
+          "y": 210,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -65082,8 +66194,8 @@
           "name": "audio_japonais_3",
           "persistentUuid": "82437f01-a234-4c7b-bda5-0ca904bebdc2",
           "width": 0,
-          "x": 258,
-          "y": 353,
+          "x": 246,
+          "y": 335,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -65098,8 +66210,8 @@
           "name": "audio_japonais_4",
           "persistentUuid": "ae058fa5-3914-40cf-a957-6ac842d6bc8e",
           "width": 0,
-          "x": 272,
-          "y": 514,
+          "x": 1071,
+          "y": 447,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -65114,25 +66226,25 @@
           "name": "audio_japonais_5",
           "persistentUuid": "75d7609d-91ca-4383-bcb6-1ccae6288fe4",
           "width": 0,
-          "x": 272,
-          "y": 676,
+          "x": 226,
+          "y": 606,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 270,
           "customSize": true,
           "depth": 1,
-          "height": 201,
+          "height": 164,
           "keepRatio": true,
           "layer": "",
           "name": "souvenir_montre_1",
           "persistentUuid": "61713dd5-e636-4c37-a8f4-b614c3dd6993",
-          "width": 106,
-          "x": 546,
-          "y": -103,
+          "width": 86,
+          "x": 540,
+          "y": 22,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -65142,14 +66254,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 162,
+          "height": 111,
           "keepRatio": true,
           "layer": "",
           "name": "souvenir_bague_2",
           "persistentUuid": "0c6ce78a-981a-4b4d-a0c7-be013189277a",
-          "width": 137,
-          "x": 546,
-          "y": 104,
+          "width": 94,
+          "x": 712,
+          "y": 169,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -65157,15 +66269,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 111,
           "keepRatio": true,
           "layer": "",
           "name": "souvenir_boucles_3",
           "persistentUuid": "0f78a6dd-d2ba-4699-9c01-d26b91db7b4b",
-          "width": 0,
-          "x": 558,
-          "y": 273,
+          "width": 72,
+          "x": 524,
+          "y": 291,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -65173,15 +66286,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "souvenir_bracelet_4_correct",
           "persistentUuid": "e1728938-7775-4003-af8e-c5e0b0a36026",
-          "width": 0,
-          "x": 530,
-          "y": 466,
+          "width": 124,
+          "x": 698,
+          "y": 421,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -65196,8 +66310,8 @@
           "name": "souvenir_lunettes_5",
           "persistentUuid": "a2c20703-860b-438c-b10f-751a3f09f2f8",
           "width": 0,
-          "x": 527,
-          "y": 655,
+          "x": 542,
+          "y": 609,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -65205,16 +66319,34 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 819,
           "keepRatio": true,
           "layer": "",
           "name": "etagere_souvenirs",
           "persistentUuid": "a2274cad-b790-4879-abac-f0262e7621bf",
-          "width": 0,
-          "x": 1039,
-          "y": 66,
-          "zOrder": 16,
+          "width": 439,
+          "x": 437,
+          "y": -19,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 773,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fond_activité_PNJ6",
+          "persistentUuid": "4df871a5-903f-4e34-a363-d5cb180ee0cd",
+          "width": 1374,
+          "x": -26,
+          "y": -24,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -66420,6 +67552,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Fond_activité_PNJ6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Fond activité PNJ9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -66472,6 +67664,9 @@
           },
           {
             "objectName": "etagere_souvenirs"
+          },
+          {
+            "objectName": "Fond_activité_PNJ6"
           }
         ]
       },
@@ -73984,610 +75179,6 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-        },
-        {
-          "name": "TopDownMovementAnimator",
-          "type": "TopDownMovementAnimator::TopDownMovementAnimator",
-          "NewAnimationDirection": 0,
-          "AnimationFrame": 0
-        },
-        {
-          "name": "TopDownMultitouchMapper",
-          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ]
-    },
-    {
-      "b": 255,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Brouillons_32et_32tests",
-      "name": "Brouillons et tests",
-      "r": 255,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 255,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridDepth": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridOffsetZ": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.8700232859857306,
-        "windowMask": false,
-        "selectedLayer": ""
-      },
-      "objectsGroups": [],
-      "variables": [
-        {
-          "name": "nom_joueur",
-          "type": "string",
-          "value": ""
-        }
-      ],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Alien",
-          "persistentUuid": "033f8e75-09e5-4eaf-8294-a6e011e0b959",
-          "width": 0,
-          "x": 379,
-          "y": 289,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 35,
-          "keepRatio": true,
-          "layer": "",
-          "name": "nom_du_joueur",
-          "persistentUuid": "6cd54ff4-cf6e-41d2-87d7-d5f093ee71b7",
-          "width": 350,
-          "x": 634,
-          "y": 270,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 109,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Dialogue_box",
-          "persistentUuid": "6ae28a8e-318d-46d5-8731-4f6c022c783e",
-          "width": 421,
-          "x": 610,
-          "y": 251,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 41,
-          "height": 31,
-          "keepRatio": true,
-          "layer": "",
-          "name": "nom_du_joueur_bouton",
-          "persistentUuid": "f87f7c5b-16ca-4487-985d-883e94bf3e80",
-          "width": 82,
-          "x": 917,
-          "y": 315,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Debug",
-          "persistentUuid": "846a027b-84a4-4c75-8531-7df86916e84c",
-          "width": 0,
-          "x": 751,
-          "y": 107,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "save_bouton",
-          "persistentUuid": "f435a8a5-25e6-4693-ac94-823bc479c9d2",
-          "width": 0,
-          "x": 370,
-          "y": 494,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "name": "nom_du_joueur",
-          "type": "TextInput::TextInputObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "initialValue": "",
-            "placeholder": "Quel est ton nom ?",
-            "fontResourceName": "Ressources\\PixelOperator.ttf",
-            "fontSize": 20,
-            "inputType": "text",
-            "textColor": "0;0;0",
-            "fillColor": "255;255;255",
-            "fillOpacity": 255,
-            "borderColor": "0;0;0",
-            "borderOpacity": 255,
-            "borderWidth": 1,
-            "readOnly": false,
-            "disabled": false,
-            "spellCheck": false,
-            "paddingX": 2,
-            "paddingY": 1,
-            "textAlign": "left",
-            "maxLength": 0
-          }
-        },
-        {
-          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
-          "name": "nom_du_joueur_bouton",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "Small Light Grey Button",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LabelText": "OK",
-            "PressedLabelOffsetY": 2
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Debug",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Text",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
-          "name": "save_bouton",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "Small Light Grey Button",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LabelText": "Save",
-            "PressedLabelOffsetY": 2
-          }
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "nom_du_joueur"
-          },
-          {
-            "objectName": "nom_du_joueur_bouton"
-          },
-          {
-            "objectName": "save_bouton"
-          },
-          {
-            "objectName": "Debug"
-          }
-        ]
-      },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Pour pas devoir tout refaire (tuto dialogue)"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"Commencer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Dialogue_box",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Alien",
-                "TopDownMovementAnimator",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Debug",
-                "Text",
-                "=",
-                "VariableString(nom_joueur)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Trouver quoi mettre dans \"profils\""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "save_bouton",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SaveState::CreateGameSaveStateInStorage"
-              },
-              "parameters": [
-                "",
-                "\"sauvegardealien\"",
-                "\"\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208,
-            "textB": 255,
-            "textG": 255,
-            "textR": 255
-          },
-          "comment": "Message pour Lyuyao : l'évènement ci-dessous doit être intégré avec le visuel de choix de prénom du joueur"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-              },
-              "parameters": [
-                "nom_du_joueur_bouton",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "player_name",
-                "=",
-                "nom_du_joueur.Text::Value()"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Zone du vaisseau\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "UI",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -132715,7 +133306,7 @@
   ],
   "externalLayouts": [
     {
-      "associatedLayout": "Brouillons et tests",
+      "associatedLayout": "Choix de prénom",
       "name": "Calque UI (inventaire)",
       "instances": [
         {
