@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu titre",
   "gdVersion": {
-    "build": 251,
+    "build": 252,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -30931,6 +30931,13 @@
           "target": "Global"
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -30961,18 +30968,6 @@
               "parameters": [
                 "",
                 "\"Calque UI (inventaire)\"",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"Dialogue\"",
                 "",
                 "",
                 ""
@@ -31708,25 +31703,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Dialogue en cours"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Dialogue"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -34078,22 +34054,6 @@
           "x": 1018,
           "y": 399,
           "zOrder": 83,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Debug",
-          "persistentUuid": "66361911-59a1-40cd-834d-d7016c3c199c",
-          "width": 0,
-          "x": 1162,
-          "y": 469,
-          "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38592,13 +38552,6 @@
       },
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Global"
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -38637,6 +38590,58 @@
                 "COMING FROM SOMEWHERE ELSE - 109BPM @zypoalaprod.wav",
                 "",
                 "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Global"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Calques",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Calque UI (inventaire)\"",
+                "",
+                "",
                 ""
               ]
             }
@@ -39613,41 +39618,6 @@
           "actions": [
             {
               "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"Dialogue\"",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"Calque UI (inventaire)\"",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Debug",
-                "Text",
-                "=",
-                "\"ici\""
-              ]
-            },
-            {
-              "type": {
                 "value": "JSONResourceLoader::LoadJSONToScene"
               },
               "parameters": [
@@ -39683,30 +39653,6 @@
               },
               "parameters": [
                 "_updated_dialogue"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Obtient_plan"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue"
               ]
             }
           ]
@@ -40214,183 +40160,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Dialogue"
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Choix des options",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsDialogueLineType"
-              },
-              "parameters": [
-                "\"options\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Dialogue_options",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Up\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::SelectOption"
-                  },
-                  "parameters": [
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Down\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::SelectOption"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Return\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "touche_dialogue_pressee",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::ConfirmSelectOption"
-                  },
-                  "parameters": []
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::HasSelectedOptionChanged"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Dialogue_options",
-                    "Text",
-                    "=",
-                    "DialogueTree::VerticalOptionsList(\"->\")"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::IsDialogueLineType"
-              },
-              "parameters": [
-                "\"options\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue_options"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "colorB": 228,
@@ -41176,6 +40945,14 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Obtient_plan"
+              ]
+            },
             {
               "type": {
                 "value": "Cache"
@@ -81249,6 +81026,73 @@
       "name": "Dialogue",
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Initialisation dialogue"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Dialogue\"",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Gestion clignotement du bouton return"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -81371,110 +81215,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Return\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "touche_dialogue_pressee",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsCommandCalled"
-              },
-              "parameters": [
-                "\"nameTag\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Dialogue_nom",
-                "Text",
-                "=",
-                "dictionnaire_personnages[DialogueTree::CommandParameter(0)]"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsCommandCalled"
-              },
-              "parameters": [
-                "\"userName\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Dialogue_nom",
-                "Text",
-                "=",
-                "GlobalVariableString(player_name)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsCommandCalled"
-              },
-              "parameters": [
-                "\"langue\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Dialogue_langue",
-                "Text",
-                "=",
-                "dictionnaire_langues[DialogueTree::CommandParameter(0)]"
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -81484,33 +81224,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Dialogue en cours"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Return\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "touche_dialogue_pressee",
-                "False",
-                ""
-              ]
-            }
-          ]
+          "comment": "Défilement de la ligne de dialogue, gestion du passage à la ligne de dialogue suivante"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -81668,30 +81382,23 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "KeyFromTextReleased"
               },
               "parameters": [
                 "",
-                "\"scrolltext\"",
-                ">=",
-                "0.0"
+                "\"Return\""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "DialogueTree::ScrollClippedText"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "Dialogue_texte",
-                "\"scrolltext\""
+                "touche_dialogue_pressee",
+                "False",
+                ""
               ]
             }
           ]
@@ -81722,6 +81429,14 @@
                 "touche_dialogue_pressee",
                 "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
               ]
             }
           ],
@@ -81764,6 +81479,14 @@
                 "touche_dialogue_pressee",
                 "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
               ]
             }
           ],
@@ -81809,6 +81532,49 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Dialogue_bouton",
+                "\"clignotement\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Dialogue_texte",
+                "\"scrolltext\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Commandes"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -81874,28 +81640,241 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "DialogueTree::IsCommandCalled"
               },
-              "parameters": []
+              "parameters": [
+                "\"langue\""
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "ResetObjectTimer"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Dialogue_bouton",
-                "\"clignotement\""
+                "Dialogue_langue",
+                "Text",
+                "=",
+                "dictionnaire_langues[DialogueTree::CommandParameter(0)]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"userName\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Dialogue_nom",
+                "Text",
+                "=",
+                "GlobalVariableString(player_name)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"nameTag\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Dialogue_nom",
+                "Text",
+                "=",
+                "dictionnaire_personnages[DialogueTree::CommandParameter(0)]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Gestion des dialogues à options"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_options",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::SelectOption"
+                  },
+                  "parameters": [
+                    "0"
+                  ]
+                }
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Down\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::SelectOption"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Return\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::ConfirmSelectOption"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::HasSelectedOptionChanged"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Dialogue_options",
+                    "Text",
+                    "=",
+                    "DialogueTree::VerticalOptionsList(\"->\")"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
               "type": {
-                "value": "ResetObjectTimer"
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
               },
               "parameters": [
-                "Dialogue_texte",
-                "\"scrolltext\""
+                "\"options\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue_options"
               ]
             }
           ]
@@ -85096,7 +85075,32 @@
               "name": "TouchIndex"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "DeadZoneRadius"
+              },
+              {
+                "propertyName": "JoystickAngle"
+              },
+              {
+                "propertyName": "JoystickForce"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIndex"
+              }
+            ]
+          }
         },
         {
           "description": "Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors.",
@@ -85639,7 +85643,32 @@
               "name": "Radius"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "ButtonIdentifier"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIndex"
+              },
+              {
+                "propertyName": "IsReleased"
+              },
+              {
+                "propertyName": "IsJustPressed"
+              },
+              {
+                "propertyName": "Radius"
+              }
+            ]
+          }
         },
         {
           "description": "Control a platformer character with a multitouch controller.",
@@ -85861,7 +85890,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Property"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -86004,7 +86054,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -86136,7 +86207,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control camera rotations with a multitouch controller.",
@@ -87178,7 +87270,73 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Object3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "CameraStick"
+                  }
+                ]
+              },
+              {
+                "folderName": "Horizontal rotation",
+                "children": [
+                  {
+                    "propertyName": "HorizontalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationDeceleration"
+                  }
+                ]
+              },
+              {
+                "folderName": "Vertical rotation",
+                "children": [
+                  {
+                    "propertyName": "VerticalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "VerticalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "VerticalRotationDeceleration"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMin"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "OffsetZ"
+                  }
+                ]
+              },
+              {
+                "propertyName": "CurrentRotationSpeedZ"
+              },
+              {
+                "propertyName": "CurrentRotationSpeedY"
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics car with a multitouch controller.",
@@ -87356,7 +87514,31 @@
               "name": "HandBrakeButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCar3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "SteerJoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "SpeedJoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "HandBrakeButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a top-down character with a multitouch controller.",
@@ -87924,7 +88106,28 @@
               "name": "StickMode"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "StickMode"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": [
@@ -89255,6 +89458,35 @@
               "name": "ShouldBeHiddenWhenReleased"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "DeadZoneRadius"
+              },
+              {
+                "propertyName": "ThumbAnchorOrigin"
+              },
+              {
+                "propertyName": "ThumbAnchorTarget"
+              },
+              {
+                "propertyName": "ThumbIsScaledProportionally"
+              },
+              {
+                "propertyName": "ParentOrigin"
+              },
+              {
+                "propertyName": "ShouldBeHiddenWhenReleased"
+              }
+            ]
+          },
           "variants": []
         }
       ]
@@ -94065,7 +94297,175 @@
               "name": "IsCalledManually"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeed"
+                  },
+                  {
+                    "propertyName": "RightwardSpeed"
+                  },
+                  {
+                    "propertyName": "UpwardSpeed"
+                  },
+                  {
+                    "propertyName": "DownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "propertyName": "FollowOnX"
+              },
+              {
+                "propertyName": "FollowOnY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "FollowFreeAreaLeft"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaRight"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "CameraOffsetX"
+                  },
+                  {
+                    "propertyName": "CameraOffsetY"
+                  }
+                ]
+              },
+              {
+                "folderName": "Timing",
+                "children": [
+                  {
+                    "propertyName": "CameraDelay"
+                  },
+                  {
+                    "propertyName": "ForecastTime"
+                  },
+                  {
+                    "propertyName": "ForecastHistoryDuration"
+                  }
+                ]
+              },
+              {
+                "propertyName": "LogLeftwardSpeed"
+              },
+              {
+                "propertyName": "LogRightwardSpeed"
+              },
+              {
+                "propertyName": "LogDownwardSpeed"
+              },
+              {
+                "propertyName": "LogUpwardSpeed"
+              },
+              {
+                "propertyName": "DelayedCenterX"
+              },
+              {
+                "propertyName": "DelayedCenterY"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanX"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceX"
+              },
+              {
+                "propertyName": "ForecastHistoryCovariance"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearA"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearB"
+              },
+              {
+                "propertyName": "ForecastedX"
+              },
+              {
+                "propertyName": "ForecastedY"
+              },
+              {
+                "propertyName": "ProjectedNewestX"
+              },
+              {
+                "propertyName": "ProjectedNewestY"
+              },
+              {
+                "propertyName": "ProjectedOldestX"
+              },
+              {
+                "propertyName": "ProjectedOldestY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceY"
+              },
+              {
+                "propertyName": "Index"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpSpeed"
+              },
+              {
+                "propertyName": "CameraExtraDelay"
+              },
+              {
+                "propertyName": "WaitingSpeedXMax"
+              },
+              {
+                "propertyName": "WaitingSpeedYMax"
+              },
+              {
+                "propertyName": "WaitingEnd"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpDuration"
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "RightwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "UpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "DownwardSpeedMax"
+                  }
+                ]
+              },
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "IsCalledManually"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
@@ -94410,7 +94810,71 @@
               "name": "FloorDownwardSpeedMax"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PlatformerCharacter"
+              },
+              {
+                "propertyName": "SmoothCamera"
+              },
+              {
+                "propertyName": "JumpOriginY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "AirFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "AirFollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaBottom"
+                  }
+                ]
+              },
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeedMax"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -95712,6 +96176,45 @@
               "name": "AnimationDirection"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Animation"
+              },
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "folderName": "Animation",
+                "children": [
+                  {
+                    "propertyName": "IsScalingAnimation"
+                  },
+                  {
+                    "propertyName": "IsPausingAnimation"
+                  },
+                  {
+                    "propertyName": "AnimationName"
+                  }
+                ]
+              },
+              {
+                "folderName": "Direction",
+                "children": [
+                  {
+                    "propertyName": "DirectionCount"
+                  },
+                  {
+                    "propertyName": "AngleOffset"
+                  }
+                ]
+              },
+              {
+                "propertyName": "AnimationDirection"
+              }
+            ]
+          },
           "sharedPropertyDescriptors": [
             {
               "value": "0",
@@ -95727,7 +96230,18 @@
               "hidden": true,
               "name": "AnimationFrame"
             }
-          ]
+          ],
+          "sharedPropertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "NewAnimationDirection"
+              },
+              {
+                "propertyName": "AnimationFrame"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -96960,7 +97474,29 @@
               "name": "Index"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ShouldCheckHovering"
+              },
+              {
+                "propertyName": "State"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIsInside"
+              },
+              {
+                "propertyName": "MouseIsInside"
+              },
+              {
+                "propertyName": "Index"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": [
@@ -98464,6 +99000,31 @@
               "name": "_PropertyMapping"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "LabelText"
+              },
+              {
+                "folderName": "States",
+                "children": [
+                  {
+                    "propertyName": "HoveredFadeOutDuration"
+                  },
+                  {
+                    "propertyName": "PressedLabelOffsetY"
+                  },
+                  {
+                    "propertyName": "LabelOffset"
+                  }
+                ]
+              },
+              {
+                "propertyName": "_PropertyMapping"
+              }
+            ]
+          },
           "variants": [
             {
               "areaMaxX": 256,
@@ -101284,6 +101845,29 @@
               "name": "_PropertyMapping"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TextMessage"
+              },
+              {
+                "propertyName": "HighlightedButtonIndex"
+              },
+              {
+                "propertyName": "EnableEscape"
+              },
+              {
+                "propertyName": "LabelButtonID0"
+              },
+              {
+                "propertyName": "LabelButtonID1"
+              },
+              {
+                "propertyName": "_PropertyMapping"
+              }
+            ]
+          },
           "variants": [
             {
               "areaMaxX": 600,
@@ -102764,7 +103348,29 @@
               "name": "Index"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ShouldCheckHovering"
+              },
+              {
+                "propertyName": "State"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIsInside"
+              },
+              {
+                "propertyName": "MouseIsInside"
+              },
+              {
+                "propertyName": "Index"
+              }
+            ]
+          }
         },
         {
           "description": "Enable effects on buttons based on their state.",
@@ -103305,7 +103911,31 @@
               "name": "PressedEffect"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "folderName": "Effects",
+                "children": [
+                  {
+                    "propertyName": "IdleEffect"
+                  },
+                  {
+                    "propertyName": "FocusedEffect"
+                  },
+                  {
+                    "propertyName": "PressedEffect"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Change the animation of buttons according to their state.",
@@ -103755,7 +104385,31 @@
               "name": "PressedAnimationName"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Animation"
+              },
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "folderName": "Animation",
+                "children": [
+                  {
+                    "propertyName": "IdleAnimationName"
+                  },
+                  {
+                    "propertyName": "FocusedAnimationName"
+                  },
+                  {
+                    "propertyName": "PressedAnimationName"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly change an effect on buttons according to their state.",
@@ -105646,7 +106300,80 @@
               "name": "EffectValue"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "folderName": "Effect",
+                "children": [
+                  {
+                    "propertyName": "EffectName"
+                  },
+                  {
+                    "propertyName": "EffectProperty"
+                  }
+                ]
+              },
+              {
+                "folderName": "Value",
+                "children": [
+                  {
+                    "propertyName": "IdleValue"
+                  },
+                  {
+                    "propertyName": "FocusedValue"
+                  },
+                  {
+                    "propertyName": "PressedValue"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  },
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  }
+                ]
+              },
+              {
+                "propertyName": "ShouldDisableEffectInIdle"
+              },
+              {
+                "propertyName": "PreviousState"
+              },
+              {
+                "propertyName": "TweenInitialValue"
+              },
+              {
+                "propertyName": "TweenTargetedValue"
+              },
+              {
+                "propertyName": "TweenTime"
+              },
+              {
+                "propertyName": "TweenState"
+              },
+              {
+                "propertyName": "EffectValue"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly resize buttons according to their state.",
@@ -106956,7 +107683,54 @@
               "name": "PreviousState"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Scale"
+              },
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Tween"
+              },
+              {
+                "folderName": "Size",
+                "children": [
+                  {
+                    "propertyName": "IdleScale"
+                  },
+                  {
+                    "propertyName": "FocusedScale"
+                  },
+                  {
+                    "propertyName": "PressedScale"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  },
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "PreviousState"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly change the color tint of buttons according to their state.",
@@ -108267,7 +109041,51 @@
               "name": "PreviousState"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Tween"
+              },
+              {
+                "folderName": "Color",
+                "children": [
+                  {
+                    "propertyName": "IdleColorTint"
+                  },
+                  {
+                    "propertyName": "FocusedColorTint"
+                  },
+                  {
+                    "propertyName": "PressedColorTint"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  },
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "PreviousState"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -111377,7 +112195,34 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PlatformerCharacter"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -111572,7 +112417,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -111773,7 +112639,31 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "WalkStick"
+                  },
+                  {
+                    "propertyName": "CameraStick"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control camera rotations with a gamepad.",
@@ -112814,7 +113704,68 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Object3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "propertyName": "CameraStick"
+              },
+              {
+                "folderName": "Horizontal rotation",
+                "children": [
+                  {
+                    "propertyName": "HorizontalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationDeceleration"
+                  }
+                ]
+              },
+              {
+                "folderName": "Vertical rotation",
+                "children": [
+                  {
+                    "propertyName": "VerticalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "VerticalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "VerticalRotationDeceleration"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMin"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "OffsetZ"
+                  }
+                ]
+              },
+              {
+                "propertyName": "CurrentRotationSpeedZ"
+              },
+              {
+                "propertyName": "CurrentRotationSpeedY"
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics car with a gamepad.",
@@ -113184,7 +114135,34 @@
               "name": "HandBrakeButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCar3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "HandBrakeButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a top-down character with a gamepad.",
@@ -113828,7 +114806,34 @@
               "name": "StickMode"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "StickMode"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -114841,7 +115846,26 @@
               "name": "TypedText"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Text"
+              },
+              {
+                "propertyName": "Interval"
+              },
+              {
+                "propertyName": "CharacterJustAdded"
+              },
+              {
+                "propertyName": "FullText"
+              },
+              {
+                "propertyName": "TypedText"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -115307,7 +116331,23 @@
               "name": "MarginRight"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "MarginTop"
+              },
+              {
+                "propertyName": "MarginBottom"
+              },
+              {
+                "propertyName": "MarginLeft"
+              },
+              {
+                "propertyName": "MarginRight"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -115440,7 +116480,9 @@
             }
           ],
           "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -116567,7 +117609,26 @@
               "name": "MaxOpacity"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Progress"
+              },
+              {
+                "propertyName": "Duration"
+              },
+              {
+                "propertyName": "Type"
+              },
+              {
+                "propertyName": "Direction"
+              },
+              {
+                "propertyName": "MaxOpacity"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -121592,7 +122653,95 @@
               "name": "Viewpoint"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Flippable"
+              },
+              {
+                "propertyName": "Rotation"
+              },
+              {
+                "propertyName": "RotationOffset"
+              },
+              {
+                "propertyName": "FlipXToGoBack"
+              },
+              {
+                "propertyName": "FlipYToGoBack"
+              },
+              {
+                "propertyName": "SpeedScale"
+              },
+              {
+                "propertyName": "PathOriginX"
+              },
+              {
+                "propertyName": "PathOriginY"
+              },
+              {
+                "propertyName": "Target"
+              },
+              {
+                "propertyName": "Origin"
+              },
+              {
+                "propertyName": "PathName"
+              },
+              {
+                "propertyName": "Duration"
+              },
+              {
+                "propertyName": "Easing"
+              },
+              {
+                "propertyName": "DrawingElementIndex"
+              },
+              {
+                "propertyName": "X"
+              },
+              {
+                "propertyName": "Y"
+              },
+              {
+                "propertyName": "PathAngle"
+              },
+              {
+                "propertyName": "PathScale"
+              },
+              {
+                "propertyName": "RepetitionCount"
+              },
+              {
+                "propertyName": "ShouldGoBack"
+              },
+              {
+                "propertyName": "ShouldLoop"
+              },
+              {
+                "propertyName": "RepetitionDoneCount"
+              },
+              {
+                "propertyName": "IsGoingBack"
+              },
+              {
+                "propertyName": "PauseDurationBeforeGoingBack"
+              },
+              {
+                "propertyName": "DrawingPathOriginX"
+              },
+              {
+                "propertyName": "DrawingPathOriginY"
+              },
+              {
+                "propertyName": "DebugLineStrokeWidth"
+              },
+              {
+                "propertyName": "Viewpoint"
+              }
+            ]
+          }
         },
         {
           "description": "Move objects on curved paths at a given speed.",
@@ -124349,7 +125498,82 @@
               "name": "Viewpoint"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Rotation",
+                "children": [
+                  {
+                    "propertyName": "Rotation"
+                  },
+                  {
+                    "propertyName": "RotationOffset"
+                  }
+                ]
+              },
+              {
+                "propertyName": "Speed"
+              },
+              {
+                "propertyName": "PathOriginX"
+              },
+              {
+                "propertyName": "PathOriginY"
+              },
+              {
+                "propertyName": "PathName"
+              },
+              {
+                "propertyName": "TargetedSpeed"
+              },
+              {
+                "propertyName": "Acceleration"
+              },
+              {
+                "propertyName": "DrawingElementIndex"
+              },
+              {
+                "propertyName": "X"
+              },
+              {
+                "propertyName": "Y"
+              },
+              {
+                "propertyName": "PathAngle"
+              },
+              {
+                "propertyName": "PathScale"
+              },
+              {
+                "propertyName": "RepetitionCount"
+              },
+              {
+                "propertyName": "ShouldLoop"
+              },
+              {
+                "propertyName": "DrawingPathOriginX"
+              },
+              {
+                "propertyName": "DrawingPathOriginY"
+              },
+              {
+                "propertyName": "DebugLineStrokeWidth"
+              },
+              {
+                "propertyName": "PreviousSpeed"
+              },
+              {
+                "propertyName": "CurrentLength"
+              },
+              {
+                "propertyName": "IsLookingBack"
+              },
+              {
+                "propertyName": "Viewpoint"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -124743,7 +125967,23 @@
               "name": "OriginalY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "DraggableBehavior"
+              },
+              {
+                "propertyName": "TweenBehavior"
+              },
+              {
+                "propertyName": "OriginalX"
+              },
+              {
+                "propertyName": "OriginalY"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -128724,7 +129964,60 @@
               "name": "ToogleClockwise"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Dimension",
+                "children": [
+                  {
+                    "propertyName": "Width"
+                  },
+                  {
+                    "propertyName": "Height"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "Clockwise"
+                  },
+                  {
+                    "propertyName": "HorizontalEdgeDuration"
+                  },
+                  {
+                    "propertyName": "VerticalEdgeDuration"
+                  },
+                  {
+                    "propertyName": "Easing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "Left"
+              },
+              {
+                "propertyName": "Top"
+              },
+              {
+                "propertyName": "Progress"
+              },
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "InitialPosition"
+              },
+              {
+                "propertyName": "ToogleClockwise"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -129648,7 +130941,20 @@
               "name": "FlashDuration"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              }
+            ]
+          }
         },
         {
           "description": "Make an object flash a color tint for a period of time.",
@@ -130222,7 +131528,23 @@
               "name": "TintColor"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TintColor"
+              }
+            ]
+          }
         },
         {
           "description": "Flash opacity smoothly (fade) in a repeating loop.",
@@ -130876,7 +132198,32 @@
               "name": "StartingOpacity"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Opacity"
+              },
+              {
+                "propertyName": "TweenBehavior"
+              },
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TargetOpacity"
+              },
+              {
+                "propertyName": "StartingOpacity"
+              }
+            ]
+          }
         },
         {
           "description": "Make the object flash an effect for a period of time.",
@@ -131724,7 +133071,26 @@
               "name": "EffectName"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "EffectName"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
