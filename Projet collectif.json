@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu titre",
   "gdVersion": {
-    "build": 252,
+    "build": 251,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -8868,6 +8868,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 0,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -8878,10 +8880,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         },
         {
           "isFolded": true,
@@ -10046,6 +10046,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 50,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -10056,10 +10058,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 50,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -10656,6 +10656,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 50,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -10666,10 +10668,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 50,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -11491,6 +11491,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 50,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -11501,10 +11503,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 50,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -12508,6 +12508,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 50,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -12518,10 +12520,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 50,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -13065,6 +13065,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 50,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -13075,10 +13077,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 50,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -14369,6 +14369,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 50,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -14379,10 +14381,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 50,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -15979,10 +15979,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "animations": [
@@ -17152,6 +17152,11 @@
       "name": "possible_spawns",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "touche_f_appuyee",
+      "type": "boolean",
+      "value": false
     },
     {
       "name": "monologue_termine",
@@ -28946,7 +28951,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210186,
+        "zoomFactor": 0.841642812537312,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -28966,6 +28971,11 @@
           "name": "_updated_dialogue",
           "type": "string",
           "value": "test"
+        },
+        {
+          "name": "est_proche_du_vaisseau",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -29704,23 +29714,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Debug",
-          "persistentUuid": "2b1e9fe3-4cfa-4e42-8877-3b8ab7769813",
-          "width": 0,
-          "x": 515,
-          "y": 293,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Debug_2",
+          "name": "Debug_ampoule",
           "persistentUuid": "6fae8159-24c1-4146-b258-152cbd9a5e3f",
           "width": 0,
           "x": 515,
@@ -29743,6 +29737,54 @@
           "x": -33,
           "y": -40,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug_bruit",
+          "persistentUuid": "e00da500-3750-42bf-b676-6f9a1cf120ea",
+          "width": 0,
+          "x": 514,
+          "y": 288,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug",
+          "persistentUuid": "c3ea0f5a-5534-4283-b316-92ce030beb51",
+          "width": 0,
+          "x": 548,
+          "y": 368,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug2",
+          "persistentUuid": "f1c5d7b6-2ed8-4b6f-bd52-22f690ef5a13",
+          "width": 0,
+          "x": 754,
+          "y": 276,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30272,14 +30314,14 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Debug_2",
+          "name": "Debug_ampoule",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Text",
+          "string": "text debug ampoule",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -30302,7 +30344,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Text",
+            "text": "text debug ampoule",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -30396,6 +30438,178 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Debug2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Debug3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Debug4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Debug_bruit",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "text debug bruit",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "text debug bruit",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -30411,13 +30625,25 @@
             "objectName": "NewText"
           },
           {
-            "objectName": "Debug_2"
+            "objectName": "Debug_ampoule"
           },
           {
             "objectName": "Message_vaisseau"
           },
           {
             "objectName": "Smoke"
+          },
+          {
+            "objectName": "Debug_bruit"
+          },
+          {
+            "objectName": "Debug4"
+          },
+          {
+            "objectName": "Debug3"
+          },
+          {
+            "objectName": "Debug2"
           },
           {
             "objectName": "Debug"
@@ -30508,6 +30734,16 @@
           "actions": [
             {
               "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                "no"
+              ]
+            },
+            {
+              "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
@@ -30555,6 +30791,16 @@
               "parameters": [
                 "",
                 "\"Fondu\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                "yes"
               ]
             }
           ]
@@ -30884,112 +31130,45 @@
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"command\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "Distance"
+                    "value": "DialogueTree::IsCommandCalled"
                   },
                   "parameters": [
-                    "Alien",
-                    "SpaceShip_détruit",
-                    "180",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "monologue_termine",
-                    "True",
-                    ""
+                    "\"ampoule\""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "DialogueTree::StartDialogueFromBranch"
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "\"monologue2\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "DialogueState",
+                    "Debug_ampoule",
+                    "Text",
                     "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_box",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_InfoBox",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_langue",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_nom",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_texte",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Alien",
-                    "TopDownMovement",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::LoadDialogueFromSceneVariable"
-                  },
-                  "parameters": [
-                    "_updated_dialogue"
+                    "\"ampoule apparait\""
                   ]
                 }
               ]
@@ -30999,129 +31178,261 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "Distance"
+                    "value": "DialogueTree::IsCommandCalled"
                   },
                   "parameters": [
-                    "Alien",
-                    "SpaceShip_détruit",
-                    "180",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "monologue_termine",
-                    "True",
-                    ""
+                    "\"eteinte\""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "JSONResourceLoader::LoadJSONToScene"
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "",
-                    "Ressources\\vaisseau.json",
-                    "_dialogue",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::StartDialogueFromBranch"
-                  },
-                  "parameters": [
-                    "\"monologue2\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "DialogueState",
+                    "Debug_ampoule",
+                    "Text",
                     "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_box",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_InfoBox",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_langue",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_nom",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_texte",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Alien",
-                    "TopDownMovement",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "_updated_dialogue",
-                    "=",
-                    "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::LoadDialogueFromSceneVariable"
-                  },
-                  "parameters": [
-                    "_updated_dialogue"
+                    "\"ampoule disparait\""
                   ]
                 }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::IsCommandCalled"
+                  },
+                  "parameters": [
+                    "\"bruit\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Debug_bruit",
+                    "Text",
+                    "=",
+                    "\"un bruit retentit\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Debug_bruit",
+                    "Text",
+                    "=",
+                    "\"text debug bruit\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "En se rapprochant du vaisseau"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "SpaceShip_détruit",
+                "180",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "est_proche_du_vaisseau",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "monologue_termine",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "est_proche_du_vaisseau",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Alien",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_box",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_InfoBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_langue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_nom",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue_texte",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "_updated_dialogue",
+                "=",
+                "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromSceneVariable"
+              },
+              "parameters": [
+                "_updated_dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"monologue2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "SpaceShip_détruit",
+                "180",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "est_proche_du_vaisseau",
+                "False",
+                ""
               ]
             }
           ]
@@ -31139,299 +31450,11 @@
           "comment": "Dialogue en cours"
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 17,
-            "g": 0,
-            "r": 145,
-            "textB": 255,
-            "textG": 255,
-            "textR": 255
-          },
-          "comment": "Bug à régler = fin de la branche 1 ne fonctionne pas, passer d'une branche à l'autre, décider de la fin avec la commande << fin >>"
-        },
-        {
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
           },
           "target": "Dialogue"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Return\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "touche_dialogue_pressee",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsDialogueLineType"
-              },
-              "parameters": [
-                "\"text\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Dialogue_texte",
-                "Text",
-                "=",
-                "DialogueTree::ClippedLineText()"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"scrolltext\"",
-                    ">=",
-                    "0.0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::ScrollClippedText"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"scrolltext\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Return\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "touche_dialogue_pressee",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::GoToNextLine"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "touche_dialogue_pressee",
-                    "True",
-                    "="
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Return\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "touche_dialogue_pressee",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::CompleteClippedTextScrolling"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "touche_dialogue_pressee",
-                    "True",
-                    "="
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::IsDialogueLineType"
-              },
-              "parameters": [
-                "\"options\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue_options"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsCommandCalled"
-              },
-              "parameters": [
-                "\"fin\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue"
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::StopRunningDialogue"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Debug_2"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Alien",
-                "TopDownMovement",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "0"
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -31453,7 +31476,7 @@
                 "value": "DialogueTree::IsCommandCalled"
               },
               "parameters": [
-                "\"ampoule\""
+                "\"fin\""
               ]
             }
           ],
@@ -31463,10 +31486,27 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Debug_2",
+                "Debug",
                 "Text",
                 "=",
-                "\"ampoule\""
+                "\"test\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Debug2",
+                "Text",
+                "=",
+                "ToString(Dialogue_texte.ObjectTimerElapsedTime(\"scrolltext\"))"
               ]
             }
           ]
@@ -32270,7 +32310,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9296875000000322,
+        "zoomFactor": 0.81418812037102,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -32280,43 +32320,14 @@
           "name": "transformation_en_cours",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "_updated_dialogue",
+          "type": "string",
+          "value": "0"
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 153,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Dialogue_box",
-          "persistentUuid": "394f1a62-08e3-4f9e-a85e-9399b93a3a3a",
-          "width": 847,
-          "x": 168,
-          "y": 520,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 46,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Dialogue_options",
-          "persistentUuid": "97923931-b110-433b-9366-226569d83004",
-          "width": 357,
-          "x": 213,
-          "y": 583,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -32421,57 +32432,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 88,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Dialogue_InfoBox",
-          "persistentUuid": "7ff3865d-9338-432a-ad9b-2961f12a0f08",
-          "width": 355,
-          "x": 166,
-          "y": 426,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 23,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Dialogue_nom",
-          "persistentUuid": "be37c387-ffe5-4a9a-8d44-62a043967e27",
-          "width": 112,
-          "x": 201,
-          "y": 458,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 23,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Dialogue_langue",
-          "persistentUuid": "feec7188-c8f5-42ca-a6fa-f4a91e744b11",
-          "width": 172,
-          "x": 324,
-          "y": 459,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -32482,39 +32442,6 @@
           "x": 1098,
           "y": 518,
           "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 102,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Dialogue_texte",
-          "persistentUuid": "c43c8114-d7c7-4852-a564-21b135dad57b",
-          "width": 758,
-          "x": 216,
-          "y": 543,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Dialogue_bouton",
-          "persistentUuid": "51451016-099c-4166-8312-4c228e432b0a",
-          "width": 0,
-          "x": 885,
-          "y": 634,
-          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -33873,6 +33800,70 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Press_F_PNJ1",
+          "persistentUuid": "0e276473-fc31-41ff-bef3-57ba4012a23c",
+          "width": 0,
+          "x": 1089,
+          "y": 488,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Press_F_PNJ2",
+          "persistentUuid": "3221b8bb-bc2d-4078-a2fb-b1ef00421260",
+          "width": 0,
+          "x": 1144,
+          "y": 208,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Press_F_PNJ3",
+          "persistentUuid": "0a748b81-247c-44de-b588-bfe01fe9a67f",
+          "width": 0,
+          "x": 1018,
+          "y": 399,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug",
+          "persistentUuid": "66361911-59a1-40cd-834d-d7016c3c199c",
+          "width": 0,
+          "x": 1162,
+          "y": 469,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -33963,7 +33954,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Press_F",
+          "name": "Press_F_PNJ1",
           "type": "BBText::BBText",
           "variables": [],
           "effects": [],
@@ -33990,7 +33981,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "jeudi 22 janvier matin Lyuyao : \nanimation digression au café (fini)\nanimation de fin (en train de construire)",
+          "string": "jeudi 22 janvier aprem Tristan: \ndebug dialogues\ndebut dialogue pour pnj1 village",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -34013,7 +34004,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "jeudi 22 janvier matin Lyuyao : \nanimation digression au café (fini)\nanimation de fin (en train de construire)",
+            "text": "jeudi 22 janvier aprem Tristan: \ndebug dialogues\ndebut dialogue pour pnj1 village",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -38154,6 +38145,85 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Press_F_PNJ2",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Appuie sur F",
+            "opacity": 255,
+            "fontSize": 12,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Press_F_PNJ3",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Appuie sur F",
+            "opacity": 255,
+            "fontSize": 12,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Debug",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -38163,7 +38233,13 @@
             "objectName": "Mairie"
           },
           {
-            "objectName": "Press_F"
+            "objectName": "Press_F_PNJ1"
+          },
+          {
+            "objectName": "Press_F_PNJ2"
+          },
+          {
+            "objectName": "Press_F_PNJ3"
           },
           {
             "objectName": "test_pull_lyuyao_andrea"
@@ -38263,6 +38339,9 @@
           },
           {
             "objectName": "Light_Cast"
+          },
+          {
+            "objectName": "Debug"
           }
         ]
       },
@@ -39106,6 +39185,18 @@
               },
               "parameters": [
                 "",
+                "\"Dialogue\"",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
                 "\"Calque UI (inventaire)\"",
                 "",
                 "",
@@ -39114,11 +39205,34 @@
             },
             {
               "type": {
-                "value": "DialogueTree::LoadDialogueFromJsonFile"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Debug",
+                "Text",
+                "=",
+                "\"ici\""
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONResourceLoader::LoadJSONToScene"
               },
               "parameters": [
                 "",
-                "Ressources\\village.json"
+                "Ressources\\village.json",
+                "_dialogue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "_updated_dialogue",
+                "=",
+                "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
               ]
             },
             {
@@ -39133,6 +39247,14 @@
             },
             {
               "type": {
+                "value": "DialogueTree::LoadDialogueFromSceneVariable"
+              },
+              "parameters": [
+                "_updated_dialogue"
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -39141,10 +39263,10 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "Wait"
               },
               "parameters": [
-                "Dialogue_bouton"
+                "0.1"
               ]
             },
             {
@@ -39313,6 +39435,17 @@
           "comment": "Ajouter conditions pour lancer telle ou telle branche de dialogue selon si quête_1_finie est vrai/faux"
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue PNJ1",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -39340,7 +39473,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Press_F",
+                "Press_F_PNJ1",
                 ""
               ]
             }
@@ -39368,7 +39501,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Press_F"
+                "Press_F_PNJ1"
               ]
             }
           ]
@@ -39405,15 +39538,35 @@
                 "",
                 "\"f\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
             {
               "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
-                "Press_F"
+                "Press_F_PNJ1"
               ]
             },
             {
@@ -39466,7 +39619,7 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "\"rencontre\""
+                "\"PNJ1\""
               ]
             },
             {
@@ -39499,14 +39652,6 @@
             },
             {
               "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -39534,272 +39679,6 @@
             "includeConfig": 0
           },
           "target": "Dialogue"
-        },
-        {
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsDialogueLineType"
-              },
-              "parameters": [
-                "\"text\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Dialogue_texte",
-                "Text",
-                "=",
-                "DialogueTree::ClippedLineText()"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"scrolltext\"",
-                    ">=",
-                    "0.0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::ScrollClippedText"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"scrolltext\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Return\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "touche_dialogue_pressee",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::GoToNextLine"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "touche_dialogue_pressee",
-                    "True",
-                    "="
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Return\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "touche_dialogue_pressee",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::CompleteClippedTextScrolling"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "touche_dialogue_pressee",
-                    "True",
-                    "="
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Fin dialogue : aller à l'activité 1",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Alien",
-                "PNJ1",
-                "125",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"f\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue_texte"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue_box"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue_options"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Press_F"
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::StopRunningDialogue"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Alien",
-                "TopDownMovement",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "0"
-              ]
-            }
-          ]
         },
         {
           "colorB": 228,
@@ -41790,6 +41669,44 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Autres",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "False",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -41872,7 +41789,7 @@
           "isLocked": false,
           "name": "Dialogue",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -72044,6 +71961,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 50,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -72054,10 +71973,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 50,
-              "name": "Pathfinding",
               "rotateObject": false,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
@@ -72601,6 +72518,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 50,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -72611,10 +72530,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 50,
-              "name": "Pathfinding",
               "rotateObject": false,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
@@ -73158,6 +73075,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 50,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -73168,10 +73087,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 50,
-              "name": "Pathfinding",
               "rotateObject": false,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
@@ -80128,6 +80045,401 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Dialogue en cours"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_dialogue_pressee",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Dialogue_texte",
+                "Text",
+                "=",
+                "DialogueTree::ClippedLineText()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Dialogue_texte",
+                    "\"scrolltext\"",
+                    ">=",
+                    "0.0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::ScrollClippedText"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Dialogue_texte",
+                    "\"scrolltext\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Return\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "True",
+                    "="
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Return\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::CompleteClippedTextScrolling"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "touche_dialogue_pressee",
+                    "True",
+                    "="
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrolltext\"",
+                ">=",
+                "0.0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::ScrollClippedText"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Dialogue_texte",
+                "\"scrolltext\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "touche_dialogue_pressee",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::GoToNextLine"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_dialogue_pressee",
+                "True",
+                "="
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "touche_dialogue_pressee",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::CompleteClippedTextScrolling"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_dialogue_pressee",
+                "True",
+                "="
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue_options"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"fin\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StopRunningDialogue"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -80149,10 +80461,10 @@
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "ResetObjectTimer"
               },
               "parameters": [
-                "",
+                "Dialogue_texte",
                 "\"scrolltext\""
               ]
             }
@@ -83354,32 +83666,7 @@
               "name": "TouchIndex"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "propertyName": "DeadZoneRadius"
-              },
-              {
-                "propertyName": "JoystickAngle"
-              },
-              {
-                "propertyName": "JoystickForce"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIndex"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors.",
@@ -83922,32 +84209,7 @@
               "name": "Radius"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "ButtonIdentifier"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIndex"
-              },
-              {
-                "propertyName": "IsReleased"
-              },
-              {
-                "propertyName": "IsJustPressed"
-              },
-              {
-                "propertyName": "Radius"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a platformer character with a multitouch controller.",
@@ -84169,28 +84431,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Property"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -84333,28 +84574,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -84486,28 +84706,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control camera rotations with a multitouch controller.",
@@ -85549,73 +85748,7 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Object3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "CameraStick"
-                  }
-                ]
-              },
-              {
-                "folderName": "Horizontal rotation",
-                "children": [
-                  {
-                    "propertyName": "HorizontalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationDeceleration"
-                  }
-                ]
-              },
-              {
-                "folderName": "Vertical rotation",
-                "children": [
-                  {
-                    "propertyName": "VerticalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "VerticalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "VerticalRotationDeceleration"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMin"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMax"
-                  }
-                ]
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "OffsetZ"
-                  }
-                ]
-              },
-              {
-                "propertyName": "CurrentRotationSpeedZ"
-              },
-              {
-                "propertyName": "CurrentRotationSpeedY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics car with a multitouch controller.",
@@ -85793,31 +85926,7 @@
               "name": "HandBrakeButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCar3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "SteerJoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "SpeedJoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "HandBrakeButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a top-down character with a multitouch controller.",
@@ -86385,28 +86494,7 @@
               "name": "StickMode"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "StickMode"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": [
@@ -87737,35 +87825,6 @@
               "name": "ShouldBeHiddenWhenReleased"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "propertyName": "DeadZoneRadius"
-              },
-              {
-                "propertyName": "ThumbAnchorOrigin"
-              },
-              {
-                "propertyName": "ThumbAnchorTarget"
-              },
-              {
-                "propertyName": "ThumbIsScaledProportionally"
-              },
-              {
-                "propertyName": "ParentOrigin"
-              },
-              {
-                "propertyName": "ShouldBeHiddenWhenReleased"
-              }
-            ]
-          },
           "variants": []
         }
       ]
@@ -92576,175 +92635,7 @@
               "name": "IsCalledManually"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Catch-up speed",
-                "children": [
-                  {
-                    "propertyName": "LeftwardSpeed"
-                  },
-                  {
-                    "propertyName": "RightwardSpeed"
-                  },
-                  {
-                    "propertyName": "UpwardSpeed"
-                  },
-                  {
-                    "propertyName": "DownwardSpeed"
-                  }
-                ]
-              },
-              {
-                "propertyName": "FollowOnX"
-              },
-              {
-                "propertyName": "FollowOnY"
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "FollowFreeAreaLeft"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaRight"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaBottom"
-                  },
-                  {
-                    "propertyName": "CameraOffsetX"
-                  },
-                  {
-                    "propertyName": "CameraOffsetY"
-                  }
-                ]
-              },
-              {
-                "folderName": "Timing",
-                "children": [
-                  {
-                    "propertyName": "CameraDelay"
-                  },
-                  {
-                    "propertyName": "ForecastTime"
-                  },
-                  {
-                    "propertyName": "ForecastHistoryDuration"
-                  }
-                ]
-              },
-              {
-                "propertyName": "LogLeftwardSpeed"
-              },
-              {
-                "propertyName": "LogRightwardSpeed"
-              },
-              {
-                "propertyName": "LogDownwardSpeed"
-              },
-              {
-                "propertyName": "LogUpwardSpeed"
-              },
-              {
-                "propertyName": "DelayedCenterX"
-              },
-              {
-                "propertyName": "DelayedCenterY"
-              },
-              {
-                "propertyName": "ForecastHistoryMeanX"
-              },
-              {
-                "propertyName": "ForecastHistoryMeanY"
-              },
-              {
-                "propertyName": "ForecastHistoryVarianceX"
-              },
-              {
-                "propertyName": "ForecastHistoryCovariance"
-              },
-              {
-                "propertyName": "ForecastHistoryLinearA"
-              },
-              {
-                "propertyName": "ForecastHistoryLinearB"
-              },
-              {
-                "propertyName": "ForecastedX"
-              },
-              {
-                "propertyName": "ForecastedY"
-              },
-              {
-                "propertyName": "ProjectedNewestX"
-              },
-              {
-                "propertyName": "ProjectedNewestY"
-              },
-              {
-                "propertyName": "ProjectedOldestX"
-              },
-              {
-                "propertyName": "ProjectedOldestY"
-              },
-              {
-                "propertyName": "ForecastHistoryVarianceY"
-              },
-              {
-                "propertyName": "Index"
-              },
-              {
-                "propertyName": "CameraDelayCatchUpSpeed"
-              },
-              {
-                "propertyName": "CameraExtraDelay"
-              },
-              {
-                "propertyName": "WaitingSpeedXMax"
-              },
-              {
-                "propertyName": "WaitingSpeedYMax"
-              },
-              {
-                "propertyName": "WaitingEnd"
-              },
-              {
-                "propertyName": "CameraDelayCatchUpDuration"
-              },
-              {
-                "folderName": "Maximum speed",
-                "children": [
-                  {
-                    "propertyName": "LeftwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "RightwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "UpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "DownwardSpeedMax"
-                  }
-                ]
-              },
-              {
-                "propertyName": "OldX"
-              },
-              {
-                "propertyName": "OldY"
-              },
-              {
-                "propertyName": "IsCalledManually"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
@@ -93089,71 +92980,7 @@
               "name": "FloorDownwardSpeedMax"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PlatformerCharacter"
-              },
-              {
-                "propertyName": "SmoothCamera"
-              },
-              {
-                "propertyName": "JumpOriginY"
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "AirFollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "AirFollowFreeAreaBottom"
-                  },
-                  {
-                    "propertyName": "FloorFollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "FloorFollowFreeAreaBottom"
-                  }
-                ]
-              },
-              {
-                "folderName": "Catch-up speed",
-                "children": [
-                  {
-                    "propertyName": "AirUpwardSpeed"
-                  },
-                  {
-                    "propertyName": "AirDownwardSpeed"
-                  },
-                  {
-                    "propertyName": "FloorUpwardSpeed"
-                  },
-                  {
-                    "propertyName": "FloorDownwardSpeed"
-                  }
-                ]
-              },
-              {
-                "folderName": "Maximum speed",
-                "children": [
-                  {
-                    "propertyName": "AirUpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "AirDownwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "FloorUpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "FloorDownwardSpeedMax"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -94455,45 +94282,6 @@
               "name": "AnimationDirection"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Animation"
-              },
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "folderName": "Animation",
-                "children": [
-                  {
-                    "propertyName": "IsScalingAnimation"
-                  },
-                  {
-                    "propertyName": "IsPausingAnimation"
-                  },
-                  {
-                    "propertyName": "AnimationName"
-                  }
-                ]
-              },
-              {
-                "folderName": "Direction",
-                "children": [
-                  {
-                    "propertyName": "DirectionCount"
-                  },
-                  {
-                    "propertyName": "AngleOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "AnimationDirection"
-              }
-            ]
-          },
           "sharedPropertyDescriptors": [
             {
               "value": "0",
@@ -94509,18 +94297,7 @@
               "hidden": true,
               "name": "AnimationFrame"
             }
-          ],
-          "sharedPropertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "NewAnimationDirection"
-              },
-              {
-                "propertyName": "AnimationFrame"
-              }
-            ]
-          }
+          ]
         }
       ],
       "eventsBasedObjects": []
@@ -95753,29 +95530,7 @@
               "name": "Index"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ShouldCheckHovering"
-              },
-              {
-                "propertyName": "State"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIsInside"
-              },
-              {
-                "propertyName": "MouseIsInside"
-              },
-              {
-                "propertyName": "Index"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": [
@@ -97279,31 +97034,6 @@
               "name": "_PropertyMapping"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "LabelText"
-              },
-              {
-                "folderName": "States",
-                "children": [
-                  {
-                    "propertyName": "HoveredFadeOutDuration"
-                  },
-                  {
-                    "propertyName": "PressedLabelOffsetY"
-                  },
-                  {
-                    "propertyName": "LabelOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "_PropertyMapping"
-              }
-            ]
-          },
           "variants": [
             {
               "areaMaxX": 256,
@@ -100124,29 +99854,6 @@
               "name": "_PropertyMapping"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TextMessage"
-              },
-              {
-                "propertyName": "HighlightedButtonIndex"
-              },
-              {
-                "propertyName": "EnableEscape"
-              },
-              {
-                "propertyName": "LabelButtonID0"
-              },
-              {
-                "propertyName": "LabelButtonID1"
-              },
-              {
-                "propertyName": "_PropertyMapping"
-              }
-            ]
-          },
           "variants": [
             {
               "areaMaxX": 600,
@@ -101627,29 +101334,7 @@
               "name": "Index"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ShouldCheckHovering"
-              },
-              {
-                "propertyName": "State"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIsInside"
-              },
-              {
-                "propertyName": "MouseIsInside"
-              },
-              {
-                "propertyName": "Index"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Enable effects on buttons based on their state.",
@@ -102190,31 +101875,7 @@
               "name": "PressedEffect"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "folderName": "Effects",
-                "children": [
-                  {
-                    "propertyName": "IdleEffect"
-                  },
-                  {
-                    "propertyName": "FocusedEffect"
-                  },
-                  {
-                    "propertyName": "PressedEffect"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Change the animation of buttons according to their state.",
@@ -102664,31 +102325,7 @@
               "name": "PressedAnimationName"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Animation"
-              },
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "folderName": "Animation",
-                "children": [
-                  {
-                    "propertyName": "IdleAnimationName"
-                  },
-                  {
-                    "propertyName": "FocusedAnimationName"
-                  },
-                  {
-                    "propertyName": "PressedAnimationName"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly change an effect on buttons according to their state.",
@@ -104579,80 +104216,7 @@
               "name": "EffectValue"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "folderName": "Effect",
-                "children": [
-                  {
-                    "propertyName": "EffectName"
-                  },
-                  {
-                    "propertyName": "EffectProperty"
-                  }
-                ]
-              },
-              {
-                "folderName": "Value",
-                "children": [
-                  {
-                    "propertyName": "IdleValue"
-                  },
-                  {
-                    "propertyName": "FocusedValue"
-                  },
-                  {
-                    "propertyName": "PressedValue"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  },
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  }
-                ]
-              },
-              {
-                "propertyName": "ShouldDisableEffectInIdle"
-              },
-              {
-                "propertyName": "PreviousState"
-              },
-              {
-                "propertyName": "TweenInitialValue"
-              },
-              {
-                "propertyName": "TweenTargetedValue"
-              },
-              {
-                "propertyName": "TweenTime"
-              },
-              {
-                "propertyName": "TweenState"
-              },
-              {
-                "propertyName": "EffectValue"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly resize buttons according to their state.",
@@ -105962,54 +105526,7 @@
               "name": "PreviousState"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Scale"
-              },
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Tween"
-              },
-              {
-                "folderName": "Size",
-                "children": [
-                  {
-                    "propertyName": "IdleScale"
-                  },
-                  {
-                    "propertyName": "FocusedScale"
-                  },
-                  {
-                    "propertyName": "PressedScale"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  },
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "PreviousState"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly change the color tint of buttons according to their state.",
@@ -107320,51 +106837,7 @@
               "name": "PreviousState"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Tween"
-              },
-              {
-                "folderName": "Color",
-                "children": [
-                  {
-                    "propertyName": "IdleColorTint"
-                  },
-                  {
-                    "propertyName": "FocusedColorTint"
-                  },
-                  {
-                    "propertyName": "PressedColorTint"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  },
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "PreviousState"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -110474,34 +109947,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PlatformerCharacter"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -110696,28 +110142,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -110918,31 +110343,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "WalkStick"
-                  },
-                  {
-                    "propertyName": "CameraStick"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control camera rotations with a gamepad.",
@@ -111983,68 +111384,7 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Object3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "propertyName": "CameraStick"
-              },
-              {
-                "folderName": "Horizontal rotation",
-                "children": [
-                  {
-                    "propertyName": "HorizontalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationDeceleration"
-                  }
-                ]
-              },
-              {
-                "folderName": "Vertical rotation",
-                "children": [
-                  {
-                    "propertyName": "VerticalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "VerticalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "VerticalRotationDeceleration"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMin"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMax"
-                  }
-                ]
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "OffsetZ"
-                  }
-                ]
-              },
-              {
-                "propertyName": "CurrentRotationSpeedZ"
-              },
-              {
-                "propertyName": "CurrentRotationSpeedY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics car with a gamepad.",
@@ -112414,34 +111754,7 @@
               "name": "HandBrakeButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCar3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "HandBrakeButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a top-down character with a gamepad.",
@@ -113085,34 +112398,7 @@
               "name": "StickMode"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "StickMode"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -114125,26 +113411,7 @@
               "name": "TypedText"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Text"
-              },
-              {
-                "propertyName": "Interval"
-              },
-              {
-                "propertyName": "CharacterJustAdded"
-              },
-              {
-                "propertyName": "FullText"
-              },
-              {
-                "propertyName": "TypedText"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -114610,23 +113877,7 @@
               "name": "MarginRight"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "MarginTop"
-              },
-              {
-                "propertyName": "MarginBottom"
-              },
-              {
-                "propertyName": "MarginLeft"
-              },
-              {
-                "propertyName": "MarginRight"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -114759,9 +114010,7 @@
             }
           ],
           "propertyDescriptors": [],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT"
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -115888,26 +115137,7 @@
               "name": "MaxOpacity"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Progress"
-              },
-              {
-                "propertyName": "Duration"
-              },
-              {
-                "propertyName": "Type"
-              },
-              {
-                "propertyName": "Direction"
-              },
-              {
-                "propertyName": "MaxOpacity"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -120932,95 +120162,7 @@
               "name": "Viewpoint"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Flippable"
-              },
-              {
-                "propertyName": "Rotation"
-              },
-              {
-                "propertyName": "RotationOffset"
-              },
-              {
-                "propertyName": "FlipXToGoBack"
-              },
-              {
-                "propertyName": "FlipYToGoBack"
-              },
-              {
-                "propertyName": "SpeedScale"
-              },
-              {
-                "propertyName": "PathOriginX"
-              },
-              {
-                "propertyName": "PathOriginY"
-              },
-              {
-                "propertyName": "Target"
-              },
-              {
-                "propertyName": "Origin"
-              },
-              {
-                "propertyName": "PathName"
-              },
-              {
-                "propertyName": "Duration"
-              },
-              {
-                "propertyName": "Easing"
-              },
-              {
-                "propertyName": "DrawingElementIndex"
-              },
-              {
-                "propertyName": "X"
-              },
-              {
-                "propertyName": "Y"
-              },
-              {
-                "propertyName": "PathAngle"
-              },
-              {
-                "propertyName": "PathScale"
-              },
-              {
-                "propertyName": "RepetitionCount"
-              },
-              {
-                "propertyName": "ShouldGoBack"
-              },
-              {
-                "propertyName": "ShouldLoop"
-              },
-              {
-                "propertyName": "RepetitionDoneCount"
-              },
-              {
-                "propertyName": "IsGoingBack"
-              },
-              {
-                "propertyName": "PauseDurationBeforeGoingBack"
-              },
-              {
-                "propertyName": "DrawingPathOriginX"
-              },
-              {
-                "propertyName": "DrawingPathOriginY"
-              },
-              {
-                "propertyName": "DebugLineStrokeWidth"
-              },
-              {
-                "propertyName": "Viewpoint"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Move objects on curved paths at a given speed.",
@@ -123777,82 +122919,7 @@
               "name": "Viewpoint"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Rotation",
-                "children": [
-                  {
-                    "propertyName": "Rotation"
-                  },
-                  {
-                    "propertyName": "RotationOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "Speed"
-              },
-              {
-                "propertyName": "PathOriginX"
-              },
-              {
-                "propertyName": "PathOriginY"
-              },
-              {
-                "propertyName": "PathName"
-              },
-              {
-                "propertyName": "TargetedSpeed"
-              },
-              {
-                "propertyName": "Acceleration"
-              },
-              {
-                "propertyName": "DrawingElementIndex"
-              },
-              {
-                "propertyName": "X"
-              },
-              {
-                "propertyName": "Y"
-              },
-              {
-                "propertyName": "PathAngle"
-              },
-              {
-                "propertyName": "PathScale"
-              },
-              {
-                "propertyName": "RepetitionCount"
-              },
-              {
-                "propertyName": "ShouldLoop"
-              },
-              {
-                "propertyName": "DrawingPathOriginX"
-              },
-              {
-                "propertyName": "DrawingPathOriginY"
-              },
-              {
-                "propertyName": "DebugLineStrokeWidth"
-              },
-              {
-                "propertyName": "PreviousSpeed"
-              },
-              {
-                "propertyName": "CurrentLength"
-              },
-              {
-                "propertyName": "IsLookingBack"
-              },
-              {
-                "propertyName": "Viewpoint"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -124246,23 +123313,7 @@
               "name": "OriginalY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "DraggableBehavior"
-              },
-              {
-                "propertyName": "TweenBehavior"
-              },
-              {
-                "propertyName": "OriginalX"
-              },
-              {
-                "propertyName": "OriginalY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -128243,60 +127294,7 @@
               "name": "ToogleClockwise"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Dimension",
-                "children": [
-                  {
-                    "propertyName": "Width"
-                  },
-                  {
-                    "propertyName": "Height"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "Clockwise"
-                  },
-                  {
-                    "propertyName": "HorizontalEdgeDuration"
-                  },
-                  {
-                    "propertyName": "VerticalEdgeDuration"
-                  },
-                  {
-                    "propertyName": "Easing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "Left"
-              },
-              {
-                "propertyName": "Top"
-              },
-              {
-                "propertyName": "Progress"
-              },
-              {
-                "propertyName": "OldX"
-              },
-              {
-                "propertyName": "OldY"
-              },
-              {
-                "propertyName": "InitialPosition"
-              },
-              {
-                "propertyName": "ToogleClockwise"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -129220,20 +128218,7 @@
               "name": "FlashDuration"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Make an object flash a color tint for a period of time.",
@@ -129807,23 +128792,7 @@
               "name": "TintColor"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "TintColor"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Flash opacity smoothly (fade) in a repeating loop.",
@@ -130477,32 +129446,7 @@
               "name": "StartingOpacity"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Opacity"
-              },
-              {
-                "propertyName": "TweenBehavior"
-              },
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "TargetOpacity"
-              },
-              {
-                "propertyName": "StartingOpacity"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Make the object flash an effect for a period of time.",
@@ -131350,26 +130294,7 @@
               "name": "EffectName"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "EffectName"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []

@@ -2,9 +2,9 @@
 	{
 		"title": "monologue1",
 		"tags": "",
-		"body": "<< userName >>\r\n<< langue alien >>\r\nFichu vaisseau ! À cause de cette mauvaise manœuvre, me voilà ici !\r\nJe n’avais vraiment pas prévu d'atterrir sur Terre…\r\n<< ampoule >>\r\nJe sais ! Je vais appeler mes amis pour qu’ils viennent me chercher ! \r\n<< test >> \r\n...\r\nAh, voilà ma radio ! Voyons voir...\r\n...\r\nMais où suis-je en fait ?  Ils ne peuvent pas venir me chercher si je ne sais pas moi-même où je me trouve.\r\n<< bruit >>\r\nJe peux toujours aller voir par là-bas pour savoir ma position exacte.\r\n<< fin >>",
+		"body": "<< userName >>\r\n<< langue alien >>\r\nFichu vaisseau ! À cause de cette mauvaise manœuvre, me voilà ici !\r\nJe n’avais vraiment pas prévu d'atterrir sur Terre…\r\n<< ampoule >>\r\nJe sais ! Je vais appeler mes amis pour qu’ils viennent me chercher ! \r\n<< eteinte >> \r\n...\r\nAh, voilà ma radio ! Voyons voir.\r\n...\r\nMais où suis-je en fait ?  Ils ne peuvent pas venir me chercher si je ne sais pas moi-même où je me trouve.\r\n<< bruit >>\r\nJe peux toujours aller voir par là-bas pour savoir ma position exacte.\r\n<< fin >>\r\n...",
 		"position": {
-			"x": 134,
+			"x": 133,
 			"y": 202
 		},
 		"colorID": 0
@@ -12,7 +12,7 @@
 	{
 		"title": "monologue2",
 		"tags": "",
-		"body": "<< userName >>\r\n<< langue alien >>\r\n(Sans connaître ma position, je ne peux rien faire ici pour l’instant.)\r\n<< fin >>",
+		"body": "<< userName >>\r\n<< langue alien >>\r\n(Sans connaître ma position, je ne peux rien faire ici pour l’instant.)\r\n<< fin >>\r\n...",
 		"position": {
 			"x": 439,
 			"y": 196
