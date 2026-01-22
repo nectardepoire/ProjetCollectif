@@ -32,7 +32,7 @@
 	{
 		"title": "bonjour_client1",
 		"tags": "",
-		"body": "<< nameTag client1 >>\r\n<< langue suedois >>\r\nHej!\r\n<< fin >>",
+		"body": "<< nameTag client1 >>\r\n<< langue suedois >>\r\nHej!\r\n<< un >>",
 		"position": {
 			"x": -330,
 			"y": 828
@@ -52,7 +52,7 @@
 	{
 		"title": "bonjour_client2",
 		"tags": "",
-		"body": "<< nameTag client2 >>\r\n<< langue turc >>\r\nSelam\r\n<< fin >>",
+		"body": "<< nameTag client2 >>\r\n<< langue turc >>\r\nSelam\r\n<< deux >>",
 		"position": {
 			"x": -20,
 			"y": 823
@@ -72,7 +72,7 @@
 	{
 		"title": "bonjour_client3",
 		"tags": "",
-		"body": "<< nameTag client3 >>\r\n<< langue turc >>\r\nMerhaba\r\n<< fin >>",
+		"body": "<< nameTag client3 >>\r\n<< langue turc >>\r\nMerhaba\r\n<< trois >>",
 		"position": {
 			"x": 262,
 			"y": 820

@@ -104,8 +104,18 @@
 		"tags": "",
 		"body": "<< nameTag pnj6 >>\r\n<< francais >>\r\nNon, pas celui-là !\r\n<< fin >>",
 		"position": {
-			"x": 409,
-			"y": 1068
+			"x": 408,
+			"y": 1053
+		},
+		"colorID": 0
+	},
+	{
+		"title": "correct",
+		"tags": "",
+		"body": "<< nameTag pnj6 >>\r\n<< francais >>\r\nMerci beaucoup !\r\n<< fin >>",
+		"position": {
+			"x": 163,
+			"y": 1063
 		},
 		"colorID": 0
 	}
