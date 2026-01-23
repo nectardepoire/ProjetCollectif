@@ -12,17 +12,17 @@
 	{
 		"title": "oui",
 		"tags": "",
-		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nSuper ! J’ai oublié de te dire, notre village regroupe des personnes d’horizons différents. \r\nNous utilisons le français la plupart du temps, mais il y a 5 autres langues qui cohabitent ici : le thaï, le suédois, le turc, le japonais et le persan. Il est donc très probable que tu rencontres ces langues en échangeant avec eux.\r\nTu pourrais commencer par la mairie, c’est le bâtiment au toit bleu.\r\n<< quete >>\r\n<<  fin >>\r\n...",
+		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\n<< quete >>\r\nSuper ! J’ai oublié de te dire, notre village regroupe des personnes d’horizons différents. \r\nNous utilisons le français la plupart du temps, mais il y a 5 autres langues qui cohabitent ici : le thaï, le suédois, le turc, le japonais et le persan. Il est donc très probable que tu rencontres ces langues en échangeant avec eux.\r\nTu pourrais commencer par la mairie, c’est le bâtiment au toit bleu.\r\n<< fin >>\r\n...",
 		"position": {
 			"x": 197,
-			"y": 491
+			"y": 492
 		},
 		"colorID": 0
 	},
 	{
 		"title": "non",
 		"tags": "",
-		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nPressé ? Ce n’est pas comme si tu avais une autre solution. Tu peux toujours demander le nom du village au vent si tu préfères.\r\nBon, si tu changes d’avis, tu peux te rendre à la mairie pour commencer. C’est la maison au toit bleu.\r\n<< quete >>\r\n<< fin >> \r\n...",
+		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\n<< quete >>\r\nPressé ? Ce n’est pas comme si tu avais une autre solution. Tu peux toujours demander le nom du village au vent si tu préfères.\r\nBon, si tu changes d’avis, tu peux te rendre à la mairie pour commencer. C’est la maison au toit bleu.\r\n<< fin >> \r\n...",
 		"position": {
 			"x": 683,
 			"y": 475
