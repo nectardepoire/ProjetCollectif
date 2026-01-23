@@ -12,7 +12,7 @@
 	{
 		"title": "oui",
 		"tags": "",
-		"body": "<< nameTag pnj5 >>\r\n<< langue suedois >>\r\nTack! \r\n<< cadeau >>",
+		"body": "<< nameTag pnj5 >>\r\n<< langue suedois >>\r\nTack! \r\n<< cadeau >>\r\n...",
 		"position": {
 			"x": 146,
 			"y": 608
@@ -22,7 +22,7 @@
 	{
 		"title": "non",
 		"tags": "",
-		"body": "<< nameTag pnj5 >>\r\n<< langue francais >>\r\n Je comprends. Si tu as le temps plus tard, tu voudrais bien l’apporter à Gandom ? \r\n<< refus >>",
+		"body": "<< nameTag pnj5 >>\r\n<< langue francais >>\r\n Je comprends. Si tu as le temps plus tard, tu voudrais bien l’apporter à Gandom ? \r\n<< refus >>\r\n...",
 		"position": {
 			"x": 810,
 			"y": 571
@@ -32,17 +32,17 @@
 	{
 		"title": "simon3",
 		"tags": "",
-		"body": "<< nameTag pnj5 >>\r\n<< langue francais >>\r\nTu as pu livrer mon cadeau à ma voisine Gandom ?\r\n<< fin >>",
+		"body": "<< nameTag pnj5 >>\r\n<< langue francais >>\r\nTu as pu livrer mon cadeau à ma voisine Gandom ?\r\n<< fin >>\r\n...",
 		"position": {
-			"x": 411,
-			"y": 884
+			"x": 488,
+			"y": 894
 		},
 		"colorID": 0
 	},
 	{
 		"title": "simon_avant_cafe",
 		"tags": "",
-		"body": "<< nameTag alien >>\r\n<< langue alien >>\r\n (Oulah, il a l’air mal en point. Je devrais sûrement m’éloigner de lui.)\r\n<< fin >>",
+		"body": "<< nameTag alien >>\r\n<< langue alien >>\r\n (Oulah, il a l’air mal en point. Je devrais sûrement m’éloigner de lui.)\r\n<< fin >>\r\n...",
 		"position": {
 			"x": 114,
 			"y": 252
@@ -52,10 +52,20 @@
 	{
 		"title": "simon2",
 		"tags": "",
-		"body": "<< nameTag pnj5 >>\r\n<< langue francais >>\r\nTu veux bien porter ce  colis à ma voisine ?\r\n[[D'accord !|oui]]\r\n[[Je n'ai pas le temps...|non]]\r\n<< fin >>",
+		"body": "<< nameTag pnj5 >>\r\n<< langue francais >>\r\nTu veux bien porter ce  colis à ma voisine finalement ?\r\n[[D'accord !|oui]]\r\n[[Je n'ai pas le temps...|non]]\r\n<< fin >>\r\n...",
 		"position": {
 			"x": 486,
 			"y": 599
+		},
+		"colorID": 0
+	},
+	{
+		"title": "simon_apres_quete",
+		"tags": "",
+		"body": "remerciements si quete 3 fini mais quete 4 pas fini ?",
+		"position": {
+			"x": 497,
+			"y": 1387
 		},
 		"colorID": 0
 	}
