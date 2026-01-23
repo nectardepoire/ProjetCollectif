@@ -2,7 +2,7 @@
 	{
 		"title": "PNJ4_apres_mairie",
 		"tags": "",
-		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\n[bruitage agitation/stress et illu correspondante]\r\nCatastrophe, c’est une catastrophe ! Mon serveur n’est pas venu travailler aujourd’hui, je dois gérer la cuisine et le service en même temps ! Désolée, on m’a dit que tu cherchais des informations sur le nom du village mais je n’ai vraiment pas le temps de discuter.\r\n<< userName >>\r\nChoix 1 : \r\nChoix 2 : \r\n<< nameTag pnj4 >>\r\n[[ Et si je t'aidais ? |oui]]\r\n[[ Ah, bon courage. |non]] |]]\r\n<< fin >>",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\n[bruitage agitation/stress et illu correspondante]\r\nCatastrophe, c’est une catastrophe ! Mon serveur n’est pas venu travailler aujourd’hui, je dois gérer la cuisine et le service en même temps ! \r\nDésolée, on m’a dit que tu cherchais des informations sur le nom du village mais je n’ai vraiment pas le temps de discuter.\r\n<< userName >>\r\n[[ Et si je t'aidais ? |oui]]\r\n[[ Ah, bon courage. |non]] |]]\r\n<< fin >>\r\n...",
 		"position": {
 			"x": -150,
 			"y": -37
@@ -12,7 +12,7 @@
 	{
 		"title": "oui",
 		"tags": "",
-		"body": "<< nameTag pnj4 >>\n<< langue francais >>\nOh tu me sauverais la vie ! Marché conclu, je me mets aux fourneaux et te laisse servir les clients. J’espère que ça ira…Tu vas voir, mes clients aiment beaucoup parler dans toutes les langues qu’ils connaissent !\n<< fin1 >>",
+		"body": "<< nameTag pnj4 >>\n<< langue francais >>\nOh tu me sauverais la vie ! Marché conclu, je me mets aux fourneaux et te laisse servir les clients. J’espère que ça ira…Tu vas voir, mes clients aiment beaucoup parler dans toutes les langues qu’ils connaissent !\n<< fin1 >>\n...",
 		"position": {
 			"x": 208,
 			"y": 127
@@ -22,7 +22,7 @@
 	{
 		"title": "non",
 		"tags": "",
-		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nSi tu veux bien, reviens me voir pour m’aider s’il-te-plait…À ce moment-là, je te donnerai ce que tu recherches\r\n<< fin2 >>",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nSi tu veux bien, reviens me voir pour m’aider s’il-te-plait... À ce moment-là, je te donnerai ce que tu recherches\r\n<< fin2 >>\r\n...",
 		"position": {
 			"x": 221,
 			"y": -84
@@ -42,9 +42,9 @@
 	{
 		"title": "merci_client1",
 		"tags": "",
-		"body": "<< nameTag client1 >>\r\n<< langue suedois >>\r\nJättebra!\r\nHej då!\r\n<< fin >>",
+		"body": "<< nameTag client1 >>\r\n<< langue suedois >>\r\nJättebra!\r\nHej då!\r\n<< nameTag pnj4 >>\r\n<< langue francais >>\r\nContinue comme ça ! \r\n<< fin >>\r\n...",
 		"position": {
-			"x": -331,
+			"x": -333,
 			"y": 1062
 		},
 		"colorID": 1
@@ -62,7 +62,7 @@
 	{
 		"title": "merci_client2",
 		"tags": "",
-		"body": "<< nameTag client2 >>\r\n<< langue suedois >>\r\nTack\r\n<< langue turc >>\r\nGüle güle\r\n<< fin >>",
+		"body": "<< nameTag client2 >>\r\n<< langue suedois >>\r\nTack\r\n<< langue turc >>\r\nGüle güle\r\n<< nameTag pnj4 >>\r\n<< langue francais >>\r\nContinue comme ça ! \r\n<< fin >>\r\n...",
 		"position": {
 			"x": -20,
 			"y": 1094
@@ -82,7 +82,7 @@
 	{
 		"title": "merci_client3",
 		"tags": "",
-		"body": "<< nameTag client3 >>\r\n<< langue turc >>\r\nTeşekkür ederim.\r\nGörüşürüz.\r\n<< fin >>",
+		"body": "<< nameTag client3 >>\r\n<< langue turc >>\r\nTeşekkür ederim.\r\nGörüşürüz.\r\n<< nameTag pnj4 >>\r\n<< langue francais >>\r\nContinue comme ça ! \r\n<< fin >>\r\n...",
 		"position": {
 			"x": 262,
 			"y": 1076
@@ -90,22 +90,12 @@
 		"colorID": 3
 	},
 	{
-		"title": "feedback_positif",
+		"title": "feedback_negatif",
 		"tags": "",
-		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nContinue comme ça ! \r\n<< fin >>",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nFais plus attention ! Ce n’est pas ce que ce client a demandé.\r\n<< fin >>\r\n...",
 		"position": {
-			"x": -246,
-			"y": 1435
-		},
-		"colorID": 2
-	},
-	{
-		"title": "feedback_négatif",
-		"tags": "",
-		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nFais plus attention ! Ce n’est pas ce que ce client a demandé.\r\n<< fin >>",
-		"position": {
-			"x": 13,
-			"y": 1436
+			"x": -108,
+			"y": 1378
 		},
 		"colorID": 5
 	},
@@ -152,17 +142,17 @@
 	{
 		"title": "PNJ3_avant_cafe",
 		"tags": "",
-		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nMinako, la gérante du café, est débordée aujourd’hui. Elle me fait de la peine. \r\n<< fin >>",
+		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nMinako, la gérante du café, est débordée aujourd’hui. Elle me fait de la peine. \r\n<< fin >>\r\n...",
 		"position": {
 			"x": -368,
-			"y": -135
+			"y": -136
 		},
 		"colorID": 0
 	},
 	{
 		"title": "PNJ3_apres_cafe",
 		"tags": "",
-		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nTu as un vrai talent avec la clientèle, bravo ! J’ai aussi entendu votre conversation avec Minako. Ça m'a fait penser au fait que Minako rit souvent de moi lorsque l’on va au marché ensemble car je demande toujours une réduction ! まけて par ci, まけて par là ! Je n’y peux rien, je viens d’Osaka, c’est une habitude de marchander pour faire des économies là-bas, c’est presque une culture à part entière. Mais ça, Minako ne le comprend pas car elle vient de Tokyo.\r\n<< fin >>",
+		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nTu as un vrai talent avec la clientèle, bravo ! J’ai aussi entendu votre conversation avec Minako. Ça m'a fait penser au fait que Minako rit souvent de moi lorsque l’on va au marché ensemble car je demande toujours une réduction ! まけて par ci, まけて par là ! Je n’y peux rien, je viens d’Osaka, c’est une habitude de marchander pour faire des économies là-bas, c’est presque une culture à part entière. Mais ça, Minako ne le comprend pas car elle vient de Tokyo.\r\n<< fin >>\r\n...",
 		"position": {
 			"x": -375,
 			"y": 79
@@ -172,7 +162,7 @@
 	{
 		"title": "PNJ3_avant_mairie",
 		"tags": "",
-		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nBonjour bonjour ! \r\n<< fin >>",
+		"body": "<< nameTag pnj3 >>\r\n<< langue francais >>\r\nBonjour bonjour ! \r\n<< fin >>\r\n...",
 		"position": {
 			"x": -365,
 			"y": -350
@@ -182,7 +172,7 @@
 	{
 		"title": "PNJ4_avant_mairie",
 		"tags": "",
-		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\n Alors, un thé turc pour la table 3…Un milkshake pour la table 5…Non, pour la table 4…Ou la 3 en fait ? Arghh, je dois tout recommencer maintenant !\r\n<< fin >>",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\n Alors, un thé turc pour la table 3…Un milkshake pour la table 5…Non, pour la table 4…Ou la 3 en fait ? Arghh, je dois tout recommencer maintenant !\r\n<< fin >>\r\n...",
 		"position": {
 			"x": -145,
 			"y": -359
@@ -202,7 +192,7 @@
 	{
 		"title": "PNJ4_colis_donne",
 		"tags": "",
-		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nMerci encore pour ton aide au café !   \r\n<< fin >>",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nMerci encore pour ton aide au café !   \r\n<< fin >>\r\n...",
 		"position": {
 			"x": -149,
 			"y": 382
@@ -212,7 +202,7 @@
 	{
 		"title": "PNJ3_jeu_fini",
 		"tags": "",
-		"body": "<< nameTag pnj3 >> \r\n<< langue francais >>\r\nÀ bientôt j'espère !\r\n<< fin >>",
+		"body": "<< nameTag pnj3 >> \r\n<< langue francais >>\r\nÀ bientôt j'espère !\r\n<< fin >>\r\n...",
 		"position": {
 			"x": -337,
 			"y": 606
@@ -222,7 +212,7 @@
 	{
 		"title": "PNJ4_jeu_fini",
 		"tags": "",
-		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nN'hésite pas à repasser au café quand tu veux !\r\n<< fin >>",
+		"body": "<< nameTag pnj4 >>\r\n<< langue francais >>\r\nN'hésite pas à repasser au café quand tu veux !\r\n<< fin >>\r\n...",
 		"position": {
 			"x": -120,
 			"y": 599

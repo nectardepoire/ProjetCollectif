@@ -62,7 +62,7 @@
 	{
 		"title": "carte_finie",
 		"tags": "",
-		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nBravo ! je n’aurais jamais réussi à déchiffrer la carte avec ma mauvaise vue. Désolée de t’avoir fait perdre du temps à faire cela, est-ce que je peux faire quelque chose pour me faire pardonner ?\r\n<< userName >>\r\nEst-ce que je peux avoir une information sur le nom du village ?\r\n<< nameTag pnj2 >>\r\nHm, ok. Je te donne une des 4 lettres du village, c’est tout ce que je peux faire pour toi.\r\n<< userName >>\r\n(Plus que 3 lettres ! Voyons voir…Selon la carte, où est-ce que je pourrais rendre service au plus d’habitants ?..)\r\n<< fin >>\r\n...",
+		"body": "<< nameTag pnj2 >>\r\n<< langue francais >>\r\nBravo ! je n’aurais jamais réussi à déchiffrer la carte avec ma mauvaise vue. Désolée de t’avoir fait perdre du temps à faire cela, est-ce que je peux faire quelque chose pour me faire pardonner ?\r\n<< userName >>\r\nEst-ce que je peux avoir une information sur le nom du village ?\r\n<< nameTag pnj2 >>\r\nHm, ok. Je te donne une des 4 lettres du village, c’est tout ce que je peux faire pour toi. \r\n<< lettre >> \r\n<< userName >>\r\n<< langue alien >> \r\n(Plus que 3 lettres ! Voyons voir... Selon la carte, où est-ce que je pourrais rendre service au plus d’habitants ?)\r\n<< fin >>\r\n...",
 		"position": {
 			"x": -335,
 			"y": -79
