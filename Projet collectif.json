@@ -30077,6 +30077,54 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Press_F_VAISSEAU",
+          "persistentUuid": "aa8f50ef-f3ac-4298-99af-eb0b8d69bf11",
+          "width": 0,
+          "x": 635,
+          "y": 238,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug4",
+          "persistentUuid": "5b8d72da-e796-4f61-8cc2-921866ff2b9f",
+          "width": 0,
+          "x": 470,
+          "y": 202,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug3",
+          "persistentUuid": "c240d0dd-1e3a-4e90-ab1c-3ddb16e86888",
+          "width": 0,
+          "x": 470,
+          "y": 227,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -30899,6 +30947,24 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Press_F_VAISSEAU",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Appuie sur F",
+            "opacity": 255,
+            "fontSize": 12,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -30906,6 +30972,9 @@
         "children": [
           {
             "objectName": "SpaceShip_détruit"
+          },
+          {
+            "objectName": "Press_F_VAISSEAU"
           },
           {
             "objectName": "Plan_zone_du_vaisseau"
@@ -30953,6 +31022,305 @@
             "includeConfig": 0
           },
           "target": "Dialogue"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "triche pour debug"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num1\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_1_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_2_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num3\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_3_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num4\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_4_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"s\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "créature_silhouette",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"h\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "créature_silhouette"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"a\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mystere_apparu",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"r\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mystere_resolu",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"i\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "colis_dans_inventaire",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"d\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "colis_donne",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Debug4",
+                "Text",
+                "=",
+                "GlobalVariableString(quete_4_finie)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Debug3",
+                "Text",
+                "=",
+                "ToString(Alien.Distance(SpaceShip_détruit))"
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -31188,9 +31556,9 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 181,
+            "b": 0,
             "g": 255,
-            "r": 218,
+            "r": 127,
             "textB": 0,
             "textG": 0,
             "textR": 0
@@ -31200,9 +31568,9 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 181,
+            "b": 0,
             "g": 255,
-            "r": 218,
+            "r": 127,
             "textB": 0,
             "textG": 0,
             "textR": 0
@@ -31212,14 +31580,38 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 181,
+            "b": 0,
+            "g": 0,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "monologue2 : J'ai rajouté la condition : si quete_4_finie = faux pour éviter qu'il s'affiche alors qu'on a fini le jeu"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 0,
             "g": 255,
-            "r": 218,
+            "r": 127,
             "textB": 0,
             "textG": 0,
             "textR": 0
           },
           "comment": "vaisseaufin : début animation de fin, joueur doit écrire le nom du village. possibilité de faire \"retour\" (si j'y arrive, pas une priorité). s'il écrit le bon nom, ça lance l'animation qui mène au choix à faire. \nconditions pour cette branche : quete_4_finie = vrai + joueur est à moins de 100 pixels du vaisseau + touche F appuyée"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "vaisseaufin : j'ai mis 180px au lieu de 100 sinon on n'est jamais assez proche"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -31243,7 +31635,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Partie 1 du monologue"
+          "comment": "monologue1"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -31504,7 +31896,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "En se rapprochant du vaisseau"
+          "comment": "monologue2"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -31537,6 +31929,16 @@
               "parameters": [
                 "monologue_termine",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_4_finie",
+                "=",
                 ""
               ]
             }
@@ -31645,6 +32047,219 @@
                 "est_proche_du_vaisseau",
                 "False",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "vaisseaufin"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "SpaceShip_détruit",
+                "180",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_4_finie",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Press_F_VAISSEAU",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "SpaceShip_détruit",
+                "180",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_VAISSEAU"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "SpaceShip_détruit",
+                "180",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_4_finie",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_VAISSEAU"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrolltext\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Dialogue_bouton",
+                "\"clignotement\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"vaisseaufin\""
               ]
             }
           ]
@@ -32477,7 +33092,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1726229638178116,
+        "zoomFactor": 1.1726229638178123,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -32497,6 +33112,11 @@
           "name": "spawns_creature",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "_dialogue",
+          "type": "string",
+          "value": "0"
         }
       ],
       "instances": [
@@ -33491,7 +34111,7 @@
           "name": "PNJ5",
           "persistentUuid": "5595c4be-7fd3-45c1-8161-3f021929ef25",
           "width": 0,
-          "x": 220,
+          "x": 211,
           "y": 223,
           "zOrder": 59,
           "numberProperties": [],
@@ -33507,7 +34127,7 @@
           "name": "PNJ6",
           "persistentUuid": "eb3a89b0-1380-4096-9ad8-3c9c05166650",
           "width": 0,
-          "x": 253,
+          "x": 261,
           "y": 240,
           "zOrder": 60,
           "numberProperties": [],
@@ -34001,6 +34621,70 @@
           "x": 1018,
           "y": 399,
           "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Press_F_PNJ6",
+          "persistentUuid": "ff4e6011-201b-4bf7-b8bc-eddcd4936363",
+          "width": 0,
+          "x": 224,
+          "y": 234,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Press_F_PNJ5",
+          "persistentUuid": "3f416d90-3d24-4bdd-a578-b7fa755e421a",
+          "width": 0,
+          "x": 179,
+          "y": 234,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug2",
+          "persistentUuid": "7a07f9b4-81c2-4af5-9973-dc05dae9b50e",
+          "width": 0,
+          "x": 281,
+          "y": 360,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug",
+          "persistentUuid": "4138fa5c-ae58-4c02-aac0-2db21120817c",
+          "width": 0,
+          "x": 323,
+          "y": 321,
+          "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38419,6 +39103,60 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Press_F_PNJ4",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Appuie sur F",
+            "opacity": 255,
+            "fontSize": 12,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Press_F_PNJ5",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Appuie sur F",
+            "opacity": 255,
+            "fontSize": 12,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Press_F_PNJ6",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Appuie sur F",
+            "opacity": 255,
+            "fontSize": 12,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -38435,6 +39173,15 @@
           },
           {
             "objectName": "Press_F_PNJ3"
+          },
+          {
+            "objectName": "Press_F_PNJ4"
+          },
+          {
+            "objectName": "Press_F_PNJ5"
+          },
+          {
+            "objectName": "Press_F_PNJ6"
           },
           {
             "objectName": "test_pull_lyuyao_andrea"
@@ -39632,20 +40379,20 @@
             },
             {
               "type": {
+                "value": "DialogueTree::LoadDialogueFromSceneVariable"
+              },
+              "parameters": [
+                "_updated_dialogue"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "DialogueState",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::LoadDialogueFromSceneVariable"
-              },
-              "parameters": [
-                "_updated_dialogue"
               ]
             }
           ]
@@ -39920,9 +40667,9 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 181,
+            "b": 0,
             "g": 255,
-            "r": 218,
+            "r": 127,
             "textB": 0,
             "textG": 0,
             "textR": 0
@@ -39932,9 +40679,9 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 181,
-            "g": 255,
-            "r": 218,
+            "b": 0,
+            "g": 253,
+            "r": 127,
             "textB": 0,
             "textG": 0,
             "textR": 0
@@ -39952,6 +40699,487 @@
             "textR": 0
           },
           "comment": "Ajouter conditions pour lancer telle ou telle branche de dialogue selon si quête_1_finie est vrai/faux"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue Mystère",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "mystereresolu1"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "mystereresolu2"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "serveurmystereresolu \nIci, j'ai mis la condition Alien.Distance(PNJ5) <= / > Alien.Distance(PNJ6) pour éviter que le message \"Appuyez sur f\" ne s'affiche pour les deux pnj en même temps (ils sont collés sur la map)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "PNJ5",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mystere_resolu",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(PNJ5)",
+                "<=",
+                "Alien.Distance(PNJ6)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Press_F_PNJ5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "PNJ5",
+                "80",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "PNJ5",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mystere_resolu",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(PNJ5)",
+                "<=",
+                "Alien.Distance(PNJ6)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"serveurmystereresolu\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "gandommystereresolu "
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "PNJ6",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mystere_resolu",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(PNJ5)",
+                ">",
+                "Alien.Distance(PNJ6)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Press_F_PNJ6",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "PNJ6",
+                "80",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "PNJ6",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mystere_resolu",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(PNJ5)",
+                ">",
+                "Alien.Distance(PNJ6)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"gandommystereresolu\""
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -40099,24 +41327,6 @@
             },
             {
               "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"scrolltext\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Dialogue_bouton",
-                "\"clignotement\""
-              ]
-            },
-            {
-              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -40256,6 +41466,34 @@
                 "Text",
                 "=",
                 "GlobalVariableString(quete_1_finie)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Debug2",
+                "Text",
+                "=",
+                "ToString(Alien.Distance(PNJ5))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Debug",
+                "Text",
+                "=",
+                "ToString(Alien.Distance(PNJ6))"
               ]
             }
           ]
@@ -40627,24 +41865,6 @@
             },
             {
               "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"scrolltext\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Dialogue_bouton",
-                "\"clignotement\""
-              ]
-            },
-            {
-              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -40755,24 +41975,6 @@
               "parameters": [
                 "Dialogue_sub_group",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"scrolltext\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Dialogue_bouton",
-                "\"clignotement\""
               ]
             },
             {
@@ -40897,24 +42099,6 @@
               "parameters": [
                 "Dialogue_sub_group",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"scrolltext\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Dialogue_bouton",
-                "\"clignotement\""
               ]
             },
             {
@@ -42803,44 +43987,6 @@
               ]
             }
           ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Autres",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"f\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "touche_f_appuyee",
-                "False",
-                ""
-              ]
-            }
-          ]
         }
       ],
       "layers": [
@@ -43159,7 +44305,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.5804687500000099,
+        "zoomFactor": 1.097367969562959,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -43169,6 +44315,16 @@
           "name": "gandom_deja_parle",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "_updated_dialogue",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "_dialogue",
+          "type": "string",
+          "value": "0"
         }
       ],
       "instances": [
@@ -43184,39 +44340,6 @@
           "x": 582,
           "y": 681,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 153,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Dialogue_box",
-          "persistentUuid": "394f1a62-08e3-4f9e-a85e-9399b93a3a3a",
-          "width": 847,
-          "x": 172,
-          "y": 520,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Options",
-          "persistentUuid": "97923931-b110-433b-9366-226569d83004",
-          "width": 0,
-          "x": 214,
-          "y": 594,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -44735,6 +45858,178 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debug",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debug2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debug3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debug4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -44760,6 +46055,18 @@
           },
           {
             "objectName": "Press_F_PNJ6"
+          },
+          {
+            "objectName": "debug"
+          },
+          {
+            "objectName": "debug2"
+          },
+          {
+            "objectName": "debug3"
+          },
+          {
+            "objectName": "debug4"
           }
         ]
       },
@@ -44770,6 +46077,13 @@
             "includeConfig": 0
           },
           "target": "Global"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
         },
         {
           "colorB": 228,
@@ -45094,6 +46408,61 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "JSONResourceLoader::LoadJSONToScene"
+              },
+              "parameters": [
+                "",
+                "Ressources\\mairie.json",
+                "_dialogue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "_updated_dialogue",
+                "=",
+                "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromSceneVariable"
+              },
+              "parameters": [
+                "_updated_dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "Distance"
               },
               "parameters": [
@@ -45117,6 +46486,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -45144,6 +46514,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -45171,6 +46542,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -45210,6 +46582,407 @@
           "comment": "DIALOGUE : fichier mairie.json, 7 branches : PNJ2_0, PNJ2_1, PNJ2_2, PNJ2_3, PNJ2_jeu_fini, PNJ6_1, PNJ6_2\nIls ont tous une commande << fin >> pour cacher éléments de dialogue"
         },
         {
+          "colorB": 231,
+          "colorG": 196,
+          "colorR": 127,
+          "creationTime": 0,
+          "name": "dialogue pnj2",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "PNJ2",
+                "125",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(PNJ2)",
+                "<=",
+                "Alien.Distance(PNJ6)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Press_F_PNJ2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "PNJ2",
+                "125",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "PNJ2",
+                "125",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(PNJ2)",
+                "<=",
+                "Alien.Distance(PNJ6)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 181,
+                "g": 255,
+                "r": 218,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "PNJ2_0 : si on parle au PNJ2 mais la variable gandom_deja_parlé est fausse (il faut que le joueur ait déjà parlé à PNJ6 pour que cette branche change)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "gandom_deja_parle",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"PNJ2_0\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 181,
+                "g": 255,
+                "r": 218,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "PNJ2_1 : première conversation avec PNJ2 dans la mairie\n<< carte >> = début activité carte"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "gandom_deja_parle",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"PNJ2_1\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 181,
+                "g": 255,
+                "r": 218,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "PNJ2_2 : quête 1 = vrai, quête 2 = faux"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_1_finie",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_2_finie",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"PNJ2_2\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 181,
+                "g": 255,
+                "r": 218,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "PNJ2_3 : quête 2 = vrai"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_2_finie",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_4_finie",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"PNJ2_3\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 181,
+                "g": 255,
+                "r": 218,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "PNJ2_jeu_fini : quête 4 = fini"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_4_finie",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"PNJ2_jeu_fini\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 181,
@@ -45219,7 +46992,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "PNJ2_0 : si on parle au PNJ2 mais la variable gandom_deja_parlé est fausse (il faut que le joueur ait déjà parlé à PNJ6 pour que cette branche change)"
+          "comment": "PNJ2 Commandes"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -45251,63 +47024,6 @@
           "conditions": [
             {
               "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Alien",
-                "PNJ2",
-                "125",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "gandom_deja_parle",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"f\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"PNJ2_0\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 181,
-            "g": 255,
-            "r": 218,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "PNJ2_1 : première conversation avec PNJ2 dans la mairie\n<< carte >> = début activité carte"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "DialogueTree::IsCommandCalled"
               },
               "parameters": [
@@ -45329,6 +47045,17 @@
           ]
         },
         {
+          "colorB": 231,
+          "colorG": 196,
+          "colorR": 127,
+          "creationTime": 0,
+          "name": "dialogue pnj6",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -45337,147 +47064,400 @@
               },
               "parameters": [
                 "Alien",
-                "PNJ2",
+                "PNJ6",
                 "125",
                 ""
               ]
             },
             {
               "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(PNJ2)",
+                ">",
+                "Alien.Distance(PNJ6)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Press_F_PNJ6",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "PNJ6",
+                "125",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Alien",
+                "PNJ6",
+                "125",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(PNJ2)",
+                ">",
+                "Alien.Distance(PNJ6)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Press_F_PNJ6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 181,
+                "g": 255,
+                "r": 218,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "PNJ6_1 : quête 1 finie = faux"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_1_finie",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"PNJ6_1\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 181,
+                "g": 255,
+                "r": 218,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "PNJ6_2 : quête 1 finie = vrai "
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_1_finie",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"PNJ6_2\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "debug"
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debug",
+                "Text",
+                "=",
+                "VariableString(gandom_deja_parle)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debug2",
+                "Text",
+                "=",
+                "GlobalVariableString(touche_f_appuyee)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debug3",
+                "Text",
+                "=",
+                "GlobalVariableString(DialogueState)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debug4",
+                "Text",
+                "=",
+                "ToString(Alien.Distance(PNJ2))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "triche finir les quetes pour debug"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"g\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
               },
               "parameters": [
                 "gandom_deja_parle",
                 "True",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"f\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"PNJ2_1\""
-              ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 181,
-            "g": 255,
-            "r": 218,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "PNJ2_2 : quête 1 = vrai, quête 2 = faux"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Alien",
-                "PNJ2",
-                "125",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"f\""
+                "\"Num1\""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
                 "quete_1_finie",
                 "True",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "quete_2_finie",
-                "False",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"PNJ2_2\""
-              ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 181,
-            "g": 255,
-            "r": 218,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "PNJ2_3 : quête 2 = vrai"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Alien",
-                "PNJ2",
-                "125",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"f\""
+                "\"Num2\""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
                 "quete_2_finie",
@@ -45485,185 +47465,56 @@
                 ""
               ]
             }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"PNJ2_3\""
-              ]
-            }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 181,
-            "g": 255,
-            "r": 218,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "PNJ2_jeu_fini : quête 4 = fini"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "Distance"
+                "value": "KeyFromTextPressed"
               },
               "parameters": [
-                "Alien",
-                "PNJ2",
-                "125",
+                "",
+                "\"Num3\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_3_finie",
+                "True",
                 ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"f\""
+                "\"Num4\""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
                 "quete_4_finie",
                 "True",
                 ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"PNJ2_jeu_fini\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 181,
-            "g": 255,
-            "r": 218,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "PNJ6_1 : quête 1 finie = faux"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Alien",
-                "PNJ6",
-                "125",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"f\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "quete_1_finie",
-                "False",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"PNJ6_1\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 181,
-            "g": 255,
-            "r": 218,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "PNJ6_2 : quête 1 finie = vrai "
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Alien",
-                "PNJ6",
-                "125",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"f\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "quete_1_finie",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"PNJ6_2\""
               ]
             }
           ]
@@ -45680,6 +47531,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -45692,15 +47544,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::LoadDialogueFromJsonFile"
-              },
-              "parameters": [
-                "",
-                "Ressources\\mairie.json"
-              ]
-            },
             {
               "type": {
                 "value": "Cache"
@@ -45781,6 +47624,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -45815,6 +47659,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -45842,6 +47687,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -45961,6 +47807,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -46080,6 +47927,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -46171,6 +48019,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -46291,6 +48140,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -46639,7 +48489,7 @@
           "isLocked": false,
           "name": "Dialogue",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -46930,7 +48780,18 @@
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "_updated_dialogue",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "_dialogue",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -47095,22 +48956,6 @@
           "x": 1043,
           "y": 252,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Dialogue",
-          "name": "Continuer",
-          "persistentUuid": "27fbb24f-da5d-4da4-842e-bce2c64e8281",
-          "width": 0,
-          "x": 600,
-          "y": 605,
-          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -48437,6 +50282,13 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -48460,28 +50312,16 @@
           "comment": "activite_carte :"
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::LoadDialogueFromJsonFile"
-              },
-              "parameters": [
-                "",
-                "Ressources\\mairie.json"
-              ]
-            }
-          ]
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "ici, j'attends 0 seconde pour permettre à gdevelop d'avoir le temps (0 seconde = une frame) de charger les objets de la scène externe \"Dialogue\". Sinon, l'action \"Montrer Dialogue_sub_groupe\" ne fait rien"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -48498,10 +50338,66 @@
           "actions": [
             {
               "type": {
+                "value": "JSONResourceLoader::LoadJSONToScene"
+              },
+              "parameters": [
+                "",
+                "Ressources\\mairie.json",
+                "_dialogue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "_updated_dialogue",
+                "=",
+                "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromSceneVariable"
+              },
+              "parameters": [
+                "_updated_dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
                 "\"activite_carte\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
               ]
             }
           ]
@@ -48646,10 +50542,29 @@
           "actions": [
             {
               "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
                 "\"carte_correct\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
               ]
             },
             {
@@ -48736,10 +50651,29 @@
           "actions": [
             {
               "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
                 "\"carte_incorrect\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
               ]
             },
             {
@@ -48861,10 +50795,29 @@
           "actions": [
             {
               "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
                 "\"carte_correct\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
               ]
             },
             {
@@ -48941,10 +50894,29 @@
           "actions": [
             {
               "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
                 "\"carte_incorrect\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
               ]
             },
             {
@@ -49033,10 +51005,29 @@
           "actions": [
             {
               "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
                 "\"carte_correct\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
               ]
             },
             {
@@ -49144,6 +51135,25 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
@@ -49659,6 +51669,40 @@
           "actions": [
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StopRunningDialogue"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -49760,7 +51804,7 @@
           "isLocked": false,
           "name": "Dialogue",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -81850,7 +83894,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Initialisation dialogue"
+          "comment": "Initialisation dialogue\nici, j'attends 0 seconde pour permettre à gdevelop d'avoir le temps (0 seconde = une frame) de charger les objets de la scène externe \"Dialogue\"."
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -81882,7 +83926,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "0.1"
+                "0"
               ]
             },
             {
@@ -81894,6 +83938,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -82690,6 +84739,45 @@
               },
               "parameters": [
                 "Dialogue_options"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Autres"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "False",
+                ""
               ]
             }
           ]
@@ -138512,7 +140600,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7130377630690411,
+        "zoomFactor": 0.7619362677197614,
         "windowMask": false,
         "selectedLayer": ""
       }
