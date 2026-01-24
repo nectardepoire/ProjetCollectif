@@ -2,7 +2,7 @@
 	{
 		"title": "simon1",
 		"tags": "",
-		"body": "<< userName >>\r\n<< langue francais >>\r\nBonjour. Tu vas bien ? Tu as vu cette chose étrange dehors ?\r\n\r\n<< nameTag pnj5 >>\r\nJe suis malade… Je n’ai pas pu aller au travail aujourd’hui. \r\n\r\n<< userName >>\r\nOui, je sais. La gérante du café te cherchait. Elle s’inquiète pour toi.\r\n\r\n<< nameTag pnj5 >>\r\nMince, je ne voulais pas lui rajouter du travail… \r\n\r\n<< userName >>\r\nTu as entendu ce bruit dehors ? \r\n\r\n<< nameTag pnj5 >>\r\n<< langue FRPE >>\r\nJ’ai juste entendu hap hap هاپ هاپ, rien d’inquiétant ! \r\n\r\n<< userName >>\r\n<< langue francais >>\r\nJe vois… \r\n\r\n<< langue alien >> \r\n(C’est étrange...)\r\n\r\n<< nameTag pnj5 >>\r\nJe déteste être malade. En plus, je suis censé prendre l’avion dans 2 jours pour fêter Midsommar avec mes amis. \r\n\r\n<< userName >>\r\nMidsommar ?\r\n\r\n<< nameTag pnj5 >>\r\nC’est une fête très appréciée en Suède et dans d’autres pays nordiques : elle se déroule lors de la journée la plus longue de l’année, c’est un peu pour célébrer l’été. En Suède, on porte souvent des tenues traditionnelles et une couronne de fleurs. A la base, c’est une fête assez spirituelle et religieuse mais personnellement, j’aime surtout danser, passer du temps avec mes proches et bien manger.\r\n\r\n<< userName >>\r\nÇa a l’air amusant. J’ai l’impression que beaucoup d’humains aiment fêter les saisons\r\n\r\n<< nameTag pnj5 >>\r\n<< FRSE >>\r\nTu n’as pas tort, les humains aiment fêter tout court. Cela me fait penser que je devais à tout prix donner un cadeau à ma voisine Gandom mais je ne peux vraiment pas sortir comme ça. \r\nDis-moi, est-ce que tu voudrais bien lui apporter pour moi, snälla?\r\n\r\n[[ Je vais voir ce que je peux faire. |oui]] \r\n[[ Je préfère faire un tour dans le village d’abord. |non]]",
+		"body": "<< userName >>\r\n<< langue francais >>\r\nBonjour. Tu vas bien ? Tu as vu cette chose étrange dehors ?\r\n\r\n<< nameTag pnj5 >>\r\nJe suis malade… Je n’ai pas pu aller au travail aujourd’hui. \r\n\r\n<< userName >>\r\nOui, je sais. La gérante du café te cherchait. Elle s’inquiète pour toi.\r\n\r\n<< nameTag pnj5 >>\r\nMince, je ne voulais pas lui rajouter du travail… \r\n\r\n<< userName >>\r\nTu as entendu ce bruit dehors ? \r\n\r\n<< nameTag pnj5 >>\r\n<< langue FRPE >>\r\nJ’ai juste entendu hap hap هاپ هاپ, rien d’inquiétant ! \r\n\r\n<< userName >>\r\n<< langue francais >>\r\nJe vois… \r\n\r\n<< langue alien >> \r\n(C’est étrange...)\r\n\r\n<< nameTag pnj5 >>\r\n<< langue francais >> \r\nJe déteste être malade. En plus, je suis censé prendre l’avion dans 2 jours pour fêter Midsommar avec mes amis. \r\n\r\n<< userName >>\r\nMidsommar ?\r\n\r\n<< nameTag pnj5 >>\r\nC’est une fête très appréciée en Suède et dans d’autres pays nordiques : elle se déroule lors de la journée la plus longue de l’année, c’est un peu pour célébrer l’été. En Suède, on porte souvent des tenues traditionnelles et une couronne de fleurs. A la base, c’est une fête assez spirituelle et religieuse mais personnellement, j’aime surtout danser, passer du temps avec mes proches et bien manger.\r\n\r\n<< userName >>\r\nÇa a l’air amusant. J’ai l’impression que beaucoup d’humains aiment fêter les saisons\r\n\r\n<< nameTag pnj5 >>\r\n<< langue FRSE >>\r\nTu n’as pas tort, les humains aiment fêter tout court. Cela me fait penser que je devais à tout prix donner un cadeau à ma voisine Gandom mais je ne peux vraiment pas sortir comme ça. \r\nDis-moi, est-ce que tu voudrais bien lui apporter pour moi, snälla?\r\n\r\n[[ Je vais voir ce que je peux faire. |oui]] \r\n[[ Je préfère faire un tour dans le village d’abord. |non]]",
 		"position": {
 			"x": 437,
 			"y": 252
@@ -22,7 +22,7 @@
 	{
 		"title": "non",
 		"tags": "",
-		"body": "<< nameTag pnj5 >>\r\n<< langue francais >>\r\n Je comprends. Si tu as le temps plus tard, tu voudrais bien l’apporter à Gandom ? \r\n<< refus >>\r\n...",
+		"body": "<< nameTag pnj5 >>\r\n<< langue francais >>\r\n<< refus >>\r\n Je comprends. Si tu as le temps plus tard, tu voudrais bien l’apporter à Gandom ? \r\n<< fin >> \r\n...",
 		"position": {
 			"x": 810,
 			"y": 571
@@ -42,7 +42,7 @@
 	{
 		"title": "simon_avant_cafe",
 		"tags": "",
-		"body": "<< nameTag alien >>\r\n<< langue alien >>\r\n (Oulah, il a l’air mal en point. Je devrais sûrement m’éloigner de lui.)\r\n<< fin >>\r\n...",
+		"body": "<< userName >>\r\n<< langue alien >>\r\n (Oulah, il a l’air mal en point. Je devrais sûrement m’éloigner de lui.)\r\n<< fin >>\r\n...",
 		"position": {
 			"x": 114,
 			"y": 252
@@ -62,10 +62,10 @@
 	{
 		"title": "simon_apres_quete",
 		"tags": "",
-		"body": "remerciements si quete 3 fini mais quete 4 pas fini ?",
+		"body": "<< nameTag pnj5 >>\r\n<< langue francais >>\r\nMerci encore pour ton aide !\r\n<< fin >>\r\n...",
 		"position": {
-			"x": 497,
-			"y": 1387
+			"x": 362,
+			"y": 1168
 		},
 		"colorID": 0
 	}

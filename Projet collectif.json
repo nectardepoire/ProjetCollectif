@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu titre",
   "gdVersion": {
-    "build": 251,
+    "build": 252,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -8899,6 +8899,14 @@
         "name": "lettre + robe.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Alien v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Alien v1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -16192,66 +16200,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Dialogue_box_objet",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ressources\\dialogue_box.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1775,
-                        "y": 0
-                      },
-                      {
-                        "x": 1775,
-                        "y": 345
-                      },
-                      {
-                        "x": 0,
-                        "y": 345
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
       "name": "Bouton_Sauvegarder",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -17290,6 +17238,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "UI_box_objet",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ressources\\dialogue_box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 345
+                      },
+                      {
+                        "x": 0,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -17350,7 +17358,7 @@
         "objectName": "Dialogue_box"
       },
       {
-        "objectName": "Dialogue_box_objet"
+        "objectName": "UI_box_objet"
       },
       {
         "objectName": "Dialogue_InfoBox"
@@ -17501,6 +17509,9 @@
         },
         {
           "name": "Dialogue_bouton"
+        },
+        {
+          "name": "Dialogue_icone"
         }
       ]
     },
@@ -17529,6 +17540,9 @@
         },
         {
           "name": "Dialogue_nom"
+        },
+        {
+          "name": "Dialogue_icone"
         }
       ]
     }
@@ -17779,12 +17793,21 @@
       "value": false
     },
     {
+      "name": "mystere_resolu",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "quete_4_finie",
       "type": "boolean",
       "value": false
     },
     {
-      "folded": true,
+      "name": "activite_meuble_en_cours",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "activité_4",
       "type": "structure",
       "children": [
@@ -17809,11 +17832,6 @@
           "value": false
         }
       ]
-    },
-    {
-      "name": "mystere_resolu",
-      "type": "boolean",
-      "value": false
     },
     {
       "name": "mystere_apparu",
@@ -32959,6 +32977,77 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Dialogue_icone",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "alien",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Alien v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 15,
+                            "y": 4
+                          },
+                          {
+                            "x": 15,
+                            "y": 27
+                          },
+                          {
+                            "x": 1,
+                            "y": 27
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "autre",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -33002,6 +33091,9 @@
           },
           {
             "objectName": "Mini_tuto"
+          },
+          {
+            "objectName": "Dialogue_icone"
           }
         ]
       },
@@ -35273,7 +35365,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8416428125373477,
+        "zoomFactor": 0.8993607583667027,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -35479,9 +35571,9 @@
           "name": "Village_vers_gandom",
           "persistentUuid": "f2cd976d-4cbb-4717-9695-a07d50f201ac",
           "width": 39,
-          "x": 156,
-          "y": 201,
-          "zOrder": -25,
+          "x": 159,
+          "y": 182,
+          "zOrder": 1000,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36076,22 +36168,6 @@
           "x": 53,
           "y": 304,
           "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PNJ3",
-          "persistentUuid": "fea46c84-471b-45e1-b42f-0b9fadfb142d",
-          "width": 0,
-          "x": 1054,
-          "y": 404,
-          "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36780,22 +36856,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Press_F_PNJ3",
-          "persistentUuid": "0a748b81-247c-44de-b588-bfe01fe9a67f",
-          "width": 0,
-          "x": 1018,
-          "y": 399,
-          "zOrder": 83,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "Press_F_PNJ6",
           "persistentUuid": "ff4e6011-201b-4bf7-b8bc-eddcd4936363",
           "width": 0,
@@ -36970,7 +37030,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Andréa vendredi soir",
+          "string": "Commit de samedi à 2h",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -36993,7 +37053,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Andréa vendredi soir",
+            "text": "Commit de samedi à 2h",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -42063,7 +42123,7 @@
               "parameters": [
                 "Alien",
                 "=",
-                "158",
+                "175",
                 "=",
                 "266"
               ]
@@ -44171,6 +44231,32 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"c\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_1_commence",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -46226,131 +46312,6 @@
               ]
             }
           ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Activité 1 terminée",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "quete_1_finie",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Obtient_plan",
-                "\"chrono_carte\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "carte_inventaire",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Obtient_plan",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "quete_1_finie",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Obtient_plan",
-                "\"chrono_carte\"",
-                ">",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Obtient_plan"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "AJOUTER CONDITION pour changer la branche du dialogue du PNJ1 à la fin de l'activité"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "quete_1_finie",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": []
         },
         {
           "colorB": 228,
@@ -49663,6 +49624,14 @@
                 "lettre_1",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "lettre_1"
+              ]
             }
           ]
         },
@@ -50408,7 +50377,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "True",
                 ""
               ]
@@ -50447,6 +50416,15 @@
                 "Obtient_plan",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "UI_box_objet",
+                ""
+              ]
             }
           ]
         },
@@ -50458,7 +50436,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "True",
                 ""
               ]
@@ -50471,7 +50449,7 @@
                 "Obtient_plan",
                 "\"chrono_carte\"",
                 ">",
-                "2"
+                "3"
               ]
             }
           ],
@@ -50482,6 +50460,14 @@
               },
               "parameters": [
                 "Obtient_plan"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "UI_box_objet"
               ]
             }
           ]
@@ -50506,7 +50492,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_carte_terminée",
+                "quete_1_finie",
                 "True",
                 ""
               ]
@@ -54121,7 +54107,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6455105703311492,
+        "zoomFactor": 0.993443349825959,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -54488,22 +54474,6 @@
           "x": 421,
           "y": 461,
           "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "debug",
-          "persistentUuid": "a45ac2fb-815d-4154-b04f-4d6863e1a2a8",
-          "width": 0,
-          "x": 572,
-          "y": 310,
-          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -57069,6 +57039,135 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debug2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debug3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debug4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -57085,6 +57184,15 @@
           },
           {
             "objectName": "debug"
+          },
+          {
+            "objectName": "debug3"
+          },
+          {
+            "objectName": "debug2"
+          },
+          {
+            "objectName": "debug4"
           },
           {
             "objectName": "Comptoir"
@@ -57978,6 +58086,16 @@
                 "Talking_Emote",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                "yes"
+              ]
             }
           ]
         },
@@ -58403,6 +58521,17 @@
                 "=",
                 "ToString(Alien.Distance(PNJ3))"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debug2",
+                "Text",
+                "=",
+                "ToString(Alien.Distance(PNJ4__gérant_café_))"
+              ]
             }
           ]
         },
@@ -58446,7 +58575,7 @@
               "parameters": [
                 "Alien.Distance(PNJ3)",
                 "<=",
-                "Alien.Distance(PNJ4)"
+                "Alien.Distance(PNJ4__gérant_café_)"
               ]
             }
           ],
@@ -58498,6 +58627,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -58513,16 +58643,6 @@
             },
             {
               "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
@@ -58532,12 +58652,22 @@
             },
             {
               "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::CompareNumbers"
               },
               "parameters": [
                 "Alien.Distance(PNJ3)",
                 "<=",
-                "Alien.Distance(PNJ4)"
+                "Alien.Distance(PNJ4__gérant_café_)"
               ]
             }
           ],
@@ -58558,15 +58688,6 @@
               },
               "parameters": [
                 "Press_F_PNJ3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "Dialogue_sub_group",
-                ""
               ]
             },
             {
@@ -58625,6 +58746,23 @@
                   "parameters": [
                     "\"PNJ3_avant_mairie\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Dialogue_sub_group",
+                    ""
+                  ]
                 }
               ]
             },
@@ -58671,6 +58809,23 @@
                   },
                   "parameters": [
                     "\"PNJ3_avant_cafe\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Dialogue_sub_group",
+                    ""
                   ]
                 }
               ]
@@ -58719,6 +58874,23 @@
                   "parameters": [
                     "\"PNJ3_apres_cafe\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Dialogue_sub_group",
+                    ""
+                  ]
                 }
               ]
             },
@@ -58755,6 +58927,23 @@
                   },
                   "parameters": [
                     "\"PNJ3_jeu_fini\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Dialogue_sub_group",
+                    ""
                   ]
                 }
               ]
@@ -58801,7 +58990,7 @@
               "parameters": [
                 "Alien.Distance(PNJ3)",
                 ">",
-                "Alien.Distance(PNJ4)"
+                "Alien.Distance(PNJ4__gérant_café_)"
               ]
             }
           ],
@@ -58853,6 +59042,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -58864,16 +59054,6 @@
                 "PNJ4__gérant_café_",
                 "80",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "0"
               ]
             },
             {
@@ -58902,7 +59082,7 @@
               "parameters": [
                 "Alien.Distance(PNJ3)",
                 ">",
-                "Alien.Distance(PNJ4)"
+                "Alien.Distance(PNJ4__gérant_café_)"
               ]
             }
           ],
@@ -59868,6 +60048,11 @@
             },
             {
               "name": "3",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "reponse_donnee",
               "type": "boolean",
               "value": false
             }
@@ -63071,6 +63256,49 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debug",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -63132,6 +63360,9 @@
           },
           {
             "objectName": "Fond_activité_café"
+          },
+          {
+            "objectName": "debug"
           }
         ]
       },
@@ -64911,9 +65142,29 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -65020,6 +65271,16 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
                 "commande_1_en_cours",
                 "False",
                 ""
@@ -65099,9 +65360,29 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -65208,6 +65489,16 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
                 "commande_2_en_cours",
                 "False",
                 ""
@@ -65287,9 +65578,29 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -65396,6 +65707,16 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
                 "commande_3_en_cours",
                 "False",
                 ""
@@ -65496,9 +65817,29 @@
               "parameters": [
                 "Dialogue_texte"
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -65600,6 +65941,16 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
                 "commande_1_en_cours",
                 "False",
                 ""
@@ -65694,9 +66045,29 @@
               "parameters": [
                 "Dialogue_texte"
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -65783,6 +66154,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -65882,9 +66263,29 @@
               "parameters": [
                 "Dialogue_texte"
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -65976,6 +66377,16 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
+                "dictionnaire_booleens.reponse_donnee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
                 "commande_3_en_cours",
                 "False",
                 ""
@@ -66007,6 +66418,23 @@
               },
               "parameters": [
                 "signe_colere"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debug",
+                "Text",
+                "=",
+                "VariableString(dictionnaire_booleens.reponse_donnee)"
               ]
             }
           ]
@@ -66434,7 +66862,18 @@
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "_updated_dialogue",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "_dialogue",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -66858,6 +67297,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "debug",
+          "persistentUuid": "f24c6bab-84ef-49b1-90f7-59ef372d1f35",
+          "width": 0,
+          "x": 493,
+          "y": 364,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -67206,6 +67661,49 @@
             "lineHeight": 0,
             "color": "255;255;255"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debug",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -67228,6 +67726,9 @@
           },
           {
             "objectName": "Press_F_PNJ5"
+          },
+          {
+            "objectName": "debug"
           }
         ]
       },
@@ -67282,14 +67783,59 @@
                 "",
                 ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "DialogueTree::LoadDialogueFromJsonFile"
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "JSONResourceLoader::LoadJSONToScene"
               },
               "parameters": [
                 "",
-                "assets\\chez_PNJ5.json"
+                "assets\\chez_PNJ5.json",
+                "_dialogue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "_updated_dialogue",
+                "=",
+                "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromSceneVariable"
+              },
+              "parameters": [
+                "_updated_dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
               ]
             }
           ]
@@ -67346,6 +67892,180 @@
                 "Scale",
                 "=",
                 "4.5"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debug",
+                "Text",
+                "=",
+                "GlobalVariableString(player_name)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num1\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_1_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_2_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num3\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_3_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num4\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_4_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"a\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "refus_aide_serveur",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"i\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "colis_dans_inventaire",
+                "True",
+                ""
               ]
             }
           ]
@@ -67470,13 +68190,23 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "quete_2_finie",
-                "=",
-                "="
+                "quete_4_finie",
+                "False",
+                ""
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "touche_f_appuyee",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "Cache"
@@ -67487,10 +68217,324 @@
             },
             {
               "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
+                "value": "Show"
               },
               "parameters": [
-                "\"simon_avant_cafe\""
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_2_finie",
+                    "=",
+                    "="
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"simon_avant_cafe\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_2_finie",
+                    "True",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_3_finie",
+                    "=",
+                    "="
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"simon1\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "refus_aide_serveur",
+                    "True",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "colis_dans_inventaire",
+                    "False",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_3_finie",
+                    "=",
+                    "="
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"simon2\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_3_finie",
+                    "True",
+                    "="
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"simon_apres_quete\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_3_finie",
+                    "=",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "colis_dans_inventaire",
+                    "True",
+                    "="
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"simon3\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"cadeau\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "colis_dans_inventaire",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StopRunningDialogue"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"refus\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "refus_aide_serveur",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 181,
+            "g": 255,
+            "r": 218,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "cacher pnj si quete 4 finie"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_4_finie",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "PNJ5"
               ]
             }
           ]
@@ -67520,6 +68564,7 @@
           "comment": "Alien va voir le serveur (PNJ5) suite à la demande de la gérante du café, il dit qu'il va la contacter et demande à l'alien de porter colis à PNJ6"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -67590,6 +68635,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -67615,6 +68661,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -67652,6 +68699,7 @@
           "comment": "simon2 : si reparle à PNJ5 mais << refus >> a été fait "
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -67744,6 +68792,7 @@
           "comment": "simon_apres_quete (si quête 3 fini mais quête 4 pas fini)"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -67826,6 +68875,7 @@
           "comment": "simon3 : (apparaît si quête 3 = faux + colis_dans_inventaire = vrai + joueur revient parler)"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -68107,6 +69157,60 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Dialogue",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -68291,17 +69395,12 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6040838749988895,
+        "zoomFactor": 0.8416428125373147,
         "windowMask": false,
         "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [
-        {
-          "name": "activite_meuble_en_cours",
-          "type": "boolean",
-          "value": false
-        },
         {
           "name": "_updated_dialogue",
           "type": "string",
@@ -68359,7 +69458,7 @@
           "width": 135,
           "x": 64,
           "y": 97,
-          "zOrder": 3,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -68376,7 +69475,7 @@
           "width": 93,
           "x": 774,
           "y": 86,
-          "zOrder": 4,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -68393,7 +69492,7 @@
           "width": 100,
           "x": 494,
           "y": 78,
-          "zOrder": 5,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -68495,7 +69594,7 @@
           "width": 136,
           "x": 258,
           "y": 15,
-          "zOrder": 7,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -68628,8 +69727,8 @@
           "name": "Plan_intérieur_PNJ6",
           "persistentUuid": "e6cb581a-7401-42b6-9904-8c87fd97a436",
           "width": 1475,
-          "x": -193,
-          "y": -90,
+          "x": -181,
+          "y": -85,
           "zOrder": -6,
           "numberProperties": [],
           "stringProperties": [],
@@ -68671,15 +69770,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 4,
-          "height": 506,
+          "depth": 2,
+          "height": 265,
           "keepRatio": true,
           "layer": "",
           "name": "contenu_du_colis_robe",
           "persistentUuid": "7e014261-88e3-47a3-a237-0342e12458f5",
-          "width": 328,
-          "x": 565,
-          "y": 208,
+          "width": 172,
+          "x": 721,
+          "y": 197,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -68694,9 +69793,9 @@
           "layer": "",
           "name": "Map_boundaries",
           "persistentUuid": "73f0bb7d-f8cf-4ded-b4c3-293f4127f0d9",
-          "width": 98,
-          "x": 492,
-          "y": 445,
+          "width": 81,
+          "x": 501,
+          "y": 436,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -69042,7 +70141,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Meuble4_japonais",
           "type": "Sprite",
@@ -69086,11 +70185,15 @@
                           },
                           {
                             "x": 200,
-                            "y": 373
+                            "y": 255
+                          },
+                          {
+                            "x": 104,
+                            "y": 256
                           },
                           {
                             "x": 0,
-                            "y": 373
+                            "y": 249.5
                           }
                         ]
                       ]
@@ -69732,6 +70835,34 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Caméra",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.5",
+                "",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Taille des personnages",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -70006,20 +71137,18 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "J'ai mis une condition de variable pour qu'il puisse pas sortir quand l'activité est en cours"
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "CollisionNP"
@@ -70031,30 +71160,89 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "activite_meuble_en_cours",
-                "=",
-                ""
-              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "",
-                "\"Village\"",
+                "\"porte\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Alien",
+                "Pathfinding",
+                "",
+                "Alien.X()",
+                "Alien.Y() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                "yes"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Ajouter une branche de dialogue en mode \"non reste, on n'a pas fini de faire mon sac !\""
         },
         {
           "colorB": 228,
@@ -70162,7 +71350,7 @@
                 "debug",
                 "Text",
                 "=",
-                "GlobalVariableString(colis_dans_inventaire)"
+                "GlobalVariableString(quete_4_finie)"
               ]
             }
           ]
@@ -70265,6 +71453,32 @@
               },
               "parameters": [
                 "quete_4_finie",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"c\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
                 "True",
                 ""
               ]
@@ -70567,14 +71781,6 @@
             },
             {
               "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"cadeau\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -70588,6 +71794,178 @@
               "parameters": [
                 "Dialogue_sub_group",
                 ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "activite_meuble_en_cours",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_4_finie",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"cadeau\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "activite_meuble_en_cours",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_4_finie",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"consigne\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "activité_4.meuble_1_correct",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "activité_4.meuble_2_correct",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "activité_4.meuble_3_correct",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "activité_4.meuble_4_correct",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_4_finie",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"reussite\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "activite_meuble_en_cours",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quete_4_finie",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"merci\""
+                  ]
+                }
               ]
             }
           ]
@@ -70649,14 +72027,6 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -70674,22 +72044,61 @@
                 "False",
                 ""
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"lettre3\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "contenu_du_colis_conronne"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "contenu_du_colis_robe"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "lettre_3",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "Wait"
               },
               "parameters": [
-                "5"
+                "3"
               ]
             },
             {
               "type": {
-                "value": "Montre"
+                "value": "Hide"
               },
               "parameters": [
-                "Dialogue_sub_group",
-                ""
+                "lettre_3"
               ]
             }
           ]
@@ -70754,6 +72163,93 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"lettre4\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_4_finie",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "lettre_3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "lettre_3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "FAIRE DISPARAITRE\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mystere_resolu",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "PNJ6"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -70790,31 +72286,6 @@
           "comment": "Alien demande une lettre du village mais PNJ6 demande un service avant : dans dialogue, s'il accepte d'aider le PNJ, mettre << consigne >> si joueur accepte de faire activité"
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsCommandCalled"
-              },
-              "parameters": [
-                "\"consigne\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "activite_meuble_en_cours",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -70825,73 +72296,6 @@
             "textR": 0
           },
           "comment": "S'il refuse, même branche de dialogue en boucle jusqu'à ce qu'il accepte"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Ajouter une branche de dialogue en mode \"non reste, on n'a pas fini de faire mon sac !\""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "activite_meuble_en_cours",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Alien",
-                "Gandom_vers_village",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"reste\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Alien",
-                "TopDownMovement",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "2"
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -70995,6 +72399,16 @@
                 "180",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(Meuble2_thai)",
+                "<",
+                "Alien.Distance(Meuble3_turc)"
+              ]
             }
           ],
           "actions": [
@@ -71005,6 +72419,14 @@
               "parameters": [
                 "meuble2_press_F",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "meuble3_press_F"
               ]
             }
           ]
@@ -71049,6 +72471,16 @@
                 "180",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(Meuble3_turc)",
+                "<=",
+                "Alien.Distance(Meuble2_thai)"
+              ]
             }
           ],
           "actions": [
@@ -71059,6 +72491,14 @@
               "parameters": [
                 "meuble3_press_F",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "meuble2_press_F"
               ]
             }
           ]
@@ -71215,6 +72655,16 @@
                 "",
                 "\"f\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(Meuble2_thai)",
+                "<",
+                "Alien.Distance(Meuble3_turc)"
+              ]
             }
           ],
           "actions": [
@@ -71251,6 +72701,16 @@
               "parameters": [
                 "",
                 "\"f\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Alien.Distance(Meuble3_turc)",
+                "<=",
+                "Alien.Distance(Meuble2_thai)"
               ]
             }
           ],
@@ -71522,27 +72982,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "activité_4.meuble_3_correct",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
                 "activité_4.meuble_1_correct",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "activité_4.meuble_4_correct",
                 "True",
                 ""
               ]
@@ -71556,6 +72996,26 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_4.meuble_3_correct",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_4.meuble_4_correct",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -71566,16 +73026,6 @@
               "parameters": [
                 "activite_meuble_en_cours",
                 "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "quete_4_finie",
-                "True",
                 ""
               ]
             }
@@ -71935,12 +73385,23 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104496,
+        "zoomFactor": 0.6040838749988866,
         "windowMask": false,
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "_updated_dialogue",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "_dialogue",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -73547,6 +75008,13 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -73586,7 +75054,7 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "KeyFromTextReleased"
               },
               "parameters": [
                 "",
@@ -73613,6 +75081,87 @@
                 "",
                 "\"Chez Gandom (quête 4)\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "JSONResourceLoader::LoadJSONToScene"
+              },
+              "parameters": [
+                "",
+                "chez_PNJ6",
+                "_dialogue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "_updated_dialogue",
+                "=",
+                "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromSceneVariable"
+              },
+              "parameters": [
+                "_updated_dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
               ]
             }
           ]
@@ -73662,6 +75211,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -73700,6 +75259,15 @@
                 "=",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
             }
           ]
         },
@@ -73708,7 +75276,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Erreur (à copier dans les 3 autres meubles)",
+          "name": "Erreur",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -73761,6 +75329,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_4.meuble_1_correct",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -73782,6 +75360,15 @@
               },
               "parameters": [
                 "\"erreur\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
               ]
             }
           ]
@@ -74058,6 +75645,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Dialogue",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -74147,12 +75788,23 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35534345588169863,
+        "zoomFactor": 0.7130377630690404,
         "windowMask": false,
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "_updated_dialogue",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "_dialogue",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -75759,6 +77411,13 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -75787,7 +77446,7 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "KeyFromTextReleased"
               },
               "parameters": [
                 "",
@@ -75814,6 +77473,71 @@
                 "",
                 "\"Chez Gandom (quête 4)\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "JSONResourceLoader::LoadJSONToScene"
+              },
+              "parameters": [
+                "",
+                "chez_PNJ6",
+                "_dialogue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "_updated_dialogue",
+                "=",
+                "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromSceneVariable"
+              },
+              "parameters": [
+                "_updated_dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
               ]
             }
           ]
@@ -75901,6 +77625,15 @@
                 "=",
                 "2"
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
             }
           ]
         },
@@ -75939,6 +77672,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_4.meuble_2_correct",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -75960,6 +77703,15 @@
               },
               "parameters": [
                 "\"erreur\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
               ]
             }
           ]
@@ -76236,6 +77988,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Dialogue",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -76330,7 +78136,18 @@
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "_updated_dialogue",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "_dialogue",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -77936,6 +79753,13 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -77964,7 +79788,7 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "KeyFromTextReleased"
               },
               "parameters": [
                 "",
@@ -77991,6 +79815,71 @@
                 "",
                 "\"Chez Gandom (quête 4)\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "JSONResourceLoader::LoadJSONToScene"
+              },
+              "parameters": [
+                "",
+                "chez_PNJ6",
+                "_dialogue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "_updated_dialogue",
+                "=",
+                "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromSceneVariable"
+              },
+              "parameters": [
+                "_updated_dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
               ]
             }
           ]
@@ -78078,6 +79967,15 @@
                 "=",
                 "3"
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
             }
           ]
         },
@@ -78116,6 +80014,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_4.meuble_3_correct",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -78137,6 +80045,15 @@
               },
               "parameters": [
                 "\"erreur\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
               ]
             }
           ]
@@ -78418,6 +80335,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Dialogue",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -78512,7 +80483,18 @@
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "_updated_dialogue",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "_dialogue",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -80118,6 +82100,13 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -80146,7 +82135,7 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "KeyFromTextReleased"
               },
               "parameters": [
                 "",
@@ -80173,6 +82162,71 @@
                 "",
                 "\"Chez Gandom (quête 4)\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "JSONResourceLoader::LoadJSONToScene"
+              },
+              "parameters": [
+                "",
+                "chez_PNJ6",
+                "_dialogue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "_updated_dialogue",
+                "=",
+                "RegEx::Replace(\"@player_name@\", \"g\", VariableString(_dialogue), GlobalVariableString(player_name))"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromSceneVariable"
+              },
+              "parameters": [
+                "_updated_dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
               ]
             }
           ]
@@ -80260,6 +82314,15 @@
                 "=",
                 "4"
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
+              ]
             }
           ]
         },
@@ -80298,6 +82361,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activité_4.meuble_4_correct",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -80319,6 +82392,15 @@
               },
               "parameters": [
                 "\"erreur\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Dialogue_sub_group",
+                ""
               ]
             }
           ]
@@ -80563,6 +82645,60 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Dialogue",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -89132,7 +91268,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "quete_3_finie",
+                "quete_4_finie",
                 "True",
                 ""
               ]
@@ -89144,6 +91280,16 @@
               "parameters": [
                 "mystere_resolu",
                 "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "False",
                 ""
               ]
             }
@@ -89169,11 +91315,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "colorB": 228,
@@ -89376,6 +91517,16 @@
                 "Gandom_vers_village",
                 "",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "False",
                 ""
               ]
             }
@@ -90146,7 +92297,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Dialogue_box_objet"
+                "UI_box_objet"
               ]
             }
           ]
@@ -91838,16 +93989,6 @@
               "parameters": [
                 "\"fin\""
               ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "DialogueState",
-                "=",
-                "1"
-              ]
             }
           ],
           "actions": [
@@ -91936,6 +94077,17 @@
                 "=",
                 "GlobalVariableString(player_name)"
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Dialogue_icone",
+                "Animation",
+                "=",
+                "\"alien\""
+              ]
             }
           ]
         },
@@ -91961,6 +94113,17 @@
                 "Text",
                 "=",
                 "dictionnaire_personnages[DialogueTree::CommandParameter(0)]"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Dialogue_icone",
+                "Animation",
+                "=",
+                "\"autre\""
               ]
             }
           ]
@@ -95366,7 +97529,32 @@
               "name": "TouchIndex"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "DeadZoneRadius"
+              },
+              {
+                "propertyName": "JoystickAngle"
+              },
+              {
+                "propertyName": "JoystickForce"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIndex"
+              }
+            ]
+          }
         },
         {
           "description": "Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors.",
@@ -95909,7 +98097,32 @@
               "name": "Radius"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "ButtonIdentifier"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIndex"
+              },
+              {
+                "propertyName": "IsReleased"
+              },
+              {
+                "propertyName": "IsJustPressed"
+              },
+              {
+                "propertyName": "Radius"
+              }
+            ]
+          }
         },
         {
           "description": "Control a platformer character with a multitouch controller.",
@@ -96131,7 +98344,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Property"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -96274,7 +98508,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -96406,7 +98661,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control camera rotations with a multitouch controller.",
@@ -97448,7 +99724,73 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Object3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "CameraStick"
+                  }
+                ]
+              },
+              {
+                "folderName": "Horizontal rotation",
+                "children": [
+                  {
+                    "propertyName": "HorizontalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationDeceleration"
+                  }
+                ]
+              },
+              {
+                "folderName": "Vertical rotation",
+                "children": [
+                  {
+                    "propertyName": "VerticalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "VerticalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "VerticalRotationDeceleration"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMin"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "OffsetZ"
+                  }
+                ]
+              },
+              {
+                "propertyName": "CurrentRotationSpeedZ"
+              },
+              {
+                "propertyName": "CurrentRotationSpeedY"
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics car with a multitouch controller.",
@@ -97626,7 +99968,31 @@
               "name": "HandBrakeButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCar3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "SteerJoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "SpeedJoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "HandBrakeButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a top-down character with a multitouch controller.",
@@ -98194,7 +100560,28 @@
               "name": "StickMode"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "StickMode"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": [
@@ -99525,6 +101912,35 @@
               "name": "ShouldBeHiddenWhenReleased"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "DeadZoneRadius"
+              },
+              {
+                "propertyName": "ThumbAnchorOrigin"
+              },
+              {
+                "propertyName": "ThumbAnchorTarget"
+              },
+              {
+                "propertyName": "ThumbIsScaledProportionally"
+              },
+              {
+                "propertyName": "ParentOrigin"
+              },
+              {
+                "propertyName": "ShouldBeHiddenWhenReleased"
+              }
+            ]
+          },
           "variants": []
         }
       ]
@@ -104335,7 +106751,175 @@
               "name": "IsCalledManually"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeed"
+                  },
+                  {
+                    "propertyName": "RightwardSpeed"
+                  },
+                  {
+                    "propertyName": "UpwardSpeed"
+                  },
+                  {
+                    "propertyName": "DownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "propertyName": "FollowOnX"
+              },
+              {
+                "propertyName": "FollowOnY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "FollowFreeAreaLeft"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaRight"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "CameraOffsetX"
+                  },
+                  {
+                    "propertyName": "CameraOffsetY"
+                  }
+                ]
+              },
+              {
+                "folderName": "Timing",
+                "children": [
+                  {
+                    "propertyName": "CameraDelay"
+                  },
+                  {
+                    "propertyName": "ForecastTime"
+                  },
+                  {
+                    "propertyName": "ForecastHistoryDuration"
+                  }
+                ]
+              },
+              {
+                "propertyName": "LogLeftwardSpeed"
+              },
+              {
+                "propertyName": "LogRightwardSpeed"
+              },
+              {
+                "propertyName": "LogDownwardSpeed"
+              },
+              {
+                "propertyName": "LogUpwardSpeed"
+              },
+              {
+                "propertyName": "DelayedCenterX"
+              },
+              {
+                "propertyName": "DelayedCenterY"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanX"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceX"
+              },
+              {
+                "propertyName": "ForecastHistoryCovariance"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearA"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearB"
+              },
+              {
+                "propertyName": "ForecastedX"
+              },
+              {
+                "propertyName": "ForecastedY"
+              },
+              {
+                "propertyName": "ProjectedNewestX"
+              },
+              {
+                "propertyName": "ProjectedNewestY"
+              },
+              {
+                "propertyName": "ProjectedOldestX"
+              },
+              {
+                "propertyName": "ProjectedOldestY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceY"
+              },
+              {
+                "propertyName": "Index"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpSpeed"
+              },
+              {
+                "propertyName": "CameraExtraDelay"
+              },
+              {
+                "propertyName": "WaitingSpeedXMax"
+              },
+              {
+                "propertyName": "WaitingSpeedYMax"
+              },
+              {
+                "propertyName": "WaitingEnd"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpDuration"
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "RightwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "UpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "DownwardSpeedMax"
+                  }
+                ]
+              },
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "IsCalledManually"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
@@ -104680,7 +107264,71 @@
               "name": "FloorDownwardSpeedMax"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PlatformerCharacter"
+              },
+              {
+                "propertyName": "SmoothCamera"
+              },
+              {
+                "propertyName": "JumpOriginY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "AirFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "AirFollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaBottom"
+                  }
+                ]
+              },
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeedMax"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -105982,6 +108630,45 @@
               "name": "AnimationDirection"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Animation"
+              },
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "folderName": "Animation",
+                "children": [
+                  {
+                    "propertyName": "IsScalingAnimation"
+                  },
+                  {
+                    "propertyName": "IsPausingAnimation"
+                  },
+                  {
+                    "propertyName": "AnimationName"
+                  }
+                ]
+              },
+              {
+                "folderName": "Direction",
+                "children": [
+                  {
+                    "propertyName": "DirectionCount"
+                  },
+                  {
+                    "propertyName": "AngleOffset"
+                  }
+                ]
+              },
+              {
+                "propertyName": "AnimationDirection"
+              }
+            ]
+          },
           "sharedPropertyDescriptors": [
             {
               "value": "0",
@@ -105997,7 +108684,18 @@
               "hidden": true,
               "name": "AnimationFrame"
             }
-          ]
+          ],
+          "sharedPropertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "NewAnimationDirection"
+              },
+              {
+                "propertyName": "AnimationFrame"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -107230,7 +109928,29 @@
               "name": "Index"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ShouldCheckHovering"
+              },
+              {
+                "propertyName": "State"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIsInside"
+              },
+              {
+                "propertyName": "MouseIsInside"
+              },
+              {
+                "propertyName": "Index"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": [
@@ -108734,6 +111454,31 @@
               "name": "_PropertyMapping"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "LabelText"
+              },
+              {
+                "folderName": "States",
+                "children": [
+                  {
+                    "propertyName": "HoveredFadeOutDuration"
+                  },
+                  {
+                    "propertyName": "PressedLabelOffsetY"
+                  },
+                  {
+                    "propertyName": "LabelOffset"
+                  }
+                ]
+              },
+              {
+                "propertyName": "_PropertyMapping"
+              }
+            ]
+          },
           "variants": [
             {
               "areaMaxX": 256,
@@ -111554,6 +114299,29 @@
               "name": "_PropertyMapping"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TextMessage"
+              },
+              {
+                "propertyName": "HighlightedButtonIndex"
+              },
+              {
+                "propertyName": "EnableEscape"
+              },
+              {
+                "propertyName": "LabelButtonID0"
+              },
+              {
+                "propertyName": "LabelButtonID1"
+              },
+              {
+                "propertyName": "_PropertyMapping"
+              }
+            ]
+          },
           "variants": [
             {
               "areaMaxX": 600,
@@ -113034,7 +115802,29 @@
               "name": "Index"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ShouldCheckHovering"
+              },
+              {
+                "propertyName": "State"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIsInside"
+              },
+              {
+                "propertyName": "MouseIsInside"
+              },
+              {
+                "propertyName": "Index"
+              }
+            ]
+          }
         },
         {
           "description": "Enable effects on buttons based on their state.",
@@ -113575,7 +116365,31 @@
               "name": "PressedEffect"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "folderName": "Effects",
+                "children": [
+                  {
+                    "propertyName": "IdleEffect"
+                  },
+                  {
+                    "propertyName": "FocusedEffect"
+                  },
+                  {
+                    "propertyName": "PressedEffect"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Change the animation of buttons according to their state.",
@@ -114025,7 +116839,31 @@
               "name": "PressedAnimationName"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Animation"
+              },
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "folderName": "Animation",
+                "children": [
+                  {
+                    "propertyName": "IdleAnimationName"
+                  },
+                  {
+                    "propertyName": "FocusedAnimationName"
+                  },
+                  {
+                    "propertyName": "PressedAnimationName"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly change an effect on buttons according to their state.",
@@ -115916,7 +118754,80 @@
               "name": "EffectValue"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "folderName": "Effect",
+                "children": [
+                  {
+                    "propertyName": "EffectName"
+                  },
+                  {
+                    "propertyName": "EffectProperty"
+                  }
+                ]
+              },
+              {
+                "folderName": "Value",
+                "children": [
+                  {
+                    "propertyName": "IdleValue"
+                  },
+                  {
+                    "propertyName": "FocusedValue"
+                  },
+                  {
+                    "propertyName": "PressedValue"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  },
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  }
+                ]
+              },
+              {
+                "propertyName": "ShouldDisableEffectInIdle"
+              },
+              {
+                "propertyName": "PreviousState"
+              },
+              {
+                "propertyName": "TweenInitialValue"
+              },
+              {
+                "propertyName": "TweenTargetedValue"
+              },
+              {
+                "propertyName": "TweenTime"
+              },
+              {
+                "propertyName": "TweenState"
+              },
+              {
+                "propertyName": "EffectValue"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly resize buttons according to their state.",
@@ -117226,7 +120137,54 @@
               "name": "PreviousState"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Scale"
+              },
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Tween"
+              },
+              {
+                "folderName": "Size",
+                "children": [
+                  {
+                    "propertyName": "IdleScale"
+                  },
+                  {
+                    "propertyName": "FocusedScale"
+                  },
+                  {
+                    "propertyName": "PressedScale"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  },
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "PreviousState"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly change the color tint of buttons according to their state.",
@@ -118537,7 +121495,51 @@
               "name": "PreviousState"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Tween"
+              },
+              {
+                "folderName": "Color",
+                "children": [
+                  {
+                    "propertyName": "IdleColorTint"
+                  },
+                  {
+                    "propertyName": "FocusedColorTint"
+                  },
+                  {
+                    "propertyName": "PressedColorTint"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  },
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "PreviousState"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -121647,7 +124649,34 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PlatformerCharacter"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -121842,7 +124871,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -122043,7 +125093,31 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "WalkStick"
+                  },
+                  {
+                    "propertyName": "CameraStick"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control camera rotations with a gamepad.",
@@ -123084,7 +126158,68 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Object3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "propertyName": "CameraStick"
+              },
+              {
+                "folderName": "Horizontal rotation",
+                "children": [
+                  {
+                    "propertyName": "HorizontalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationDeceleration"
+                  }
+                ]
+              },
+              {
+                "folderName": "Vertical rotation",
+                "children": [
+                  {
+                    "propertyName": "VerticalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "VerticalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "VerticalRotationDeceleration"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMin"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "OffsetZ"
+                  }
+                ]
+              },
+              {
+                "propertyName": "CurrentRotationSpeedZ"
+              },
+              {
+                "propertyName": "CurrentRotationSpeedY"
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics car with a gamepad.",
@@ -123454,7 +126589,34 @@
               "name": "HandBrakeButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCar3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "HandBrakeButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a top-down character with a gamepad.",
@@ -124098,7 +127260,34 @@
               "name": "StickMode"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "StickMode"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -125111,7 +128300,26 @@
               "name": "TypedText"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Text"
+              },
+              {
+                "propertyName": "Interval"
+              },
+              {
+                "propertyName": "CharacterJustAdded"
+              },
+              {
+                "propertyName": "FullText"
+              },
+              {
+                "propertyName": "TypedText"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -125577,7 +128785,23 @@
               "name": "MarginRight"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "MarginTop"
+              },
+              {
+                "propertyName": "MarginBottom"
+              },
+              {
+                "propertyName": "MarginLeft"
+              },
+              {
+                "propertyName": "MarginRight"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -125710,7 +128934,9 @@
             }
           ],
           "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -126837,7 +130063,26 @@
               "name": "MaxOpacity"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Progress"
+              },
+              {
+                "propertyName": "Duration"
+              },
+              {
+                "propertyName": "Type"
+              },
+              {
+                "propertyName": "Direction"
+              },
+              {
+                "propertyName": "MaxOpacity"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -131862,7 +135107,95 @@
               "name": "Viewpoint"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Flippable"
+              },
+              {
+                "propertyName": "Rotation"
+              },
+              {
+                "propertyName": "RotationOffset"
+              },
+              {
+                "propertyName": "FlipXToGoBack"
+              },
+              {
+                "propertyName": "FlipYToGoBack"
+              },
+              {
+                "propertyName": "SpeedScale"
+              },
+              {
+                "propertyName": "PathOriginX"
+              },
+              {
+                "propertyName": "PathOriginY"
+              },
+              {
+                "propertyName": "Target"
+              },
+              {
+                "propertyName": "Origin"
+              },
+              {
+                "propertyName": "PathName"
+              },
+              {
+                "propertyName": "Duration"
+              },
+              {
+                "propertyName": "Easing"
+              },
+              {
+                "propertyName": "DrawingElementIndex"
+              },
+              {
+                "propertyName": "X"
+              },
+              {
+                "propertyName": "Y"
+              },
+              {
+                "propertyName": "PathAngle"
+              },
+              {
+                "propertyName": "PathScale"
+              },
+              {
+                "propertyName": "RepetitionCount"
+              },
+              {
+                "propertyName": "ShouldGoBack"
+              },
+              {
+                "propertyName": "ShouldLoop"
+              },
+              {
+                "propertyName": "RepetitionDoneCount"
+              },
+              {
+                "propertyName": "IsGoingBack"
+              },
+              {
+                "propertyName": "PauseDurationBeforeGoingBack"
+              },
+              {
+                "propertyName": "DrawingPathOriginX"
+              },
+              {
+                "propertyName": "DrawingPathOriginY"
+              },
+              {
+                "propertyName": "DebugLineStrokeWidth"
+              },
+              {
+                "propertyName": "Viewpoint"
+              }
+            ]
+          }
         },
         {
           "description": "Move objects on curved paths at a given speed.",
@@ -134619,7 +137952,82 @@
               "name": "Viewpoint"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Rotation",
+                "children": [
+                  {
+                    "propertyName": "Rotation"
+                  },
+                  {
+                    "propertyName": "RotationOffset"
+                  }
+                ]
+              },
+              {
+                "propertyName": "Speed"
+              },
+              {
+                "propertyName": "PathOriginX"
+              },
+              {
+                "propertyName": "PathOriginY"
+              },
+              {
+                "propertyName": "PathName"
+              },
+              {
+                "propertyName": "TargetedSpeed"
+              },
+              {
+                "propertyName": "Acceleration"
+              },
+              {
+                "propertyName": "DrawingElementIndex"
+              },
+              {
+                "propertyName": "X"
+              },
+              {
+                "propertyName": "Y"
+              },
+              {
+                "propertyName": "PathAngle"
+              },
+              {
+                "propertyName": "PathScale"
+              },
+              {
+                "propertyName": "RepetitionCount"
+              },
+              {
+                "propertyName": "ShouldLoop"
+              },
+              {
+                "propertyName": "DrawingPathOriginX"
+              },
+              {
+                "propertyName": "DrawingPathOriginY"
+              },
+              {
+                "propertyName": "DebugLineStrokeWidth"
+              },
+              {
+                "propertyName": "PreviousSpeed"
+              },
+              {
+                "propertyName": "CurrentLength"
+              },
+              {
+                "propertyName": "IsLookingBack"
+              },
+              {
+                "propertyName": "Viewpoint"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -135013,7 +138421,23 @@
               "name": "OriginalY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "DraggableBehavior"
+              },
+              {
+                "propertyName": "TweenBehavior"
+              },
+              {
+                "propertyName": "OriginalX"
+              },
+              {
+                "propertyName": "OriginalY"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -138994,7 +142418,60 @@
               "name": "ToogleClockwise"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Dimension",
+                "children": [
+                  {
+                    "propertyName": "Width"
+                  },
+                  {
+                    "propertyName": "Height"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "Clockwise"
+                  },
+                  {
+                    "propertyName": "HorizontalEdgeDuration"
+                  },
+                  {
+                    "propertyName": "VerticalEdgeDuration"
+                  },
+                  {
+                    "propertyName": "Easing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "Left"
+              },
+              {
+                "propertyName": "Top"
+              },
+              {
+                "propertyName": "Progress"
+              },
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "InitialPosition"
+              },
+              {
+                "propertyName": "ToogleClockwise"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -139918,7 +143395,20 @@
               "name": "FlashDuration"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              }
+            ]
+          }
         },
         {
           "description": "Make an object flash a color tint for a period of time.",
@@ -140492,7 +143982,23 @@
               "name": "TintColor"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TintColor"
+              }
+            ]
+          }
         },
         {
           "description": "Flash opacity smoothly (fade) in a repeating loop.",
@@ -141146,7 +144652,32 @@
               "name": "StartingOpacity"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Opacity"
+              },
+              {
+                "propertyName": "TweenBehavior"
+              },
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TargetOpacity"
+              },
+              {
+                "propertyName": "StartingOpacity"
+              }
+            ]
+          }
         },
         {
           "description": "Make the object flash an effect for a period of time.",
@@ -141994,7 +145525,26 @@
               "name": "EffectName"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "EffectName"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -146214,7 +149764,7 @@
           "width": 0,
           "x": 442,
           "y": 110,
-          "zOrder": 5,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -146354,23 +149904,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 71,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Dialogue_box_objet",
-          "persistentUuid": "7dba56dc-8c46-426d-a26d-536c9b97644c",
-          "width": 370,
-          "x": 422,
-          "y": 89,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -146449,6 +149982,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 73,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "UI_box_objet",
+          "persistentUuid": "40615b59-b0b4-42f7-97f2-1723df2b6fe2",
+          "width": 375,
+          "x": 412,
+          "y": 87,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -146463,7 +150013,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.737081631799405,
+        "zoomFactor": 0.41943397827590756,
         "windowMask": false,
         "selectedLayer": ""
       }
@@ -146584,6 +150134,23 @@
           "x": 158,
           "y": 593,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 58,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "Dialogue_icone",
+          "persistentUuid": "9cc7b3fc-8013-4846-90d8-8f76551e66dc",
+          "width": 32,
+          "x": 76,
+          "y": 420,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
