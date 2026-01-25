@@ -2,7 +2,7 @@
 	{
 		"title": "PNJ1",
 		"tags": "",
-		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nOh bonjour toi. Tu n’es pas d’ici toi, ça se voit rien qu’à ton expression de chiot perdu.\r\n<< userName >>\r\n<< langue alien >>\r\n(Quelle chance j’ai, ce monsieur parle la seule langue humaine que je connais.) \r\n<< langue francais >>\r\nBonjour. Vous avez raison, mon vaisseau a eu un problème à deux pas d’ici.\r\n<< nameTag pnj1 >>\r\nC’est pas de chance ça ! Et inutile de me vouvoyer, on se tutoie tous ici.\r\n<< userName >>\r\nJe cherche à prévenir mes amis pour qu’ils viennent me chercher mais je ne sais pas où nous sommes. Peux-tu me donner le nom de ce village ?\r\n<< stupefaction >>\r\n<< nameTag pnj1 >>\r\nAh non, non ! Je ne peux pas te dire ça, personne ici ne pourra. \r\nOn raconte que si un habitant prononce ou écrit le nom du village, il se transforme en énorme VER DE TERRE. Tu te rends compte ?! Je ne peux pas risquer de me retrouver comme ça, tout visqueux et surtout TOUT NU !!\r\n<< tourne >>\r\n<< userName >>\r\nAh oui, je vois. Mais comment vais-je faire ?\r\n<< nameTag pnj1 >>\r\nBon, ne fais pas cette tête. Nous allons trouver une solution : si tu rends service aux villageois, je suis sûr qu’ils t’aideront à obtenir des informations sur le nom du village. \r\nQu’est-ce que tu en dis ?\r\n<< userName >>\r\n[[Pourquoi pas !|oui]]\r\n[[C’est que, je suis un peu pressé…|non]]",
+		"body": "<< nameTag pnj1 >>\r\n<< langue francais >>\r\nOh bonjour toi. Tu n’es pas d’ici toi, ça se voit rien qu’à ton expression de chiot perdu.\r\n<< userName >>\r\n<< langue alien >>\r\n(Quelle chance j’ai, ce monsieur parle la seule langue humaine que je connais.) \r\n<< langue francais >>\r\nBonjour. Vous avez raison, mon vaisseau a eu un problème à deux pas d’ici.\r\n<< nameTag pnj1 >>\r\nC’est pas de chance ça ! Et inutile de me vouvoyer, on se tutoie tous ici.\r\n<< userName >>\r\nJe cherche à prévenir mes amis pour qu’ils viennent me chercher mais je ne sais pas où nous sommes. Peux-tu me donner le nom de ce village ?\r\n<< stupefaction >>\r\n<< nameTag pnj1 >>\r\nAh non, non ! Je ne peux pas te dire ça, personne ici ne pourra. \r\nOn raconte que si un habitant prononce ou écrit le nom du village, il se transforme en énorme VER DE TERRE. \r\nTu te rends compte ?! Je ne peux pas risquer de me retrouver comme ça, tout visqueux et surtout TOUT NU !!\r\n<< tourne >>\r\n<< userName >>\r\nAh oui, je vois. Mais comment vais-je faire ?\r\n<< nameTag pnj1 >>\r\nBon, ne fais pas cette tête. Nous allons trouver une solution : si tu rends service aux villageois, je suis sûr qu’ils t’aideront à obtenir des informations sur le nom du village. \r\nQu’est-ce que tu en dis ?\r\n<< userName >>\r\n[[Pourquoi pas !|oui]]\r\n[[C’est que, je suis un peu pressé…|non]]",
 		"position": {
 			"x": 437,
 			"y": 252
@@ -62,20 +62,10 @@
 	{
 		"title": "mystereresolu1",
 		"tags": "",
-		"body": "<< userName >>\r\n<< langue alien >>\r\nOh ! L’ombre est de nouveau là, À L’AIDE !!\r\n<< apparition >>\r\n<<  fin >> \r\n...",
+		"body": "<< userName >>\r\n<< langue alien >>\r\nOh ! L’ombre est de nouveau là, À L’AIDE !!\r\n<< animation >>\r\n<< userName >>\r\n<< langue francais >>\r\nC’est de cette chose dont je vous parlais ! \r\n<< nameTag pnj5 >>\r\n<< langue FRPE >>\r\nMais c’est le chien du village !\r\nJe te l’ai dit quand j’ai imité son bruit, hap hap هاپ هاپ !\r\n<< nameTag pnj6 >>\r\n<< langue FRTHAI >>\r\nEt moi je t’ai dit que le son était hong hong ฮ่ง ฮ่ง !\r\n<< userName >>\r\n<< langue francais >>\r\nMais je ne comprends pas, comment un seul animal peut émettre deux bruits différents ? \r\n<< nameTag pnj5 >>\r\n<< langue FRPETHAI >>\r\nC’est le même son ! J’ai juste imité le bruit du chien en persan, et Simon l’a imité en thaï. hap hap هاپ هاپ, hong hong ฮ่ง ฮ่ง, c’est la même chose ! \r\n<< userName >>\r\n<< langue francais >>\r\nOlalah, je ne savais pas que les sons d’animaux pouvaient changer selon la langue...\r\n<< nameTag pnj5 >>\r\nHaha, désolé pour la confusion ! Tu as pu trouver le nom du village ? Si oui, bravo ! N’hésite pas à nous rendre visite, nous t’accueillerons avec plaisir.\r\n<<  fin >> \r\n...",
 		"position": {
 			"x": 694,
 			"y": 766
-		},
-		"colorID": 0
-	},
-	{
-		"title": "mystereresolu2",
-		"tags": "",
-		"body": "[joueur doit cliquer sur les pnj (une seule entité, je sais pas si c’est clair) pour activer la suite du dialogue]\r\n\r\n<< userName >>\r\n<< langue francais >>\r\nC’est de cette chose dont je vous parlais ! \r\n\r\n<< nameTag pnj5 >>\r\n<< langue FRPE >>\r\nMais c’est le chien du village, je te l’ai dit quand j’ai imité son bruit, hap hap هاپ هاپ !\r\n\r\n<< nameTag pnj6 >>\r\n<< langue FRTHAI >>\r\nEt moi je t’ai dit que le son était hong hong ฮ่ง ฮ่ง\r\n\r\n<< userName >>\r\n<< langue francais >>\r\nMais je ne comprends pas, comment un seul animal peut émettre deux bruits différents ? \r\n\r\n<< nameTag pnj5 >>\r\n<< langue FRPETHAI >>\r\nC’est le même son ! J’ai juste imité le bruit du chien en persan, et Simon l’a imité en thaï. hap hap هاپ هاپ, hong hong ฮ่ง ฮ่ง, c’est la même chose ! \r\n\r\n<< userName >>\r\nOlalah, je ne savais pas que les sons d’animaux pouvaient changer selon la langue…\r\n\r\n<< nameTag pnj5 >>\r\nHaha, désolé pour la confusion ! Tu as pu trouver le nom du village ? Si oui, bravo ! N’hésite pas à nous rendre visite, nous t’accueillerons avec plaisir.\r\n<< fin >> \r\n...",
-		"position": {
-			"x": 929,
-			"y": 763
 		},
 		"colorID": 0
 	},

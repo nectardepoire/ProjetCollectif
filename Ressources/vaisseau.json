@@ -22,7 +22,7 @@
 	{
 		"title": "vaisseaufin",
 		"tags": "",
-		"body": "ZONE VAISSEAU \r\n[joueur va au vaisseau et appuie dessus => affichage tableau de bord (ou pas si c’est trop chiant, jsp si lyuyao et nitcha on prévu ça)]\r\nBoite de choix (pas vraiment un choix, vu que y’en a qu’un) que le joueur doit valider : \r\n<< / >>\r\nEntrer le nom du village : HÔMA",
+		"body": "<< userName >> \r\n<< langue alien >>\r\nJ'ai obtenu toutes les lettres du village ! Je peux maintenant rentrer chez moi.\r\n<< vaisseau >>\r\n...",
 		"position": {
 			"x": 130,
 			"y": 491
@@ -32,7 +32,7 @@
 	{
 		"title": "choix",
 		"tags": "",
-		"body": "Partir ou rester ? \r\n\r\n<< userName >>\r\n<< langue alien >>\r\n[[Peut être que je devrais rester un peu plus longtemps ici… J’ai bien aimé les habitants, et je pourrai en profiter pour apprendre de nouvelles langues humaines.|rester]]\r\n[[Ma famille et mes amis me manquent, j’ai hâte de rentrer ! |rentrer]]",
+		"body": "<< userName >>\r\n<< langue alien >>\r\nMa famille et mes amis me manquent...\r\nMais j’ai bien aimé les habitants, je pourrais en profiter pour apprendre de nouvelles langues humaines...\r\nQue faire ?\r\n[[Peut être que je devrais rester un peu plus longtemps ici... |rester]]\r\n[[J’ai hâte de rentrer ! |rentrer]]",
 		"position": {
 			"x": 119,
 			"y": 758
@@ -42,7 +42,7 @@
 	{
 		"title": "rester",
 		"tags": "",
-		"body": "<< findujeu1 >>",
+		"body": "<< findujeu1 >>\n...",
 		"position": {
 			"x": -98,
 			"y": 978
@@ -52,7 +52,7 @@
 	{
 		"title": "rentrer",
 		"tags": "",
-		"body": "<< radio >> \r\n<< nameTag amis >>\r\n<< langue alien >>\r\nOn a enfin de tes nouvelles ! Tout va bien ? On vient de recevoir ta position, on t’envoie de l’aide ! \r\n[animation de résolution 2 de l’alien qui monte au ciel avec le halo de lumière du vaisseau de ses amis]\r\n<< findujeu2 >>",
+		"body": "<< radio >> \r\n<< nameTag amis >>\r\n<< langue alien >>\r\nOn a enfin de tes nouvelles ! Tout va bien ? On vient de recevoir ta position, on t’envoie de l’aide !\r\n<< findujeu2 >>\r\n...",
 		"position": {
 			"x": 341,
 			"y": 984
