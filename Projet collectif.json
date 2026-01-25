@@ -5337,7 +5337,7 @@
       {
         "file": "assets/Female Character 1_Walking Up_3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Female Character 1_Walking Up_3.png\",\"extension\":\".png\"}",
         "name": "Female Character 1_Walking Up_3.png",
         "smoothed": false,
         "userAdded": false,
@@ -8887,7 +8887,7 @@
       {
         "file": "UI_TravelBook_IconArrow01a.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"UI_TravelBook_IconArrow01a.png\",\"extension\":\".png\"}",
         "name": "UI_TravelBook_IconArrow01a.png",
         "smoothed": true,
         "userAdded": false
@@ -9397,6 +9397,38 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Walking Up3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walking Up3.png\"}",
+        "name": "Walking Up",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Up3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Up2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking Up4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Up3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Exclamation Mark4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Exclamation Mark",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -9472,6 +9504,7 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 50,
@@ -9577,6 +9610,10 @@
           "ControllerIdentifier": 1,
           "JoystickIdentifier": "Primary",
           "StickMode": "Analog"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -10402,7 +10439,7 @@
           ]
         },
         {
-          "name": "blink",
+          "name": "anim blink",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -10410,6 +10447,78 @@
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.5,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ressources\\alien-walk front-1",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32.5,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 32,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 91
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 91
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ressources\\alien-walk front0",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32.5,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 32,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 91
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 91
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Ressources\\alien-walk front-1",
@@ -11824,11 +11933,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Female Character 1_Walking Up_1.png",
+                  "image": "Walking Up",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11864,7 +11974,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Female Character 1_Walking Up_2.png",
+                  "image": "Walking Up3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12179,6 +12289,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Female Character 1_Walking Up_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 15,
+                        "y": 1
+                      },
+                      {
+                        "x": 15,
+                        "y": 17
+                      },
+                      {
+                        "x": 1,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 1_Walking Right_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13196,6 +13354,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "serrer de la main4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 5_Walking Left_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14573,7 +14779,22 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "HslAdjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 1,
+            "hue": -10,
+            "lightness": -0.2,
+            "saturation": -0.3
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "colorize": false
+          }
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -16181,6 +16402,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Male Character 12_Walking Left_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 8,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Male Character 12_Walking Right_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19274,9 +19543,26 @@
           "name": "Text_credits",
           "persistentUuid": "33e62497-d60f-429c-a328-7948d1434e47",
           "width": 0,
-          "x": 466,
-          "y": 123,
+          "x": 451,
+          "y": 136,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 45,
+          "keepRatio": true,
+          "layer": "Crédits",
+          "name": "Page_suivante",
+          "persistentUuid": "608dc417-66ef-454a-a64b-e4931a56277b",
+          "width": 55,
+          "x": 982,
+          "y": 509,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19288,11 +19574,78 @@
           "keepRatio": true,
           "layer": "Crédits",
           "name": "Text_credits2",
-          "persistentUuid": "d0b6e192-7d76-4069-8ce1-43d617e51435",
+          "persistentUuid": "6f82642d-183c-4c46-824d-e6a653d2e16f",
           "width": 0,
-          "x": 247,
-          "y": 392,
-          "zOrder": 17,
+          "x": 254,
+          "y": 318,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 953,
+          "keepRatio": true,
+          "layer": "Crédit layer 2",
+          "name": "Boite_credits",
+          "persistentUuid": "dc982fc6-de50-41d1-8113-92ebd6e1b455",
+          "width": 953,
+          "x": 166,
+          "y": -68,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "Crédit layer 2",
+          "name": "Bouton_ferme",
+          "persistentUuid": "5f9a9705-d2b5-4abe-a79d-05585d920a03",
+          "width": 39,
+          "x": 984,
+          "y": 87,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 5,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "Crédit layer 2",
+          "name": "Page_précédente",
+          "persistentUuid": "abc26c17-53dd-490e-aafd-d5123d4b20ed",
+          "width": 44,
+          "x": 256,
+          "y": 81,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Crédit layer 2",
+          "name": "Text_credits4",
+          "persistentUuid": "39555f3d-b37c-4140-bf8b-d3ee41264c93",
+          "width": 0,
+          "x": 252,
+          "y": 361,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19303,12 +19656,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "Crédits",
-          "name": "Text_credits3",
-          "persistentUuid": "59c5ace7-aaeb-4b8e-b9a5-d4919706a72f",
+          "name": "Text_crédits3",
+          "persistentUuid": "d397f779-8644-46b7-97ea-9c959900f149",
           "width": 0,
-          "x": 701,
-          "y": 389,
-          "zOrder": 18,
+          "x": 256,
+          "y": 519,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22092,7 +22445,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Un jeu de Zone 5115",
+          "string": "Un jeu de Zone 51.15",
           "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
           "textAlignment": "center",
           "characterSize": 40,
@@ -22115,7 +22468,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Un jeu de Zone 5115",
+            "text": "Un jeu de Zone 51.15",
             "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -22135,10 +22488,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Co-cheffes du projet / responsables projet\nConceptrice narrative/Designer narratif\nGame designer \nEquipe artistique\nResponsable technique et développeuse principale\nDéveloppeuse \nResponsable pédagogique\nResponsable pilotage\nDéveloppeuse web\n\nConsultant informatique\nCompositeur des musiques principales",
-          "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+          "string": "Ce jeu est une réalisation issue d’un projet collectif du master \nDidactique des langues de la Faculté des langues de l’Université \nde Strasbourg pour l’année universitaire 2025-2026. Le projet est \nmené par 7 étudiantes dans le cadre de leur formation : six \nétudiantes en Master 2 Didactique des Langues parcours Formations, \nInnovations, Recherche (FIR) et une étudiante en Master 2 Didactique \ndes langues parcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).",
+          "font": "Ressources\\PixelOperator.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 28,
           "color": {
             "b": 0,
             "g": 0,
@@ -22158,37 +22511,180 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Co-cheffes du projet / responsables projet\nConceptrice narrative/Designer narratif\nGame designer \nEquipe artistique\nResponsable technique et développeuse principale\nDéveloppeuse \nResponsable pédagogique\nResponsable pilotage\nDéveloppeuse web\n\nConsultant informatique\nCompositeur des musiques principales",
-            "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+            "text": "Ce jeu est une réalisation issue d’un projet collectif du master \nDidactique des langues de la Faculté des langues de l’Université \nde Strasbourg pour l’année universitaire 2025-2026. Le projet est \nmené par 7 étudiantes dans le cadre de leur formation : six \nétudiantes en Master 2 Didactique des Langues parcours Formations, \nInnovations, Recherche (FIR) et une étudiante en Master 2 Didactique \ndes langues parcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).",
+            "font": "Ressources\\PixelOperator.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "center",
-            "characterSize": 20,
+            "characterSize": 28,
             "lineHeight": 35,
             "color": "0;0;0"
           }
         },
         {
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "bold": false,
+          "name": "Page_suivante",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "UI_TravelBook_IconArrow01a.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 13
+                          },
+                          {
+                            "x": 0,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Page_précédente",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "UI_TravelBook_IconRestart01a2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 11,
+                            "y": 0
+                          },
+                          {
+                            "x": 11,
+                            "y": 13
+                          },
+                          {
+                            "x": 0,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
           "italic": false,
-          "name": "Text_credits3",
+          "name": "Text_credits4",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Jeanne et Johanna\nKubra\nKubra et Jeanne\nLyuyao, Nitcha, Jeanne et Haniye\nAndréa\nLyuyao\nHaniye\nHaniye et Johanna\nJohanna\n\nTristan Unger\nZypo",
-          "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
-          "textAlignment": "right",
-          "characterSize": 20,
+          "string": "Conceptrice narrative/Designer narratif : Kubra DAG\nGame designer : Kubra DAG, Jeanne VAN HOUTTE\nEquipe artistique :\nLyuyao NI, Nitcha SANTIRATPAKDEE, Jeanne VAN HOUTTE, Haniye BAHMANDAR\nResponsable technique et développeuse principale : Andréa UNGER\nDéveloppeuse : Lyuyao NI\nResponsable pédagogique : Haniye BAHMANDAR\nResponsable pilotage : Haniye BAHMANDAR, Anngie Johanna CASTRO PARDO\nDéveloppeuse web :  Anngie Johanna CASTRO PARDO\n\nConsultant informatique : Tristan UNGER\nCompositeur des musiques principales :  Zypo",
+          "font": "Ressources\\PixelOperator.ttf",
+          "textAlignment": "left",
+          "characterSize": 28,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
           },
           "content": {
-            "bold": false,
+            "bold": true,
             "isOutlineEnabled": false,
             "isShadowEnabled": false,
             "italic": false,
@@ -22201,11 +22697,54 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Jeanne et Johanna\nKubra\nKubra et Jeanne\nLyuyao, Nitcha, Jeanne et Haniye\nAndréa\nLyuyao\nHaniye\nHaniye et Johanna\nJohanna\n\nTristan Unger\nZypo",
-            "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
-            "textAlignment": "right",
+            "text": "Conceptrice narrative/Designer narratif : Kubra DAG\nGame designer : Kubra DAG, Jeanne VAN HOUTTE\nEquipe artistique :\nLyuyao NI, Nitcha SANTIRATPAKDEE, Jeanne VAN HOUTTE, Haniye BAHMANDAR\nResponsable technique et développeuse principale : Andréa UNGER\nDéveloppeuse : Lyuyao NI\nResponsable pédagogique : Haniye BAHMANDAR\nResponsable pilotage : Haniye BAHMANDAR, Anngie Johanna CASTRO PARDO\nDéveloppeuse web :  Anngie Johanna CASTRO PARDO\n\nConsultant informatique : Tristan UNGER\nCompositeur des musiques principales :  Zypo",
+            "font": "Ressources\\PixelOperator.ttf",
+            "textAlignment": "left",
             "verticalTextAlignment": "center",
-            "characterSize": 20,
+            "characterSize": 28,
+            "lineHeight": 35,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Text_crédits3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Co-cheffes du projet / responsables projet : \nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO",
+          "font": "Ressources\\PixelOperator.ttf",
+          "textAlignment": "left",
+          "characterSize": 28,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Co-cheffes du projet / responsables projet : \nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO",
+            "font": "Ressources\\PixelOperator.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 28,
             "lineHeight": 35,
             "color": "0;0;0"
           }
@@ -22263,7 +22802,16 @@
             "objectName": "Text_credits2"
           },
           {
-            "objectName": "Text_credits3"
+            "objectName": "Text_credits4"
+          },
+          {
+            "objectName": "Page_suivante"
+          },
+          {
+            "objectName": "Page_précédente"
+          },
+          {
+            "objectName": "Text_crédits3"
           }
         ]
       },
@@ -22538,6 +23086,15 @@
               "parameters": [
                 "",
                 "\"Crédits\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Crédit layer 2\""
               ]
             },
             {
@@ -23020,6 +23577,76 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
+                    "Page_suivante",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Crédits\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Crédit layer 2\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "Page_précédente",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Crédit layer 2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Crédits\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
                     "Bouton_ferme",
                     "ButtonFSM",
                     ""
@@ -23034,6 +23661,15 @@
                   "parameters": [
                     "",
                     "\"Crédits\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Crédit layer 2\""
                   ]
                 }
               ]
@@ -23122,60 +23758,6 @@
           "isLocked": false,
           "name": "Crédits",
           "renderingType": "",
-          "visibility": false,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Commentjouer1",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": [
@@ -23228,117 +23810,9 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Commentjouer2",
+          "name": "Crédit layer 2",
           "renderingType": "",
-          "visibility": false,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Commentjouer3",
-          "renderingType": "",
-          "visibility": false,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Commentjouer4",
-          "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -41660,7 +42134,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600342,
+        "zoomFactor": 0.7876290101674208,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -41799,7 +42273,7 @@
           "layer": "",
           "name": "test_pull_lyuyao_andrea",
           "persistentUuid": "b3a347ac-9c69-4494-8282-d5a8a614af2a",
-          "width": 627,
+          "width": 414,
           "x": 429,
           "y": 229,
           "zOrder": 28,
@@ -42035,8 +42509,8 @@
           "name": "Pont",
           "persistentUuid": "8ef479ba-f66b-4614-b4a4-278172004a56",
           "width": 119,
-          "x": 304,
-          "y": 199,
+          "x": 305,
+          "y": 194,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -43211,32 +43685,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Exclamation_Mark",
-          "persistentUuid": "1ba74a82-9cb6-4719-abe2-80ceb334b4f6",
-          "width": 0,
-          "x": 265,
-          "y": 197,
-          "zOrder": 1001,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 12,
+          "height": 35,
           "keepRatio": true,
           "layer": "",
           "name": "zone_interdit",
           "persistentUuid": "fba538e8-74e3-4a36-b348-4f79855149f7",
           "width": 108,
-          "x": 311,
-          "y": 275,
+          "x": 312,
+          "y": 263,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -43246,14 +43704,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 12,
+          "height": 23,
           "keepRatio": true,
           "layer": "",
           "name": "zone_interdit",
           "persistentUuid": "41bdd831-faa6-4f36-91c6-6a5c19ad021e",
           "width": 108,
-          "x": 313,
-          "y": 212,
+          "x": 311,
+          "y": 162,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -43391,7 +43849,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Andréa samedi soir\nbon courage Lyuyao, dernière ligne droite !!",
+          "string": "Lyuyao dimanche matin : \nyeeeeeeah finalement j'ai fini les animations !\nchangement d'ambiance (dans les évèvement du village)\nsauvegarde (je n'arrive pas à régler ça ce matin, du coup ça reste encore un bugg)",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -43414,7 +43872,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Andréa samedi soir\nbon courage Lyuyao, dernière ligne droite !!",
+            "text": "Lyuyao dimanche matin : \nyeeeeeeah finalement j'ai fini les animations !\nchangement d'ambiance (dans les évèvement du village)\nsauvegarde (je n'arrive pas à régler ça ce matin, du coup ça reste encore un bugg)",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -43927,7 +44385,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "front",
@@ -47702,21 +48165,22 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Exclamation Mark",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.025,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Exclamation Mark.png",
+                      "image": "Exclamation Mark",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": 41
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -47727,20 +48191,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 5,
-                            "y": 1
+                            "x": 14,
+                            "y": 0
                           },
                           {
-                            "x": 10,
-                            "y": 1
+                            "x": 27,
+                            "y": 0
                           },
                           {
-                            "x": 10,
-                            "y": 15
+                            "x": 27,
+                            "y": 41
                           },
                           {
-                            "x": 5,
-                            "y": 15
+                            "x": 14,
+                            "y": 41
                           }
                         ]
                       ]
@@ -48119,186 +48583,66 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Changement d'ambiance du village - Test",
+          "name": "Changement d'ambiance du village",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
         },
         {
-          "disabled": true,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 91,
+            "g": 126,
+            "r": 253,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "↑ je sais pas comment trouver un condition pour ça, et je peux que le modifier très légèrement (du coup c'est pas évident)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enable = yes = activé ; no = désactivé"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
               "type": {
-                "value": "ChangeColor"
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
                 "Map",
-                "\"112;94;131\""
+                "Effect",
+                "\"Effect\"",
+                "yes"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
             {
               "type": {
-                "value": "ChangeColor"
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "Mairie",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Café",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Maison_PNJ5",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Maison_PNJ6",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Maison",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Arbre",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Rivière",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Pont",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "miroir",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Fleur_interactive_Rouge",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Fleur_interactive_rosé",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Fleur_interactive_bleu",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Fleur_interactive_orange",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Fleur_interactive_violet",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Fleur_interactive_blanc",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Fontaine_déco",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Pit_déco",
-                "\"125;179;238\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Alien",
-                "\"125;179;238\""
+                "Map",
+                "Effect",
+                "\"Effect\"",
+                "no"
               ]
             }
           ]
@@ -49020,18 +49364,6 @@
           "comment": "DERNIERE APPARITION, résolution et animation : en sortant de chez PNJ6 après avoir réussi la quête 4, animation se déclenche, au début créature silhouette puis créature visible apparaît quand les PNJ5 et PNJ6 débarquent  (variable 3)"
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 70,
-            "g": 109,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Animation résolution ici ↓ Le problème est que : je n'arrive pas à prévisualiser l'animation :(, du coup je sais pas si ça fonctionne bien ou pas"
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -49042,47 +49374,6 @@
                 ""
               ]
             },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "mystere_resolu",
-                "False",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "PNJ5"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "PNJ6"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Exclamation_Mark"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
             {
               "type": {
                 "value": "BooleanVariable"
@@ -49110,19 +49401,14 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "spawns_creature",
+                "possible_spawns",
                 "=",
-                "3"
+                "4"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
                 "spawns_creature",
@@ -49130,6 +49416,77 @@
                 "3"
               ]
             },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"animation résolution\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "PNJ5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "PNJ6"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "créature_silhouette",
+                "=",
+                "121",
+                "=",
+                "218"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "créature_silhouette",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mystere_resolu",
+                "True",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "value": "SceneJustBegins"
@@ -49140,9 +49497,13 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "NumberVariable"
               },
-              "parameters": []
+              "parameters": [
+                "spawns_creature",
+                "=",
+                "3"
+              ]
             },
             {
               "type": {
@@ -49153,6 +49514,12 @@
                 "=",
                 "4"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -49177,97 +49544,55 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "Alien",
-                "=",
-                "236",
-                "=",
-                "227"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Alien",
-                "=",
-                "121",
-                "=",
-                "210"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "créature_silhouette",
-                "\"animation résolution\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "mystere_resolu",
-                "True",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "PNJ6",
-                "=",
-                "175",
-                "=",
-                "229"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
                 "PNJ5",
                 "=",
                 "433",
                 "=",
-                "250"
+                "246"
               ]
             },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "PNJ5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"animation résolution\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "PNJ5",
+                "Alien",
                 "Animation",
                 "=",
-                "\"Idle left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "PNJ5",
-                "Pathfinding",
-                "",
-                "286",
-                "250"
+                "\"Idle Left\""
               ]
             },
             {
@@ -49280,158 +49605,17 @@
                 "=",
                 "\"Walking Left\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "spawns_creature",
-                "=",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "possible_spawns",
-                "=",
-                "4"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"ani réso\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "créature_silhouette",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "créature_silhouette",
-                "=",
-                "121",
-                "=",
-                "218"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "Alien",
-                "=",
-                "180",
-                "=",
-                "217"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 134,
-                "g": 233,
-                "r": 184,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "ajouter un son : le bruit d'une porte qui s'ouvre."
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"ani réso\"",
-                ">=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Alien",
-                "Animation",
-                "=",
-                "\"Walk1\""
-              ]
             },
             {
               "type": {
                 "value": "PathfindingBehavior::SetDestination"
               },
               "parameters": [
-                "Alien",
+                "PNJ5",
                 "Pathfinding",
                 "",
-                "180",
-                "250"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Alien",
-                "TopDownMovement",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Alien",
-                "Animation",
-                "=",
-                "\"Idle Left\""
+                "230",
+                "256"
               ]
             }
           ]
@@ -49445,7 +49629,36 @@
               },
               "parameters": [
                 "",
-                "\"ani réso\"",
+                "\"animation résolution\"",
+                ">=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Alien",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"animation résolution\"",
                 ">=",
                 "3"
               ]
@@ -49460,23 +49673,25 @@
           "actions": [
             {
               "type": {
-                "value": "Show"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Exclamation_Mark",
-                ""
+                "Alien",
+                "Animation",
+                "=",
+                "\"Idle Left\""
               ]
             },
             {
               "type": {
-                "value": "SetXY"
+                "value": "Create"
               },
               "parameters": [
+                "",
                 "Exclamation_Mark",
-                "=",
                 "Alien.CenterX()",
-                "=",
-                "Alien.BoundingBoxTop()"
+                "Alien.BoundingBoxTop()-5",
+                ""
               ]
             },
             {
@@ -49534,20 +49749,6 @@
                 "Exclamation_Mark"
               ]
             }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 134,
-                "g": 233,
-                "r": 184,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "ajouter un son : cri (Ahhhhh---)"
-            }
           ]
         },
         {
@@ -49559,7 +49760,7 @@
               },
               "parameters": [
                 "",
-                "\"ani réso\"",
+                "\"animation résolution\"",
                 ">=",
                 "5"
               ]
@@ -49579,32 +49780,11 @@
                 "value": "SetXY"
               },
               "parameters": [
-                "PNJ5",
-                "=",
-                "450",
-                "=",
-                "250"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
                 "PNJ6",
                 "=",
                 "180",
                 "=",
                 "217"
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "PNJ5",
-                ""
               ]
             },
             {
@@ -49637,53 +49817,11 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"ani réso\"",
-                ">=",
-                "6"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "PathfindingBehavior::DestinationReached"
               },
               "parameters": [
                 "PNJ5",
-                "Animation",
-                "=",
-                "\"Walking Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "PNJ5",
-                "Pathfinding",
-                "",
-                "284",
-                "250"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "PNJ5",
-                "=",
-                "284"
+                "Pathfinding"
               ]
             }
           ],
@@ -49698,6 +49836,38 @@
                 "=",
                 "\"Idle left\""
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"animation résolution\"",
+                ">=",
+                "12"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "créature_silhouette",
+                "Tween",
+                "\"hide\"",
+                "0",
+                "\"linear\"",
+                "2",
+                ""
+              ]
             },
             {
               "type": {
@@ -49709,22 +49879,14 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "créature_silhouette"
-              ]
-            },
-            {
-              "type": {
                 "value": "MettreXY"
               },
               "parameters": [
                 "créature_visible",
                 "=",
-                "121",
+                "125",
                 "=",
-                "218"
+                "230"
               ]
             },
             {
@@ -93712,7 +93874,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156936,
+        "zoomFactor": 0.2912258866911167,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -94247,23 +94409,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 74,
-          "keepRatio": true,
-          "layer": "",
-          "name": "zone_interdit",
-          "persistentUuid": "02d09779-0fb2-49b6-8664-4081327e7d9a",
-          "width": 46,
-          "x": 773,
-          "y": 317,
-          "zOrder": 51,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -94374,23 +94519,6 @@
           "x": -386,
           "y": 573,
           "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 74,
-          "keepRatio": true,
-          "layer": "",
-          "name": "zone_interdit",
-          "persistentUuid": "332b074b-b660-4048-b9cf-6168d066c403",
-          "width": 75,
-          "x": 758,
-          "y": 333,
-          "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -95706,6 +95834,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Crédits",
+          "name": "Crédit",
+          "persistentUuid": "c255cd3b-e403-4bff-acaf-c2951b77e6a0",
+          "width": 0,
+          "x": 100,
+          "y": 1817,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -96155,11 +96299,11 @@
           "string": "hoş geldin",
           "font": "Ressources\\PixelOperator.ttf",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 45,
           "color": {
-            "b": 124,
-            "g": 124,
-            "r": 255
+            "b": 73,
+            "g": 54,
+            "r": 231
           },
           "content": {
             "bold": false,
@@ -96179,9 +96323,9 @@
             "font": "Ressources\\PixelOperator.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 40,
+            "characterSize": 45,
             "lineHeight": 0,
-            "color": "255;124;124"
+            "color": "231;54;73"
           }
         },
         {
@@ -96200,9 +96344,9 @@
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 129,
-            "g": 186,
-            "r": 255
+            "b": 9,
+            "g": 125,
+            "r": 238
           },
           "content": {
             "bold": false,
@@ -96224,7 +96368,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 40,
             "lineHeight": 0,
-            "color": "255;186;129"
+            "color": "238;125;9"
           }
         },
         {
@@ -96243,9 +96387,9 @@
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 122,
-            "g": 255,
-            "r": 212
+            "b": 0,
+            "g": 189,
+            "r": 248
           },
           "content": {
             "bold": false,
@@ -96267,7 +96411,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 40,
             "lineHeight": 0,
-            "color": "212;255;122"
+            "color": "248;189;0"
           }
         },
         {
@@ -96284,11 +96428,11 @@
           "string": "välkomna",
           "font": "Ressources\\PixelOperator.ttf",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 50,
           "color": {
-            "b": 223,
-            "g": 255,
-            "r": 124
+            "b": 53,
+            "g": 197,
+            "r": 150
           },
           "content": {
             "bold": false,
@@ -96308,9 +96452,9 @@
             "font": "Ressources\\PixelOperator.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 40,
+            "characterSize": 50,
             "lineHeight": 0,
-            "color": "124;255;223"
+            "color": "150;197;53"
           }
         },
         {
@@ -96327,11 +96471,11 @@
           "string": "bienvenue",
           "font": "Ressources\\PixelOperator.ttf",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 50,
           "color": {
-            "b": 255,
-            "g": 129,
-            "r": 116
+            "b": 216,
+            "g": 145,
+            "r": 0
           },
           "content": {
             "bold": false,
@@ -96351,9 +96495,9 @@
             "font": "Ressources\\PixelOperator.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 40,
+            "characterSize": 50,
             "lineHeight": 0,
-            "color": "116;129;255"
+            "color": "0;145;216"
           }
         },
         {
@@ -96370,11 +96514,11 @@
           "string": "خوش آمدید",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 45,
           "color": {
-            "b": 243,
-            "g": 122,
-            "r": 255
+            "b": 157,
+            "g": 95,
+            "r": 212
           },
           "content": {
             "bold": false,
@@ -96394,9 +96538,9 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 40,
+            "characterSize": 45,
             "lineHeight": 0,
-            "color": "255;122;243"
+            "color": "212;95;157"
           }
         },
         {
@@ -96917,6 +97061,54 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Male Character 2_Walking Up_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 2
+                          },
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 14,
+                            "y": 17
+                          },
+                          {
+                            "x": 2,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "back",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Male Character 2_Walking Up_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -97474,6 +97666,54 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Female Character 11_Walking Up_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "back",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Up_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -98211,6 +98451,54 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "back",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprite_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 80,
+                        "y": 189
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 160,
+                            "y": 0
+                          },
+                          {
+                            "x": 160,
+                            "y": 190
+                          },
+                          {
+                            "x": 0,
+                            "y": 190
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -98256,6 +98544,49 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Crédit",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\nConceptrice narrative/Designer narratif\n\nKubra DAG\n\nGame designer\n\nKubra DAG, Jeanne VAN HOUTTE\n\nEquipe artistique\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\nResponsable technique et développeuse principale\n\nAndréa UNGER\n\nDéveloppeuse\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\nResponsable pilotage\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\nDéveloppeuse web\n\nAnngie Johanna CASTRO PARDO\n\nConsultant informatique\n\nTristan UNGER\n\nCompositeur des musiques principales\n\nZypo",
+          "font": "Ressources\\PixelOperator.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\nConceptrice narrative/Designer narratif\n\nKubra DAG\n\nGame designer\n\nKubra DAG, Jeanne VAN HOUTTE\n\nEquipe artistique\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\nResponsable technique et développeuse principale\n\nAndréa UNGER\n\nDéveloppeuse\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\nResponsable pilotage\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\nDéveloppeuse web\n\nAnngie Johanna CASTRO PARDO\n\nConsultant informatique\n\nTristan UNGER\n\nCompositeur des musiques principales\n\nZypo",
+            "font": "Ressources\\PixelOperator.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -98299,6 +98630,9 @@
           },
           {
             "objectName": "Backstage"
+          },
+          {
+            "objectName": "Crédit"
           }
         ]
       },
@@ -98576,7 +98910,6 @@
           "comment": "Les habitants du village sont venus et ont formé un cercle autour de l'étranger. (changement d'animation en fonction d'angle du mouvement, position)"
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -98597,10 +98930,124 @@
                 "PNJ1",
                 "Pathfinding",
                 "",
-                "678",
-                "594"
+                "510",
+                "260"
               ]
             },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "PNJ2",
+                "Pathfinding",
+                "",
+                "540",
+                "300"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "PNJ3",
+                "Pathfinding",
+                "",
+                "580",
+                "320"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "PNJ4__gérant_café_",
+                "Pathfinding",
+                "",
+                "864",
+                "260"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "PNJ5",
+                "Pathfinding",
+                "",
+                "834",
+                "300"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "PNJ6",
+                "Pathfinding",
+                "",
+                "794",
+                "320"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Client1",
+                "Pathfinding",
+                "",
+                "625",
+                "340"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Client2",
+                "Pathfinding",
+                "",
+                "749",
+                "340"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Client3",
+                "Pathfinding",
+                "",
+                "678",
+                "360"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "PNJ1",
+                "Pathfinding",
+                "270",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -98609,188 +99056,33 @@
                 "PNJ1",
                 "Animation",
                 "=",
-                "\"Walking Right\""
+                "\"Walking Up\""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "PathfindingBehavior::SetDestination"
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
               },
               "parameters": [
-                "PNJ2",
+                "PNJ1",
                 "Pathfinding",
-                "",
-                "678",
-                "594"
+                "0",
+                "10"
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "PNJ2",
-                "Animation",
-                "=",
-                "\"Walking Right\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "PNJ3",
-                "Pathfinding",
-                "",
-                "678",
-                "594"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "PNJ3",
-                "Animation",
-                "=",
-                "\"Walking Right\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "PNJ4__gérant_café_",
-                "Pathfinding",
-                "",
-                "678",
-                "594"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "PNJ4__gérant_café_",
-                "Animation",
-                "=",
-                "\"Walking Right\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "PNJ5",
-                "Pathfinding",
-                "",
-                "678",
-                "594"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "PNJ5",
-                "Animation",
-                "=",
-                "\"Walking Right\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "PNJ6",
-                "Pathfinding",
-                "",
-                "678",
-                "594"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "PNJ6",
-                "Animation",
-                "=",
-                "\"Walking Right\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "Client1",
-                "Pathfinding",
-                "",
-                "678",
-                "594"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Client1",
-                "Animation",
-                "=",
-                "\"Walking Right\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "Client2",
-                "Pathfinding",
-                "",
-                "678",
-                "594"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Client2",
-                "Animation",
-                "=",
-                "\"Walking Right\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "Client3",
-                "Pathfinding",
-                "",
-                "678",
-                "594"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Client3",
+                "PNJ1",
                 "Animation",
                 "=",
                 "\"Walking Right\""
@@ -98799,50 +99091,17 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "PNJ1",
-                "=",
-                "678"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosY"
-              },
-              "parameters": [
-                "PNJ1",
-                "=",
-                "594"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": []
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
               },
               "parameters": [
                 "PNJ2",
-                "=",
-                "678"
+                "Pathfinding",
+                "270",
+                "10"
               ]
             }
           ],
@@ -98861,17 +99120,46 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PosX"
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "PNJ2",
+                "Pathfinding",
+                "0",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ2",
+                "Animation",
+                "=",
+                "\"Walking Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
               },
               "parameters": [
                 "PNJ3",
-                "=",
-                "678"
+                "Pathfinding",
+                "270",
+                "10"
               ]
             }
           ],
@@ -98890,17 +99178,46 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PosX"
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "PNJ3",
+                "Pathfinding",
+                "0",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ3",
+                "Animation",
+                "=",
+                "\"Walking Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
               },
               "parameters": [
                 "PNJ4__gérant_café_",
-                "=",
-                "678"
+                "Pathfinding",
+                "270",
+                "45"
               ]
             }
           ],
@@ -98923,180 +99240,559 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
               },
               "parameters": [
-                ""
+                "PNJ4__gérant_café_",
+                "Pathfinding",
+                "0",
+                "3"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "PNJ1",
-                "Pathfinding",
-                "",
-                "492",
-                "289"
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "PNJ2",
-                "Pathfinding",
-                "",
-                "514",
-                "313"
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "PNJ3",
-                "Pathfinding",
-                "",
-                "582",
-                "324"
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
                 "PNJ4__gérant_café_",
-                "Pathfinding",
-                "",
-                "894",
-                "289"
+                "Animation",
+                "=",
+                "\"Walking Right\""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "PathfindingBehavior::SetDestination"
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
               },
               "parameters": [
                 "PNJ5",
                 "Pathfinding",
-                "",
-                "859",
-                "313"
+                "270",
+                "45"
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "PathfindingBehavior::SetDestination"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ5",
+                "Animation",
+                "=",
+                "\"Walking Up\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "PNJ5",
+                "Pathfinding",
+                "0",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ5",
+                "Animation",
+                "=",
+                "\"Walking Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
               },
               "parameters": [
                 "PNJ6",
                 "Pathfinding",
-                "",
-                "730",
-                "324"
+                "270",
+                "45"
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "PathfindingBehavior::SetDestination"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ6",
+                "Animation",
+                "=",
+                "\"Walking Up\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "PNJ6",
+                "Pathfinding",
+                "0",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ6",
+                "Animation",
+                "=",
+                "\"Walking Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
               },
               "parameters": [
                 "Client1",
                 "Pathfinding",
-                "",
-                "635",
-                "345"
+                "270",
+                "10"
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "PathfindingBehavior::SetDestination"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Client1",
+                "Animation",
+                "=",
+                "\"Walking Up\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "Client1",
+                "Pathfinding",
+                "0",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Client1",
+                "Animation",
+                "=",
+                "\"Walking Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
               },
               "parameters": [
                 "Client2",
                 "Pathfinding",
-                "",
-                "710",
-                "345"
+                "270",
+                "10"
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "PathfindingBehavior::SetDestination"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Client2",
+                "Animation",
+                "=",
+                "\"Walking Up\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "Client2",
+                "Pathfinding",
+                "0",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Client2",
+                "Animation",
+                "=",
+                "\"Walking Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
               },
               "parameters": [
                 "Client3",
                 "Pathfinding",
-                "",
-                "679",
-                "359"
+                "270",
+                "10"
               ]
             }
           ],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
-                  },
-                  "parameters": [
-                    "PNJ1",
-                    "Pathfinding",
-                    "0",
-                    "45"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "PNJ1",
-                    "Animation",
-                    "=",
-                    "\"Walking Right\""
-                  ]
-                }
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Client3",
+                "Animation",
+                "=",
+                "\"Walking Up\""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
-                  },
-                  "parameters": [
-                    "PNJ1",
-                    "Pathfinding",
-                    "270",
-                    "45"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "PNJ1",
-                    "Animation",
-                    "=",
-                    "\"Walking Up\""
-                  ]
-                }
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "Client3",
+                "Pathfinding",
+                "0",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Client3",
+                "Animation",
+                "=",
+                "\"Walking Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::DestinationReached"
+              },
+              "parameters": [
+                "PNJ1",
+                "Pathfinding"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ1",
+                "Animation",
+                "=",
+                "\"Idle right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::DestinationReached"
+              },
+              "parameters": [
+                "PNJ2",
+                "Pathfinding"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ2",
+                "Animation",
+                "=",
+                "\"Talk\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::DestinationReached"
+              },
+              "parameters": [
+                "PNJ3",
+                "Pathfinding"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ3",
+                "Animation",
+                "=",
+                "\"Idle right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::DestinationReached"
+              },
+              "parameters": [
+                "PNJ4__gérant_café_",
+                "Pathfinding"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ4__gérant_café_",
+                "Animation",
+                "=",
+                "\"Idle right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::DestinationReached"
+              },
+              "parameters": [
+                "PNJ5",
+                "Pathfinding"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ5",
+                "Animation",
+                "=",
+                "\"Idle left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::DestinationReached"
+              },
+              "parameters": [
+                "PNJ6",
+                "Pathfinding"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PNJ6",
+                "Animation",
+                "=",
+                "\"Talk\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::DestinationReached"
+              },
+              "parameters": [
+                "Client1",
+                "Pathfinding"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Client1",
+                "Animation",
+                "=",
+                "\"back\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::DestinationReached"
+              },
+              "parameters": [
+                "Client2",
+                "Pathfinding"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Client2",
+                "Animation",
+                "=",
+                "\"back\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::DestinationReached"
+              },
+              "parameters": [
+                "Client3",
+                "Pathfinding"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Client3",
+                "Animation",
+                "=",
+                "\"back\""
               ]
             }
           ]
@@ -99126,28 +99822,29 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
+            "b": 143,
+            "g": 163,
+            "r": 56,
             "textB": 0,
             "textG": 0,
             "textR": 0
           },
-          "comment": "Condition (Après le dialogue) → Des messages de bienvenue en différentes langues s'élevèrent comme des ballons → fondu noir"
+          "comment": "Condition (Après le dialogue!!) → Des messages de bienvenue en différentes langues s'élevèrent comme des ballons → fondu noir"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "conditions": [
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "PathfindingBehavior::DestinationReached"
               },
               "parameters": [
-                "",
-                "\"ani res\""
+                "Client3",
+                "Pathfinding"
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "AddForceXY"
@@ -99155,7 +99852,7 @@
               "parameters": [
                 "hoş_geldin_PNJ1",
                 "0",
-                "-2",
+                "-1",
                 "1"
               ]
             },
@@ -99166,7 +99863,7 @@
               "parameters": [
                 "ยินดีต้อนรับ_PNJ2",
                 "0",
-                "-3",
+                "-1.5",
                 "1"
               ]
             },
@@ -99177,7 +99874,7 @@
               "parameters": [
                 "ようこそ_PNJ3",
                 "0",
-                "-3",
+                "-1.5",
                 "1"
               ]
             },
@@ -99188,7 +99885,7 @@
               "parameters": [
                 "välkomna_PNJ4",
                 "0",
-                "-2",
+                "-1",
                 "1"
               ]
             },
@@ -99199,7 +99896,7 @@
               "parameters": [
                 "bienvenue_PNJ5",
                 "0",
-                "-2.5",
+                "-1.25",
                 "1"
               ]
             },
@@ -99210,8 +99907,39 @@
               "parameters": [
                 "خوش_آمدید_PNJ6",
                 "0",
-                "-2.5",
+                "-1.25",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::DestinationReached"
+              },
+              "parameters": [
+                "Client3",
+                "Pathfinding"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"ani rester\""
               ]
             }
           ]
@@ -99225,9 +99953,9 @@
               },
               "parameters": [
                 "",
-                "\"ani res\"",
+                "\"ani rester\"",
                 ">=",
-                "4"
+                "6"
               ]
             }
           ],
@@ -99257,6 +99985,14 @@
             },
             {
               "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
@@ -99282,8 +100018,32 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"ani rester\"",
+                ">=",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Crédit",
+                "0",
+                "-0.25",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -99525,6 +100285,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Crédits",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -99614,7 +100428,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2817259932079566,
+        "zoomFactor": 0.18305734955560096,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -99833,7 +100647,7 @@
           "name": "Alien",
           "persistentUuid": "7eb7837d-840c-48d7-a4e7-b4144cfe652b",
           "width": 43,
-          "x": 679,
+          "x": 683,
           "y": 326,
           "zOrder": 12,
           "numberProperties": [],
@@ -99918,9 +100732,25 @@
           "name": "NewSprite3",
           "persistentUuid": "29d55b62-24a0-4090-976b-6612e8748d6a",
           "width": 409,
-          "x": 480,
+          "x": 476,
           "y": -706,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Crédits",
+          "name": "Crédit",
+          "persistentUuid": "d78b345a-4ea2-4644-910a-3d9bc72ef238",
+          "width": 0,
+          "x": 103,
+          "y": 1830,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -100013,7 +100843,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "default",
@@ -100973,6 +101808,49 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Crédit",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\nConceptrice narrative/Designer narratif\n\nKubra DAG\n\nGame designer\n\nKubra DAG, Jeanne VAN HOUTTE\n\nEquipe artistique\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\nResponsable technique et développeuse principale\n\nAndréa UNGER\n\nDéveloppeuse\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\nResponsable pilotage\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\nDéveloppeuse web\n\nAnngie Johanna CASTRO PARDO\n\nConsultant informatique\n\nTristan UNGER\n\nCompositeur des musiques principales\n\nZypo",
+          "font": "Ressources\\PixelOperator.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\nConceptrice narrative/Designer narratif\n\nKubra DAG\n\nGame designer\n\nKubra DAG, Jeanne VAN HOUTTE\n\nEquipe artistique\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\nResponsable technique et développeuse principale\n\nAndréa UNGER\n\nDéveloppeuse\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\nResponsable pilotage\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\nDéveloppeuse web\n\nAnngie Johanna CASTRO PARDO\n\nConsultant informatique\n\nTristan UNGER\n\nCompositeur des musiques principales\n\nZypo",
+            "font": "Ressources\\PixelOperator.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -100980,6 +101858,9 @@
         "children": [
           {
             "objectName": "Vaisseau_2"
+          },
+          {
+            "objectName": "Crédit"
           },
           {
             "objectName": "NewSprite2"
@@ -101045,6 +101926,39 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "2",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CenterCameraOnObject"
+              },
+              "parameters": [
+                "",
+                "Alien",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
@@ -101130,6 +102044,15 @@
                 "",
                 "\"Fondu\""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"animation retourner\""
+              ]
             }
           ]
         },
@@ -101146,55 +102069,6 @@
           "comment": "L'alien se trouve devant le vaisseau, communiquant avec les amis aliens par radio."
         },
         {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "2",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CenterCameraOnObject"
-              },
-              "parameters": [
-                "",
-                "Alien",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"ani retou\""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -101203,22 +102077,13 @@
               },
               "parameters": [
                 "",
-                "\"ani retou\"",
+                "\"animation retourner\"",
                 ">=",
-                "1"
+                "2"
               ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "effet_bruit",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -101227,7 +102092,16 @@
                 "Alien",
                 "Animation",
                 "=",
-                "\"blink\""
+                "\"anim blink\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "effet_bruit",
+                ""
               ]
             }
           ]
@@ -101245,7 +102119,6 @@
           "comment": "Le vaisseau de l'ami alien reçoit le signal"
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -101254,9 +102127,9 @@
               },
               "parameters": [
                 "",
-                "\"ani retou\"",
+                "\"animation retourner\"",
                 ">=",
-                "3"
+                "4"
               ]
             }
           ],
@@ -101287,7 +102160,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -101296,7 +102168,7 @@
               },
               "parameters": [
                 "",
-                "\"ani retou\"",
+                "\"animation retourner\"",
                 ">=",
                 "4.5"
               ]
@@ -101315,29 +102187,36 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 115,
-            "g": 115,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Dialogue entre l'alien et ses amis et communication du nom du village (fin de dialogue = start timer \"ani retou2\")"
-        },
-        {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"animation retourner\"",
+                ">=",
+                "7"
+              ]
+            }
+          ],
           "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "effet_bruit2"
+              ]
+            },
             {
               "type": {
                 "value": "ZoomCamera"
               },
               "parameters": [
                 "",
-                "2",
+                "4",
                 "",
                 ""
               ]
@@ -101357,20 +102236,36 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 115,
+            "g": 115,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Dialogue entre l'alien et ses amis et communication du nom du village (fin de dialogue = + action start timer \"animation retourner2\")"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "CompareTimer"
               },
               "parameters": [
-                ""
+                "",
+                "\"animation retourner\"",
+                ">=",
+                "13"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -101380,7 +102275,33 @@
               },
               "parameters": [
                 "",
-                "\"ani retou2\""
+                "\"animation retourner2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"animation retourner\"",
+                ">=",
+                "13"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "effet_bruit"
               ]
             }
           ]
@@ -101406,10 +102327,16 @@
               },
               "parameters": [
                 "",
-                "\"ani retou2\"",
+                "\"animation retourner2\"",
                 ">=",
-                "3"
+                "2"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -101427,17 +102354,6 @@
             },
             {
               "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "4",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
               },
               "parameters": [
@@ -101449,27 +102365,10 @@
                 "2",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "effet_bruit"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "effet_bruit2"
-              ]
             }
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -101478,9 +102377,9 @@
               },
               "parameters": [
                 "",
-                "\"ani retou2\"",
+                "\"animation retourner2\"",
                 ">=",
-                "8"
+                "4"
               ]
             }
           ],
@@ -101513,37 +102412,63 @@
           "conditions": [
             {
               "type": {
-                "value": "PosX"
+                "value": "CompareTimer"
               },
               "parameters": [
-                "Alien",
-                "=",
-                "685"
+                "",
+                "\"animation retourner2\"",
+                ">=",
+                "15"
               ]
             },
             {
               "type": {
-                "value": "PosY"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "Alien",
-                "=",
-                "-829"
-              ]
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Tween::TweenCameraZoom2"
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
               },
               "parameters": [
-                "",
-                "\"ani retou\"",
-                "2",
-                "",
+                "Alien",
+                "Tween",
+                "\"ani retourner\"",
+                "0",
                 "\"linear\"",
-                "2"
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Tween",
+                "\"\"",
+                "0",
+                "\"linear\"",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "NewSprite3",
+                "Tween",
+                "\"\"",
+                "0",
+                "\"linear\"",
+                "2",
+                ""
               ]
             }
           ]
@@ -101562,8 +102487,92 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"animation retourner2\"",
+                ">=",
+                "20"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Fondu\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "FonduNoir",
+                "Tween",
+                "\"FonduNoir\"",
+                "255",
+                "\"linear\"",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FonduNoir",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"animation retourner2\"",
+                ">=",
+                "24"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Crédit",
+                "0",
+                "-0.25",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -101647,6 +102656,60 @@
           "name": "Fondu",
           "renderingType": "",
           "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Crédits",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
