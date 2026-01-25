@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu titre",
   "gdVersion": {
-    "build": 252,
+    "build": 251,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -9436,6 +9436,414 @@
         "metadata": "",
         "name": "UI_TravelBook_Popup01a.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fleur_francais.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fleur_francais.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fleur_francais2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fleur_francais2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fleur_thai.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fleur_thai.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fleur_turc.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fleur_turc.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fleur_suedois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fleur_suedois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fleur_persan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fleur_persan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fleur_japonais.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fleur_japonais.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "1_persan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1_persan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "1_persan2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1_persan2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "2_persan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2_persan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "3_persan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3_persan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "4_persan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "4_persan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "5_persan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "5_persan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "1_thai.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1_thai.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "2_thai.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2_thai.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "3_thai.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3_thai.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "4_thai.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "4_thai.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "5_thai.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "5_thai.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "1_turc.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1_turc.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "2_turc.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2_turc.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "3_turc.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3_turc.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "4_turc.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "4_turc.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "5_turc.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "5_turc.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "1_japonais.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1_japonais.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "2_japonais.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2_japonais.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "3_japonais.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3_japonais.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "4_japonais.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "4_japonais.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "5_japonais.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "5_japonais.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "acquisition_lettre_village.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "acquisition_lettre_village.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "lettre + robe + noir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lettre + robe + noir.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "parc_thai.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "parc_thai.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "cafe_japonais.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "cafe_japonais.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "maison_turc.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "maison_turc.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "parc_thai2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "parc_thai2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "mairie_persan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mairie_persan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "riviere_suedois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "riviere_suedois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "arrivee_vaisseau.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "arrivee_vaisseau.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "As soon as he arrived - v1 @zypoalaprod.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "As soon as he arrived - v1 @zypoalaprod.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "BLIP BLOUP.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "BLIP BLOUP.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "speaker-phone-call-interference-sound-210624.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "speaker-phone-call-interference-sound-210624.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "car-engine-noise-321224.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "car-engine-noise-321224.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ]
@@ -18957,14 +19365,13 @@
       ]
     },
     {
-      "folded": true,
       "name": "dictionnaire_personnages",
       "type": "structure",
       "children": [
         {
           "name": "amis",
           "type": "string",
-          "value": "Mes amis aliens"
+          "value": "Amis aliens"
         },
         {
           "name": "client1",
@@ -19123,6 +19530,11 @@
       "value": false
     },
     {
+      "name": "refus_aide_meubles",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "activite_meuble_en_cours",
       "type": "boolean",
       "value": false
@@ -19259,6 +19671,11 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "dialogue_en_pause",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -29988,7 +30405,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -30025,7 +30442,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Précédent"
@@ -30078,7 +30495,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Précédent",
@@ -30213,7 +30630,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Suivant"
@@ -30284,7 +30701,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Précédent"
@@ -30418,7 +30835,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Suivant",
@@ -30462,7 +30879,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -30622,7 +31039,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -30808,7 +31225,7 @@
           "actions": [
             {
               "type": {
-                "value": "SetX"
+                "value": "MettreX"
               },
               "parameters": [
                 "Alien",
@@ -30818,7 +31235,7 @@
             },
             {
               "type": {
-                "value": "SetY"
+                "value": "MettreY"
               },
               "parameters": [
                 "Alien",
@@ -37968,22 +38385,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Debug_ampoule",
-          "persistentUuid": "6fae8159-24c1-4146-b258-152cbd9a5e3f",
-          "width": 0,
-          "x": 515,
-          "y": 329,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 772,
@@ -38005,60 +38406,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Debug_bruit",
-          "persistentUuid": "e00da500-3750-42bf-b676-6f9a1cf120ea",
-          "width": 0,
-          "x": 514,
-          "y": 288,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "Press_F_VAISSEAU",
           "persistentUuid": "aa8f50ef-f3ac-4298-99af-eb0b8d69bf11",
           "width": 0,
-          "x": 635,
-          "y": 238,
+          "x": 639,
+          "y": 236,
           "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Debug4",
-          "persistentUuid": "5b8d72da-e796-4f61-8cc2-921866ff2b9f",
-          "width": 0,
-          "x": 470,
-          "y": 202,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Debug3",
-          "persistentUuid": "c240d0dd-1e3a-4e90-ab1c-3ddb16e86888",
-          "width": 0,
-          "x": 470,
-          "y": 227,
-          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38127,6 +38480,22 @@
           "x": 651,
           "y": 339,
           "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 272,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "effet_bruit2",
+          "persistentUuid": "7e15bc92-beb2-4eba-8e92-8efc36561348",
+          "width": 0,
+          "x": 648,
+          "y": 265,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38958,15 +39327,28 @@
           "name": "Press_F_VAISSEAU",
           "type": "BBText::BBText",
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "content": {
             "text": "Appuie sur F",
             "opacity": 255,
-            "fontSize": 12,
+            "fontSize": 15,
             "visible": true,
-            "color": "255;255;255",
-            "fontFamily": "Arial",
+            "color": "0;0;0",
+            "fontFamily": "Ressources\\PixelOperator.ttf",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -39360,6 +39742,175 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "effet_bruit2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite35",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 18
+                          },
+                          {
+                            "x": 20,
+                            "y": 18
+                          },
+                          {
+                            "x": 20,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite35",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 18
+                          },
+                          {
+                            "x": 20,
+                            "y": 18
+                          },
+                          {
+                            "x": 20,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite33",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 18
+                          },
+                          {
+                            "x": 20,
+                            "y": 18
+                          },
+                          {
+                            "x": 20,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite34",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 18
+                          },
+                          {
+                            "x": 20,
+                            "y": 18
+                          },
+                          {
+                            "x": 20,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -39415,6 +39966,9 @@
           },
           {
             "objectName": "etourdi"
+          },
+          {
+            "objectName": "effet_bruit2"
           }
         ]
       },
@@ -39767,6 +40321,22 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "effet_bruit2"
+              ]
             }
           ]
         },
@@ -39796,7 +40366,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "effet_bruit"
@@ -39804,7 +40374,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "ampoule"
@@ -39848,19 +40418,7 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "sadwoo-31280 (mp3cut.net) (1)2.mp3",
-                "no",
-                "50",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "etourdi",
@@ -39879,7 +40437,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "etourdi"
@@ -40179,7 +40737,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -40303,7 +40861,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "ampoule",
@@ -40338,7 +40896,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Hide"
+                    "value": "Cache"
                   },
                   "parameters": [
                     "ampoule"
@@ -40389,20 +40947,20 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySoundOnChannel"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "ambiance_village_cropped.mp3",
                     "1",
-                    "yes",
-                    "50",
+                    "",
+                    "",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "effet_bruit",
@@ -40419,7 +40977,7 @@
                 },
                 {
                   "type": {
-                    "value": "PauseSoundChannel"
+                    "value": "PauseSoundCanal"
                   },
                   "parameters": [
                     "",
@@ -40439,7 +40997,7 @@
                 },
                 {
                   "type": {
-                    "value": "Hide"
+                    "value": "Cache"
                   },
                   "parameters": [
                     "effet_bruit"
@@ -40550,7 +41108,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -40772,7 +41330,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -41331,7 +41889,6 @@
           "parameters": []
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -41348,9 +41905,9 @@
               },
               "parameters": [
                 "",
-                "COMING FROM SOMEWHERE ELSE - 109BPM @zypoalaprod.wav",
-                "",
-                "",
+                "car-engine-noise-321224.mp3",
+                "yes",
+                "10",
                 ""
               ]
             }
@@ -41447,9 +42004,19 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "monologue_termine",
+                "True",
                 ""
               ]
             }
@@ -41561,7 +42128,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -41599,7 +42166,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -41647,14 +42214,39 @@
           "actions": [
             {
               "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "effet_bruit2",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "",
+                "speaker-phone-call-interference-sound-210624.mp3",
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "effet_bruit2"
               ]
             }
           ]
@@ -42127,7 +42719,7 @@
       "name": "Village",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": false,
+      "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -42142,7 +42734,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7876290101674208,
+        "zoomFactor": 1.2952916551236653,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -48138,8 +48730,8 @@
             "opacity": 255,
             "fontSize": 12,
             "visible": true,
-            "color": "255;255;255",
-            "fontFamily": "Arial",
+            "color": "0;0;0",
+            "fontFamily": "Ressources\\PixelOperator.ttf",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -48156,8 +48748,8 @@
             "opacity": 255,
             "fontSize": 12,
             "visible": true,
-            "color": "255;255;255",
-            "fontFamily": "Arial",
+            "color": "0;0;0",
+            "fontFamily": "Ressources\\PixelOperator.ttf",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -48559,14 +49151,14 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySoundOnChannel"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "COMING FROM SOMEWHERE ELSE - 109BPM @zypoalaprod.wav",
                 "0",
-                "",
-                "",
+                "yes",
+                "20",
                 ""
               ]
             }
@@ -48607,6 +49199,14 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0"
+              ]
             }
           ]
         },
@@ -48634,6 +49234,14 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0"
               ]
             }
           ]
@@ -49485,7 +50093,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "créature_silhouette",
@@ -49531,7 +50139,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -49590,7 +50198,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "PNJ5"
@@ -49598,7 +50206,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "PNJ6"
@@ -49652,7 +50260,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -49688,7 +50296,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Press_F_PNJ5"
@@ -49716,7 +50324,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "PNJ5",
@@ -49906,7 +50514,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Exclamation_Mark"
@@ -49940,7 +50548,7 @@
           "actions": [
             {
               "type": {
-                "value": "SetXY"
+                "value": "MettreXY"
               },
               "parameters": [
                 "PNJ6",
@@ -49952,7 +50560,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "PNJ6",
@@ -52933,6 +53541,12 @@
                 "50",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -52942,7 +53556,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "fleur_francais2.mp3",
                 "",
                 "",
                 ""
@@ -53039,6 +53653,12 @@
                 "50",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -53048,7 +53668,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "fleur_turc.mp3",
                 "",
                 "",
                 ""
@@ -53145,6 +53765,12 @@
                 "50",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -53154,7 +53780,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "fleur_suedois.mp3",
                 "",
                 "",
                 ""
@@ -53251,6 +53877,12 @@
                 "50",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -53260,7 +53892,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "fleur_persan.mp3",
                 "",
                 "",
                 ""
@@ -53357,6 +53989,12 @@
                 "50",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -53366,7 +54004,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "fleur_japonais.mp3",
                 "",
                 "",
                 ""
@@ -53463,6 +54101,12 @@
                 "50",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -53472,7 +54116,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "fleur_thai.mp3",
                 "",
                 "",
                 ""
@@ -53780,7 +54424,7 @@
           "isLocked": false,
           "name": "Fondu",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -53834,7 +54478,7 @@
           "isLocked": false,
           "name": "retour1",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -55835,7 +56479,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -56896,9 +57540,37 @@
               "parameters": [
                 "\"lettre\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "acquisition_lettre_village.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_1_finie",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "Montre"
@@ -56910,10 +57582,20 @@
             },
             {
               "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dialogue_en_pause",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
-                "5"
+                "3"
               ]
             },
             {
@@ -56922,6 +57604,16 @@
               },
               "parameters": [
                 "lettre_1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dialogue_en_pause",
+                "False",
+                ""
               ]
             }
           ]
@@ -57563,7 +58255,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "PNJ6"
@@ -57782,34 +58474,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "AJOUTER CONDITION pour changer la branche du dialogue du PNJ1"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "quete_1_finie",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": []
         }
       ],
       "layers": [
@@ -59644,7 +60308,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "fiches"
@@ -59747,7 +60411,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -59972,7 +60636,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -60096,7 +60760,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -60255,7 +60919,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -60369,7 +61033,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -60495,7 +61159,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -60652,7 +61316,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -60879,7 +61543,58 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Déplacement des objets possible ou non"
+          "comment": "Audio"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "cafe_japonais.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "maison_turc.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "parc_thai2.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "mairie_persan.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "riviere_suedois.mp3"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -60918,7 +61633,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "cafe_japonais.mp3",
                 "",
                 "",
                 ""
@@ -60963,7 +61678,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "maison_turc.mp3",
                 "",
                 "",
                 ""
@@ -61008,7 +61723,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "parc_thai2.mp3",
                 "",
                 "",
                 ""
@@ -61053,7 +61768,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "mairie_persan.mp3",
                 "",
                 "",
                 ""
@@ -61098,7 +61813,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "riviere_suedois.mp3",
                 "",
                 "",
                 ""
@@ -65615,7 +66330,6 @@
           "comment": "DIALOGUE : fichier cafe.json, branches : PNJ3_avant_mairie, PNJ3_avant_cafe, PNJ3_apres_cafe, PNJ3_jeu_fini, PNJ4_avant_mairie, PNJ4_apres_mairie, PNJ4_apres_cafe, PNJ4_colis_donne, PNJ4_jeu_fini, PNJ4_reussite_cafe, PNJ4_echec_cafe\nIls ont tous une commande << fin >> pour cacher éléments de dialogue"
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -65938,7 +66652,6 @@
           "comment": "PNJ3_jeu_fini : quête 4 fini vrai"
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -66667,7 +67380,7 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "Dialogue_sub_group",
@@ -66731,7 +67444,7 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "Dialogue_sub_group",
@@ -66795,7 +67508,7 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "Dialogue_sub_group",
@@ -66849,7 +67562,7 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "Dialogue_sub_group",
@@ -67081,7 +67794,7 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "Dialogue_sub_group",
@@ -67145,7 +67858,7 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "Dialogue_sub_group",
@@ -67219,7 +67932,7 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "Dialogue_sub_group",
@@ -67283,7 +67996,7 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "Dialogue_sub_group",
@@ -67337,7 +68050,7 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "Dialogue_sub_group",
@@ -67391,7 +68104,7 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "Montre"
                   },
                   "parameters": [
                     "Dialogue_sub_group",
@@ -67493,7 +68206,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -67603,7 +68316,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -67622,9 +68335,37 @@
               "parameters": [
                 "\"lettre\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "acquisition_lettre_village.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "quete_2_finie",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "Montre"
@@ -67636,10 +68377,20 @@
             },
             {
               "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dialogue_en_pause",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
-                "5"
+                "3"
               ]
             },
             {
@@ -67648,6 +68399,16 @@
               },
               "parameters": [
                 "lettre_2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dialogue_en_pause",
+                "False",
+                ""
               ]
             },
             {
@@ -72276,31 +73037,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "egg_plat_1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "chicken_plat_2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "steak_plat_3_correct"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "donut_dessert_1"
@@ -72308,7 +73045,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "pudding_dessert_2"
@@ -72316,7 +73053,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "cake_dessert_3_correct"
@@ -72324,7 +73061,31 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
+              },
+              "parameters": [
+                "egg_plat_1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "chicken_plat_2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "steak_plat_3_correct"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
               },
               "parameters": [
                 "smoothie_boisson_1_correct"
@@ -72332,7 +73093,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "coca_boisson_2"
@@ -72340,7 +73101,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "pomme_boisson_3"
@@ -72353,7 +73114,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -72363,7 +73124,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "speech"
@@ -72418,7 +73179,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "speech"
@@ -72496,7 +73257,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "demande_1",
@@ -72505,11 +73266,11 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "speech",
-                "Animation"
+                ""
               ]
             }
           ]
@@ -72581,7 +73342,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "demande_2",
@@ -72590,7 +73351,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "speech",
@@ -72666,7 +73427,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "demande_3",
@@ -72675,7 +73436,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "speech",
@@ -73105,7 +73866,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -73129,7 +73890,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -73181,7 +73942,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Dialogue_bouton"
@@ -73223,7 +73984,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Dialogue_bouton"
@@ -73246,7 +74007,7 @@
           "actions": [
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_bouton",
@@ -73322,7 +74083,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -73364,7 +74125,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Dialogue_bouton"
@@ -73439,7 +74200,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -73481,7 +74242,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Dialogue_bouton"
@@ -74077,7 +74838,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -74295,7 +75056,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -74513,7 +75274,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -75726,7 +76487,7 @@
       "name": "Chez le serveur (quête 3)",
       "r": 155,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 143,
       "uiSettings": {
@@ -76636,7 +77397,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -77101,7 +77862,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -77415,10 +78176,10 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
-                "PNJ5"
+                "PNJ4__gérant_café_"
               ]
             }
           ]
@@ -77854,14 +78615,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "DepartScene"
@@ -78635,7 +79388,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 23,
           "customSize": true,
           "depth": 1,
           "height": 34,
@@ -78644,9 +79397,9 @@
           "name": "contenu_du_colis_conronne",
           "persistentUuid": "18fb309f-359c-40aa-ab99-8197d87c44cd",
           "width": 87,
-          "x": 622,
-          "y": 270,
-          "zOrder": 11,
+          "x": 859,
+          "y": 282,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -78655,14 +79408,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 2,
-          "height": 265,
+          "height": 300,
           "keepRatio": true,
           "layer": "",
           "name": "contenu_du_colis_robe",
           "persistentUuid": "7e014261-88e3-47a3-a237-0342e12458f5",
-          "width": 172,
-          "x": 721,
-          "y": 197,
+          "width": 195,
+          "x": 165,
+          "y": 234,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -79571,7 +80324,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "lettre + robe.png",
+                      "image": "lettre + robe + noir.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -79587,20 +80340,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 8,
-                            "y": 45
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 575,
-                            "y": 45
+                            "x": 600,
+                            "y": 0
                           },
                           {
-                            "x": 575,
-                            "y": 701
+                            "x": 600,
+                            "y": 720
                           },
                           {
-                            "x": 8,
-                            "y": 701
+                            "x": 0,
+                            "y": 720
                           }
                         ]
                       ]
@@ -80005,6 +80758,15 @@
               },
               "parameters": [
                 "contenu_du_colis_robe"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "acquisition_lettre_village.mp3"
               ]
             }
           ]
@@ -80539,6 +81301,14 @@
                 "value": "DialogueTree::IsDialogueRunning"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "PNJ6"
+              ]
             }
           ],
           "actions": [
@@ -80851,6 +81621,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "refus_aide_meubles",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"finalement\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -80946,6 +81741,18 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "acquisition_lettre_village.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -80971,10 +81778,12 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "Dialogue"
+                "dialogue_en_pause",
+                "True",
+                ""
               ]
             },
             {
@@ -80983,6 +81792,33 @@
               },
               "parameters": [
                 "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dialogue_en_pause",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "lettre_3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dialogue",
+                ""
               ]
             }
           ]
@@ -81000,6 +81836,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "refus_aide_meubles",
+                "False",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -81061,10 +81907,32 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "acquisition_lettre_village.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
                 "quete_4_finie",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dialogue_en_pause",
                 "True",
                 ""
               ]
@@ -81093,6 +81961,75 @@
               "parameters": [
                 "lettre_4"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "dialogue_en_pause",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"refus\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "refus_aide_meubles",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StopRunningDialogue"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Alien",
+                "TopDownMovement",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -81106,37 +82043,19 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Elle n'est plus dans sa maison car elle est sortie au moment de la résolution du mystère"
+          "comment": "Elle n'est pas encore dans sa maison car elle est à la mairie"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "BooleanVariable"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "quete_2_finie",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "mystere_resolu",
-                    "True",
-                    ""
-                  ]
-                }
+              "parameters": [
+                "quete_2_finie",
+                "False",
+                ""
               ]
             }
           ],
@@ -81147,6 +82066,32 @@
               },
               "parameters": [
                 "PNJ6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "quete_2_finie",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "PNJ6",
+                ""
               ]
             }
           ]
@@ -83983,7 +84928,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "fiches"
@@ -83996,7 +84941,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -84006,7 +84951,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_persan_1"
@@ -84014,7 +84959,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_persan_2"
@@ -84022,7 +84967,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_persan_3"
@@ -84030,7 +84975,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_persan_4"
@@ -84038,7 +84983,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_persan_5"
@@ -84112,22 +85057,6 @@
               "parameters": [
                 "",
                 "\"Chez Gandom (quête 4)\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "activite_meuble_en_cours",
-                "True",
                 ""
               ]
             }
@@ -84294,7 +85223,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -84371,21 +85300,19 @@
                 "=",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
@@ -84396,7 +85323,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -84447,7 +85374,7 @@
                 },
                 {
                   "type": {
-                    "value": "IsCursorOnObject"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "chiffre_persan_1",
@@ -84472,7 +85399,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "1_persan2.mp3",
                 "",
                 "50",
                 ""
@@ -84480,7 +85407,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_persan_1",
@@ -84497,7 +85424,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_persan_1"
@@ -84536,7 +85463,7 @@
                 },
                 {
                   "type": {
-                    "value": "IsCursorOnObject"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "chiffre_persan_2",
@@ -84561,7 +85488,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "2_persan.mp3",
                 "",
                 "50",
                 ""
@@ -84569,7 +85496,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_persan_2",
@@ -84586,7 +85513,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_persan_2"
@@ -84625,7 +85552,7 @@
                 },
                 {
                   "type": {
-                    "value": "IsCursorOnObject"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "chiffre_persan_3",
@@ -84650,7 +85577,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "3_persan.mp3",
                 "",
                 "50",
                 ""
@@ -84658,7 +85585,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_persan_3",
@@ -84675,7 +85602,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_persan_3"
@@ -84714,7 +85641,7 @@
                 },
                 {
                   "type": {
-                    "value": "IsCursorOnObject"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "chiffre_persan_4",
@@ -84739,7 +85666,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "4_persan.mp3",
                 "",
                 "50",
                 ""
@@ -84747,7 +85674,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_persan_4",
@@ -84764,7 +85691,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_persan_4"
@@ -84803,7 +85730,7 @@
                 },
                 {
                   "type": {
-                    "value": "IsCursorOnObject"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "chiffre_persan_5",
@@ -84828,7 +85755,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "5_persan.mp3",
                 "",
                 "50",
                 ""
@@ -84836,7 +85763,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_persan_5",
@@ -84853,7 +85780,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_persan_5"
@@ -86766,7 +87693,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "fiches"
@@ -86779,7 +87706,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -86789,7 +87716,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_thai_1"
@@ -86797,7 +87724,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_thai_2"
@@ -86805,7 +87732,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_thai_3"
@@ -86813,7 +87740,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_thai_4"
@@ -86821,7 +87748,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_thai_5"
@@ -86999,6 +87926,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -87040,7 +87977,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -87094,21 +88031,19 @@
                 "=",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
@@ -87119,7 +88054,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -87170,7 +88105,7 @@
                 },
                 {
                   "type": {
-                    "value": "IsCursorOnObject"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "plante_1_correct",
@@ -87195,7 +88130,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "1_thai.mp3",
                 "",
                 "50",
                 ""
@@ -87203,7 +88138,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_thai_1",
@@ -87220,7 +88155,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_thai_1"
@@ -87259,7 +88194,7 @@
                 },
                 {
                   "type": {
-                    "value": "IsCursorOnObject"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "plante_2",
@@ -87284,7 +88219,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "2_thai.mp3",
                 "",
                 "50",
                 ""
@@ -87292,7 +88227,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_thai_2",
@@ -87309,7 +88244,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_thai_2"
@@ -87348,7 +88283,7 @@
                 },
                 {
                   "type": {
-                    "value": "IsCursorOnObject"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "plante_3",
@@ -87373,7 +88308,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "3_thai.mp3",
                 "",
                 "50",
                 ""
@@ -87381,7 +88316,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_thai_3",
@@ -87398,7 +88333,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_thai_3"
@@ -87437,7 +88372,7 @@
                 },
                 {
                   "type": {
-                    "value": "IsCursorOnObject"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "plante_4",
@@ -87462,7 +88397,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "4_thai.mp3",
                 "",
                 "50",
                 ""
@@ -87470,7 +88405,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_thai_4",
@@ -87487,7 +88422,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_thai_4"
@@ -87526,7 +88461,7 @@
                 },
                 {
                   "type": {
-                    "value": "IsCursorOnObject"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "plante_5",
@@ -87551,7 +88486,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "5_thai.mp3",
                 "",
                 "50",
                 ""
@@ -87559,7 +88494,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_thai_5",
@@ -87576,7 +88511,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_thai_5"
@@ -89488,7 +90423,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "fiches"
@@ -89501,7 +90436,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -89511,7 +90446,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_turc_1"
@@ -89519,7 +90454,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_turc_2"
@@ -89527,7 +90462,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_turc_3"
@@ -89535,7 +90470,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_turc_4"
@@ -89543,7 +90478,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_turc_5"
@@ -89721,6 +90656,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -89762,7 +90707,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -89813,24 +90758,22 @@
               },
               "parameters": [
                 "activité_4.meuble_3_correct",
-                "=",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "True",
                 ""
               ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
@@ -89841,7 +90784,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -89917,7 +90860,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "1_turc.mp3",
                 "",
                 "50",
                 ""
@@ -89925,7 +90868,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_turc_1",
@@ -89942,7 +90885,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_turc_1"
@@ -90006,7 +90949,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "2_turc.mp3",
                 "",
                 "50",
                 ""
@@ -90014,7 +90957,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_turc_2",
@@ -90031,7 +90974,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_turc_2"
@@ -90095,7 +91038,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "3_turc.mp3",
                 "",
                 "50",
                 ""
@@ -90103,7 +91046,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_turc_3",
@@ -90120,7 +91063,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_turc_3"
@@ -90184,7 +91127,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "4_turc.mp3",
                 "",
                 "50",
                 ""
@@ -90192,7 +91135,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_turc_4",
@@ -90209,7 +91152,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_turc_4"
@@ -90273,7 +91216,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "5_turc.mp3",
                 "",
                 "50",
                 ""
@@ -90281,7 +91224,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_turc_5",
@@ -90298,7 +91241,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_turc_5"
@@ -92210,7 +93153,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "fiches"
@@ -92223,7 +93166,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -92233,7 +93176,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_japonais_1"
@@ -92241,7 +93184,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_japonais_2"
@@ -92249,7 +93192,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_japonais_3"
@@ -92257,7 +93200,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_japonais_4"
@@ -92265,7 +93208,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_japonais_5"
@@ -92443,6 +93386,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -92484,7 +93437,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -92538,21 +93491,19 @@
                 "=",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "activite_meuble_en_cours",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
@@ -92563,7 +93514,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Dialogue_sub_group",
@@ -92639,7 +93590,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "1_japonais.mp3",
                 "",
                 "50",
                 ""
@@ -92647,7 +93598,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_japonais_1",
@@ -92664,7 +93615,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_japonais_1"
@@ -92728,7 +93679,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "2_japonais.mp3",
                 "",
                 "50",
                 ""
@@ -92736,7 +93687,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_japonais_2",
@@ -92753,7 +93704,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_japonais_2"
@@ -92817,7 +93768,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "3_japonais.mp3",
                 "",
                 "50",
                 ""
@@ -92825,7 +93776,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_japonais_3",
@@ -92842,7 +93793,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_japonais_3"
@@ -92906,7 +93857,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "4_japonais.mp3",
                 "",
                 "50",
                 ""
@@ -92914,7 +93865,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_japonais_4",
@@ -92931,7 +93882,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_japonais_4"
@@ -92995,7 +93946,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "5_japonais.mp3",
                 "",
                 "50",
                 ""
@@ -93003,7 +93954,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "audio_japonais_5",
@@ -93020,7 +93971,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "audio_japonais_5"
@@ -93680,7 +94631,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -94145,7 +95096,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2912258866911167,
+        "zoomFactor": 0.35534345588170513,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -96116,7 +97067,7 @@
           "persistentUuid": "c255cd3b-e403-4bff-acaf-c2951b77e6a0",
           "width": 0,
           "x": 100,
-          "y": 1817,
+          "y": 2027,
           "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
@@ -98827,7 +99778,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\nConceptrice narrative/Designer narratif\n\nKubra DAG\n\nGame designer\n\nKubra DAG, Jeanne VAN HOUTTE\n\nEquipe artistique\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\nResponsable technique et développeuse principale\n\nAndréa UNGER\n\nDéveloppeuse\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\nResponsable pilotage\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\nDéveloppeuse web\n\nAnngie Johanna CASTRO PARDO\n\nConsultant informatique\n\nTristan UNGER\n\nCompositeur des musiques principales\n\nZypo",
+          "string": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet :\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\n\nConceptrice narrative/Designer narratif :\n\nKubra DAG\n\n\nGame designers :\n\nKubra DAG, Jeanne VAN HOUTTE\n\n\nEquipe artistique :\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\n\nResponsable technique et développeuse principale :\n\nAndréa UNGER\n\n\nDéveloppeuse :\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\n\nResponsable pilotage :\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\n\nDéveloppeuse web :\n\nAnngie Johanna CASTRO PARDO\n\n\nConsultant informatique :\n\nTristan UNGER\n\n\nCompositeur des musiques principales :\n\nZypo",
           "font": "Ressources\\PixelOperator.ttf",
           "textAlignment": "center",
           "characterSize": 40,
@@ -98850,7 +99801,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\nConceptrice narrative/Designer narratif\n\nKubra DAG\n\nGame designer\n\nKubra DAG, Jeanne VAN HOUTTE\n\nEquipe artistique\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\nResponsable technique et développeuse principale\n\nAndréa UNGER\n\nDéveloppeuse\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\nResponsable pilotage\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\nDéveloppeuse web\n\nAnngie Johanna CASTRO PARDO\n\nConsultant informatique\n\nTristan UNGER\n\nCompositeur des musiques principales\n\nZypo",
+            "text": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet :\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\n\nConceptrice narrative/Designer narratif :\n\nKubra DAG\n\n\nGame designers :\n\nKubra DAG, Jeanne VAN HOUTTE\n\n\nEquipe artistique :\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\n\nResponsable technique et développeuse principale :\n\nAndréa UNGER\n\n\nDéveloppeuse :\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\n\nResponsable pilotage :\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\n\nDéveloppeuse web :\n\nAnngie Johanna CASTRO PARDO\n\n\nConsultant informatique :\n\nTristan UNGER\n\n\nCompositeur des musiques principales :\n\nZypo",
             "font": "Ressources\\PixelOperator.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -98978,6 +99929,42 @@
           "target": "Global"
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "As soon as he arrived - v1 @zypoalaprod.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "As soon as he arrived - v1 @zypoalaprod.mp3",
+                "yes",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -99071,7 +100058,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -99108,7 +100095,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -99185,7 +100172,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -100071,28 +101058,6 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "+ Dialogue :"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
             "b": 143,
             "g": 163,
             "r": 56,
@@ -100310,7 +101275,7 @@
               "parameters": [
                 "Crédit",
                 "0",
-                "-0.25",
+                "-0.125",
                 "1"
               ]
             }
@@ -100699,7 +101664,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.18305734955560096,
+        "zoomFactor": 0.30104611971824713,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -101019,8 +101984,8 @@
           "name": "Crédit",
           "persistentUuid": "d78b345a-4ea2-4644-910a-3d9bc72ef238",
           "width": 0,
-          "x": 103,
-          "y": 1830,
+          "x": 98,
+          "y": 1993,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -102091,7 +103056,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\nConceptrice narrative/Designer narratif\n\nKubra DAG\n\nGame designer\n\nKubra DAG, Jeanne VAN HOUTTE\n\nEquipe artistique\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\nResponsable technique et développeuse principale\n\nAndréa UNGER\n\nDéveloppeuse\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\nResponsable pilotage\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\nDéveloppeuse web\n\nAnngie Johanna CASTRO PARDO\n\nConsultant informatique\n\nTristan UNGER\n\nCompositeur des musiques principales\n\nZypo",
+          "string": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet :\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\n\nConceptrice narrative/Designer narratif :\n\nKubra DAG\n\n\nGame designers :\n\nKubra DAG, Jeanne VAN HOUTTE\n\n\nEquipe artistique :\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\n\nResponsable technique et développeuse principale :\n\nAndréa UNGER\n\n\nDéveloppeuse :\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\n\nResponsable pilotage :\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\n\nDéveloppeuse web :\n\nAnngie Johanna CASTRO PARDO\n\n\nConsultant informatique :\n\nTristan UNGER\n\n\nCompositeur des musiques principales :\n\nZypo",
           "font": "Ressources\\PixelOperator.ttf",
           "textAlignment": "center",
           "characterSize": 40,
@@ -102114,7 +103079,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\nConceptrice narrative/Designer narratif\n\nKubra DAG\n\nGame designer\n\nKubra DAG, Jeanne VAN HOUTTE\n\nEquipe artistique\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\nResponsable technique et développeuse principale\n\nAndréa UNGER\n\nDéveloppeuse\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\nResponsable pilotage\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\nDéveloppeuse web\n\nAnngie Johanna CASTRO PARDO\n\nConsultant informatique\n\nTristan UNGER\n\nCompositeur des musiques principales\n\nZypo",
+            "text": "Blip Bloup : S.O.S Lingualien - Un jeu de Zone 5115\n\nCe jeu est une réalisation issue d’un projet collectif \ndu master Didactique des langues de la Faculté des langues \nde l’Université de Strasbourg pour l’année universitaire 2025-2026. \nLe projet est mené par 7 étudiantes dans le cadre de leur formation : \nsix étudiantes en Master 2 Didactique des Langues \nparcours Formations, Innovations, Recherche (FIR) \net une étudiante en Master 2 Didactique des langues \nparcours Français langue étrangère, langue seconde, \nlangue d’intégration (FLE/FLS/FLI).\n\nCo-cheffes du projet / responsables projet :\n\nJeanne VAN HOUTTE, Anngie Johanna CASTRO PARDO\n\n\nConceptrice narrative/Designer narratif :\n\nKubra DAG\n\n\nGame designers :\n\nKubra DAG, Jeanne VAN HOUTTE\n\n\nEquipe artistique :\n\nLyuyao NI, Nitcha SANTIRATPAKDEE, \nJeanne VAN HOUTTE, Haniye BAHMANDAR\n\n\nResponsable technique et développeuse principale :\n\nAndréa UNGER\n\n\nDéveloppeuse :\n\nLyuyao NI\n\nResponsable pédagogique\n\nHaniye BAHMANDAR\n\n\nResponsable pilotage :\n\nHaniye BAHMANDAR, Anngie Johanna CASTRO PARDO\n\n\nDéveloppeuse web :\n\nAnngie Johanna CASTRO PARDO\n\n\nConsultant informatique :\n\nTristan UNGER\n\n\nCompositeur des musiques principales :\n\nZypo",
             "font": "Ressources\\PixelOperator.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -102174,6 +103139,21 @@
           "target": "Global"
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "As soon as he arrived - v1 @zypoalaprod.mp3"
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -102189,7 +103169,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -102210,7 +103190,7 @@
             },
             {
               "type": {
-                "value": "CenterCameraOnObject"
+                "value": "CentreCamera"
               },
               "parameters": [
                 "",
@@ -102277,7 +103257,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "effet_bruit"
@@ -102285,18 +103265,18 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
-                "effet_bruit2"
+                "NewSprite2"
               ]
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
-                "NewSprite2"
+                "effet_bruit2"
               ]
             },
             {
@@ -102323,6 +103303,18 @@
               "parameters": [
                 "",
                 "\"animation retourner\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "As soon as he arrived - v1 @zypoalaprod.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -102368,7 +103360,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "effet_bruit",
@@ -102418,7 +103410,7 @@
             },
             {
               "type": {
-                "value": "CenterCameraOnObject"
+                "value": "CentreCamera"
               },
               "parameters": [
                 "",
@@ -102448,7 +103440,7 @@
           "actions": [
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "effet_bruit2",
@@ -102475,7 +103467,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "effet_bruit2"
@@ -102494,7 +103486,7 @@
             },
             {
               "type": {
-                "value": "CenterCameraOnObject"
+                "value": "CentreCamera"
               },
               "parameters": [
                 "",
@@ -102569,7 +103561,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "effet_bruit"
@@ -102613,7 +103605,36 @@
           "actions": [
             {
               "type": {
-                "value": "CenterCameraOnObject"
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "arrivee_vaisseau.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "arrivee_vaisseau.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
               },
               "parameters": [
                 "",
@@ -102669,7 +103690,7 @@
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "NewSprite2",
@@ -102839,7 +103860,7 @@
               "parameters": [
                 "Crédit",
                 "0",
-                "-0.25",
+                "-0.125",
                 "1"
               ]
             }
@@ -103139,13 +104160,13 @@
           "actions": [
             {
               "type": {
-                "value": "PlayMusicOnChannel"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "COMING FROM SOMEWHERE ELSE - 109BPM @zypoalaprod.wav",
                 "0",
-                "no",
+                "",
                 "",
                 ""
               ]
@@ -104339,7 +105360,7 @@
               },
               "parameters": [
                 "",
-                "Ressources\\elephant-trumpets-growls-6047.mp3",
+                "BLIP BLOUP.mp3",
                 "",
                 "50",
                 ""
@@ -104665,7 +105686,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -104716,7 +105737,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -104947,7 +105968,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -105078,7 +106099,7 @@
           "actions": [
             {
               "type": {
-                "value": "Show"
+                "value": "Montre"
               },
               "parameters": [
                 "Question_Mark",
@@ -105505,7 +106526,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneJustBegins"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
@@ -105550,7 +106571,7 @@
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Fermer_menu_pause"
@@ -105558,7 +106579,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Boite_menu_pause"
@@ -105566,7 +106587,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Bouton_Sauvegarder"
@@ -105574,7 +106595,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Bouton_vers_menu_principal"
@@ -105582,7 +106603,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Bouton_comment_jouer"
@@ -105590,7 +106611,7 @@
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "Cache"
               },
               "parameters": [
                 "Bouton_quitter"
@@ -106211,6 +107232,16 @@
                   "parameters": [
                     "touche_dialogue_pressee",
                     "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "dialogue_en_pause",
+                    "=",
                     ""
                   ]
                 }
@@ -110049,32 +111080,7 @@
               "name": "TouchIndex"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "propertyName": "DeadZoneRadius"
-              },
-              {
-                "propertyName": "JoystickAngle"
-              },
-              {
-                "propertyName": "JoystickForce"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIndex"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors.",
@@ -110617,32 +111623,7 @@
               "name": "Radius"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "ButtonIdentifier"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIndex"
-              },
-              {
-                "propertyName": "IsReleased"
-              },
-              {
-                "propertyName": "IsJustPressed"
-              },
-              {
-                "propertyName": "Radius"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a platformer character with a multitouch controller.",
@@ -110864,28 +111845,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Property"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -111028,28 +111988,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -111181,28 +112120,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control camera rotations with a multitouch controller.",
@@ -112244,73 +113162,7 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Object3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "CameraStick"
-                  }
-                ]
-              },
-              {
-                "folderName": "Horizontal rotation",
-                "children": [
-                  {
-                    "propertyName": "HorizontalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationDeceleration"
-                  }
-                ]
-              },
-              {
-                "folderName": "Vertical rotation",
-                "children": [
-                  {
-                    "propertyName": "VerticalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "VerticalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "VerticalRotationDeceleration"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMin"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMax"
-                  }
-                ]
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "OffsetZ"
-                  }
-                ]
-              },
-              {
-                "propertyName": "CurrentRotationSpeedZ"
-              },
-              {
-                "propertyName": "CurrentRotationSpeedY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics car with a multitouch controller.",
@@ -112488,31 +113340,7 @@
               "name": "HandBrakeButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCar3D"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "SteerJoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "SpeedJoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "HandBrakeButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a top-down character with a multitouch controller.",
@@ -113080,28 +113908,7 @@
               "name": "StickMode"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "StickMode"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": [
@@ -114432,35 +115239,6 @@
               "name": "ShouldBeHiddenWhenReleased"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ControllerIdentifier"
-              },
-              {
-                "propertyName": "JoystickIdentifier"
-              },
-              {
-                "propertyName": "DeadZoneRadius"
-              },
-              {
-                "propertyName": "ThumbAnchorOrigin"
-              },
-              {
-                "propertyName": "ThumbAnchorTarget"
-              },
-              {
-                "propertyName": "ThumbIsScaledProportionally"
-              },
-              {
-                "propertyName": "ParentOrigin"
-              },
-              {
-                "propertyName": "ShouldBeHiddenWhenReleased"
-              }
-            ]
-          },
           "variants": []
         }
       ]
@@ -119271,175 +120049,7 @@
               "name": "IsCalledManually"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Catch-up speed",
-                "children": [
-                  {
-                    "propertyName": "LeftwardSpeed"
-                  },
-                  {
-                    "propertyName": "RightwardSpeed"
-                  },
-                  {
-                    "propertyName": "UpwardSpeed"
-                  },
-                  {
-                    "propertyName": "DownwardSpeed"
-                  }
-                ]
-              },
-              {
-                "propertyName": "FollowOnX"
-              },
-              {
-                "propertyName": "FollowOnY"
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "FollowFreeAreaLeft"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaRight"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "FollowFreeAreaBottom"
-                  },
-                  {
-                    "propertyName": "CameraOffsetX"
-                  },
-                  {
-                    "propertyName": "CameraOffsetY"
-                  }
-                ]
-              },
-              {
-                "folderName": "Timing",
-                "children": [
-                  {
-                    "propertyName": "CameraDelay"
-                  },
-                  {
-                    "propertyName": "ForecastTime"
-                  },
-                  {
-                    "propertyName": "ForecastHistoryDuration"
-                  }
-                ]
-              },
-              {
-                "propertyName": "LogLeftwardSpeed"
-              },
-              {
-                "propertyName": "LogRightwardSpeed"
-              },
-              {
-                "propertyName": "LogDownwardSpeed"
-              },
-              {
-                "propertyName": "LogUpwardSpeed"
-              },
-              {
-                "propertyName": "DelayedCenterX"
-              },
-              {
-                "propertyName": "DelayedCenterY"
-              },
-              {
-                "propertyName": "ForecastHistoryMeanX"
-              },
-              {
-                "propertyName": "ForecastHistoryMeanY"
-              },
-              {
-                "propertyName": "ForecastHistoryVarianceX"
-              },
-              {
-                "propertyName": "ForecastHistoryCovariance"
-              },
-              {
-                "propertyName": "ForecastHistoryLinearA"
-              },
-              {
-                "propertyName": "ForecastHistoryLinearB"
-              },
-              {
-                "propertyName": "ForecastedX"
-              },
-              {
-                "propertyName": "ForecastedY"
-              },
-              {
-                "propertyName": "ProjectedNewestX"
-              },
-              {
-                "propertyName": "ProjectedNewestY"
-              },
-              {
-                "propertyName": "ProjectedOldestX"
-              },
-              {
-                "propertyName": "ProjectedOldestY"
-              },
-              {
-                "propertyName": "ForecastHistoryVarianceY"
-              },
-              {
-                "propertyName": "Index"
-              },
-              {
-                "propertyName": "CameraDelayCatchUpSpeed"
-              },
-              {
-                "propertyName": "CameraExtraDelay"
-              },
-              {
-                "propertyName": "WaitingSpeedXMax"
-              },
-              {
-                "propertyName": "WaitingSpeedYMax"
-              },
-              {
-                "propertyName": "WaitingEnd"
-              },
-              {
-                "propertyName": "CameraDelayCatchUpDuration"
-              },
-              {
-                "folderName": "Maximum speed",
-                "children": [
-                  {
-                    "propertyName": "LeftwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "RightwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "UpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "DownwardSpeedMax"
-                  }
-                ]
-              },
-              {
-                "propertyName": "OldX"
-              },
-              {
-                "propertyName": "OldY"
-              },
-              {
-                "propertyName": "IsCalledManually"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
@@ -119784,71 +120394,7 @@
               "name": "FloorDownwardSpeedMax"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PlatformerCharacter"
-              },
-              {
-                "propertyName": "SmoothCamera"
-              },
-              {
-                "propertyName": "JumpOriginY"
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "AirFollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "AirFollowFreeAreaBottom"
-                  },
-                  {
-                    "propertyName": "FloorFollowFreeAreaTop"
-                  },
-                  {
-                    "propertyName": "FloorFollowFreeAreaBottom"
-                  }
-                ]
-              },
-              {
-                "folderName": "Catch-up speed",
-                "children": [
-                  {
-                    "propertyName": "AirUpwardSpeed"
-                  },
-                  {
-                    "propertyName": "AirDownwardSpeed"
-                  },
-                  {
-                    "propertyName": "FloorUpwardSpeed"
-                  },
-                  {
-                    "propertyName": "FloorDownwardSpeed"
-                  }
-                ]
-              },
-              {
-                "folderName": "Maximum speed",
-                "children": [
-                  {
-                    "propertyName": "AirUpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "AirDownwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "FloorUpwardSpeedMax"
-                  },
-                  {
-                    "propertyName": "FloorDownwardSpeedMax"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -121150,45 +121696,6 @@
               "name": "AnimationDirection"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Animation"
-              },
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "folderName": "Animation",
-                "children": [
-                  {
-                    "propertyName": "IsScalingAnimation"
-                  },
-                  {
-                    "propertyName": "IsPausingAnimation"
-                  },
-                  {
-                    "propertyName": "AnimationName"
-                  }
-                ]
-              },
-              {
-                "folderName": "Direction",
-                "children": [
-                  {
-                    "propertyName": "DirectionCount"
-                  },
-                  {
-                    "propertyName": "AngleOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "AnimationDirection"
-              }
-            ]
-          },
           "sharedPropertyDescriptors": [
             {
               "value": "0",
@@ -121204,18 +121711,7 @@
               "hidden": true,
               "name": "AnimationFrame"
             }
-          ],
-          "sharedPropertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "NewAnimationDirection"
-              },
-              {
-                "propertyName": "AnimationFrame"
-              }
-            ]
-          }
+          ]
         }
       ],
       "eventsBasedObjects": []
@@ -122448,29 +122944,7 @@
               "name": "Index"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ShouldCheckHovering"
-              },
-              {
-                "propertyName": "State"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIsInside"
-              },
-              {
-                "propertyName": "MouseIsInside"
-              },
-              {
-                "propertyName": "Index"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": [
@@ -123974,31 +124448,6 @@
               "name": "_PropertyMapping"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "LabelText"
-              },
-              {
-                "folderName": "States",
-                "children": [
-                  {
-                    "propertyName": "HoveredFadeOutDuration"
-                  },
-                  {
-                    "propertyName": "PressedLabelOffsetY"
-                  },
-                  {
-                    "propertyName": "LabelOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "_PropertyMapping"
-              }
-            ]
-          },
           "variants": [
             {
               "areaMaxX": 256,
@@ -126819,29 +127268,6 @@
               "name": "_PropertyMapping"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TextMessage"
-              },
-              {
-                "propertyName": "HighlightedButtonIndex"
-              },
-              {
-                "propertyName": "EnableEscape"
-              },
-              {
-                "propertyName": "LabelButtonID0"
-              },
-              {
-                "propertyName": "LabelButtonID1"
-              },
-              {
-                "propertyName": "_PropertyMapping"
-              }
-            ]
-          },
           "variants": [
             {
               "areaMaxX": 600,
@@ -128322,29 +128748,7 @@
               "name": "Index"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ShouldCheckHovering"
-              },
-              {
-                "propertyName": "State"
-              },
-              {
-                "propertyName": "TouchId"
-              },
-              {
-                "propertyName": "TouchIsInside"
-              },
-              {
-                "propertyName": "MouseIsInside"
-              },
-              {
-                "propertyName": "Index"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Enable effects on buttons based on their state.",
@@ -128885,31 +129289,7 @@
               "name": "PressedEffect"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "folderName": "Effects",
-                "children": [
-                  {
-                    "propertyName": "IdleEffect"
-                  },
-                  {
-                    "propertyName": "FocusedEffect"
-                  },
-                  {
-                    "propertyName": "PressedEffect"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Change the animation of buttons according to their state.",
@@ -129359,31 +129739,7 @@
               "name": "PressedAnimationName"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Animation"
-              },
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "folderName": "Animation",
-                "children": [
-                  {
-                    "propertyName": "IdleAnimationName"
-                  },
-                  {
-                    "propertyName": "FocusedAnimationName"
-                  },
-                  {
-                    "propertyName": "PressedAnimationName"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly change an effect on buttons according to their state.",
@@ -131274,80 +131630,7 @@
               "name": "EffectValue"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "folderName": "Effect",
-                "children": [
-                  {
-                    "propertyName": "EffectName"
-                  },
-                  {
-                    "propertyName": "EffectProperty"
-                  }
-                ]
-              },
-              {
-                "folderName": "Value",
-                "children": [
-                  {
-                    "propertyName": "IdleValue"
-                  },
-                  {
-                    "propertyName": "FocusedValue"
-                  },
-                  {
-                    "propertyName": "PressedValue"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  },
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  }
-                ]
-              },
-              {
-                "propertyName": "ShouldDisableEffectInIdle"
-              },
-              {
-                "propertyName": "PreviousState"
-              },
-              {
-                "propertyName": "TweenInitialValue"
-              },
-              {
-                "propertyName": "TweenTargetedValue"
-              },
-              {
-                "propertyName": "TweenTime"
-              },
-              {
-                "propertyName": "TweenState"
-              },
-              {
-                "propertyName": "EffectValue"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly resize buttons according to their state.",
@@ -132657,54 +132940,7 @@
               "name": "PreviousState"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Scale"
-              },
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Tween"
-              },
-              {
-                "folderName": "Size",
-                "children": [
-                  {
-                    "propertyName": "IdleScale"
-                  },
-                  {
-                    "propertyName": "FocusedScale"
-                  },
-                  {
-                    "propertyName": "PressedScale"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  },
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "PreviousState"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Smoothly change the color tint of buttons according to their state.",
@@ -134015,51 +134251,7 @@
               "name": "PreviousState"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "ButtonFSM"
-              },
-              {
-                "propertyName": "Tween"
-              },
-              {
-                "folderName": "Color",
-                "children": [
-                  {
-                    "propertyName": "IdleColorTint"
-                  },
-                  {
-                    "propertyName": "FocusedColorTint"
-                  },
-                  {
-                    "propertyName": "PressedColorTint"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "FadeInDuration"
-                  },
-                  {
-                    "propertyName": "FadeOutDuration"
-                  },
-                  {
-                    "propertyName": "FadeInEasing"
-                  },
-                  {
-                    "propertyName": "FadeOutEasing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "PreviousState"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -137169,34 +137361,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PlatformerCharacter"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -137391,28 +137556,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "JoystickIdentifier"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -137613,31 +137757,7 @@
               "name": "JumpButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCharacter3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "WalkStick"
-                  },
-                  {
-                    "propertyName": "CameraStick"
-                  },
-                  {
-                    "propertyName": "JumpButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control camera rotations with a gamepad.",
@@ -138678,68 +138798,7 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Object3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "propertyName": "CameraStick"
-              },
-              {
-                "folderName": "Horizontal rotation",
-                "children": [
-                  {
-                    "propertyName": "HorizontalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "HorizontalRotationDeceleration"
-                  }
-                ]
-              },
-              {
-                "folderName": "Vertical rotation",
-                "children": [
-                  {
-                    "propertyName": "VerticalRotationSpeedMax"
-                  },
-                  {
-                    "propertyName": "VerticalRotationAcceleration"
-                  },
-                  {
-                    "propertyName": "VerticalRotationDeceleration"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMin"
-                  },
-                  {
-                    "propertyName": "VerticalAngleMax"
-                  }
-                ]
-              },
-              {
-                "folderName": "Position",
-                "children": [
-                  {
-                    "propertyName": "OffsetZ"
-                  }
-                ]
-              },
-              {
-                "propertyName": "CurrentRotationSpeedZ"
-              },
-              {
-                "propertyName": "CurrentRotationSpeedY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a 3D physics car with a gamepad.",
@@ -139109,34 +139168,7 @@
               "name": "HandBrakeButton"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "PhysicsCar3D"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "HandBrakeButton"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Control a top-down character with a gamepad.",
@@ -139780,34 +139812,7 @@
               "name": "StickMode"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "TopDownMovement"
-              },
-              {
-                "propertyName": "GamepadIdentifier"
-              },
-              {
-                "folderName": "Controls",
-                "children": [
-                  {
-                    "propertyName": "UseArrows"
-                  },
-                  {
-                    "propertyName": "UseLeftStick"
-                  },
-                  {
-                    "propertyName": "UseRightStick"
-                  },
-                  {
-                    "propertyName": "StickMode"
-                  }
-                ]
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -140820,26 +140825,7 @@
               "name": "TypedText"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Text"
-              },
-              {
-                "propertyName": "Interval"
-              },
-              {
-                "propertyName": "CharacterJustAdded"
-              },
-              {
-                "propertyName": "FullText"
-              },
-              {
-                "propertyName": "TypedText"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -141305,23 +141291,7 @@
               "name": "MarginRight"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "MarginTop"
-              },
-              {
-                "propertyName": "MarginBottom"
-              },
-              {
-                "propertyName": "MarginLeft"
-              },
-              {
-                "propertyName": "MarginRight"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -141454,9 +141424,7 @@
             }
           ],
           "propertyDescriptors": [],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT"
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -142583,26 +142551,7 @@
               "name": "MaxOpacity"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Progress"
-              },
-              {
-                "propertyName": "Duration"
-              },
-              {
-                "propertyName": "Type"
-              },
-              {
-                "propertyName": "Direction"
-              },
-              {
-                "propertyName": "MaxOpacity"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -147627,95 +147576,7 @@
               "name": "Viewpoint"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Flippable"
-              },
-              {
-                "propertyName": "Rotation"
-              },
-              {
-                "propertyName": "RotationOffset"
-              },
-              {
-                "propertyName": "FlipXToGoBack"
-              },
-              {
-                "propertyName": "FlipYToGoBack"
-              },
-              {
-                "propertyName": "SpeedScale"
-              },
-              {
-                "propertyName": "PathOriginX"
-              },
-              {
-                "propertyName": "PathOriginY"
-              },
-              {
-                "propertyName": "Target"
-              },
-              {
-                "propertyName": "Origin"
-              },
-              {
-                "propertyName": "PathName"
-              },
-              {
-                "propertyName": "Duration"
-              },
-              {
-                "propertyName": "Easing"
-              },
-              {
-                "propertyName": "DrawingElementIndex"
-              },
-              {
-                "propertyName": "X"
-              },
-              {
-                "propertyName": "Y"
-              },
-              {
-                "propertyName": "PathAngle"
-              },
-              {
-                "propertyName": "PathScale"
-              },
-              {
-                "propertyName": "RepetitionCount"
-              },
-              {
-                "propertyName": "ShouldGoBack"
-              },
-              {
-                "propertyName": "ShouldLoop"
-              },
-              {
-                "propertyName": "RepetitionDoneCount"
-              },
-              {
-                "propertyName": "IsGoingBack"
-              },
-              {
-                "propertyName": "PauseDurationBeforeGoingBack"
-              },
-              {
-                "propertyName": "DrawingPathOriginX"
-              },
-              {
-                "propertyName": "DrawingPathOriginY"
-              },
-              {
-                "propertyName": "DebugLineStrokeWidth"
-              },
-              {
-                "propertyName": "Viewpoint"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Move objects on curved paths at a given speed.",
@@ -150472,82 +150333,7 @@
               "name": "Viewpoint"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Rotation",
-                "children": [
-                  {
-                    "propertyName": "Rotation"
-                  },
-                  {
-                    "propertyName": "RotationOffset"
-                  }
-                ]
-              },
-              {
-                "propertyName": "Speed"
-              },
-              {
-                "propertyName": "PathOriginX"
-              },
-              {
-                "propertyName": "PathOriginY"
-              },
-              {
-                "propertyName": "PathName"
-              },
-              {
-                "propertyName": "TargetedSpeed"
-              },
-              {
-                "propertyName": "Acceleration"
-              },
-              {
-                "propertyName": "DrawingElementIndex"
-              },
-              {
-                "propertyName": "X"
-              },
-              {
-                "propertyName": "Y"
-              },
-              {
-                "propertyName": "PathAngle"
-              },
-              {
-                "propertyName": "PathScale"
-              },
-              {
-                "propertyName": "RepetitionCount"
-              },
-              {
-                "propertyName": "ShouldLoop"
-              },
-              {
-                "propertyName": "DrawingPathOriginX"
-              },
-              {
-                "propertyName": "DrawingPathOriginY"
-              },
-              {
-                "propertyName": "DebugLineStrokeWidth"
-              },
-              {
-                "propertyName": "PreviousSpeed"
-              },
-              {
-                "propertyName": "CurrentLength"
-              },
-              {
-                "propertyName": "IsLookingBack"
-              },
-              {
-                "propertyName": "Viewpoint"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -150941,23 +150727,7 @@
               "name": "OriginalY"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "DraggableBehavior"
-              },
-              {
-                "propertyName": "TweenBehavior"
-              },
-              {
-                "propertyName": "OriginalX"
-              },
-              {
-                "propertyName": "OriginalY"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -154938,60 +154708,7 @@
               "name": "ToogleClockwise"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "folderName": "Dimension",
-                "children": [
-                  {
-                    "propertyName": "Width"
-                  },
-                  {
-                    "propertyName": "Height"
-                  }
-                ]
-              },
-              {
-                "folderName": "Speed",
-                "children": [
-                  {
-                    "propertyName": "Clockwise"
-                  },
-                  {
-                    "propertyName": "HorizontalEdgeDuration"
-                  },
-                  {
-                    "propertyName": "VerticalEdgeDuration"
-                  },
-                  {
-                    "propertyName": "Easing"
-                  }
-                ]
-              },
-              {
-                "propertyName": "Left"
-              },
-              {
-                "propertyName": "Top"
-              },
-              {
-                "propertyName": "Progress"
-              },
-              {
-                "propertyName": "OldX"
-              },
-              {
-                "propertyName": "OldY"
-              },
-              {
-                "propertyName": "InitialPosition"
-              },
-              {
-                "propertyName": "ToogleClockwise"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -155915,20 +155632,7 @@
               "name": "FlashDuration"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Make an object flash a color tint for a period of time.",
@@ -156502,23 +156206,7 @@
               "name": "TintColor"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "TintColor"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Flash opacity smoothly (fade) in a repeating loop.",
@@ -157172,32 +156860,7 @@
               "name": "StartingOpacity"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Opacity"
-              },
-              {
-                "propertyName": "TweenBehavior"
-              },
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "TargetOpacity"
-              },
-              {
-                "propertyName": "StartingOpacity"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         },
         {
           "description": "Make the object flash an effect for a period of time.",
@@ -158045,26 +157708,7 @@
               "name": "EffectName"
             }
           ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "Effect"
-              },
-              {
-                "propertyName": "HalfPeriodTime"
-              },
-              {
-                "propertyName": "IsFlashing"
-              },
-              {
-                "propertyName": "FlashDuration"
-              },
-              {
-                "propertyName": "EffectName"
-              }
-            ]
-          }
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
@@ -162546,7 +162190,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 147,
+          "height": 157,
           "keepRatio": true,
           "layer": "Dialogue",
           "name": "Dialogue_box",
@@ -162689,7 +162333,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4057518905943834,
+        "zoomFactor": 0.7370816317994044,
         "windowMask": false,
         "selectedLayer": ""
       }

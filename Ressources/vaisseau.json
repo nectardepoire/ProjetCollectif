@@ -52,7 +52,7 @@
 	{
 		"title": "rentrer",
 		"tags": "",
-		"body": "<< radio >> \r\n<< nameTag amis >>\r\n<< langue alien >>\r\nOn a enfin de tes nouvelles ! Tout va bien ? On vient de recevoir ta position, on t’envoie de l’aide !\r\n<< findujeu2 >>\r\n...",
+		"body": "<< radio >> \r\n...\r\n<< nameTag amis >>\r\n<< langue alien >>\r\nOn a enfin de tes nouvelles ! Tout va bien ? On vient de recevoir ta position, on t’envoie de l’aide !\r\n<< findujeu2 >>\r\n...",
 		"position": {
 			"x": 341,
 			"y": 984
